@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:36:48.080Z",
+  "updatedAt": "2026-11-22T15:36:52.003Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -507,11 +507,11 @@
       "market": "ml",
       "line": 100,
       "price": 100,
-      "tixFav": 82,
+      "tixFav": 78,
       "monFav": 80,
-      "reason": "Tix 82% + $ 80% on fav",
+      "reason": "Tix 78% + $ 80% on fav",
       "startAt": "2026-11-22T21:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:27:26.396Z"
+      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
     },
     {
       "pickKey": "m|655|butler_at_nebraska|DOG|away|spread",
@@ -555,11 +555,11 @@
       "market": "spread",
       "line": 5,
       "price": -118,
-      "tixFav": 78,
+      "tixFav": 70,
       "monFav": 98,
-      "reason": "Tix 78% + $ 98% on fav",
+      "reason": "Tix 70% + $ 98% on fav",
       "startAt": "2026-11-22T22:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.809Z"
+      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
     },
     {
       "pickKey": "m|673|robert_morris_at_new_mexico_state|FAV|home|ml",
@@ -706,11 +706,11 @@
       "market": "spread",
       "line": 1.5,
       "price": -110,
-      "tixFav": 82,
+      "tixFav": 78,
       "monFav": 80,
-      "reason": "Tix 82% + $ 80% on fav",
+      "reason": "Tix 78% + $ 80% on fav",
       "startAt": "2026-11-22T21:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:27:26.396Z"
+      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
     },
     {
       "pickKey": "m|9|chicago_at_vancouver|FAV|away|ml",
@@ -881,11 +881,11 @@
       "market": "ml",
       "line": 166,
       "price": 166,
-      "tixFav": 78,
+      "tixFav": 70,
       "monFav": 98,
-      "reason": "Tix 78% + $ 98% on fav",
+      "reason": "Tix 70% + $ 98% on fav",
       "startAt": "2026-11-22T22:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.809Z"
+      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
     },
     {
       "pickKey": "m|545|denver_at_chicago|DOG|home|spread",
@@ -1630,10 +1630,10 @@
       "market": "spread",
       "line": 2.5,
       "price": -114,
-      "tixFav": 86,
+      "tixFav": 80,
       "monFav": 99,
-      "reason": "Tix 86% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T15:05:14.576Z"
+      "reason": "Tix 80% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
     },
     {
       "pickKey": "m|681|uc_irvine_at_loyola_marymount|DOG|home|ml",
@@ -1654,10 +1654,10 @@
       "market": "ml",
       "line": 113,
       "price": 113,
-      "tixFav": 86,
+      "tixFav": 80,
       "monFav": 99,
-      "reason": "Tix 86% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T15:05:14.576Z"
+      "reason": "Tix 80% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
     },
     {
       "pickKey": "m|699|san_jose_state_at_loyola_chicago|DOG|away|spread",
@@ -1846,6 +1846,52 @@
       "monFav": 11,
       "reason": "Tix 6% + $ 11% on fav (<50)",
       "leanUpdatedAt": "2026-11-22T15:36:39.101Z"
+    },
+    {
+      "pickKey": "m|701|temple_at_stephen_f_austin|FAV|away|spread",
+      "matchupId": "701|temple_at_stephen_f_austin|FAV|away|spread",
+      "loggedAt": "2026-11-22T15:36:49.100Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - PARADISE JAM - SECOND ROUND - Sunday, November 22nd",
+      "away": "Temple",
+      "home": "Stephen F. Austin",
+      "kick": "22:30",
+      "startAt": "2026-11-22T22:30:00.000Z",
+      "gameNumber": 701,
+      "takeRole": "FAV",
+      "takeTeam": "Temple",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -2.5,
+      "price": -106,
+      "tixFav": 14,
+      "monFav": 4,
+      "reason": "Tix 14% + $ 4% on fav (<50)"
+    },
+    {
+      "pickKey": "m|701|temple_at_stephen_f_austin|FAV|away|ml",
+      "matchupId": "701|temple_at_stephen_f_austin|FAV|away|ml",
+      "loggedAt": "2026-11-22T15:36:49.100Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - PARADISE JAM - SECOND ROUND - Sunday, November 22nd",
+      "away": "Temple",
+      "home": "Stephen F. Austin",
+      "kick": "22:30",
+      "startAt": "2026-11-22T22:30:00.000Z",
+      "gameNumber": 701,
+      "takeRole": "FAV",
+      "takeTeam": "Temple",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -142,
+      "price": -142,
+      "tixFav": 14,
+      "monFav": 4,
+      "reason": "Tix 14% + $ 4% on fav (<50)"
     }
   ]
 }
