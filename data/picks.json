@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:33:25.726Z",
+  "updatedAt": "2026-11-22T23:35:26.712Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1823,7 +1823,16 @@
       "tixFav": 87,
       "monFav": 96,
       "reason": "Tix 87% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-22T21:24:13.224Z"
+      "leanUpdatedAt": "2026-11-22T21:24:13.224Z",
+      "result": "W",
+      "profit": 0.8772,
+      "awayScore": 68,
+      "homeScore": 72,
+      "gradedAt": "2026-11-22T23:35:23.532Z",
+      "gradeSource": "espn",
+      "espnEventId": "401917540",
+      "espnAway": "UC Irvine Anteaters",
+      "espnHome": "Loyola Marymount Lions"
     },
     {
       "pickKey": "m|681|uc_irvine_at_loyola_marymount|DOG|home|ml",
@@ -1847,7 +1856,16 @@
       "tixFav": 87,
       "monFav": 96,
       "reason": "Tix 87% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-22T21:24:13.224Z"
+      "leanUpdatedAt": "2026-11-22T21:24:13.224Z",
+      "result": "W",
+      "profit": 1.13,
+      "awayScore": 68,
+      "homeScore": 72,
+      "gradedAt": "2026-11-22T23:35:23.532Z",
+      "gradeSource": "espn",
+      "espnEventId": "401917540",
+      "espnAway": "UC Irvine Anteaters",
+      "espnHome": "Loyola Marymount Lions"
     },
     {
       "pickKey": "m|699|san_jose_state_at_loyola_chicago|DOG|away|spread",
