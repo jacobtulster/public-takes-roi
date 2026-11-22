@@ -295,8 +295,8 @@
           `<td>${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
           `<td><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}</td>` +
           `<td>${escapeHtml(p.bucket || '')}<div class="meta">${escapeHtml(p.ocLean || '')}</div></td>` +
-          `<td>${escapeHtml(line)}</td>` +
-          `<td><span class="pill ${resPill}">${r || 'OPEN'}</span></td>` +
+          `<td>${escapeHtml(line)}<div class="meta">${escapeHtml(p.lineSource || p.lineBook || '')}</div></td>` +
+          `<td><span class="pill ${resPill}">${r || 'OPEN'}</span>${p.gradeSource ? `<div class="meta">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
           `<td>${profit}</td>` +
           `</tr>`
         );
