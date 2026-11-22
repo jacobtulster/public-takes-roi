@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:54:40.120Z",
+  "updatedAt": "2026-11-22T16:56:30.932Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -353,8 +353,8 @@
       "takeRole": "DOG",
       "takeTeam": "Philadelphia",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 4.5,
       "price": -126,
@@ -362,7 +362,7 @@
       "monFav": 75,
       "reason": "Tix 80% + $ 75% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:46:14.775Z"
+      "leanUpdatedAt": "2026-11-22T16:56:27.629Z"
     },
     {
       "pickKey": "m|455|jacksonville_at_n_y_giants|DOG|home|ml",
@@ -526,16 +526,16 @@
       "takeRole": "DOG",
       "takeTeam": "Butler",
       "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 12,
       "price": 100,
-      "tixFav": 70,
-      "monFav": 94,
-      "reason": "Tix 70% + $ 94% on fav",
+      "tixFav": 71,
+      "monFav": 93,
+      "reason": "Tix 71% + $ 93% on fav",
       "startAt": "2026-11-22T17:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:36:39.682Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.624Z"
     },
     {
       "pickKey": "m|683|cs_fullerton_at_portland_state|DOG|away|spread",
@@ -677,16 +677,16 @@
       "takeRole": "DOG",
       "takeTeam": "Butler",
       "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 595,
       "price": 595,
-      "tixFav": 70,
-      "monFav": 94,
-      "reason": "Tix 70% + $ 94% on fav",
+      "tixFav": 71,
+      "monFav": 93,
+      "reason": "Tix 71% + $ 93% on fav",
       "startAt": "2026-11-22T17:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:36:39.683Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.624Z"
     },
     {
       "pickKey": "m|679|liberty_at_richmond|DOG|home|spread",
@@ -833,11 +833,11 @@
       "market": "spread",
       "line": 11,
       "price": -112,
-      "tixFav": 96,
-      "monFav": 95,
-      "reason": "Tix 96% + $ 95% on fav",
+      "tixFav": 92,
+      "monFav": 87,
+      "reason": "Tix 92% + $ 87% on fav",
       "startAt": "2026-11-22T23:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:26:36.605Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.625Z"
     },
     {
       "pickKey": "m|689|delaware_at_ucla|DOG|away|spread",
@@ -857,11 +857,11 @@
       "market": "spread",
       "line": 29.5,
       "price": -113,
-      "tixFav": 90,
+      "tixFav": 92,
       "monFav": 99,
-      "reason": "Tix 90% + $ 99% on fav",
+      "reason": "Tix 92% + $ 99% on fav",
       "startAt": "2026-11-23T00:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:37:40.660Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.625Z"
     },
     {
       "pickKey": "m|683|cs_fullerton_at_portland_state|DOG|away|ml",
@@ -966,8 +966,8 @@
       "takeRole": "DOG",
       "takeTeam": "Philadelphia",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 176,
       "price": 176,
@@ -975,7 +975,7 @@
       "monFav": 75,
       "reason": "Tix 80% + $ 75% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:46:14.775Z"
+      "leanUpdatedAt": "2026-11-22T16:56:27.629Z"
     },
     {
       "pickKey": "m|667|evansville_at_memphis|DOG|away|spread",
@@ -990,14 +990,16 @@
       "takeRole": "DOG",
       "takeTeam": "Evansville",
       "takeSide": "away",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 21,
       "price": -104,
-      "tixFav": 75,
-      "monFav": 88,
-      "reason": "Tix 75% + $ 88% on fav"
+      "tixFav": 90,
+      "monFav": 85,
+      "reason": "Tix 90% + $ 85% on fav",
+      "startAt": "2026-11-22T19:00:00.000Z",
+      "leanUpdatedAt": "2026-11-22T16:55:14.624Z"
     },
     {
       "pickKey": "m|543|dallas_at_utah|DOG|home|spread",
@@ -1039,11 +1041,11 @@
       "market": "ml",
       "line": 480,
       "price": 480,
-      "tixFav": 96,
-      "monFav": 95,
-      "reason": "Tix 96% + $ 95% on fav",
+      "tixFav": 92,
+      "monFav": 87,
+      "reason": "Tix 92% + $ 87% on fav",
       "startAt": "2026-11-22T23:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:26:36.605Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.625Z"
     },
     {
       "pickKey": "m|537|boston_at_sacramento|DOG|home|ml",
@@ -1225,11 +1227,11 @@
       "market": "spread",
       "line": 3.5,
       "price": -107,
-      "tixFav": 73,
+      "tixFav": 74,
       "monFav": 76,
-      "reason": "Tix 73% + $ 76% on fav",
+      "reason": "Tix 74% + $ 76% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:49:14.688Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.624Z"
     },
     {
       "pickKey": "m|659|dayton_at_northwestern|DOG|home|ml",
@@ -1249,11 +1251,11 @@
       "market": "ml",
       "line": 142,
       "price": 142,
-      "tixFav": 73,
+      "tixFav": 74,
       "monFav": 76,
-      "reason": "Tix 73% + $ 76% on fav",
+      "reason": "Tix 74% + $ 76% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:49:14.688Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.624Z"
     },
     {
       "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|spread",
@@ -1273,11 +1275,11 @@
       "market": "spread",
       "line": 1.5,
       "price": -108,
-      "tixFav": 85,
+      "tixFav": 86,
       "monFav": 93,
-      "reason": "Tix 85% + $ 93% on fav",
+      "reason": "Tix 86% + $ 93% on fav",
       "startAt": "2026-11-22T20:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:31:48.602Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.624Z"
     },
     {
       "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|ml",
@@ -1297,11 +1299,11 @@
       "market": "ml",
       "line": 102,
       "price": 102,
-      "tixFav": 85,
+      "tixFav": 86,
       "monFav": 93,
-      "reason": "Tix 85% + $ 93% on fav",
+      "reason": "Tix 86% + $ 93% on fav",
       "startAt": "2026-11-22T20:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:31:48.602Z"
+      "leanUpdatedAt": "2026-11-22T16:55:14.624Z"
     },
     {
       "pickKey": "m|663|san_diego_at_fordham|DOG|away|spread",
@@ -1634,10 +1636,10 @@
       "market": "spread",
       "line": 2.5,
       "price": -114,
-      "tixFav": 80,
+      "tixFav": 81,
       "monFav": 99,
-      "reason": "Tix 80% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
+      "reason": "Tix 81% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-22T16:55:14.625Z"
     },
     {
       "pickKey": "m|681|uc_irvine_at_loyola_marymount|DOG|home|ml",
@@ -1658,10 +1660,10 @@
       "market": "ml",
       "line": 113,
       "price": 113,
-      "tixFav": 80,
+      "tixFav": 81,
       "monFav": 99,
-      "reason": "Tix 80% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T15:36:49.100Z"
+      "reason": "Tix 81% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-22T16:55:14.625Z"
     },
     {
       "pickKey": "m|699|san_jose_state_at_loyola_chicago|DOG|away|spread",
@@ -2134,6 +2136,52 @@
       "tixFav": 70,
       "monFav": 82,
       "reason": "Tix 70% + $ 82% on fav"
+    },
+    {
+      "pickKey": "m|693|uab_at_rhode_island_sc|FAV|home|spread",
+      "matchupId": "693|uab_at_rhode_island_sc|FAV|home|spread",
+      "loggedAt": "2026-11-22T16:55:14.625Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "UAB",
+      "home": "Rhode Island SC",
+      "kick": "0:00",
+      "startAt": "2026-11-23T00:00:00.000Z",
+      "gameNumber": 693,
+      "takeRole": "FAV",
+      "takeTeam": "Rhode Island SC",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -2,
+      "price": -108,
+      "tixFav": 40,
+      "monFav": 3,
+      "reason": "Tix 40% + $ 3% on fav (<50)"
+    },
+    {
+      "pickKey": "m|693|uab_at_rhode_island_sc|FAV|home|ml",
+      "matchupId": "693|uab_at_rhode_island_sc|FAV|home|ml",
+      "loggedAt": "2026-11-22T16:55:14.625Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "UAB",
+      "home": "Rhode Island SC",
+      "kick": "0:00",
+      "startAt": "2026-11-23T00:00:00.000Z",
+      "gameNumber": 693,
+      "takeRole": "FAV",
+      "takeTeam": "Rhode Island SC",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -131,
+      "price": -131,
+      "tixFav": 40,
+      "monFav": 3,
+      "reason": "Tix 40% + $ 3% on fav (<50)"
     }
   ]
 }
