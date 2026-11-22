@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T13:23:45.240Z",
+  "updatedAt": "2026-11-22T13:32:43.122Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1248,6 +1248,50 @@
       "tixFav": 91,
       "monFav": 94,
       "reason": "Tix 91% + $ 94% on fav"
+    },
+    {
+      "pickKey": "m|663|san_diego_at_fordham|DOG|away|spread",
+      "matchupId": "663|san_diego_at_fordham|DOG|away|spread",
+      "loggedAt": "2026-11-22T13:29:14.873Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "San Diego",
+      "home": "Fordham",
+      "kick": "19:00",
+      "gameNumber": 663,
+      "takeRole": "DOG",
+      "takeTeam": "San Diego",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 3,
+      "price": -110,
+      "tixFav": 72,
+      "monFav": 75,
+      "reason": "Tix 72% + $ 75% on fav"
+    },
+    {
+      "pickKey": "m|663|san_diego_at_fordham|DOG|away|ml",
+      "matchupId": "663|san_diego_at_fordham|DOG|away|ml",
+      "loggedAt": "2026-11-22T13:29:14.873Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "San Diego",
+      "home": "Fordham",
+      "kick": "19:00",
+      "gameNumber": 663,
+      "takeRole": "DOG",
+      "takeTeam": "San Diego",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 129,
+      "price": 129,
+      "tixFav": 72,
+      "monFav": 75,
+      "reason": "Tix 72% + $ 75% on fav"
     }
   ]
 }
