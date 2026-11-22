@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:05:17.521Z",
+  "updatedAt": "2026-11-22T15:08:45.847Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -44,10 +44,10 @@
       "line": -10.5,
       "price": -109,
       "tixFav": 49,
-      "monFav": 49,
-      "reason": "Tix 49% + $ 49% on fav (<50)",
+      "monFav": 47,
+      "reason": "Tix 49% + $ 47% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:03:32.999Z"
+      "leanUpdatedAt": "2026-11-22T15:08:42.618Z"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -162,10 +162,10 @@
       "line": 6,
       "price": -109,
       "tixFav": 78,
-      "monFav": 78,
-      "reason": "Tix 78% + $ 78% on fav",
+      "monFav": 77,
+      "reason": "Tix 78% + $ 77% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:57:04.607Z"
+      "leanUpdatedAt": "2026-11-22T15:08:42.618Z"
     },
     {
       "pickKey": "m|551|boston_at_golden_state|DOG|home|spread",
@@ -210,10 +210,10 @@
       "line": -573,
       "price": -573,
       "tixFav": 49,
-      "monFav": 49,
-      "reason": "Tix 49% + $ 49% on fav (<50)",
+      "monFav": 47,
+      "reason": "Tix 49% + $ 47% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:03:32.999Z"
+      "leanUpdatedAt": "2026-11-22T15:08:42.618Z"
     },
     {
       "pickKey": "m|463|miami_at_buffalo|FAV|home|ml",
@@ -358,11 +358,11 @@
       "market": "spread",
       "line": 4.5,
       "price": -126,
-      "tixFav": 79,
+      "tixFav": 80,
       "monFav": 73,
-      "reason": "Tix 79% + $ 73% on fav",
+      "reason": "Tix 80% + $ 73% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:03:32.999Z"
+      "leanUpdatedAt": "2026-11-22T15:08:42.618Z"
     },
     {
       "pickKey": "m|455|jacksonville_at_n_y_giants|DOG|home|ml",
@@ -383,10 +383,10 @@
       "line": 232,
       "price": 232,
       "tixFav": 78,
-      "monFav": 78,
-      "reason": "Tix 78% + $ 78% on fav",
+      "monFav": 77,
+      "reason": "Tix 78% + $ 77% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:57:04.607Z"
+      "leanUpdatedAt": "2026-11-22T15:08:42.618Z"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|ml",
@@ -971,11 +971,11 @@
       "market": "ml",
       "line": 176,
       "price": 176,
-      "tixFav": 79,
+      "tixFav": 80,
       "monFav": 73,
-      "reason": "Tix 79% + $ 73% on fav",
+      "reason": "Tix 80% + $ 73% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:03:32.999Z"
+      "leanUpdatedAt": "2026-11-22T15:08:42.618Z"
     },
     {
       "pickKey": "m|667|evansville_at_memphis|DOG|away|spread",
