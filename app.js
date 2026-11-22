@@ -278,24 +278,25 @@
         const rolePill = role === 'DOG' ? 'pill-dog' : 'pill-fav';
         const resPill =
           r === 'W' ? 'pill-w' : r === 'L' ? 'pill-l' : r === 'P' ? 'pill-p' : 'pill-open';
-        const line =
-          p.market === 'spread'
-            ? `${p.line != null ? p.line : '—'} (${p.price != null ? p.price : '—'})`
-            : p.price != null
-              ? String(p.price)
-              : '—';
+        const line = fmtMarketLine(p);
         const when = p.loggedAt ? new Date(p.loggedAt).toLocaleString() : '—';
         const profit =
           r === 'W' || r === 'L' || r === 'P'
             ? fmtU(Number(p.profit) || (r === 'L' ? -1 : 0))
             : '—';
+        const src =
+          p.lineSource === 'espn'
+            ? p.lineBook
+              ? `ESPN · ${p.lineBook}`
+              : 'ESPN'
+            : p.lineSource || p.lineBook || '';
         return (
           `<tr>` +
           `<td>${when}</td>` +
           `<td>${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
           `<td><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}</td>` +
           `<td>${escapeHtml(p.bucket || '')}<div class="meta">${escapeHtml(p.ocLean || '')}</div></td>` +
-          `<td>${escapeHtml(line)}<div class="meta">${escapeHtml(p.lineSource || p.lineBook || '')}</div></td>` +
+          `<td>${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
           `<td><span class="pill ${resPill}">${r || 'OPEN'}</span>${p.gradeSource ? `<div class="meta">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
           `<td>${profit}</td>` +
           `</tr>`
@@ -310,6 +311,23 @@
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  function fmtSigned(n) {
+    if (n == null || n === '' || Number.isNaN(Number(n))) return null;
+    const v = Number(n);
+    return (v > 0 ? '+' : '') + String(v);
+  }
+
+  function fmtMarketLine(p) {
+    if (String(p.market || '').toLowerCase() === 'spread') {
+      const line = fmtSigned(p.line);
+      if (line == null) return '—';
+      const juice = fmtSigned(p.price);
+      return juice != null ? `${line} (${juice})` : line;
+    }
+    const ml = fmtSigned(p.price != null ? p.price : p.line);
+    return ml != null ? ml : '—';
   }
 
   function renderAll() {
