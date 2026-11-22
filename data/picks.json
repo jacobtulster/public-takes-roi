@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:21:39.546Z",
+  "updatedAt": "2026-11-22T16:21:49.515Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1824,10 +1824,10 @@
       "market": "spread",
       "line": -1,
       "price": -107,
-      "tixFav": 6,
-      "monFav": 9,
-      "reason": "Tix 6% + $ 9% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T15:58:38.612Z"
+      "tixFav": 11,
+      "monFav": 1,
+      "reason": "Tix 11% + $ 1% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T16:21:46.602Z"
     },
     {
       "pickKey": "m|653|miami_ohio_at_illinois_chicago|FAV|home|ml",
@@ -1848,10 +1848,10 @@
       "market": "ml",
       "line": -112,
       "price": -112,
-      "tixFav": 6,
-      "monFav": 9,
-      "reason": "Tix 6% + $ 9% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T15:58:38.612Z"
+      "tixFav": 11,
+      "monFav": 1,
+      "reason": "Tix 11% + $ 1% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T16:21:46.602Z"
     },
     {
       "pickKey": "m|701|temple_at_stephen_f_austin|FAV|away|spread",
