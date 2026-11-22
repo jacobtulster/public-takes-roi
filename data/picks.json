@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:34:55.448Z",
+  "updatedAt": "2026-11-22T15:36:35.772Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1798,6 +1798,52 @@
       "tixFav": 76,
       "monFav": 70,
       "reason": "Tix 76% + $ 70% on fav"
+    },
+    {
+      "pickKey": "m|653|miami_ohio_at_illinois_chicago|FAV|home|spread",
+      "matchupId": "653|miami_ohio_at_illinois_chicago|FAV|home|spread",
+      "loggedAt": "2026-11-22T15:36:32.748Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Miami Ohio",
+      "home": "Illinois Chicago",
+      "kick": "17:00",
+      "startAt": "2026-11-22T17:00:00.000Z",
+      "gameNumber": 653,
+      "takeRole": "FAV",
+      "takeTeam": "Illinois Chicago",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -1,
+      "price": -107,
+      "tixFav": 7,
+      "monFav": 11,
+      "reason": "Tix 7% + $ 11% on fav (<50)"
+    },
+    {
+      "pickKey": "m|653|miami_ohio_at_illinois_chicago|FAV|home|ml",
+      "matchupId": "653|miami_ohio_at_illinois_chicago|FAV|home|ml",
+      "loggedAt": "2026-11-22T15:36:32.748Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Miami Ohio",
+      "home": "Illinois Chicago",
+      "kick": "17:00",
+      "startAt": "2026-11-22T17:00:00.000Z",
+      "gameNumber": 653,
+      "takeRole": "FAV",
+      "takeTeam": "Illinois Chicago",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -112,
+      "price": -112,
+      "tixFav": 7,
+      "monFav": 11,
+      "reason": "Tix 7% + $ 11% on fav (<50)"
     }
   ]
 }
