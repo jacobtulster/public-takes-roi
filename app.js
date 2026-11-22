@@ -313,6 +313,87 @@
     return true;
   }
 
+  const MONTHS = {
+    january: 0,
+    february: 1,
+    march: 2,
+    april: 3,
+    may: 4,
+    june: 5,
+    july: 6,
+    august: 7,
+    september: 8,
+    october: 9,
+    november: 10,
+    december: 11,
+  };
+
+  /** Parse kick + league day into local epoch ms (null if unknown). */
+  function parseKickMs(p) {
+    const kick = String((p && p.kick) || '').trim();
+    const league = String((p && p.league) || '');
+    const dayMatch = league.match(
+      /\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?/i
+    );
+    if (!dayMatch || !kick) return null;
+
+    let hours = null;
+    let minutes = null;
+    const ampm = kick.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+    if (ampm) {
+      hours = Number(ampm[1]) % 12;
+      if (/pm/i.test(ampm[3])) hours += 12;
+      minutes = Number(ampm[2]);
+    } else {
+      const hm = kick.match(/^(\d{1,2}):(\d{2})$/);
+      if (hm) {
+        hours = Number(hm[1]);
+        minutes = Number(hm[2]);
+      }
+    }
+    if (hours == null || minutes == null) return null;
+
+    const month = MONTHS[String(dayMatch[1]).toLowerCase()];
+    const day = Number(dayMatch[2]);
+    if (month == null || !Number.isFinite(day)) return null;
+
+    const anchor = p.loggedAt ? new Date(p.loggedAt) : new Date();
+    let year = anchor.getFullYear();
+    // League day near year roll (Dec logged → Jan slate)
+    if (month === 0 && anchor.getMonth() === 11) year += 1;
+    if (month === 11 && anchor.getMonth() === 0) year -= 1;
+
+    const ms = new Date(year, month, day, hours, minutes, 0, 0).getTime();
+    return Number.isFinite(ms) ? ms : null;
+  }
+
+  /** 0 = upcoming, 1 = live / started (ungraded), 2 = graded / ended. */
+  function pickTimeBucket(p, now) {
+    const r = String((p && p.result) || '').toUpperCase();
+    if (r === 'W' || r === 'L' || r === 'P') return 2;
+    const ms = parseKickMs(p);
+    if (ms == null) return 1;
+    return ms > now ? 0 : 1;
+  }
+
+  function comparePicksByStart(a, b, now) {
+    const ba = pickTimeBucket(a, now);
+    const bb = pickTimeBucket(b, now);
+    if (ba !== bb) return ba - bb;
+    const ma = parseKickMs(a);
+    const mb = parseKickMs(b);
+    if (ba === 0) {
+      // Upcoming: closest tip first
+      return (ma != null ? ma : Infinity) - (mb != null ? mb : Infinity);
+    }
+    if (ba === 1) {
+      // Live / awaiting grade: most recently started first
+      return (mb != null ? mb : -Infinity) - (ma != null ? ma : -Infinity);
+    }
+    // Ended: newest grade first
+    return String(b.gradedAt || b.loggedAt || '').localeCompare(String(a.gradedAt || a.loggedAt || ''));
+  }
+
   /** Game start from pick.kick + day in league banner. */
   function fmtGameStart(p) {
     const kick = String((p && p.kick) || '').trim();
@@ -356,10 +437,11 @@
 
   function renderTable() {
     const body = $('#picks-body');
+    const now = Date.now();
     const rows = store.picks
       .slice()
-      .sort((a, b) => String(b.loggedAt || '').localeCompare(String(a.loggedAt || '')))
-      .filter(matchesFilter);
+      .filter(matchesFilter)
+      .sort((a, b) => comparePicksByStart(a, b, now));
     $('#picks-empty').hidden = rows.length > 0;
     const empty = $('#picks-empty');
     if (empty) {
