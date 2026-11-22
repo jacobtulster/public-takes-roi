@@ -471,15 +471,16 @@
               ? `ESPN · ${p.lineBook}`
               : 'ESPN'
             : p.lineSource || p.lineBook || '';
+        const lean = fmtLeanMeta(p);
         return (
           `<tr>` +
-          `<td data-label="Start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
-          `<td data-label="Matchup">${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
-          `<td data-label="Pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}</td>` +
-          `<td data-label="Book">${`<span class="pill ${mktPill}">${marketLabel(mkt)}</span>`}<div class="meta">${fmtLeanMeta(p)}</div></td>` +
-          `<td data-label="Line">${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
-          `<td data-label="Result"><span class="pill ${resPill}">${r || 'OPEN'}</span>${p.gradeSource ? `<div class="meta">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
-          `<td data-label="Profit">${profit}</td>` +
+          `<td class="col-start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
+          `<td class="col-matchup">${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
+          `<td class="col-pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}<div class="meta lean-mobile">${lean}</div></td>` +
+          `<td class="col-book"><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${lean}</div></td>` +
+          `<td class="col-line">${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
+          `<td class="col-result"><span class="pill ${resPill}">${r || 'OPEN'}</span><div class="meta profit-inline">${profit}</div>${p.gradeSource ? `<div class="meta grade-src">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
+          `<td class="col-profit">${profit}</td>` +
           `</tr>`
         );
       })
