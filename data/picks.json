@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T02:34:47.519994Z",
+  "updatedAt": "2026-11-22T09:12:40.251588Z",
   "picks": [
     {
       "pickKey": "m|389|hawaii_at_nevada|DOG|away|spread",
@@ -27,7 +27,14 @@
       "lineBook": "DraftKings",
       "espnEventId": "401864541",
       "espnAway": "Hawai'i Rainbow Warriors",
-      "espnHome": "Nevada Wolf Pack"
+      "espnHome": "Nevada Wolf Pack",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 8.0,
+      "homeScore": 16.0,
+      "gradedAt": "2026-11-22T09:12:39.372344Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -55,7 +62,14 @@
       "lineBook": "DraftKings",
       "espnEventId": "401860925",
       "espnAway": "San Diego State Aztecs",
-      "espnHome": "Boise State Broncos"
+      "espnHome": "Boise State Broncos",
+      "result": "W",
+      "profit": 0.9091,
+      "awayScore": 22.0,
+      "homeScore": 20.0,
+      "gradedAt": "2026-11-22T09:12:39.588724Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final"
     },
     {
       "pickKey": "m|537|boston_at_sacramento|DOG|home|spread",
@@ -83,7 +97,14 @@
       "lineBook": "DraftKings",
       "espnEventId": "401910028",
       "espnAway": "Boston Celtics",
-      "espnHome": "Sacramento Kings"
+      "espnHome": "Sacramento Kings",
+      "result": "W",
+      "profit": 0.9009,
+      "awayScore": 96.0,
+      "homeScore": 97.0,
+      "gradedAt": "2026-11-22T09:12:39.802938Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|spread",
@@ -111,7 +132,14 @@
       "lineBook": "DraftKings",
       "espnEventId": "401909567",
       "espnAway": "Washington State Cougars",
-      "espnHome": "Duke Blue Devils"
+      "espnHome": "Duke Blue Devils",
+      "result": "W",
+      "profit": 0.8696,
+      "awayScore": 74.0,
+      "homeScore": 78.0,
+      "gradedAt": "2026-11-22T09:12:40.046911Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final"
     },
     {
       "pickKey": "m|79|minnesota_at_vancouver|DOG|home|spread",
@@ -139,7 +167,14 @@
       "lineBook": "DraftKings",
       "espnEventId": "401892766",
       "espnAway": "Minnesota Wild",
-      "espnHome": "Vancouver Canucks"
+      "espnHome": "Vancouver Canucks",
+      "result": "W",
+      "profit": 1.02,
+      "awayScore": 3.0,
+      "homeScore": 4.0,
+      "gradedAt": "2026-11-22T09:12:40.251539Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final/SO"
     }
   ]
 }
