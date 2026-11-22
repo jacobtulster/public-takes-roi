@@ -338,8 +338,6 @@
     return true;
   }
 
-  const ET = 'America/New_York';
-
   const MONTHS = {
     january: 0,
     february: 1,
@@ -355,74 +353,11 @@
     december: 11,
   };
 
-  function fmtEtTime(ms) {
-    return new Date(ms).toLocaleTimeString('en-US', {
-      timeZone: ET,
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZoneName: 'short',
-    });
-  }
-
-  function fmtEtDay(ms) {
-    return new Date(ms).toLocaleDateString('en-US', {
-      timeZone: ET,
-      weekday: 'long',
-      month: 'long',
-      day: 'numeric',
-    });
-  }
-
-  function fmtEtDateTime(ms) {
-    return new Date(ms).toLocaleString('en-US', {
-      timeZone: ET,
-      month: 'numeric',
-      day: 'numeric',
-      year: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZoneName: 'short',
-    });
-  }
-
-  /** Convert America/New_York wall clock → UTC epoch ms. */
-  function etWallToMs(year, month, day, hour, minute) {
-    const want = Date.UTC(year, month, day, hour, minute);
-    let guess = want;
-    for (let i = 0; i < 3; i++) {
-      const parts = Object.fromEntries(
-        new Intl.DateTimeFormat('en-US', {
-          timeZone: ET,
-          year: 'numeric',
-          month: '2-digit',
-          day: '2-digit',
-          hour: '2-digit',
-          minute: '2-digit',
-          hourCycle: 'h23',
-        })
-          .formatToParts(new Date(guess))
-          .filter((p) => p.type !== 'literal')
-          .map((p) => [p.type, p.value])
-      );
-      const asUtc = Date.UTC(
-        Number(parts.year),
-        Number(parts.month) - 1,
-        Number(parts.day),
-        Number(parts.hour),
-        Number(parts.minute)
-      );
-      guess += want - asUtc;
-    }
-    return guess;
-  }
-
-  /** Resolve tip epoch: kickMs, else league day + kick (ET / UTC heuristics). */
+  /**
+   * Parse kick + league day as UTC (OddsLogic stores UTC clocks), then
+   * display/sort in America/New_York. Display-only — does not change picks.json.
+   */
   function parseKickMs(p) {
-    if (p && p.kickMs != null && Number.isFinite(Number(p.kickMs))) {
-      const n = Number(p.kickMs);
-      if (n > 1e11 && n < 1e15) return n;
-    }
-
     const kick = String((p && p.kick) || '').trim();
     const league = String((p && p.league) || '');
     const dayMatch = league.match(
@@ -432,20 +367,16 @@
 
     let hours = null;
     let minutes = null;
-    let asUtc = false;
-    const ampm = kick.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)(?:\s*[A-Z]{2,5})?$/i);
+    const ampm = kick.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
     if (ampm) {
       hours = Number(ampm[1]) % 12;
       if (/pm/i.test(ampm[3])) hours += 12;
       minutes = Number(ampm[2]);
-      asUtc = false; // already a civil clock — treat as Eastern
     } else {
       const hm = kick.match(/^(\d{1,2}):(\d{2})$/);
       if (hm) {
         hours = Number(hm[1]);
         minutes = Number(hm[2]);
-        // Bare HH:MM from OddsLogic is UTC
-        asUtc = true;
       }
     }
     if (hours == null || minutes == null) return null;
@@ -456,15 +387,11 @@
 
     const anchor = p.loggedAt ? new Date(p.loggedAt) : new Date();
     let year = anchor.getUTCFullYear();
-    const anchorMonth = Number(
-      new Intl.DateTimeFormat('en-US', { timeZone: ET, month: 'numeric' }).format(anchor)
-    ) - 1;
-    if (month === 0 && anchorMonth === 11) year += 1;
-    if (month === 11 && anchorMonth === 0) year -= 1;
+    // League day near year roll (Dec logged → Jan slate)
+    if (month === 0 && anchor.getUTCMonth() === 11) year += 1;
+    if (month === 11 && anchor.getUTCMonth() === 0) year -= 1;
 
-    const ms = asUtc
-      ? Date.UTC(year, month, day, hours, minutes, 0, 0)
-      : etWallToMs(year, month, day, hours, minutes);
+    const ms = Date.UTC(year, month, day, hours, minutes, 0, 0);
     return Number.isFinite(ms) ? ms : null;
   }
 
@@ -495,21 +422,29 @@
     return String(b.gradedAt || b.loggedAt || '').localeCompare(String(a.gradedAt || a.loggedAt || ''));
   }
 
-  /** Game start in US Eastern. */
+  /** Game start shown in Eastern Time (EST/EDT). */
   function fmtGameStart(p) {
     const ms = parseKickMs(p);
     if (ms != null) {
-      return { main: fmtEtTime(ms), sub: fmtEtDay(ms) };
+      const d = new Date(ms);
+      const timeLabel = d.toLocaleTimeString('en-US', {
+        timeZone: 'America/New_York',
+        hour: 'numeric',
+        minute: '2-digit',
+        timeZoneName: 'short',
+      });
+      const day = d.toLocaleDateString('en-US', {
+        timeZone: 'America/New_York',
+        weekday: 'short',
+        month: 'short',
+        day: 'numeric',
+      });
+      return { main: timeLabel, sub: day };
     }
     const kick = String((p && p.kick) || '').trim();
-    if (kick) {
-      return {
-        main: /EST|EDT/i.test(kick) ? kick : kick + ' ET',
-        sub: '',
-      };
-    }
+    if (kick) return { main: kick + ' ET?', sub: '' };
     if (p && p.loggedAt) {
-      return { main: fmtEtDateTime(new Date(p.loggedAt).getTime()), sub: 'logged' };
+      return { main: new Date(p.loggedAt).toLocaleString(), sub: 'logged' };
     }
     return { main: '—', sub: '' };
   }
@@ -608,7 +543,7 @@
     const marketPicks = picksForMarket(activeMarket);
     const aggs = summarize(marketPicks);
     const updated = store.updatedAt
-      ? 'Updated ' + fmtEtDateTime(new Date(store.updatedAt).getTime())
+      ? 'Updated ' + new Date(store.updatedAt).toLocaleString()
       : marketPicks.length
         ? `${marketPicks.length} ${marketLabel(activeMarket)} picks`
         : 'No data yet';
