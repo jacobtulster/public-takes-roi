@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:06:49.883Z",
+  "updatedAt": "2026-11-22T12:20:19.796Z",
   "picks": [
     {
       "pickKey": "m|389|hawaii_at_nevada|DOG|away|spread",
@@ -945,6 +945,50 @@
       "tixFav": 42,
       "monFav": 33,
       "reason": "Tix 42% + $ 33% on fav (<50)"
+    },
+    {
+      "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
+      "matchupId": "543|dallas_at_utah|FAV|home|spread",
+      "loggedAt": "2026-11-22T12:20:16.716Z",
+      "sport": "NBA",
+      "league": "NBA - Sunday, November 22nd",
+      "away": "Dallas",
+      "home": "Utah",
+      "kick": "0:10",
+      "gameNumber": 543,
+      "takeRole": "FAV",
+      "takeTeam": "Utah",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -1,
+      "price": -104,
+      "tixFav": 17,
+      "monFav": 13,
+      "reason": "Tix 17% + $ 13% on fav (<50)"
+    },
+    {
+      "pickKey": "m|543|dallas_at_utah|FAV|home|ml",
+      "matchupId": "543|dallas_at_utah|FAV|home|ml",
+      "loggedAt": "2026-11-22T12:20:16.716Z",
+      "sport": "NBA",
+      "league": "NBA - Sunday, November 22nd",
+      "away": "Dallas",
+      "home": "Utah",
+      "kick": "0:10",
+      "gameNumber": 543,
+      "takeRole": "FAV",
+      "takeTeam": "Utah",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -108,
+      "price": -108,
+      "tixFav": 17,
+      "monFav": 13,
+      "reason": "Tix 17% + $ 13% on fav (<50)"
     }
   ]
 }
