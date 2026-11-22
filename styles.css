@@ -407,31 +407,228 @@ code {
   }
   .main-split {
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(160px, 28%) minmax(0, 1fr);
+    grid-template-rows: minmax(150px, 26%) minmax(0, 1fr);
   }
 }
 
 @media (max-width: 720px) {
   html,
   body {
-    overflow: auto;
-    height: auto;
-    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
   }
+
   body {
     padding: 8px;
+    padding-bottom: max(8px, env(safe-area-inset-bottom));
+    padding-left: max(8px, env(safe-area-inset-left));
+    padding-right: max(8px, env(safe-area-inset-right));
   }
+
   .wrap {
-    height: auto;
-    min-height: calc(100dvh - 16px);
+    height: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    gap: 6px;
   }
-  .grid-cards {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  .topbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
   }
-  .main-split {
-    grid-template-rows: 180px minmax(320px, 1fr);
+
+  .topbar-brand {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
   }
+
+  .brand {
+    font-size: 18px;
+  }
+
   .book-hint {
     display: none;
+  }
+
+  .hero-actions {
+    width: 100%;
+  }
+
+  .hero-actions .btn,
+  .hero-actions select,
+  .hero-actions label.btn {
+    flex: 1 1 auto;
+    text-align: center;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .hero-actions .meta {
+    width: 100%;
+    text-align: center;
+    order: 5;
+  }
+
+  .market-tabs {
+    width: 100%;
+    justify-content: stretch;
+  }
+
+  .market-tab {
+    flex: 1;
+    justify-content: center;
+    min-height: 36px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .grid-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5px;
+    max-height: 28vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .card {
+    padding: 8px;
+    min-height: 52px;
+  }
+
+  .card .k {
+    font-size: 10px;
+  }
+
+  .card .v {
+    font-size: 15px;
+  }
+
+  .card .s {
+    font-size: 10px;
+    white-space: normal;
+  }
+
+  .main-split {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    grid-template-columns: none;
+    grid-template-rows: none;
+  }
+
+  /* Picks first on mobile — chart secondary */
+  .panel-picks {
+    order: 1;
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+
+  .panel-chart {
+    order: 2;
+    flex: 0 0 150px;
+    min-height: 140px;
+    max-height: 160px;
+  }
+
+  .toolbar {
+    gap: 5px;
+  }
+
+  .toolbar h2 {
+    flex: 1 0 100%;
+    font-size: 13px;
+  }
+
+  .toolbar select,
+  .toolbar input[type='search'] {
+    min-height: 36px;
+    font-size: 12px;
+    flex: 1 1 calc(50% - 5px);
+    min-width: 0;
+  }
+
+  .panel-picks .table-wrap {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Stacked pick cards instead of wide table */
+  .panel-picks table,
+  .panel-picks thead,
+  .panel-picks tbody,
+  .panel-picks th,
+  .panel-picks td,
+  .panel-picks tr {
+    display: block;
+    width: 100%;
+  }
+
+  .panel-picks thead {
+    display: none;
+  }
+
+  .panel-picks tr {
+    background: color-mix(in srgb, var(--bg1) 70%, transparent);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin-bottom: 6px;
+    padding: 8px 10px;
+  }
+
+  .panel-picks td {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 6px;
+    align-items: start;
+    padding: 3px 0;
+    border-bottom: 0;
+    font-size: 12px;
+  }
+
+  .panel-picks td::before {
+    content: attr(data-label);
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-top: 2px;
+  }
+
+  .panel-picks td[data-label='Matchup'],
+  .panel-picks td[data-label='Pick'] {
+    font-weight: 600;
+  }
+
+  .panel-picks td[data-label='Profit'] {
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
+  }
+}
+
+@media (max-width: 420px) {
+  .grid-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: 24vh;
+  }
+
+  .panel-chart {
+    flex-basis: 120px;
+    min-height: 110px;
+    max-height: 130px;
+  }
+
+  .brand {
+    font-size: 16px;
   }
 }
