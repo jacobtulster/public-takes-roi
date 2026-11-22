@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:47:15.112Z",
+  "updatedAt": "2026-11-22T15:49:17.114Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1225,11 +1225,11 @@
       "market": "spread",
       "line": 3.5,
       "price": -107,
-      "tixFav": 78,
-      "monFav": 87,
-      "reason": "Tix 78% + $ 87% on fav",
+      "tixFav": 74,
+      "monFav": 86,
+      "reason": "Tix 74% + $ 86% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:41:25.100Z"
+      "leanUpdatedAt": "2026-11-22T15:48:14.432Z"
     },
     {
       "pickKey": "m|659|dayton_at_northwestern|DOG|home|ml",
@@ -1249,11 +1249,11 @@
       "market": "ml",
       "line": 142,
       "price": 142,
-      "tixFav": 78,
-      "monFav": 87,
-      "reason": "Tix 78% + $ 87% on fav",
+      "tixFav": 74,
+      "monFav": 86,
+      "reason": "Tix 74% + $ 86% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:41:25.100Z"
+      "leanUpdatedAt": "2026-11-22T15:48:14.432Z"
     },
     {
       "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|spread",
@@ -1894,6 +1894,52 @@
       "tixFav": 14,
       "monFav": 4,
       "reason": "Tix 14% + $ 4% on fav (<50)"
+    },
+    {
+      "pickKey": "m|661|duquesne_at_wyoming|DOG|away|spread",
+      "matchupId": "661|duquesne_at_wyoming|DOG|away|spread",
+      "loggedAt": "2026-11-22T15:48:14.432Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Duquesne",
+      "home": "Wyoming",
+      "kick": "19:00",
+      "startAt": "2026-11-22T19:00:00.000Z",
+      "gameNumber": 661,
+      "takeRole": "DOG",
+      "takeTeam": "Duquesne",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 4,
+      "price": -114,
+      "tixFav": 95,
+      "monFav": 98,
+      "reason": "Tix 95% + $ 98% on fav"
+    },
+    {
+      "pickKey": "m|661|duquesne_at_wyoming|DOG|away|ml",
+      "matchupId": "661|duquesne_at_wyoming|DOG|away|ml",
+      "loggedAt": "2026-11-22T15:48:14.432Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Duquesne",
+      "home": "Wyoming",
+      "kick": "19:00",
+      "startAt": "2026-11-22T19:00:00.000Z",
+      "gameNumber": 661,
+      "takeRole": "DOG",
+      "takeTeam": "Duquesne",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 146,
+      "price": 146,
+      "tixFav": 95,
+      "monFav": 98,
+      "reason": "Tix 95% + $ 98% on fav"
     }
   ]
 }
