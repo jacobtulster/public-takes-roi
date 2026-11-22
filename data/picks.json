@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:26:03.666Z",
+  "updatedAt": "2026-11-22T15:27:19.535Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -531,11 +531,11 @@
       "market": "spread",
       "line": 12,
       "price": 100,
-      "tixFav": 71,
-      "monFav": 99,
-      "reason": "Tix 71% + $ 99% on fav",
+      "tixFav": 70,
+      "monFav": 98,
+      "reason": "Tix 70% + $ 98% on fav",
       "startAt": "2026-11-22T17:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "leanUpdatedAt": "2026-11-22T15:27:16.406Z"
     },
     {
       "pickKey": "m|683|cs_fullerton_at_portland_state|DOG|away|spread",
@@ -682,11 +682,11 @@
       "market": "ml",
       "line": 595,
       "price": 595,
-      "tixFav": 71,
-      "monFav": 99,
-      "reason": "Tix 71% + $ 99% on fav",
+      "tixFav": 70,
+      "monFav": 98,
+      "reason": "Tix 70% + $ 98% on fav",
       "startAt": "2026-11-22T17:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "leanUpdatedAt": "2026-11-22T15:27:16.406Z"
     },
     {
       "pickKey": "m|679|liberty_at_richmond|DOG|home|spread",
