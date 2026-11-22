@@ -313,6 +313,47 @@
     return true;
   }
 
+  /** Game start from pick.kick + day in league banner. */
+  function fmtGameStart(p) {
+    const kick = String((p && p.kick) || '').trim();
+    const league = String((p && p.league) || '');
+    const dayMatch = league.match(
+      /\b((Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?)/i
+    );
+    const day = dayMatch ? dayMatch[1] : '';
+    let timeLabel = kick;
+    const hm = kick.match(/^(\d{1,2}):(\d{2})$/);
+    if (hm) {
+      const h = Number(hm[1]);
+      const min = hm[2];
+      const ap = h >= 12 ? 'PM' : 'AM';
+      timeLabel = `${h % 12 || 12}:${min} ${ap}`;
+    }
+    if (timeLabel) {
+      return {
+        main: timeLabel,
+        sub: day || (p.loggedAt ? 'logged ' + new Date(p.loggedAt).toLocaleDateString() : ''),
+      };
+    }
+    if (p && p.loggedAt) {
+      return { main: new Date(p.loggedAt).toLocaleString(), sub: 'logged' };
+    }
+    return { main: '—', sub: '' };
+  }
+
+  /** Bucket meta with glowing "favorable" (orange dog / green fav). */
+  function fmtLeanMeta(p) {
+    const bucket = escapeHtml(p.bucket || '');
+    const oc = String(p.ocLean || '').toLowerCase();
+    if (!oc || oc === 'none') return bucket;
+    if (oc === 'favorable') {
+      const role = String(p.takeRole || '').toUpperCase();
+      const glow = role === 'DOG' ? 'lean-glow lean-glow-dog' : 'lean-glow lean-glow-fav';
+      return `${bucket}${bucket ? ' · ' : ''}<span class="${glow}">favorable</span>`;
+    }
+    return `${bucket}${bucket ? ' · ' : ''}${escapeHtml(p.ocLean)}`;
+  }
+
   function renderTable() {
     const body = $('#picks-body');
     const rows = store.picks
@@ -337,7 +378,7 @@
         const mkt = marketOf(p);
         const mktPill = mkt === 'ml' ? 'pill-ml' : 'pill-ats';
         const line = fmtMarketLine(p);
-        const when = p.loggedAt ? new Date(p.loggedAt).toLocaleString() : '—';
+        const start = fmtGameStart(p);
         const profit =
           r === 'W' || r === 'L' || r === 'P'
             ? fmtU(Number(p.profit) || (r === 'L' ? -1 : 0))
@@ -350,10 +391,10 @@
             : p.lineSource || p.lineBook || '';
         return (
           `<tr>` +
-          `<td>${when}</td>` +
+          `<td>${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
           `<td>${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
           `<td><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}</td>` +
-          `<td><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${escapeHtml(p.bucket || '')}${p.ocLean ? ' · ' + escapeHtml(p.ocLean) : ''}</div></td>` +
+          `<td><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${fmtLeanMeta(p)}</div></td>` +
           `<td>${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
           `<td><span class="pill ${resPill}">${r || 'OPEN'}</span>${p.gradeSource ? `<div class="meta">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
           `<td>${profit}</td>` +
