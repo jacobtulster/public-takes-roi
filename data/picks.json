@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:27:13.977Z",
+  "updatedAt": "2026-11-22T22:31:13.998Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1423,11 +1423,11 @@
       "market": "spread",
       "line": -9.5,
       "price": -103,
-      "tixFav": 40,
-      "monFav": 18,
-      "reason": "Tix 40% + $ 18% on fav (<50)",
+      "tixFav": 43,
+      "monFav": 10,
+      "reason": "Tix 43% + $ 10% on fav (<50)",
       "startAt": "2026-11-23T00:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:36:55.101Z"
+      "leanUpdatedAt": "2026-11-22T22:30:13.203Z"
     },
     {
       "pickKey": "m|691|california_baptist_at_portland|FAV|home|ml",
@@ -1447,11 +1447,11 @@
       "market": "ml",
       "line": -479,
       "price": -479,
-      "tixFav": 40,
-      "monFav": 18,
-      "reason": "Tix 40% + $ 18% on fav (<50)",
+      "tixFav": 43,
+      "monFav": 10,
+      "reason": "Tix 43% + $ 10% on fav (<50)",
       "startAt": "2026-11-23T00:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:36:55.101Z"
+      "leanUpdatedAt": "2026-11-22T22:30:13.203Z"
     },
     {
       "pickKey": "m|697|seattle_at_uc_san_diego|DOG|home|spread",
@@ -2166,10 +2166,10 @@
       "market": "spread",
       "line": -2,
       "price": -108,
-      "tixFav": 33,
+      "tixFav": 30,
       "monFav": 2,
-      "reason": "Tix 33% + $ 2% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T22:18:13.230Z"
+      "reason": "Tix 30% + $ 2% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T22:30:13.203Z"
     },
     {
       "pickKey": "m|693|uab_at_rhode_island_sc|FAV|home|ml",
@@ -2190,10 +2190,10 @@
       "market": "ml",
       "line": -131,
       "price": -131,
-      "tixFav": 33,
+      "tixFav": 30,
       "monFav": 2,
-      "reason": "Tix 33% + $ 2% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T22:18:13.230Z"
+      "reason": "Tix 30% + $ 2% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T22:30:13.203Z"
     },
     {
       "pickKey": "m|451|baltimore_at_carolina|DOG|away|spread",
