@@ -473,13 +473,13 @@
             : p.lineSource || p.lineBook || '';
         return (
           `<tr>` +
-          `<td>${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
-          `<td>${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
-          `<td><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}</td>` +
-          `<td><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${fmtLeanMeta(p)}</div></td>` +
-          `<td>${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
-          `<td><span class="pill ${resPill}">${r || 'OPEN'}</span>${p.gradeSource ? `<div class="meta">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
-          `<td>${profit}</td>` +
+          `<td data-label="Start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
+          `<td data-label="Matchup">${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
+          `<td data-label="Pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}</td>` +
+          `<td data-label="Book">${`<span class="pill ${mktPill}">${marketLabel(mkt)}</span>`}<div class="meta">${fmtLeanMeta(p)}</div></td>` +
+          `<td data-label="Line">${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
+          `<td data-label="Result"><span class="pill ${resPill}">${r || 'OPEN'}</span>${p.gradeSource ? `<div class="meta">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
+          `<td data-label="Profit">${profit}</td>` +
           `</tr>`
         );
       })
