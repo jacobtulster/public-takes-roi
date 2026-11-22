@@ -8,12 +8,23 @@ Data: [`data/picks.json`](./data/picks.json) — synced from the Pinny userscrip
 
 Matchups are deduped by `game# + away@home + role + side + market`.
 
+## ATS vs moneyline
+
+The dashboard keeps **two separate books**:
+
+- **ATS** — spread / puck-line / run-line takes (`market: "spread"`)
+- **Moneyline** — ML takes only (`market: "ml"`)
+
+ROI cards, equity curves, and the picks table never mix the two. Switch with the ATS / Moneyline tabs.
+
+When OddsLogic logs both a spread and an ML take on the same game, both rows are kept (different `pickKey` / `market`).
+
 ## Grading
 
 Open picks are settled automatically from ESPN finals (NCAAF / CFB, NCAAB, NFL, NBA, NHL, MLB, WNBA) by [`scripts/grade_picks.py`](./scripts/grade_picks.py).
 
-- Spreads: take-side points (`line`) vs final score → W / L / P, profit from American `price`
-- Moneylines: winner vs take side
+- Spreads (ATS): take-side points (`line`) vs final score → W / L / P, profit from American `price`
+- Moneylines: winner vs take side → W / L / P (ties push), profit from American `price`
 - GitHub Action [`.github/workflows/grade.yml`](./.github/workflows/grade.yml) runs every 30 minutes and on manual dispatch
 
 ```bash

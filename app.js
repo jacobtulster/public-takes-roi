@@ -12,8 +12,23 @@
   let store = { updatedAt: null, picks: [] };
   let chart;
   let activeCard = 'all';
+  let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
 
   const $ = (sel) => document.querySelector(sel);
+
+  function marketOf(pick) {
+    const m = String(pick.market || '').toLowerCase();
+    if (m === 'ml' || m === 'moneyline' || m === 'h2h') return 'ml';
+    return 'spread';
+  }
+
+  function marketLabel(m) {
+    return m === 'ml' ? 'Moneyline' : 'ATS';
+  }
+
+  function picksForMarket(market) {
+    return (store.picks || []).filter((p) => marketOf(p) === market);
+  }
 
   function bucketKeysFor(pick) {
     const role = String(pick.takeRole || '').toUpperCase();
@@ -74,6 +89,37 @@
     return (n >= 0 ? '+' : '') + n.toFixed(2) + 'u';
   }
 
+  function renderMarketTabs() {
+    const root = $('#market-tabs');
+    if (!root) return;
+    const counts = {
+      spread: picksForMarket('spread').length,
+      ml: picksForMarket('ml').length,
+    };
+    root.innerHTML = [
+      { key: 'spread', label: 'ATS' },
+      { key: 'ml', label: 'Moneyline' },
+    ]
+      .map((tab) => {
+        const on = activeMarket === tab.key ? ' is-active' : '';
+        return (
+          `<button type="button" class="market-tab${on}" data-market="${tab.key}">` +
+          `${tab.label}<span class="market-count">${counts[tab.key]}</span>` +
+          `</button>`
+        );
+      })
+      .join('');
+    root.querySelectorAll('[data-market]').forEach((el) => {
+      el.addEventListener('click', () => {
+        activeMarket = el.getAttribute('data-market');
+        activeCard = 'all';
+        const chartSel = $('#chart-bucket');
+        if (chartSel) chartSel.value = 'all';
+        renderAll();
+      });
+    });
+  }
+
   function renderCards(aggs) {
     const root = $('#summary-cards');
     root.innerHTML = BUCKETS.map((b) => {
@@ -98,7 +144,7 @@
   }
 
   function gradedChrono(bucket) {
-    return store.picks
+    return picksForMarket(activeMarket)
       .filter((p) => {
         const r = String(p.result || '').toUpperCase();
         if (r !== 'W' && r !== 'L' && r !== 'P') return false;
@@ -140,6 +186,7 @@
         result: p.result,
         profit,
         cum,
+        market: marketLabel(marketOf(p)),
       });
     });
     return { labels, cumArr, pos, neg, tips };
@@ -150,6 +197,7 @@
     const { labels, cumArr, pos, neg, tips } = equitySeries(bucket);
     const ctx = $('#equity-chart');
     if (chart) chart.destroy();
+    const emptyTitle = `No graded ${marketLabel(activeMarket)} picks yet`;
     if (!labels.length) {
       chart = new Chart(ctx, {
         type: 'line',
@@ -159,7 +207,7 @@
           maintainAspectRatio: false,
           plugins: {
             legend: { display: false },
-            title: { display: true, text: 'No graded picks yet', color: '#93a0bb' },
+            title: { display: true, text: emptyTitle, color: '#93a0bb' },
           },
         },
       });
@@ -230,7 +278,7 @@
         },
         scales: {
           x: {
-            title: { display: true, text: 'Graded pick #', color: '#93a0bb' },
+            title: { display: true, text: `Graded ${marketLabel(activeMarket)} #`, color: '#93a0bb' },
             ticks: { color: '#93a0bb' },
             grid: { color: 'rgba(42,54,80,0.45)' },
           },
@@ -246,6 +294,7 @@
   }
 
   function matchesFilter(pick) {
+    if (marketOf(pick) !== activeMarket) return false;
     const bucket = $('#filter-bucket').value;
     const result = $('#filter-result').value;
     const q = ($('#filter-q').value || '').trim().toLowerCase();
@@ -256,7 +305,7 @@
     if (result === 'open' && (r === 'W' || r === 'L' || r === 'P')) return false;
     if (result && result !== 'open' && r !== result) return false;
     if (q) {
-      const hay = [pick.away, pick.home, pick.takeTeam, pick.league, pick.sport, pick.bucket]
+      const hay = [pick.away, pick.home, pick.takeTeam, pick.league, pick.sport, pick.bucket, pick.market]
         .join(' ')
         .toLowerCase();
       if (!hay.includes(q)) return false;
@@ -271,6 +320,13 @@
       .sort((a, b) => String(b.loggedAt || '').localeCompare(String(a.loggedAt || '')))
       .filter(matchesFilter);
     $('#picks-empty').hidden = rows.length > 0;
+    const empty = $('#picks-empty');
+    if (empty) {
+      empty.textContent =
+        activeMarket === 'ml'
+          ? 'No moneyline takes yet — ML is tracked separately from ATS when OddsLogic logs an ML take.'
+          : 'No ATS picks yet — configure the OddsLogic userscript sync, then refresh.';
+    }
     body.innerHTML = rows
       .map((p) => {
         const r = String(p.result || '').toUpperCase();
@@ -278,6 +334,8 @@
         const rolePill = role === 'DOG' ? 'pill-dog' : 'pill-fav';
         const resPill =
           r === 'W' ? 'pill-w' : r === 'L' ? 'pill-l' : r === 'P' ? 'pill-p' : 'pill-open';
+        const mkt = marketOf(p);
+        const mktPill = mkt === 'ml' ? 'pill-ml' : 'pill-ats';
         const line = fmtMarketLine(p);
         const when = p.loggedAt ? new Date(p.loggedAt).toLocaleString() : '—';
         const profit =
@@ -295,7 +353,7 @@
           `<td>${when}</td>` +
           `<td>${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
           `<td><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}</td>` +
-          `<td>${escapeHtml(p.bucket || '')}<div class="meta">${escapeHtml(p.ocLean || '')}</div></td>` +
+          `<td><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${escapeHtml(p.bucket || '')}${p.ocLean ? ' · ' + escapeHtml(p.ocLean) : ''}</div></td>` +
           `<td>${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
           `<td><span class="pill ${resPill}">${r || 'OPEN'}</span>${p.gradeSource ? `<div class="meta">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
           `<td>${profit}</td>` +
@@ -320,7 +378,7 @@
   }
 
   function fmtMarketLine(p) {
-    if (String(p.market || '').toLowerCase() === 'spread') {
+    if (marketOf(p) === 'spread') {
       const line = fmtSigned(p.line);
       if (line == null) return '—';
       const juice = fmtSigned(p.price);
@@ -331,13 +389,26 @@
   }
 
   function renderAll() {
-    const aggs = summarize(store.picks || []);
+    const marketPicks = picksForMarket(activeMarket);
+    const aggs = summarize(marketPicks);
     const updated = store.updatedAt
       ? 'Updated ' + new Date(store.updatedAt).toLocaleString()
-      : (store.picks || []).length
-        ? `${store.picks.length} picks`
+      : marketPicks.length
+        ? `${marketPicks.length} ${marketLabel(activeMarket)} picks`
         : 'No data yet';
     $('#updated-at').textContent = updated;
+    const bookHint = $('#book-hint');
+    if (bookHint) {
+      bookHint.textContent =
+        activeMarket === 'ml'
+          ? 'Moneyline book only — ROI here never mixes with ATS spreads.'
+          : 'ATS / spread book only — moneyline takes live on the Moneyline tab.';
+    }
+    const chartTitle = $('#chart-title');
+    if (chartTitle) chartTitle.textContent = `${marketLabel(activeMarket)} ROI equity`;
+    const picksTitle = $('#picks-title');
+    if (picksTitle) picksTitle.textContent = `${marketLabel(activeMarket)} picks`;
+    renderMarketTabs();
     renderCards(aggs);
     renderChart();
     renderTable();
