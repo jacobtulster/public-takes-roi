@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:15:09.799Z",
+  "updatedAt": "2026-11-22T16:15:39.516Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1509,11 +1509,11 @@
       "market": "spread",
       "line": -8.5,
       "price": -109,
-      "tixFav": 21,
+      "tixFav": 27,
       "monFav": 7,
-      "reason": "Tix 21% + $ 7% on fav (<50)",
+      "reason": "Tix 27% + $ 7% on fav (<50)",
       "startAt": "2026-11-23T01:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:50:58.613Z"
+      "leanUpdatedAt": "2026-11-22T16:15:36.607Z"
     },
     {
       "pickKey": "m|549|indiana_at_new_york|FAV|home|ml",
@@ -1533,11 +1533,11 @@
       "market": "ml",
       "line": -349,
       "price": -349,
-      "tixFav": 21,
+      "tixFav": 27,
       "monFav": 7,
-      "reason": "Tix 21% + $ 7% on fav (<50)",
+      "reason": "Tix 27% + $ 7% on fav (<50)",
       "startAt": "2026-11-23T01:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:50:58.613Z"
+      "leanUpdatedAt": "2026-11-22T16:15:36.607Z"
     },
     {
       "pickKey": "m|671|western_kentucky_at_george_washington|DOG|away|spread",
