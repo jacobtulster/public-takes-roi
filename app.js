@@ -192,11 +192,16 @@
     return { labels, cumArr, pos, neg, tips };
   }
 
+  function isMobileChart() {
+    return window.matchMedia && window.matchMedia('(max-width: 720px)').matches;
+  }
+
   function renderChart() {
     const bucket = $('#chart-bucket').value || 'all';
     const { labels, cumArr, pos, neg, tips } = equitySeries(bucket);
     const ctx = $('#equity-chart');
     if (chart) chart.destroy();
+    const mobile = isMobileChart();
     const emptyTitle = `No graded ${marketLabel(activeMarket)} picks yet`;
     if (!labels.length) {
       chart = new Chart(ctx, {
@@ -207,7 +212,7 @@
           maintainAspectRatio: false,
           plugins: {
             legend: { display: false },
-            title: { display: true, text: emptyTitle, color: '#93a0bb' },
+            title: { display: true, text: emptyTitle, color: '#93a0bb', font: { size: mobile ? 13 : 12 } },
           },
         },
       });
@@ -244,10 +249,10 @@
             borderColor: '#5ec8ff',
             backgroundColor: 'transparent',
             fill: false,
-            pointRadius: 3,
-            pointHoverRadius: 5,
+            pointRadius: mobile ? 4 : 3,
+            pointHoverRadius: mobile ? 6 : 5,
             tension: 0.15,
-            borderWidth: 2,
+            borderWidth: mobile ? 2.5 : 2,
             order: 1,
           },
         ],
@@ -255,12 +260,14 @@
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        layout: mobile ? { padding: { top: 4, right: 6, bottom: 2, left: 2 } } : {},
         interaction: { mode: 'index', intersect: false },
         plugins: {
-          legend: {
-            labels: { color: '#93a0bb', filter: (item) => item.text === 'Equity' },
-          },
+          legend: { display: false },
           tooltip: {
+            titleFont: { size: mobile ? 13 : 12 },
+            bodyFont: { size: mobile ? 13 : 12 },
+            padding: mobile ? 10 : 8,
             callbacks: {
               title(items) {
                 const i = items[0] && items[0].dataIndex;
@@ -278,13 +285,31 @@
         },
         scales: {
           x: {
-            title: { display: true, text: `Graded ${marketLabel(activeMarket)} #`, color: '#93a0bb' },
-            ticks: { color: '#93a0bb' },
+            title: {
+              display: !mobile,
+              text: `Graded ${marketLabel(activeMarket)} #`,
+              color: '#93a0bb',
+            },
+            ticks: {
+              color: '#93a0bb',
+              font: { size: mobile ? 11 : 11 },
+              maxRotation: 0,
+              autoSkip: true,
+              maxTicksLimit: mobile ? 6 : 12,
+            },
             grid: { color: 'rgba(42,54,80,0.45)' },
           },
           y: {
-            title: { display: true, text: 'Cumulative units', color: '#93a0bb' },
-            ticks: { color: '#93a0bb' },
+            title: {
+              display: !mobile,
+              text: 'Cumulative units',
+              color: '#93a0bb',
+            },
+            ticks: {
+              color: '#c5d0e6',
+              font: { size: mobile ? 12 : 11 },
+              maxTicksLimit: mobile ? 5 : 8,
+            },
             grid: { color: 'rgba(42,54,80,0.45)' },
             grace: '8%',
           },
@@ -600,4 +625,18 @@
   setInterval(() => {
     loadRemote().catch(() => {});
   }, 60000);
+
+  let _chartMqTimer = 0;
+  if (window.matchMedia) {
+    const mq = window.matchMedia('(max-width: 720px)');
+    const onMq = () => {
+      if (_chartMqTimer) clearTimeout(_chartMqTimer);
+      _chartMqTimer = setTimeout(() => {
+        _chartMqTimer = 0;
+        if (store && store.picks) renderChart();
+      }, 120);
+    };
+    if (mq.addEventListener) mq.addEventListener('change', onMq);
+    else if (mq.addListener) mq.addListener(onMq);
+  }
 })();
