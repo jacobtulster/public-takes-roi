@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:01:39.196Z",
+  "updatedAt": "2026-11-22T23:03:59.439161Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -235,7 +235,14 @@
       "price": -1364,
       "tixFav": 48,
       "monFav": 49,
-      "reason": "Tix 48% + $ 49% on fav (<50)"
+      "reason": "Tix 48% + $ 49% on fav (<50)",
+      "result": "W",
+      "profit": 0.0733,
+      "awayScore": 9.0,
+      "homeScore": 26.0,
+      "gradedAt": "2026-11-22T23:03:57.862804Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873070"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|spread",
@@ -314,7 +321,14 @@
       "price": -102,
       "tixFav": 33,
       "monFav": 24,
-      "reason": "Tix 33% + $ 24% on fav (<50)"
+      "reason": "Tix 33% + $ 24% on fav (<50)",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 84.0,
+      "homeScore": 79.0,
+      "gradedAt": "2026-11-22T23:03:58.224657Z",
+      "gradeSource": "espn",
+      "espnEventId": "401928790"
     },
     {
       "pickKey": "m|3|buffalo_at_tampa_bay|DOG|away|spread",
@@ -362,7 +376,14 @@
       "monFav": 71,
       "reason": "Tix 81% + $ 71% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T18:02:09.523Z"
+      "leanUpdatedAt": "2026-11-22T18:02:09.523Z",
+      "result": "W",
+      "profit": 0.7937,
+      "awayScore": 16.0,
+      "homeScore": 19.0,
+      "gradedAt": "2026-11-22T23:03:58.410759Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873076"
     },
     {
       "pickKey": "m|455|jacksonville_at_n_y_giants|DOG|home|ml",
@@ -537,7 +558,14 @@
       "monFav": 99,
       "reason": "Tix 94% + $ 99% on fav",
       "startAt": "2026-11-22T17:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:01:14.643Z"
+      "leanUpdatedAt": "2026-11-22T17:01:14.643Z",
+      "result": "W",
+      "profit": 1.0,
+      "awayScore": 76.0,
+      "homeScore": 74.0,
+      "gradedAt": "2026-11-22T23:03:58.412898Z",
+      "gradeSource": "espn",
+      "espnEventId": "401902281"
     },
     {
       "pickKey": "m|683|cs_fullerton_at_portland_state|DOG|away|spread",
@@ -583,7 +611,14 @@
       "price": -124,
       "tixFav": 33,
       "monFav": 24,
-      "reason": "Tix 33% + $ 24% on fav (<50)"
+      "reason": "Tix 33% + $ 24% on fav (<50)",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 84.0,
+      "homeScore": 79.0,
+      "gradedAt": "2026-11-22T23:03:58.416127Z",
+      "gradeSource": "espn",
+      "espnEventId": "401928790"
     },
     {
       "pickKey": "m|79|minnesota_at_vancouver|DOG|home|spread",
@@ -642,7 +677,14 @@
       "monFav": 81,
       "reason": "Tix 82% + $ 81% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:36:39.683Z"
+      "leanUpdatedAt": "2026-11-22T16:36:39.683Z",
+      "result": "W",
+      "profit": 0.8621,
+      "awayScore": 66.0,
+      "homeScore": 46.0,
+      "gradedAt": "2026-11-22T23:03:58.417631Z",
+      "gradeSource": "espn",
+      "espnEventId": "401929023"
     },
     {
       "pickKey": "m|473|cincinnati_at_washington|DOG|home|spread",
@@ -688,7 +730,14 @@
       "monFav": 99,
       "reason": "Tix 94% + $ 99% on fav",
       "startAt": "2026-11-22T17:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:01:14.643Z"
+      "leanUpdatedAt": "2026-11-22T17:01:14.643Z",
+      "result": "W",
+      "profit": 5.95,
+      "awayScore": 76.0,
+      "homeScore": 74.0,
+      "gradedAt": "2026-11-22T23:03:58.700783Z",
+      "gradeSource": "espn",
+      "espnEventId": "401902281"
     },
     {
       "pickKey": "m|679|liberty_at_richmond|DOG|home|spread",
@@ -793,7 +842,14 @@
       "monFav": 81,
       "reason": "Tix 82% + $ 81% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:36:39.683Z"
+      "leanUpdatedAt": "2026-11-22T16:36:39.683Z",
+      "result": "W",
+      "profit": 1.53,
+      "awayScore": 66.0,
+      "homeScore": 46.0,
+      "gradedAt": "2026-11-22T23:03:58.701788Z",
+      "gradeSource": "espn",
+      "espnEventId": "401929023"
     },
     {
       "pickKey": "m|473|cincinnati_at_washington|DOG|home|ml",
@@ -931,7 +987,14 @@
       "price": 107,
       "tixFav": 47,
       "monFav": 49,
-      "reason": "Tix 47% + $ 49% on fav (<50)"
+      "reason": "Tix 47% + $ 49% on fav (<50)",
+      "result": "P",
+      "profit": 0.0,
+      "awayScore": 9.0,
+      "homeScore": 26.0,
+      "gradedAt": "2026-11-22T23:03:59.126490Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873070"
     },
     {
       "pickKey": "m|545|denver_at_chicago|DOG|home|ml",
@@ -977,7 +1040,14 @@
       "monFav": 70,
       "reason": "Tix 81% + $ 70% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T18:02:09.523Z"
+      "leanUpdatedAt": "2026-11-22T18:02:09.523Z",
+      "result": "W",
+      "profit": 1.76,
+      "awayScore": 16.0,
+      "homeScore": 19.0,
+      "gradedAt": "2026-11-22T23:03:59.126490Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873076"
     },
     {
       "pickKey": "m|667|evansville_at_memphis|DOG|away|spread",
@@ -1001,7 +1071,14 @@
       "monFav": 88,
       "reason": "Tix 75% + $ 88% on fav",
       "startAt": "2026-11-22T19:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:36:15.115Z"
+      "leanUpdatedAt": "2026-11-22T17:36:15.115Z",
+      "result": "W",
+      "profit": 0.9615,
+      "awayScore": 62.0,
+      "homeScore": 82.0,
+      "gradedAt": "2026-11-22T23:03:59.127997Z",
+      "gradeSource": "espn",
+      "espnEventId": "401918988"
     },
     {
       "pickKey": "m|543|dallas_at_utah|DOG|home|spread",
@@ -1235,7 +1312,14 @@
       "monFav": 85,
       "reason": "Tix 80% + $ 85% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:57:14.861Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.861Z",
+      "result": "W",
+      "profit": 0.9346,
+      "awayScore": 55.0,
+      "homeScore": 79.0,
+      "gradedAt": "2026-11-22T23:03:59.131888Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920736"
     },
     {
       "pickKey": "m|659|dayton_at_northwestern|DOG|home|ml",
@@ -1259,7 +1343,14 @@
       "monFav": 85,
       "reason": "Tix 80% + $ 85% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:57:14.861Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.861Z",
+      "result": "W",
+      "profit": 1.42,
+      "awayScore": 55.0,
+      "homeScore": 79.0,
+      "gradedAt": "2026-11-22T23:03:59.132897Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920736"
     },
     {
       "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|spread",
@@ -1283,7 +1374,14 @@
       "monFav": 94,
       "reason": "Tix 91% + $ 94% on fav",
       "startAt": "2026-11-22T20:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:18:02.910Z"
+      "leanUpdatedAt": "2026-11-22T17:18:02.910Z",
+      "result": "W",
+      "profit": 0.9259,
+      "awayScore": 80.0,
+      "homeScore": 106.0,
+      "gradedAt": "2026-11-22T23:03:59.133903Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920381"
     },
     {
       "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|ml",
@@ -1307,7 +1405,14 @@
       "monFav": 94,
       "reason": "Tix 91% + $ 94% on fav",
       "startAt": "2026-11-22T20:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:18:02.910Z"
+      "leanUpdatedAt": "2026-11-22T17:18:02.910Z",
+      "result": "W",
+      "profit": 1.02,
+      "awayScore": 80.0,
+      "homeScore": 106.0,
+      "gradedAt": "2026-11-22T23:03:59.136422Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920381"
     },
     {
       "pickKey": "m|663|san_diego_at_fordham|DOG|away|spread",
@@ -1331,7 +1436,14 @@
       "monFav": 75,
       "reason": "Tix 72% + $ 75% on fav",
       "startAt": "2026-11-22T19:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:57:14.861Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.861Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 58.0,
+      "homeScore": 80.0,
+      "gradedAt": "2026-11-22T23:03:59.136422Z",
+      "gradeSource": "espn",
+      "espnEventId": "401911200"
     },
     {
       "pickKey": "m|663|san_diego_at_fordham|DOG|away|ml",
@@ -1355,7 +1467,14 @@
       "monFav": 75,
       "reason": "Tix 72% + $ 75% on fav",
       "startAt": "2026-11-22T19:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:57:14.861Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.861Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 58.0,
+      "homeScore": 80.0,
+      "gradedAt": "2026-11-22T23:03:59.138993Z",
+      "gradeSource": "espn",
+      "espnEventId": "401911200"
     },
     {
       "pickKey": "m|697|seattle_at_uc_san_diego|FAV|home|spread",
@@ -1571,7 +1690,14 @@
       "tixFav": 90,
       "monFav": 75,
       "reason": "Tix 90% + $ 75% on fav",
-      "leanUpdatedAt": "2026-11-22T16:42:14.513Z"
+      "leanUpdatedAt": "2026-11-22T16:42:14.513Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 78.0,
+      "homeScore": 86.0,
+      "gradedAt": "2026-11-22T23:03:59.165824Z",
+      "gradeSource": "espn",
+      "espnEventId": "401928802"
     },
     {
       "pickKey": "m|671|western_kentucky_at_george_washington|DOG|away|ml",
@@ -1595,7 +1721,14 @@
       "tixFav": 90,
       "monFav": 75,
       "reason": "Tix 90% + $ 75% on fav",
-      "leanUpdatedAt": "2026-11-22T16:42:14.513Z"
+      "leanUpdatedAt": "2026-11-22T16:42:14.513Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 78.0,
+      "homeScore": 86.0,
+      "gradedAt": "2026-11-22T23:03:59.166827Z",
+      "gradeSource": "espn",
+      "espnEventId": "401928802"
     },
     {
       "pickKey": "m|675|southern_indiana_at_texas|FAV|home|spread",
@@ -1619,7 +1752,14 @@
       "tixFav": 44,
       "monFav": 43,
       "reason": "Tix 44% + $ 43% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T15:22:42.404Z"
+      "leanUpdatedAt": "2026-11-22T15:22:42.404Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 61.0,
+      "homeScore": 97.0,
+      "gradedAt": "2026-11-22T23:03:59.166827Z",
+      "gradeSource": "espn",
+      "espnEventId": "401906868"
     },
     {
       "pickKey": "m|681|uc_irvine_at_loyola_marymount|DOG|home|spread",
@@ -1787,7 +1927,14 @@
       "tixFav": 77,
       "monFav": 72,
       "reason": "Tix 77% + $ 72% on fav",
-      "leanUpdatedAt": "2026-11-22T18:02:09.523Z"
+      "leanUpdatedAt": "2026-11-22T18:02:09.523Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 21.0,
+      "homeScore": 31.0,
+      "gradedAt": "2026-11-22T23:03:59.177938Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873072"
     },
     {
       "pickKey": "m|453|tampa_bay_at_detroit|DOG|away|ml",
@@ -1811,7 +1958,14 @@
       "tixFav": 77,
       "monFav": 72,
       "reason": "Tix 77% + $ 72% on fav",
-      "leanUpdatedAt": "2026-11-22T18:02:09.523Z"
+      "leanUpdatedAt": "2026-11-22T18:02:09.523Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 21.0,
+      "homeScore": 31.0,
+      "gradedAt": "2026-11-22T23:03:59.177938Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873072"
     },
     {
       "pickKey": "m|653|miami_ohio_at_illinois_chicago|FAV|home|spread",
@@ -1835,7 +1989,14 @@
       "tixFav": 11,
       "monFav": 21,
       "reason": "Tix 11% + $ 21% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T17:01:14.643Z"
+      "leanUpdatedAt": "2026-11-22T17:01:14.643Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 71.0,
+      "homeScore": 60.0,
+      "gradedAt": "2026-11-22T23:03:59.179422Z",
+      "gradeSource": "espn",
+      "espnEventId": "401911024"
     },
     {
       "pickKey": "m|653|miami_ohio_at_illinois_chicago|FAV|home|ml",
@@ -1859,7 +2020,14 @@
       "tixFav": 11,
       "monFav": 21,
       "reason": "Tix 11% + $ 21% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T17:01:14.643Z"
+      "leanUpdatedAt": "2026-11-22T17:01:14.643Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 71.0,
+      "homeScore": 60.0,
+      "gradedAt": "2026-11-22T23:03:59.180432Z",
+      "gradeSource": "espn",
+      "espnEventId": "401911024"
     },
     {
       "pickKey": "m|701|temple_at_stephen_f_austin|FAV|away|spread",
@@ -1931,7 +2099,14 @@
       "tixFav": 84,
       "monFav": 98,
       "reason": "Tix 84% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-22T17:57:14.861Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.861Z",
+      "result": "W",
+      "profit": 0.8772,
+      "awayScore": 79.0,
+      "homeScore": 61.0,
+      "gradedAt": "2026-11-22T23:03:59.182437Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921706"
     },
     {
       "pickKey": "m|661|duquesne_at_wyoming|DOG|away|ml",
@@ -1955,7 +2130,14 @@
       "tixFav": 84,
       "monFav": 98,
       "reason": "Tix 84% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-22T17:57:14.861Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.861Z",
+      "result": "W",
+      "profit": 1.46,
+      "awayScore": 79.0,
+      "homeScore": 61.0,
+      "gradedAt": "2026-11-22T23:03:59.183441Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921706"
     },
     {
       "pickKey": "m|679|liberty_at_richmond|FAV|home|spread",
@@ -2121,7 +2303,14 @@
       "tixFav": 74,
       "monFav": 82,
       "reason": "Tix 74% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-22T20:09:24.966Z"
+      "leanUpdatedAt": "2026-11-22T20:09:24.966Z",
+      "result": "W",
+      "profit": 0.9346,
+      "awayScore": 97.0,
+      "homeScore": 107.0,
+      "gradedAt": "2026-11-22T23:03:59.403316Z",
+      "gradeSource": "espn",
+      "espnEventId": "401910029"
     },
     {
       "pickKey": "m|539|detroit_at_atlanta|DOG|home|ml",
@@ -2145,7 +2334,14 @@
       "tixFav": 74,
       "monFav": 82,
       "reason": "Tix 74% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-22T20:09:24.966Z"
+      "leanUpdatedAt": "2026-11-22T20:09:24.966Z",
+      "result": "W",
+      "profit": 1.03,
+      "awayScore": 97.0,
+      "homeScore": 107.0,
+      "gradedAt": "2026-11-22T23:03:59.403316Z",
+      "gradeSource": "espn",
+      "espnEventId": "401910029"
     },
     {
       "pickKey": "m|693|uab_at_rhode_island_sc|FAV|home|spread",
@@ -2217,7 +2413,14 @@
       "tixFav": 72,
       "monFav": 71,
       "reason": "Tix 72% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-22T17:54:15.359Z"
+      "leanUpdatedAt": "2026-11-22T17:54:15.359Z",
+      "result": "W",
+      "profit": 0.9709,
+      "awayScore": 33.0,
+      "homeScore": 35.0,
+      "gradedAt": "2026-11-22T23:03:59.411167Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873068"
     },
     {
       "pickKey": "m|451|baltimore_at_carolina|DOG|away|ml",
@@ -2241,7 +2444,14 @@
       "tixFav": 72,
       "monFav": 71,
       "reason": "Tix 72% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-22T17:54:15.359Z"
+      "leanUpdatedAt": "2026-11-22T17:54:15.359Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 33.0,
+      "homeScore": 35.0,
+      "gradedAt": "2026-11-22T23:03:59.412171Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873068"
     },
     {
       "pickKey": "m|669|utah_tech_at_south_dakota|DOG|home|spread",
@@ -2265,7 +2475,14 @@
       "tixFav": 78,
       "monFav": 99,
       "reason": "Tix 78% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T17:57:14.862Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.862Z",
+      "result": "P",
+      "profit": 0.0,
+      "awayScore": 74.0,
+      "homeScore": 73.0,
+      "gradedAt": "2026-11-22T23:03:59.413174Z",
+      "gradeSource": "espn",
+      "espnEventId": "401925942"
     },
     {
       "pickKey": "m|669|utah_tech_at_south_dakota|DOG|home|ml",
@@ -2289,7 +2506,14 @@
       "tixFav": 78,
       "monFav": 99,
       "reason": "Tix 78% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T17:57:14.862Z"
+      "leanUpdatedAt": "2026-11-22T17:57:14.862Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 74.0,
+      "homeScore": 73.0,
+      "gradedAt": "2026-11-22T23:03:59.414034Z",
+      "gradeSource": "espn",
+      "espnEventId": "401925942"
     },
     {
       "pickKey": "m|675|southern_indiana_at_texas|DOG|away|spread",
@@ -2312,7 +2536,14 @@
       "price": -115,
       "tixFav": 71,
       "monFav": 80,
-      "reason": "Tix 71% + $ 80% on fav"
+      "reason": "Tix 71% + $ 80% on fav",
+      "result": "W",
+      "profit": 0.8696,
+      "awayScore": 61.0,
+      "homeScore": 97.0,
+      "gradedAt": "2026-11-22T23:03:59.414034Z",
+      "gradeSource": "espn",
+      "espnEventId": "401906868"
     },
     {
       "pickKey": "m|703|ut_martin_at_utah_valley|DOG|away|spread",
