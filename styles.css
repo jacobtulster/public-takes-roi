@@ -338,12 +338,23 @@ th {
 .lean-glow {
   font-weight: 700;
   letter-spacing: 0.03em;
+  animation: lean-pulse 2.2s ease-in-out infinite;
+}
+
+.lean-glow-fav {
+  color: #2fb872;
+  text-shadow:
+    0 0 6px rgba(47, 184, 114, 0.9),
+    0 0 14px rgba(35, 150, 90, 0.6),
+    0 0 24px rgba(25, 120, 70, 0.35);
+}
+
+.lean-glow-dog {
   color: #d4893f;
   text-shadow:
     0 0 6px rgba(212, 137, 63, 0.9),
     0 0 14px rgba(180, 100, 35, 0.6),
     0 0 24px rgba(150, 80, 20, 0.35);
-  animation: lean-pulse 2.2s ease-in-out infinite;
 }
 
 @keyframes lean-pulse {
