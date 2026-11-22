@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:26:49.476Z",
+  "updatedAt": "2026-11-22T16:29:47.743Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -43,11 +43,11 @@
       "market": "spread",
       "line": -10.5,
       "price": -109,
-      "tixFav": 49,
+      "tixFav": 48,
       "monFav": 41,
-      "reason": "Tix 49% + $ 41% on fav (<50)",
+      "reason": "Tix 48% + $ 41% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
+      "leanUpdatedAt": "2026-11-22T16:29:44.614Z"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -209,11 +209,11 @@
       "market": "ml",
       "line": -573,
       "price": -573,
-      "tixFav": 49,
+      "tixFav": 48,
       "monFav": 41,
-      "reason": "Tix 49% + $ 41% on fav (<50)",
+      "reason": "Tix 48% + $ 41% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
+      "leanUpdatedAt": "2026-11-22T16:29:44.614Z"
     },
     {
       "pickKey": "m|463|miami_at_buffalo|FAV|home|ml",
@@ -358,11 +358,11 @@
       "market": "spread",
       "line": 4.5,
       "price": -126,
-      "tixFav": 79,
-      "monFav": 74,
-      "reason": "Tix 79% + $ 74% on fav",
+      "tixFav": 80,
+      "monFav": 75,
+      "reason": "Tix 80% + $ 75% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:24:50.615Z"
+      "leanUpdatedAt": "2026-11-22T16:29:44.614Z"
     },
     {
       "pickKey": "m|455|jacksonville_at_n_y_giants|DOG|home|ml",
@@ -971,11 +971,11 @@
       "market": "ml",
       "line": 176,
       "price": 176,
-      "tixFav": 79,
-      "monFav": 74,
-      "reason": "Tix 79% + $ 74% on fav",
+      "tixFav": 80,
+      "monFav": 75,
+      "reason": "Tix 80% + $ 75% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:24:50.615Z"
+      "leanUpdatedAt": "2026-11-22T16:29:44.614Z"
     },
     {
       "pickKey": "m|667|evansville_at_memphis|DOG|away|spread",
