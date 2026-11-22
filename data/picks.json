@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:56:30.932Z",
+  "updatedAt": "2026-11-22T16:56:34.511Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -353,8 +353,8 @@
       "takeRole": "DOG",
       "takeTeam": "Philadelphia",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 4.5,
       "price": -126,
@@ -362,7 +362,7 @@
       "monFav": 75,
       "reason": "Tix 80% + $ 75% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:56:27.629Z"
+      "leanUpdatedAt": "2026-11-22T16:56:31.627Z"
     },
     {
       "pickKey": "m|455|jacksonville_at_n_y_giants|DOG|home|ml",
@@ -966,8 +966,8 @@
       "takeRole": "DOG",
       "takeTeam": "Philadelphia",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "ml",
       "line": 176,
       "price": 176,
@@ -975,7 +975,7 @@
       "monFav": 75,
       "reason": "Tix 80% + $ 75% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:56:27.629Z"
+      "leanUpdatedAt": "2026-11-22T16:56:31.627Z"
     },
     {
       "pickKey": "m|667|evansville_at_memphis|DOG|away|spread",
