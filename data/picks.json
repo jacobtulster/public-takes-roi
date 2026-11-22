@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:55:18.996Z",
+  "updatedAt": "2026-11-22T19:57:17.404Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -480,14 +480,16 @@
       "takeRole": "DOG",
       "takeTeam": "Utah",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 111,
       "price": 111,
-      "tixFav": 83,
-      "monFav": 86,
-      "reason": "Tix 83% + $ 86% on fav"
+      "tixFav": 70,
+      "monFav": 78,
+      "reason": "Tix 70% + $ 78% on fav",
+      "startAt": "2026-11-23T00:10:00.000Z",
+      "leanUpdatedAt": "2026-11-22T19:56:13.882Z"
     },
     {
       "pickKey": "m|679|liberty_at_richmond|DOG|home|ml",
@@ -1014,14 +1016,16 @@
       "takeRole": "DOG",
       "takeTeam": "Utah",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 2,
       "price": -106,
-      "tixFav": 83,
-      "monFav": 86,
-      "reason": "Tix 83% + $ 86% on fav"
+      "tixFav": 70,
+      "monFav": 78,
+      "reason": "Tix 70% + $ 78% on fav",
+      "startAt": "2026-11-23T00:10:00.000Z",
+      "leanUpdatedAt": "2026-11-22T19:56:13.882Z"
     },
     {
       "pickKey": "m|687|utah_at_minnesota|DOG|away|ml",
@@ -1636,10 +1640,10 @@
       "market": "spread",
       "line": 2.5,
       "price": -114,
-      "tixFav": 82,
+      "tixFav": 83,
       "monFav": 99,
-      "reason": "Tix 82% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T19:18:11.495Z"
+      "reason": "Tix 83% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-22T19:56:13.882Z"
     },
     {
       "pickKey": "m|681|uc_irvine_at_loyola_marymount|DOG|home|ml",
@@ -1660,10 +1664,10 @@
       "market": "ml",
       "line": 113,
       "price": 113,
-      "tixFav": 82,
+      "tixFav": 83,
       "monFav": 99,
-      "reason": "Tix 82% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-22T19:18:11.495Z"
+      "reason": "Tix 83% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-22T19:56:13.883Z"
     },
     {
       "pickKey": "m|699|san_jose_state_at_loyola_chicago|DOG|away|spread",
