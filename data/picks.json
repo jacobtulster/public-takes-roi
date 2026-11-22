@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:51:37.469Z",
+  "updatedAt": "2026-11-22T23:54:21.514Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2322,10 +2322,10 @@
       "market": "spread",
       "line": -1.5,
       "price": 213,
-      "tixFav": 23,
+      "tixFav": 22,
       "monFav": 23,
-      "reason": "Tix 23% + $ 23% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T23:50:18.453Z"
+      "reason": "Tix 22% + $ 23% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T23:54:18.444Z"
     },
     {
       "pickKey": "m|7|edmonton_at_st_louis|FAV|home|ml",
@@ -2346,10 +2346,10 @@
       "market": "ml",
       "line": -122,
       "price": -122,
-      "tixFav": 23,
+      "tixFav": 22,
       "monFav": 23,
-      "reason": "Tix 23% + $ 23% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T23:50:18.453Z"
+      "reason": "Tix 22% + $ 23% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T23:54:18.444Z"
     },
     {
       "pickKey": "m|539|detroit_at_atlanta|DOG|home|spread",
