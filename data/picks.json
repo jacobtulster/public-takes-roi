@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:40:28.143Z",
+  "updatedAt": "2026-11-22T17:47:57.126Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -334,11 +334,11 @@
       "market": "spread",
       "line": 1.5,
       "price": -144,
-      "tixFav": 74,
+      "tixFav": 75,
       "monFav": 96,
-      "reason": "Tix 74% + $ 96% on fav",
+      "reason": "Tix 75% + $ 96% on fav",
       "startAt": "2026-11-22T22:07:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:34:15.098Z"
+      "leanUpdatedAt": "2026-11-22T17:42:14.797Z"
     },
     {
       "pickKey": "m|469|pittsburgh_at_philadelphia|DOG|home|spread",
@@ -857,11 +857,11 @@
       "market": "spread",
       "line": 29.5,
       "price": -113,
-      "tixFav": 93,
+      "tixFav": 94,
       "monFav": 99,
-      "reason": "Tix 93% + $ 99% on fav",
+      "reason": "Tix 94% + $ 99% on fav",
       "startAt": "2026-11-23T00:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:14:14.632Z"
+      "leanUpdatedAt": "2026-11-22T17:44:14.621Z"
     },
     {
       "pickKey": "m|683|cs_fullerton_at_portland_state|DOG|away|ml",
@@ -1146,11 +1146,11 @@
       "market": "ml",
       "line": 177,
       "price": 177,
-      "tixFav": 74,
+      "tixFav": 75,
       "monFav": 96,
-      "reason": "Tix 74% + $ 96% on fav",
+      "reason": "Tix 75% + $ 96% on fav",
       "startAt": "2026-11-22T22:07:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:34:15.099Z"
+      "leanUpdatedAt": "2026-11-22T17:42:14.797Z"
     },
     {
       "pickKey": "m|541|oklahoma_city_at_miami|DOG|away|ml",
@@ -1324,10 +1324,10 @@
       "line": 3,
       "price": -110,
       "tixFav": 88,
-      "monFav": 86,
-      "reason": "Tix 88% + $ 86% on fav",
+      "monFav": 85,
+      "reason": "Tix 88% + $ 85% on fav",
       "startAt": "2026-11-22T19:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:34:15.096Z"
+      "leanUpdatedAt": "2026-11-22T17:43:14.759Z"
     },
     {
       "pickKey": "m|663|san_diego_at_fordham|DOG|away|ml",
@@ -1348,10 +1348,10 @@
       "line": 129,
       "price": 129,
       "tixFav": 88,
-      "monFav": 86,
-      "reason": "Tix 88% + $ 86% on fav",
+      "monFav": 85,
+      "reason": "Tix 88% + $ 85% on fav",
       "startAt": "2026-11-22T19:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T17:34:15.096Z"
+      "leanUpdatedAt": "2026-11-22T17:43:14.759Z"
     },
     {
       "pickKey": "m|697|seattle_at_uc_san_diego|FAV|home|spread",
@@ -1371,11 +1371,11 @@
       "market": "spread",
       "line": -1,
       "price": -109,
-      "tixFav": 37,
+      "tixFav": 33,
       "monFav": 23,
-      "reason": "Tix 37% + $ 23% on fav (<50)",
+      "reason": "Tix 33% + $ 23% on fav (<50)",
       "startAt": "2026-11-23T02:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:22:02.604Z"
+      "leanUpdatedAt": "2026-11-22T17:44:14.622Z"
     },
     {
       "pickKey": "m|697|seattle_at_uc_san_diego|FAV|home|ml",
@@ -1395,11 +1395,11 @@
       "market": "ml",
       "line": -114,
       "price": -114,
-      "tixFav": 37,
+      "tixFav": 33,
       "monFav": 23,
-      "reason": "Tix 37% + $ 23% on fav (<50)",
+      "reason": "Tix 33% + $ 23% on fav (<50)",
       "startAt": "2026-11-23T02:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:22:02.604Z"
+      "leanUpdatedAt": "2026-11-22T17:44:14.622Z"
     },
     {
       "pickKey": "m|691|california_baptist_at_portland|FAV|home|spread",
@@ -2066,10 +2066,10 @@
       "market": "spread",
       "line": -1.5,
       "price": 213,
-      "tixFav": 42,
-      "monFav": 31,
-      "reason": "Tix 42% + $ 31% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T17:14:14.634Z"
+      "tixFav": 38,
+      "monFav": 30,
+      "reason": "Tix 38% + $ 30% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T17:42:14.797Z"
     },
     {
       "pickKey": "m|7|edmonton_at_st_louis|FAV|home|ml",
@@ -2090,10 +2090,10 @@
       "market": "ml",
       "line": -122,
       "price": -122,
-      "tixFav": 42,
-      "monFav": 31,
-      "reason": "Tix 42% + $ 31% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T17:14:14.634Z"
+      "tixFav": 38,
+      "monFav": 30,
+      "reason": "Tix 38% + $ 30% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T17:42:14.797Z"
     },
     {
       "pickKey": "m|539|detroit_at_atlanta|DOG|home|spread",
@@ -2209,9 +2209,9 @@
       "line": 2.5,
       "price": -103,
       "tixFav": 72,
-      "monFav": 71,
-      "reason": "Tix 72% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-22T17:36:15.113Z"
+      "monFav": 72,
+      "reason": "Tix 72% + $ 72% on fav",
+      "leanUpdatedAt": "2026-11-22T17:42:14.792Z"
     },
     {
       "pickKey": "m|451|baltimore_at_carolina|DOG|away|ml",
@@ -2233,9 +2233,55 @@
       "line": 122,
       "price": 122,
       "tixFav": 72,
-      "monFav": 71,
-      "reason": "Tix 72% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-22T17:36:15.113Z"
+      "monFav": 72,
+      "reason": "Tix 72% + $ 72% on fav",
+      "leanUpdatedAt": "2026-11-22T17:42:14.792Z"
+    },
+    {
+      "pickKey": "m|669|utah_tech_at_south_dakota|DOG|home|spread",
+      "matchupId": "669|utah_tech_at_south_dakota|DOG|home|spread",
+      "loggedAt": "2026-11-22T17:42:14.794Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Utah Tech",
+      "home": "South Dakota",
+      "kick": "19:00",
+      "startAt": "2026-11-22T19:00:00.000Z",
+      "gameNumber": 669,
+      "takeRole": "DOG",
+      "takeTeam": "South Dakota",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 1,
+      "price": -106,
+      "tixFav": 88,
+      "monFav": 98,
+      "reason": "Tix 88% + $ 98% on fav"
+    },
+    {
+      "pickKey": "m|669|utah_tech_at_south_dakota|DOG|home|ml",
+      "matchupId": "669|utah_tech_at_south_dakota|DOG|home|ml",
+      "loggedAt": "2026-11-22T17:42:14.794Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Utah Tech",
+      "home": "South Dakota",
+      "kick": "19:00",
+      "startAt": "2026-11-22T19:00:00.000Z",
+      "gameNumber": 669,
+      "takeRole": "DOG",
+      "takeTeam": "South Dakota",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": -100,
+      "price": -100,
+      "tixFav": 88,
+      "monFav": 98,
+      "reason": "Tix 88% + $ 98% on fav"
     }
   ]
 }
