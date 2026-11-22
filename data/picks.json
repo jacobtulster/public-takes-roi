@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:32:07.469Z",
+  "updatedAt": "2026-11-22T15:34:55.448Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1752,6 +1752,52 @@
       "monFav": 87,
       "reason": "Tix 74% + $ 87% on fav",
       "leanUpdatedAt": "2026-11-22T15:30:42.399Z"
+    },
+    {
+      "pickKey": "m|453|tampa_bay_at_detroit|DOG|away|spread",
+      "matchupId": "453|tampa_bay_at_detroit|DOG|away|spread",
+      "loggedAt": "2026-11-22T15:34:52.388Z",
+      "sport": "NFL",
+      "league": "NFL WEEK 11 - Sunday, November 22nd",
+      "away": "Tampa Bay",
+      "home": "Detroit",
+      "kick": "18:00",
+      "startAt": "2026-11-22T18:00:00.000Z",
+      "gameNumber": 453,
+      "takeRole": "DOG",
+      "takeTeam": "Tampa Bay",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 3.5,
+      "price": -104,
+      "tixFav": 76,
+      "monFav": 70,
+      "reason": "Tix 76% + $ 70% on fav"
+    },
+    {
+      "pickKey": "m|453|tampa_bay_at_detroit|DOG|away|ml",
+      "matchupId": "453|tampa_bay_at_detroit|DOG|away|ml",
+      "loggedAt": "2026-11-22T15:34:52.388Z",
+      "sport": "NFL",
+      "league": "NFL WEEK 11 - Sunday, November 22nd",
+      "away": "Tampa Bay",
+      "home": "Detroit",
+      "kick": "18:00",
+      "startAt": "2026-11-22T18:00:00.000Z",
+      "gameNumber": 453,
+      "takeRole": "DOG",
+      "takeTeam": "Tampa Bay",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 177,
+      "price": 177,
+      "tixFav": 76,
+      "monFav": 70,
+      "reason": "Tix 76% + $ 70% on fav"
     }
   ]
 }
