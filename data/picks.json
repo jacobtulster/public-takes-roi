@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:22:41.430Z",
+  "updatedAt": "2026-11-22T15:22:45.361Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1606,10 +1606,10 @@
       "market": "spread",
       "line": -40,
       "price": -108,
-      "tixFav": 37,
-      "monFav": 40,
-      "reason": "Tix 37% + $ 40% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T15:05:06.597Z"
+      "tixFav": 44,
+      "monFav": 43,
+      "reason": "Tix 44% + $ 43% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T15:22:42.404Z"
     },
     {
       "pickKey": "m|681|uc_irvine_at_loyola_marymount|DOG|home|spread",
