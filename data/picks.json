@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:59:25.534Z",
+  "updatedAt": "2026-11-22T15:59:49.478Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1942,6 +1942,52 @@
       "tixFav": 95,
       "monFav": 98,
       "reason": "Tix 95% + $ 98% on fav"
+    },
+    {
+      "pickKey": "m|679|liberty_at_richmond|FAV|home|spread",
+      "matchupId": "679|liberty_at_richmond|FAV|home|spread",
+      "loggedAt": "2026-11-22T15:59:46.603Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Liberty",
+      "home": "Richmond",
+      "kick": "21:30",
+      "startAt": "2026-11-22T21:30:00.000Z",
+      "gameNumber": 679,
+      "takeRole": "FAV",
+      "takeTeam": "Richmond",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -1,
+      "price": -104,
+      "tixFav": 22,
+      "monFav": 20,
+      "reason": "Tix 22% + $ 20% on fav (<50)"
+    },
+    {
+      "pickKey": "m|679|liberty_at_richmond|FAV|home|ml",
+      "matchupId": "679|liberty_at_richmond|FAV|home|ml",
+      "loggedAt": "2026-11-22T15:59:46.603Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Liberty",
+      "home": "Richmond",
+      "kick": "21:30",
+      "startAt": "2026-11-22T21:30:00.000Z",
+      "gameNumber": 679,
+      "takeRole": "FAV",
+      "takeTeam": "Richmond",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -109,
+      "price": -109,
+      "tixFav": 22,
+      "monFav": 20,
+      "reason": "Tix 22% + $ 20% on fav (<50)"
     }
   ]
 }
