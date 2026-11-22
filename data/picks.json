@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:19:59.732Z",
+  "updatedAt": "2026-11-22T16:20:15.697Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1364,14 +1364,16 @@
       "takeRole": "FAV",
       "takeTeam": "UC San Diego",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "fav_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
       "market": "spread",
       "line": -1,
       "price": -109,
-      "tixFav": 20,
-      "monFav": 1,
-      "reason": "Tix 20% + $ 1% on fav (<50)"
+      "tixFav": 37,
+      "monFav": 23,
+      "reason": "Tix 37% + $ 23% on fav (<50)",
+      "startAt": "2026-11-23T02:30:00.000Z",
+      "leanUpdatedAt": "2026-11-22T16:20:12.605Z"
     },
     {
       "pickKey": "m|697|seattle_at_uc_san_diego|FAV|home|ml",
@@ -1386,14 +1388,16 @@
       "takeRole": "FAV",
       "takeTeam": "UC San Diego",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "fav_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
       "market": "ml",
       "line": -114,
       "price": -114,
-      "tixFav": 20,
-      "monFav": 1,
-      "reason": "Tix 20% + $ 1% on fav (<50)"
+      "tixFav": 37,
+      "monFav": 23,
+      "reason": "Tix 37% + $ 23% on fav (<50)",
+      "startAt": "2026-11-23T02:30:00.000Z",
+      "leanUpdatedAt": "2026-11-22T16:20:12.605Z"
     },
     {
       "pickKey": "m|691|california_baptist_at_portland|FAV|home|spread",
