@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:50:25.623Z",
+  "updatedAt": "2026-11-22T15:51:01.629Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -19,11 +19,11 @@
       "market": "spread",
       "line": -1,
       "price": -104,
-      "tixFav": 24,
+      "tixFav": 25,
       "monFav": 21,
-      "reason": "Tix 24% + $ 21% on fav (<50)",
+      "reason": "Tix 25% + $ 21% on fav (<50)",
       "startAt": "2026-11-23T00:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:26:00.400Z"
+      "leanUpdatedAt": "2026-11-22T15:50:58.613Z"
     },
     {
       "pickKey": "m|467|las_vegas_at_denver|FAV|home|spread",
@@ -1120,11 +1120,11 @@
       "market": "ml",
       "line": -108,
       "price": -108,
-      "tixFav": 24,
+      "tixFav": 25,
       "monFav": 21,
-      "reason": "Tix 24% + $ 21% on fav (<50)",
+      "reason": "Tix 25% + $ 21% on fav (<50)",
       "startAt": "2026-11-23T00:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:26:00.400Z"
+      "leanUpdatedAt": "2026-11-22T15:50:58.613Z"
     },
     {
       "pickKey": "m|3|buffalo_at_tampa_bay|DOG|away|ml",
@@ -1509,11 +1509,11 @@
       "market": "spread",
       "line": -8.5,
       "price": -109,
-      "tixFav": 17,
-      "monFav": 5,
-      "reason": "Tix 17% + $ 5% on fav (<50)",
+      "tixFav": 21,
+      "monFav": 7,
+      "reason": "Tix 21% + $ 7% on fav (<50)",
       "startAt": "2026-11-23T01:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:45:14.430Z"
+      "leanUpdatedAt": "2026-11-22T15:50:58.613Z"
     },
     {
       "pickKey": "m|549|indiana_at_new_york|FAV|home|ml",
@@ -1533,11 +1533,11 @@
       "market": "ml",
       "line": -349,
       "price": -349,
-      "tixFav": 17,
-      "monFav": 5,
-      "reason": "Tix 17% + $ 5% on fav (<50)",
+      "tixFav": 21,
+      "monFav": 7,
+      "reason": "Tix 21% + $ 7% on fav (<50)",
       "startAt": "2026-11-23T01:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:45:14.430Z"
+      "leanUpdatedAt": "2026-11-22T15:50:58.613Z"
     },
     {
       "pickKey": "m|671|western_kentucky_at_george_washington|DOG|away|spread",
