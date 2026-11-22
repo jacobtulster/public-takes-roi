@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:21:29.806Z",
+  "updatedAt": "2026-11-22T16:21:39.546Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1992,6 +1992,52 @@
       "tixFav": 22,
       "monFav": 20,
       "reason": "Tix 22% + $ 20% on fav (<50)"
+    },
+    {
+      "pickKey": "m|685|valparaiso_at_southern_miss|DOG|home|spread",
+      "matchupId": "685|valparaiso_at_southern_miss|DOG|home|spread",
+      "loggedAt": "2026-11-22T16:21:36.617Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Valparaiso",
+      "home": "Southern Miss",
+      "kick": "23:00",
+      "startAt": "2026-11-22T23:00:00.000Z",
+      "gameNumber": 685,
+      "takeRole": "DOG",
+      "takeTeam": "Southern Miss",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 8,
+      "price": -103,
+      "tixFav": 95,
+      "monFav": 85,
+      "reason": "Tix 95% + $ 85% on fav"
+    },
+    {
+      "pickKey": "m|685|valparaiso_at_southern_miss|DOG|home|ml",
+      "matchupId": "685|valparaiso_at_southern_miss|DOG|home|ml",
+      "loggedAt": "2026-11-22T16:21:36.617Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Valparaiso",
+      "home": "Southern Miss",
+      "kick": "23:00",
+      "startAt": "2026-11-22T23:00:00.000Z",
+      "gameNumber": 685,
+      "takeRole": "DOG",
+      "takeTeam": "Southern Miss",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 305,
+      "price": 305,
+      "tixFav": 95,
+      "monFav": 85,
+      "reason": "Tix 95% + $ 85% on fav"
     }
   ]
 }
