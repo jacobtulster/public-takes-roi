@@ -16,90 +16,82 @@
   </head>
   <body>
     <div class="wrap">
-      <header class="hero">
-        <div>
+      <header class="topbar">
+        <div class="topbar-brand">
           <h1 class="brand">Public % Takes</h1>
-          <p class="sub">
-            Live ROI by fav / dog and favorable lean. ATS and moneyline are separate books — never mixed.
-          </p>
+          <div class="market-tabs" id="market-tabs" role="tablist" aria-label="Market book"></div>
+          <p class="book-hint" id="book-hint">ATS book</p>
         </div>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary" id="btn-refresh">Refresh</button>
-          <label class="btn" for="file-import">Import JSON</label>
+          <label class="btn" for="file-import">Import</label>
           <input id="file-import" type="file" accept="application/json,.json" hidden />
           <button type="button" class="btn" id="btn-export">Export</button>
           <span class="meta" id="updated-at">No data yet</span>
         </div>
       </header>
 
-      <div class="market-bar">
-        <div class="market-tabs" id="market-tabs" role="tablist" aria-label="Market book"></div>
-        <p class="book-hint" id="book-hint">ATS / spread book only — moneyline takes live on the Moneyline tab.</p>
-      </div>
-
       <section class="grid-cards" id="summary-cards" aria-label="Bucket ROI"></section>
 
-      <section class="panel">
-        <div class="toolbar">
-          <h2 style="margin: 0; flex: 1" id="chart-title">ATS ROI equity</h2>
-          <select id="chart-bucket" aria-label="Chart bucket">
-            <option value="all">All picks</option>
-            <option value="fav">Favs</option>
-            <option value="dog">Dogs</option>
-            <option value="fav_favorable">Favorable favs</option>
-            <option value="dog_favorable">Favorable dogs</option>
-            <option value="fav_not_favorable">Not-favorable favs</option>
-            <option value="dog_not_favorable">Not-favorable dogs</option>
-          </select>
-        </div>
-        <p class="hint">Cumulative units after each graded pick in this book. Hover for matchup detail.</p>
-        <div class="chart-box"><canvas id="equity-chart"></canvas></div>
-      </section>
+      <div class="main-split">
+        <section class="panel panel-chart">
+          <div class="toolbar">
+            <h2 id="chart-title">ATS ROI equity</h2>
+            <select id="chart-bucket" aria-label="Chart bucket">
+              <option value="all">All picks</option>
+              <option value="fav">Favs</option>
+              <option value="dog">Dogs</option>
+              <option value="fav_favorable">Favorable favs</option>
+              <option value="dog_favorable">Favorable dogs</option>
+              <option value="fav_not_favorable">Not-favorable favs</option>
+              <option value="dog_not_favorable">Not-favorable dogs</option>
+            </select>
+          </div>
+          <div class="chart-box"><canvas id="equity-chart"></canvas></div>
+        </section>
 
-      <section class="panel">
-        <div class="toolbar">
-          <h2 style="margin: 0" id="picks-title">ATS picks</h2>
-          <select id="filter-bucket">
-            <option value="">All buckets</option>
-            <option value="fav_favorable">Favorable favs</option>
-            <option value="dog_favorable">Favorable dogs</option>
-            <option value="fav_not_favorable">Not-favorable favs</option>
-            <option value="dog_not_favorable">Not-favorable dogs</option>
-            <option value="fav">All favs</option>
-            <option value="dog">All dogs</option>
-          </select>
-          <select id="filter-result">
-            <option value="">All results</option>
-            <option value="open">Open</option>
-            <option value="W">Wins</option>
-            <option value="L">Losses</option>
-            <option value="P">Pushes</option>
-          </select>
-          <input id="filter-q" type="search" placeholder="Filter team / league…" />
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Start</th>
-                <th>Matchup</th>
-                <th>Pick</th>
-                <th>Book / bucket</th>
-                <th>Line</th>
-                <th>Result</th>
-                <th>Profit</th>
-              </tr>
-            </thead>
-            <tbody id="picks-body"></tbody>
-          </table>
-        </div>
-        <div class="empty" id="picks-empty" hidden>No ATS picks yet — configure the OddsLogic userscript sync, then refresh.</div>
-      </section>
-
-      <footer>
-        Data file: <code>data/picks.json</code> · ATS and ML rows share the file but keep separate ROI ·
-        deduped by game + away@home + role + side + <strong>market</strong>
-      </footer>
+        <section class="panel panel-picks">
+          <div class="toolbar">
+            <h2 id="picks-title">ATS picks</h2>
+            <select id="filter-bucket">
+              <option value="">All buckets</option>
+              <option value="fav_favorable">Favorable favs</option>
+              <option value="dog_favorable">Favorable dogs</option>
+              <option value="fav_not_favorable">Not-favorable favs</option>
+              <option value="dog_not_favorable">Not-favorable dogs</option>
+              <option value="fav">All favs</option>
+              <option value="dog">All dogs</option>
+            </select>
+            <select id="filter-result">
+              <option value="">All results</option>
+              <option value="open">Open</option>
+              <option value="W">Wins</option>
+              <option value="L">Losses</option>
+              <option value="P">Pushes</option>
+            </select>
+            <input id="filter-q" type="search" placeholder="Filter…" />
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Start</th>
+                  <th>Matchup</th>
+                  <th>Pick</th>
+                  <th>Book / bucket</th>
+                  <th>Line</th>
+                  <th>Result</th>
+                  <th>Profit</th>
+                </tr>
+              </thead>
+              <tbody id="picks-body"></tbody>
+            </table>
+          </div>
+          <div class="empty" id="picks-empty" hidden>
+            No ATS picks yet — configure the OddsLogic userscript sync, then refresh.
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
