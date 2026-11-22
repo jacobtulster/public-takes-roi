@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T09:40:35.341Z",
+  "updatedAt": "2026-11-22T09:42:33.443Z",
   "picks": [
     {
       "pickKey": "m|389|hawaii_at_nevada|DOG|away|spread",
@@ -566,6 +566,28 @@
       "tixFav": 75,
       "monFav": 89,
       "reason": "Tix 75% + $ 89% on fav"
+    },
+    {
+      "pickKey": "m|9|chicago_at_vancouver|FAV|away|ml",
+      "matchupId": "9|chicago_at_vancouver|FAV|away|ml",
+      "loggedAt": "2026-11-22T09:42:30.156Z",
+      "sport": "",
+      "league": "NHL - Sunday, November 22nd",
+      "away": "Chicago",
+      "home": "Vancouver",
+      "kick": "1:07",
+      "gameNumber": 9,
+      "takeRole": "FAV",
+      "takeTeam": "Chicago",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -113,
+      "price": -113,
+      "tixFav": 12,
+      "monFav": 8,
+      "reason": "Tix 12% + $ 8% on fav (<50)"
     }
   ]
 }
