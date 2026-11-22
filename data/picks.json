@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:17:57.184Z",
+  "updatedAt": "2026-11-22T21:18:17.139Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2359,6 +2359,52 @@
       "tixFav": 90,
       "monFav": 74,
       "reason": "Tix 90% + $ 74% on fav"
+    },
+    {
+      "pickKey": "m|5|pittsburgh_at_dallas|DOG|away|spread",
+      "matchupId": "5|pittsburgh_at_dallas|DOG|away|spread",
+      "loggedAt": "2026-11-22T21:18:14.208Z",
+      "sport": "NHL",
+      "league": "NHL - Sunday, November 22nd",
+      "away": "Pittsburgh",
+      "home": "Dallas",
+      "kick": "0:07",
+      "startAt": "2026-11-23T00:07:00.000Z",
+      "gameNumber": 5,
+      "takeRole": "DOG",
+      "takeTeam": "Pittsburgh",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 1.5,
+      "price": -126,
+      "tixFav": 71,
+      "monFav": 99,
+      "reason": "Tix 71% + $ 99% on fav"
+    },
+    {
+      "pickKey": "m|5|pittsburgh_at_dallas|DOG|away|ml",
+      "matchupId": "5|pittsburgh_at_dallas|DOG|away|ml",
+      "loggedAt": "2026-11-22T21:18:14.208Z",
+      "sport": "NHL",
+      "league": "NHL - Sunday, November 22nd",
+      "away": "Pittsburgh",
+      "home": "Dallas",
+      "kick": "0:07",
+      "startAt": "2026-11-23T00:07:00.000Z",
+      "gameNumber": 5,
+      "takeRole": "DOG",
+      "takeTeam": "Pittsburgh",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 196,
+      "price": 196,
+      "tixFav": 71,
+      "monFav": 99,
+      "reason": "Tix 71% + $ 99% on fav"
     }
   ]
 }
