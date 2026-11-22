@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:58:21.394Z",
+  "updatedAt": "2026-11-22T23:58:27.394Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -597,7 +597,16 @@
       "monFav": 98,
       "reason": "Tix 86% + $ 98% on fav",
       "startAt": "2026-11-22T22:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:50:13.227Z"
+      "leanUpdatedAt": "2026-11-22T21:50:13.227Z",
+      "result": "W",
+      "profit": 0.8475,
+      "awayScore": 92,
+      "homeScore": 75,
+      "gradedAt": "2026-11-22T23:58:23.985Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920159",
+      "espnAway": "Cal State Fullerton Titans",
+      "espnHome": "Portland State Vikings"
     },
     {
       "pickKey": "m|673|robert_morris_at_new_mexico_state|FAV|home|ml",
@@ -959,7 +968,16 @@
       "monFav": 98,
       "reason": "Tix 86% + $ 98% on fav",
       "startAt": "2026-11-22T22:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:50:13.227Z"
+      "leanUpdatedAt": "2026-11-22T21:50:13.227Z",
+      "result": "W",
+      "profit": 1.66,
+      "awayScore": 92,
+      "homeScore": 75,
+      "gradedAt": "2026-11-22T23:58:24.480Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920159",
+      "espnAway": "Cal State Fullerton Titans",
+      "espnHome": "Portland State Vikings"
     },
     {
       "pickKey": "m|545|denver_at_chicago|DOG|home|spread",
