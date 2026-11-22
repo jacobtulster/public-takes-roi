@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:43:15.123Z",
+  "updatedAt": "2026-11-22T16:44:27.114Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2040,6 +2040,52 @@
       "monFav": 86,
       "reason": "Tix 95% + $ 86% on fav",
       "leanUpdatedAt": "2026-11-22T16:42:14.513Z"
+    },
+    {
+      "pickKey": "m|7|edmonton_at_st_louis|FAV|home|spread",
+      "matchupId": "7|edmonton_at_st_louis|FAV|home|spread",
+      "loggedAt": "2026-11-22T16:44:09.089Z",
+      "sport": "NHL",
+      "league": "NHL - Sunday, November 22nd",
+      "away": "Edmonton",
+      "home": "St. Louis",
+      "kick": "0:07",
+      "startAt": "2026-11-23T00:07:00.000Z",
+      "gameNumber": 7,
+      "takeRole": "FAV",
+      "takeTeam": "St. Louis",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -1.5,
+      "price": 213,
+      "tixFav": 43,
+      "monFav": 20,
+      "reason": "Tix 43% + $ 20% on fav (<50)"
+    },
+    {
+      "pickKey": "m|7|edmonton_at_st_louis|FAV|home|ml",
+      "matchupId": "7|edmonton_at_st_louis|FAV|home|ml",
+      "loggedAt": "2026-11-22T16:44:09.089Z",
+      "sport": "NHL",
+      "league": "NHL - Sunday, November 22nd",
+      "away": "Edmonton",
+      "home": "St. Louis",
+      "kick": "0:07",
+      "startAt": "2026-11-23T00:07:00.000Z",
+      "gameNumber": 7,
+      "takeRole": "FAV",
+      "takeTeam": "St. Louis",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -122,
+      "price": -122,
+      "tixFav": 43,
+      "monFav": 20,
+      "reason": "Tix 43% + $ 20% on fav (<50)"
     }
   ]
 }
