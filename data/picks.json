@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:50:21.474Z",
+  "updatedAt": "2026-11-22T23:51:37.469Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2745,8 +2745,9 @@
       "line": 32.5,
       "price": -115,
       "tixFav": 70,
-      "monFav": 74,
-      "reason": "Tix 70% + $ 74% on fav"
+      "monFav": 70,
+      "reason": "Tix 70% + $ 70% on fav",
+      "leanUpdatedAt": "2026-11-22T23:51:34.447Z"
     },
     {
       "pickKey": "m|689|delaware_at_ucla|DOG|away|ml",
