@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:49:13.978Z",
+  "updatedAt": "2026-11-22T21:51:14.981Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -557,11 +557,11 @@
       "market": "spread",
       "line": 5,
       "price": -118,
-      "tixFav": 78,
-      "monFav": 99,
-      "reason": "Tix 78% + $ 99% on fav",
+      "tixFav": 74,
+      "monFav": 82,
+      "reason": "Tix 74% + $ 82% on fav",
       "startAt": "2026-11-22T22:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:03:13.447Z"
+      "leanUpdatedAt": "2026-11-22T21:50:13.227Z"
     },
     {
       "pickKey": "m|673|robert_morris_at_new_mexico_state|FAV|home|ml",
@@ -883,11 +883,11 @@
       "market": "ml",
       "line": 166,
       "price": 166,
-      "tixFav": 78,
-      "monFav": 99,
-      "reason": "Tix 78% + $ 99% on fav",
+      "tixFav": 74,
+      "monFav": 82,
+      "reason": "Tix 74% + $ 82% on fav",
       "startAt": "2026-11-22T22:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:03:13.447Z"
+      "leanUpdatedAt": "2026-11-22T21:50:13.227Z"
     },
     {
       "pickKey": "m|545|denver_at_chicago|DOG|home|spread",
@@ -2166,10 +2166,10 @@
       "market": "spread",
       "line": -2,
       "price": -108,
-      "tixFav": 29,
-      "monFav": 1,
-      "reason": "Tix 29% + $ 1% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T21:19:46.214Z"
+      "tixFav": 37,
+      "monFav": 2,
+      "reason": "Tix 37% + $ 2% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T21:50:13.228Z"
     },
     {
       "pickKey": "m|693|uab_at_rhode_island_sc|FAV|home|ml",
@@ -2190,10 +2190,10 @@
       "market": "ml",
       "line": -131,
       "price": -131,
-      "tixFav": 29,
-      "monFav": 1,
-      "reason": "Tix 29% + $ 1% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T21:19:46.214Z"
+      "tixFav": 37,
+      "monFav": 2,
+      "reason": "Tix 37% + $ 2% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T21:50:13.228Z"
     },
     {
       "pickKey": "m|451|baltimore_at_carolina|DOG|away|spread",
