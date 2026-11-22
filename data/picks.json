@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:30:15.541Z",
+  "updatedAt": "2026-11-22T15:30:45.304Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1509,11 +1509,11 @@
       "market": "spread",
       "line": -8.5,
       "price": -109,
-      "tixFav": 20,
-      "monFav": 6,
-      "reason": "Tix 20% + $ 6% on fav (<50)",
+      "tixFav": 18,
+      "monFav": 5,
+      "reason": "Tix 18% + $ 5% on fav (<50)",
       "startAt": "2026-11-23T01:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:21:22.414Z"
+      "leanUpdatedAt": "2026-11-22T15:30:42.399Z"
     },
     {
       "pickKey": "m|549|indiana_at_new_york|FAV|home|ml",
@@ -1533,11 +1533,11 @@
       "market": "ml",
       "line": -349,
       "price": -349,
-      "tixFav": 20,
-      "monFav": 6,
-      "reason": "Tix 20% + $ 6% on fav (<50)",
+      "tixFav": 18,
+      "monFav": 5,
+      "reason": "Tix 18% + $ 5% on fav (<50)",
       "startAt": "2026-11-23T01:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:21:22.414Z"
+      "leanUpdatedAt": "2026-11-22T15:30:42.399Z"
     },
     {
       "pickKey": "m|671|western_kentucky_at_george_washington|DOG|away|spread",
@@ -1724,9 +1724,10 @@
       "market": "spread",
       "line": 4.5,
       "price": 100,
-      "tixFav": 73,
-      "monFav": 86,
-      "reason": "Tix 73% + $ 86% on fav"
+      "tixFav": 74,
+      "monFav": 87,
+      "reason": "Tix 74% + $ 87% on fav",
+      "leanUpdatedAt": "2026-11-22T15:30:42.399Z"
     },
     {
       "pickKey": "m|547|orlando_at_washington|DOG|home|ml",
@@ -1747,9 +1748,10 @@
       "market": "ml",
       "line": 173,
       "price": 173,
-      "tixFav": 73,
-      "monFav": 86,
-      "reason": "Tix 73% + $ 86% on fav"
+      "tixFav": 74,
+      "monFav": 87,
+      "reason": "Tix 74% + $ 87% on fav",
+      "leanUpdatedAt": "2026-11-22T15:30:42.399Z"
     }
   ]
 }
