@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T13:23:39.460Z",
+  "updatedAt": "2026-11-22T13:23:45.240Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1204,6 +1204,50 @@
       "tixFav": 80,
       "monFav": 85,
       "reason": "Tix 80% + $ 85% on fav"
+    },
+    {
+      "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|spread",
+      "matchupId": "677|virginia_tech_at_oklahoma_state|DOG|home|spread",
+      "loggedAt": "2026-11-22T13:23:42.266Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Virginia Tech",
+      "home": "Oklahoma State",
+      "kick": "20:30",
+      "gameNumber": 677,
+      "takeRole": "DOG",
+      "takeTeam": "Oklahoma State",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 1.5,
+      "price": -108,
+      "tixFav": 91,
+      "monFav": 94,
+      "reason": "Tix 91% + $ 94% on fav"
+    },
+    {
+      "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|ml",
+      "matchupId": "677|virginia_tech_at_oklahoma_state|DOG|home|ml",
+      "loggedAt": "2026-11-22T13:23:42.266Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Virginia Tech",
+      "home": "Oklahoma State",
+      "kick": "20:30",
+      "gameNumber": 677,
+      "takeRole": "DOG",
+      "takeTeam": "Oklahoma State",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 102,
+      "price": 102,
+      "tixFav": 91,
+      "monFav": 94,
+      "reason": "Tix 91% + $ 94% on fav"
     }
   ]
 }
