@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:51:48.130Z",
+  "updatedAt": "2026-11-22T16:54:40.120Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -43,11 +43,11 @@
       "market": "spread",
       "line": -10.5,
       "price": -109,
-      "tixFav": 49,
-      "monFav": 42,
-      "reason": "Tix 49% + $ 42% on fav (<50)",
+      "tixFav": 48,
+      "monFav": 41,
+      "reason": "Tix 48% + $ 41% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:46:14.775Z"
+      "leanUpdatedAt": "2026-11-22T16:52:14.485Z"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -161,11 +161,11 @@
       "market": "spread",
       "line": 6,
       "price": -109,
-      "tixFav": 76,
+      "tixFav": 77,
       "monFav": 75,
-      "reason": "Tix 76% + $ 75% on fav",
+      "reason": "Tix 77% + $ 75% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:46:14.775Z"
+      "leanUpdatedAt": "2026-11-22T16:52:14.485Z"
     },
     {
       "pickKey": "m|551|boston_at_golden_state|DOG|home|spread",
@@ -209,11 +209,11 @@
       "market": "ml",
       "line": -573,
       "price": -573,
-      "tixFav": 49,
-      "monFav": 42,
-      "reason": "Tix 49% + $ 42% on fav (<50)",
+      "tixFav": 48,
+      "monFav": 41,
+      "reason": "Tix 48% + $ 41% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:46:14.775Z"
+      "leanUpdatedAt": "2026-11-22T16:52:14.485Z"
     },
     {
       "pickKey": "m|463|miami_at_buffalo|FAV|home|ml",
@@ -334,11 +334,11 @@
       "market": "spread",
       "line": 1.5,
       "price": -144,
-      "tixFav": 71,
+      "tixFav": 72,
       "monFav": 98,
-      "reason": "Tix 71% + $ 98% on fav",
+      "reason": "Tix 72% + $ 98% on fav",
       "startAt": "2026-11-22T22:07:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:15:52.652Z"
+      "leanUpdatedAt": "2026-11-22T16:52:14.487Z"
     },
     {
       "pickKey": "m|469|pittsburgh_at_philadelphia|DOG|home|spread",
@@ -382,11 +382,11 @@
       "market": "ml",
       "line": 232,
       "price": 232,
-      "tixFav": 76,
+      "tixFav": 77,
       "monFav": 75,
-      "reason": "Tix 76% + $ 75% on fav",
+      "reason": "Tix 77% + $ 75% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:46:14.775Z"
+      "leanUpdatedAt": "2026-11-22T16:52:14.485Z"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|ml",
@@ -1144,11 +1144,11 @@
       "market": "ml",
       "line": 177,
       "price": 177,
-      "tixFav": 71,
+      "tixFav": 72,
       "monFav": 98,
-      "reason": "Tix 71% + $ 98% on fav",
+      "reason": "Tix 72% + $ 98% on fav",
       "startAt": "2026-11-22T22:07:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:15:52.652Z"
+      "leanUpdatedAt": "2026-11-22T16:52:14.487Z"
     },
     {
       "pickKey": "m|541|oklahoma_city_at_miami|DOG|away|ml",
@@ -2088,6 +2088,52 @@
       "tixFav": 43,
       "monFav": 20,
       "reason": "Tix 43% + $ 20% on fav (<50)"
+    },
+    {
+      "pickKey": "m|539|detroit_at_atlanta|DOG|home|spread",
+      "matchupId": "539|detroit_at_atlanta|DOG|home|spread",
+      "loggedAt": "2026-11-22T16:52:14.485Z",
+      "sport": "NBA",
+      "league": "NBA - Sunday, November 22nd",
+      "away": "Detroit",
+      "home": "Atlanta",
+      "kick": "20:40",
+      "startAt": "2026-11-22T20:40:00.000Z",
+      "gameNumber": 539,
+      "takeRole": "DOG",
+      "takeTeam": "Atlanta",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 1.5,
+      "price": -107,
+      "tixFav": 70,
+      "monFav": 82,
+      "reason": "Tix 70% + $ 82% on fav"
+    },
+    {
+      "pickKey": "m|539|detroit_at_atlanta|DOG|home|ml",
+      "matchupId": "539|detroit_at_atlanta|DOG|home|ml",
+      "loggedAt": "2026-11-22T16:52:14.485Z",
+      "sport": "NBA",
+      "league": "NBA - Sunday, November 22nd",
+      "away": "Detroit",
+      "home": "Atlanta",
+      "kick": "20:40",
+      "startAt": "2026-11-22T20:40:00.000Z",
+      "gameNumber": 539,
+      "takeRole": "DOG",
+      "takeTeam": "Atlanta",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 103,
+      "price": 103,
+      "tixFav": 70,
+      "monFav": 82,
+      "reason": "Tix 70% + $ 82% on fav"
     }
   ]
 }
