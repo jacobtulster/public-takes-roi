@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:58:27.394Z",
+  "updatedAt": "2026-11-22T23:59:37.475Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2454,10 +2454,10 @@
       "market": "spread",
       "line": -2,
       "price": -108,
-      "tixFav": 42,
-      "monFav": 40,
-      "reason": "Tix 42% + $ 40% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T23:55:34.444Z"
+      "tixFav": 38,
+      "monFav": 20,
+      "reason": "Tix 38% + $ 20% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T23:59:34.459Z"
     },
     {
       "pickKey": "m|693|uab_at_rhode_island_sc|FAV|home|ml",
@@ -2478,10 +2478,10 @@
       "market": "ml",
       "line": -131,
       "price": -131,
-      "tixFav": 42,
-      "monFav": 40,
-      "reason": "Tix 42% + $ 40% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T23:55:34.444Z"
+      "tixFav": 38,
+      "monFav": 20,
+      "reason": "Tix 38% + $ 20% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T23:59:34.459Z"
     },
     {
       "pickKey": "m|451|baltimore_at_carolina|DOG|away|spread",
