@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:38:55.508Z",
+  "updatedAt": "2026-11-22T23:39:39.492Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2431,15 +2431,15 @@
       "takeRole": "FAV",
       "takeTeam": "Rhode Island SC",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "fav_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
       "market": "spread",
       "line": -2,
       "price": -108,
       "tixFav": 30,
       "monFav": 2,
       "reason": "Tix 30% + $ 2% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T22:30:13.203Z"
+      "leanUpdatedAt": "2026-11-22T23:39:36.444Z"
     },
     {
       "pickKey": "m|693|uab_at_rhode_island_sc|FAV|home|ml",
@@ -2455,15 +2455,15 @@
       "takeRole": "FAV",
       "takeTeam": "Rhode Island SC",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "fav_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
       "market": "ml",
       "line": -131,
       "price": -131,
       "tixFav": 30,
       "monFav": 2,
       "reason": "Tix 30% + $ 2% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T22:30:13.203Z"
+      "leanUpdatedAt": "2026-11-22T23:39:36.444Z"
     },
     {
       "pickKey": "m|451|baltimore_at_carolina|DOG|away|spread",
