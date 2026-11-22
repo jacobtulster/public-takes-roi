@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T14:35:27.789Z",
+  "updatedAt": "2026-11-22T14:36:21.647Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -19,11 +19,11 @@
       "market": "spread",
       "line": -1,
       "price": -104,
-      "tixFav": 30,
-      "monFav": 5,
-      "reason": "Tix 30% + $ 5% on fav (<50)",
+      "tixFav": 33,
+      "monFav": 22,
+      "reason": "Tix 33% + $ 22% on fav (<50)",
       "startAt": "2026-11-23T00:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.807Z"
+      "leanUpdatedAt": "2026-11-22T14:36:18.580Z"
     },
     {
       "pickKey": "m|467|las_vegas_at_denver|FAV|home|spread",
@@ -97,8 +97,8 @@
       "takeRole": "DOG",
       "takeTeam": "Golden State",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "ml",
       "line": 304,
       "price": 304,
@@ -106,7 +106,7 @@
       "monFav": 88,
       "reason": "Tix 70% + $ 88% on fav",
       "startAt": "2026-11-23T01:40:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:35:24.584Z"
+      "leanUpdatedAt": "2026-11-22T14:36:16.588Z"
     },
     {
       "pickKey": "m|537|boston_at_sacramento|DOG|home|spread",
@@ -180,8 +180,8 @@
       "takeRole": "DOG",
       "takeTeam": "Golden State",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 9.5,
       "price": -107,
@@ -189,7 +189,7 @@
       "monFav": 88,
       "reason": "Tix 70% + $ 88% on fav",
       "startAt": "2026-11-23T01:40:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:35:24.584Z"
+      "leanUpdatedAt": "2026-11-22T14:36:16.588Z"
     },
     {
       "pickKey": "m|467|las_vegas_at_denver|FAV|home|ml",
@@ -1118,11 +1118,11 @@
       "market": "ml",
       "line": -108,
       "price": -108,
-      "tixFav": 30,
-      "monFav": 5,
-      "reason": "Tix 30% + $ 5% on fav (<50)",
+      "tixFav": 33,
+      "monFav": 22,
+      "reason": "Tix 33% + $ 22% on fav (<50)",
       "startAt": "2026-11-23T00:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.807Z"
+      "leanUpdatedAt": "2026-11-22T14:36:18.580Z"
     },
     {
       "pickKey": "m|3|buffalo_at_tampa_bay|DOG|away|ml",
