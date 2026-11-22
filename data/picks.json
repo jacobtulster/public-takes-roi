@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:22:05.748Z",
+  "updatedAt": "2026-11-22T16:24:53.648Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -358,11 +358,11 @@
       "market": "spread",
       "line": 4.5,
       "price": -126,
-      "tixFav": 80,
+      "tixFav": 79,
       "monFav": 74,
-      "reason": "Tix 80% + $ 74% on fav",
+      "reason": "Tix 79% + $ 74% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
+      "leanUpdatedAt": "2026-11-22T16:24:50.615Z"
     },
     {
       "pickKey": "m|455|jacksonville_at_n_y_giants|DOG|home|ml",
@@ -971,11 +971,11 @@
       "market": "ml",
       "line": 176,
       "price": 176,
-      "tixFav": 80,
+      "tixFav": 79,
       "monFav": 74,
-      "reason": "Tix 80% + $ 74% on fav",
+      "reason": "Tix 79% + $ 74% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
+      "leanUpdatedAt": "2026-11-22T16:24:50.615Z"
     },
     {
       "pickKey": "m|667|evansville_at_memphis|DOG|away|spread",
