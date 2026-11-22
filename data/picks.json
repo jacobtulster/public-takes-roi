@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:21:25.382Z",
+  "updatedAt": "2026-11-22T15:22:41.430Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1225,11 +1225,11 @@
       "market": "spread",
       "line": 3.5,
       "price": -107,
-      "tixFav": 73,
+      "tixFav": 75,
       "monFav": 86,
-      "reason": "Tix 73% + $ 86% on fav",
+      "reason": "Tix 75% + $ 86% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:55:14.604Z"
+      "leanUpdatedAt": "2026-11-22T15:22:38.406Z"
     },
     {
       "pickKey": "m|659|dayton_at_northwestern|DOG|home|ml",
@@ -1249,11 +1249,11 @@
       "market": "ml",
       "line": 142,
       "price": 142,
-      "tixFav": 73,
+      "tixFav": 75,
       "monFav": 86,
-      "reason": "Tix 73% + $ 86% on fav",
+      "reason": "Tix 75% + $ 86% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:55:14.604Z"
+      "leanUpdatedAt": "2026-11-22T15:22:38.406Z"
     },
     {
       "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|spread",
