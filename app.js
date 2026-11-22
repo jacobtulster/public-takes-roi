@@ -522,10 +522,7 @@
     $('#updated-at').textContent = updated;
     const bookHint = $('#book-hint');
     if (bookHint) {
-      bookHint.textContent =
-        activeMarket === 'ml'
-          ? 'Moneyline book only — ROI here never mixes with ATS spreads.'
-          : 'ATS / spread book only — moneyline takes live on the Moneyline tab.';
+      bookHint.textContent = activeMarket === 'ml' ? 'ML book · separate from ATS' : 'ATS book · separate from ML';
     }
     const chartTitle = $('#chart-title');
     if (chartTitle) chartTitle.textContent = `${marketLabel(activeMarket)} ROI equity`;
