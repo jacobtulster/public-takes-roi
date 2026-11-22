@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T02:13:04.382Z",
+  "updatedAt": "2026-11-22T02:32:36.170137Z",
   "picks": [
     {
       "pickKey": "m|389|hawaii_at_nevada|DOG|away|spread",
@@ -17,11 +17,17 @@
       "ocLean": "none",
       "bucket": "dog_not_favorable",
       "market": "spread",
-      "line": 7,
-      "price": -102,
+      "line": 7.0,
+      "price": -110.0,
       "tixFav": 77,
       "monFav": 88,
-      "reason": "Tix 77% + $ 88% on fav"
+      "reason": "Tix 77% + $ 88% on fav",
+      "lineRaw": "7.0 (-110.0)",
+      "lineSource": "espn",
+      "lineBook": "DraftKings",
+      "espnEventId": "401864541",
+      "espnAway": "Hawai'i Rainbow Warriors",
+      "espnHome": "Nevada Wolf Pack"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -40,16 +46,22 @@
       "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 20.5,
-      "price": -107,
+      "price": -110.0,
       "tixFav": 77,
       "monFav": 90,
-      "reason": "Tix 77% + $ 90% on fav"
+      "reason": "Tix 77% + $ 90% on fav",
+      "lineRaw": "20.5 (-110.0)",
+      "lineSource": "espn",
+      "lineBook": "DraftKings",
+      "espnEventId": "401860925",
+      "espnAway": "San Diego State Aztecs",
+      "espnHome": "Boise State Broncos"
     },
     {
       "pickKey": "m|537|boston_at_sacramento|DOG|home|ml",
       "matchupId": "537|boston_at_sacramento|DOG|home|ml",
       "loggedAt": "2026-11-22T02:13:01.429Z",
-      "sport": "",
+      "sport": "NBA",
       "league": "NBA - Saturday, November 21st",
       "away": "Boston",
       "home": "Sacramento",
@@ -61,17 +73,23 @@
       "ocLean": "favorable",
       "bucket": "dog_favorable",
       "market": "ml",
-      "line": 476,
-      "price": 476,
+      "line": 470.0,
+      "price": 470.0,
       "tixFav": 80,
       "monFav": 92,
-      "reason": "Tix 80% + $ 92% on fav"
+      "reason": "Tix 80% + $ 92% on fav",
+      "lineRaw": "470",
+      "lineSource": "espn",
+      "lineBook": "DraftKings",
+      "espnEventId": "401910028",
+      "espnAway": "Boston Celtics",
+      "espnHome": "Sacramento Kings"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|ml",
       "matchupId": "641|washington_state_at_duke|DOG|away|ml",
       "loggedAt": "2026-11-22T02:13:01.429Z",
-      "sport": "",
+      "sport": "NCAAB",
       "league": "COLLEGE BASKETBALL - Saturday, November 21st",
       "away": "Washington State",
       "home": "Duke",
@@ -83,17 +101,23 @@
       "ocLean": "favorable",
       "bucket": "dog_favorable",
       "market": "ml",
-      "line": null,
-      "price": null,
+      "line": 2200.0,
+      "price": 2200.0,
       "tixFav": 72,
       "monFav": 94,
-      "reason": "Tix 72% + $ 94% on fav"
+      "reason": "Tix 72% + $ 94% on fav",
+      "lineRaw": "2200",
+      "lineSource": "espn",
+      "lineBook": "DraftKings",
+      "espnEventId": "401909567",
+      "espnAway": "Washington State Cougars",
+      "espnHome": "Duke Blue Devils"
     },
     {
       "pickKey": "m|79|minnesota_at_vancouver|DOG|home|ml",
       "matchupId": "79|minnesota_at_vancouver|DOG|home|ml",
       "loggedAt": "2026-11-22T02:13:01.429Z",
-      "sport": "",
+      "sport": "NHL",
       "league": "NHL - Saturday, November 21st",
       "away": "Minnesota",
       "home": "Vancouver",
@@ -105,11 +129,17 @@
       "ocLean": "none",
       "bucket": "dog_not_favorable",
       "market": "ml",
-      "line": 270,
-      "price": 270,
+      "line": 250.0,
+      "price": 250.0,
       "tixFav": 91,
       "monFav": 99,
-      "reason": "Tix 91% + $ 99% on fav"
+      "reason": "Tix 91% + $ 99% on fav",
+      "lineRaw": "250",
+      "lineSource": "espn",
+      "lineBook": "DraftKings",
+      "espnEventId": "401892766",
+      "espnAway": "Minnesota Wild",
+      "espnHome": "Vancouver Canucks"
     }
   ]
 }
