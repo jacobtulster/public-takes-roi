@@ -422,13 +422,15 @@
     return { main: '—', sub: '' };
   }
 
-  /** Bucket meta with glowing "favorable". */
+  /** Bucket meta with glowing "favorable" (green fav / orange dog). */
   function fmtLeanMeta(p) {
     const bucket = escapeHtml(p.bucket || '');
     const oc = String(p.ocLean || '').toLowerCase();
     if (!oc || oc === 'none') return bucket;
     if (oc === 'favorable') {
-      return `${bucket}${bucket ? ' · ' : ''}<span class="lean-glow">favorable</span>`;
+      const role = String(p.takeRole || '').toUpperCase();
+      const glow = role === 'DOG' ? 'lean-glow lean-glow-dog' : 'lean-glow lean-glow-fav';
+      return `${bucket}${bucket ? ' · ' : ''}<span class="${glow}">favorable</span>`;
     }
     return `${bucket}${bucket ? ' · ' : ''}${escapeHtml(p.ocLean)}`;
   }
