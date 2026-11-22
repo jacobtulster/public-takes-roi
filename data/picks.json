@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:14:49.723Z",
+  "updatedAt": "2026-11-22T15:17:33.732Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -857,11 +857,11 @@
       "market": "spread",
       "line": 29.5,
       "price": -113,
-      "tixFav": 80,
+      "tixFav": 83,
       "monFav": 99,
-      "reason": "Tix 80% + $ 99% on fav",
+      "reason": "Tix 83% + $ 99% on fav",
       "startAt": "2026-11-23T00:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.809Z"
+      "leanUpdatedAt": "2026-11-22T15:17:30.603Z"
     },
     {
       "pickKey": "m|683|cs_fullerton_at_portland_state|DOG|away|ml",
