@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:49:17.114Z",
+  "updatedAt": "2026-11-22T15:50:25.623Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -43,11 +43,11 @@
       "market": "spread",
       "line": -10.5,
       "price": -109,
-      "tixFav": 48,
+      "tixFav": 49,
       "monFav": 47,
-      "reason": "Tix 48% + $ 47% on fav (<50)",
+      "reason": "Tix 49% + $ 47% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:39:33.093Z"
+      "leanUpdatedAt": "2026-11-22T15:50:22.606Z"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -161,11 +161,11 @@
       "market": "spread",
       "line": 6,
       "price": -109,
-      "tixFav": 77,
+      "tixFav": 78,
       "monFav": 77,
-      "reason": "Tix 77% + $ 77% on fav",
+      "reason": "Tix 78% + $ 77% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:44:34.409Z"
+      "leanUpdatedAt": "2026-11-22T15:50:22.606Z"
     },
     {
       "pickKey": "m|551|boston_at_golden_state|DOG|home|spread",
@@ -209,11 +209,11 @@
       "market": "ml",
       "line": -573,
       "price": -573,
-      "tixFav": 48,
+      "tixFav": 49,
       "monFav": 47,
-      "reason": "Tix 48% + $ 47% on fav (<50)",
+      "reason": "Tix 49% + $ 47% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:39:33.093Z"
+      "leanUpdatedAt": "2026-11-22T15:50:22.606Z"
     },
     {
       "pickKey": "m|463|miami_at_buffalo|FAV|home|ml",
@@ -382,11 +382,11 @@
       "market": "ml",
       "line": 232,
       "price": 232,
-      "tixFav": 77,
+      "tixFav": 78,
       "monFav": 77,
-      "reason": "Tix 77% + $ 77% on fav",
+      "reason": "Tix 78% + $ 77% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T15:44:34.409Z"
+      "leanUpdatedAt": "2026-11-22T15:50:22.606Z"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|ml",
