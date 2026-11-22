@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T14:36:21.647Z",
+  "updatedAt": "2026-11-22T14:42:43.972Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -162,10 +162,10 @@
       "line": 6,
       "price": -109,
       "tixFav": 78,
-      "monFav": 77,
-      "reason": "Tix 78% + $ 77% on fav",
+      "monFav": 78,
+      "reason": "Tix 78% + $ 78% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.807Z"
+      "leanUpdatedAt": "2026-11-22T14:41:14.563Z"
     },
     {
       "pickKey": "m|551|boston_at_golden_state|DOG|home|spread",
@@ -381,10 +381,10 @@
       "line": 232,
       "price": 232,
       "tixFav": 78,
-      "monFav": 77,
-      "reason": "Tix 78% + $ 77% on fav",
+      "monFav": 78,
+      "reason": "Tix 78% + $ 78% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.807Z"
+      "leanUpdatedAt": "2026-11-22T14:41:14.564Z"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|ml",
@@ -505,11 +505,11 @@
       "market": "ml",
       "line": 100,
       "price": 100,
-      "tixFav": 87,
-      "monFav": 88,
-      "reason": "Tix 87% + $ 88% on fav",
+      "tixFav": 81,
+      "monFav": 79,
+      "reason": "Tix 81% + $ 79% on fav",
       "startAt": "2026-11-22T21:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "leanUpdatedAt": "2026-11-22T14:42:40.787Z"
     },
     {
       "pickKey": "m|655|butler_at_nebraska|DOG|away|spread",
@@ -704,11 +704,11 @@
       "market": "spread",
       "line": 1.5,
       "price": -110,
-      "tixFav": 87,
-      "monFav": 88,
-      "reason": "Tix 87% + $ 88% on fav",
+      "tixFav": 81,
+      "monFav": 79,
+      "reason": "Tix 81% + $ 79% on fav",
       "startAt": "2026-11-22T21:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "leanUpdatedAt": "2026-11-22T14:42:40.787Z"
     },
     {
       "pickKey": "m|9|chicago_at_vancouver|FAV|away|ml",
@@ -832,10 +832,10 @@
       "line": 11,
       "price": -112,
       "tixFav": 94,
-      "monFav": 94,
-      "reason": "Tix 94% + $ 94% on fav",
+      "monFav": 95,
+      "reason": "Tix 94% + $ 95% on fav",
       "startAt": "2026-11-22T23:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.809Z"
+      "leanUpdatedAt": "2026-11-22T14:42:14.660Z"
     },
     {
       "pickKey": "m|689|delaware_at_ucla|DOG|away|spread",
@@ -1038,10 +1038,10 @@
       "line": 480,
       "price": 480,
       "tixFav": 94,
-      "monFav": 94,
-      "reason": "Tix 94% + $ 94% on fav",
+      "monFav": 95,
+      "reason": "Tix 94% + $ 95% on fav",
       "startAt": "2026-11-22T23:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.809Z"
+      "leanUpdatedAt": "2026-11-22T14:42:14.660Z"
     },
     {
       "pickKey": "m|537|boston_at_sacramento|DOG|home|ml",
@@ -1265,11 +1265,11 @@
       "market": "spread",
       "line": 1.5,
       "price": -108,
-      "tixFav": 92,
-      "monFav": 94,
-      "reason": "Tix 92% + $ 94% on fav",
+      "tixFav": 93,
+      "monFav": 95,
+      "reason": "Tix 93% + $ 95% on fav",
       "startAt": "2026-11-22T20:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "leanUpdatedAt": "2026-11-22T14:42:40.787Z"
     },
     {
       "pickKey": "m|677|virginia_tech_at_oklahoma_state|DOG|home|ml",
@@ -1289,11 +1289,11 @@
       "market": "ml",
       "line": 102,
       "price": 102,
-      "tixFav": 92,
-      "monFav": 94,
-      "reason": "Tix 92% + $ 94% on fav",
+      "tixFav": 93,
+      "monFav": 95,
+      "reason": "Tix 93% + $ 95% on fav",
       "startAt": "2026-11-22T20:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "leanUpdatedAt": "2026-11-22T14:42:40.787Z"
     },
     {
       "pickKey": "m|663|san_diego_at_fordham|DOG|away|spread",
@@ -1547,9 +1547,9 @@
       "line": 5,
       "price": -105,
       "tixFav": 91,
-      "monFav": 78,
-      "reason": "Tix 91% + $ 78% on fav",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "monFav": 81,
+      "reason": "Tix 91% + $ 81% on fav",
+      "leanUpdatedAt": "2026-11-22T14:42:14.659Z"
     },
     {
       "pickKey": "m|671|western_kentucky_at_george_washington|DOG|away|ml",
@@ -1571,9 +1571,9 @@
       "line": 184,
       "price": 184,
       "tixFav": 91,
-      "monFav": 78,
-      "reason": "Tix 91% + $ 78% on fav",
-      "leanUpdatedAt": "2026-11-22T14:33:12.808Z"
+      "monFav": 81,
+      "reason": "Tix 91% + $ 81% on fav",
+      "leanUpdatedAt": "2026-11-22T14:42:14.659Z"
     },
     {
       "pickKey": "m|675|southern_indiana_at_texas|FAV|home|spread",
