@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T14:09:53.523Z",
+  "updatedAt": "2026-11-22T14:15:19.279Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1424,6 +1424,50 @@
       "tixFav": 80,
       "monFav": 99,
       "reason": "Tix 80% + $ 99% on fav"
+    },
+    {
+      "pickKey": "m|549|indiana_at_new_york|FAV|home|spread",
+      "matchupId": "549|indiana_at_new_york|FAV|home|spread",
+      "loggedAt": "2026-11-22T14:15:15.079Z",
+      "sport": "NBA",
+      "league": "NBA - Sunday, November 22nd",
+      "away": "Indiana",
+      "home": "New York",
+      "kick": "1:10",
+      "gameNumber": 549,
+      "takeRole": "FAV",
+      "takeTeam": "New York",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -8.5,
+      "price": -109,
+      "tixFav": 12,
+      "monFav": 1,
+      "reason": "Tix 12% + $ 1% on fav (<50)"
+    },
+    {
+      "pickKey": "m|549|indiana_at_new_york|FAV|home|ml",
+      "matchupId": "549|indiana_at_new_york|FAV|home|ml",
+      "loggedAt": "2026-11-22T14:15:15.079Z",
+      "sport": "NBA",
+      "league": "NBA - Sunday, November 22nd",
+      "away": "Indiana",
+      "home": "New York",
+      "kick": "1:10",
+      "gameNumber": 549,
+      "takeRole": "FAV",
+      "takeTeam": "New York",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -349,
+      "price": -349,
+      "tixFav": 12,
+      "monFav": 1,
+      "reason": "Tix 12% + $ 1% on fav (<50)"
     }
   ]
 }
