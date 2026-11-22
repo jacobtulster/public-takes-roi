@@ -354,52 +354,24 @@
   };
 
   /**
-   * Parse kick + league day as UTC (OddsLogic stores UTC clocks), then
-   * display/sort in America/New_York. Display-only — does not change picks.json.
+   * Absolute tip ms. Prefer startAt (UTC ISO from OddsLogic via userscript).
+   * Never reinterpret kick wall-clock as UTC — kick is logger-local and would
+   * double-shift when the PC is already on EST.
    */
-  function parseKickMs(p) {
-    const kick = String((p && p.kick) || '').trim();
-    const league = String((p && p.league) || '');
-    const dayMatch = league.match(
-      /\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?/i
-    );
-    if (!dayMatch || !kick) return null;
-
-    let hours = null;
-    let minutes = null;
-    const ampm = kick.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
-    if (ampm) {
-      hours = Number(ampm[1]) % 12;
-      if (/pm/i.test(ampm[3])) hours += 12;
-      minutes = Number(ampm[2]);
-    } else {
-      const hm = kick.match(/^(\d{1,2}):(\d{2})$/);
-      if (hm) {
-        hours = Number(hm[1]);
-        minutes = Number(hm[2]);
-      }
+  function parseStartMs(p) {
+    const iso = String((p && p.startAt) || '').trim();
+    if (iso) {
+      const t = Date.parse(iso);
+      if (Number.isFinite(t)) return t;
     }
-    if (hours == null || minutes == null) return null;
-
-    const month = MONTHS[String(dayMatch[1]).toLowerCase()];
-    const day = Number(dayMatch[2]);
-    if (month == null || !Number.isFinite(day)) return null;
-
-    const anchor = p.loggedAt ? new Date(p.loggedAt) : new Date();
-    let year = anchor.getUTCFullYear();
-    // League day near year roll (Dec logged → Jan slate)
-    if (month === 0 && anchor.getUTCMonth() === 11) year += 1;
-    if (month === 11 && anchor.getUTCMonth() === 0) year -= 1;
-
-    const ms = Date.UTC(year, month, day, hours, minutes, 0, 0);
-    return Number.isFinite(ms) ? ms : null;
+    return null;
   }
 
   /** 0 = upcoming, 1 = live / started (ungraded), 2 = graded / ended. */
   function pickTimeBucket(p, now) {
     const r = String((p && p.result) || '').toUpperCase();
     if (r === 'W' || r === 'L' || r === 'P') return 2;
-    const ms = parseKickMs(p);
+    const ms = parseStartMs(p);
     if (ms == null) return 1;
     return ms > now ? 0 : 1;
   }
@@ -408,8 +380,8 @@
     const ba = pickTimeBucket(a, now);
     const bb = pickTimeBucket(b, now);
     if (ba !== bb) return ba - bb;
-    const ma = parseKickMs(a);
-    const mb = parseKickMs(b);
+    const ma = parseStartMs(a);
+    const mb = parseStartMs(b);
     if (ba === 0) {
       // Upcoming: closest tip first
       return (ma != null ? ma : Infinity) - (mb != null ? mb : Infinity);
@@ -422,9 +394,9 @@
     return String(b.gradedAt || b.loggedAt || '').localeCompare(String(a.gradedAt || a.loggedAt || ''));
   }
 
-  /** Game start shown in Eastern Time (EST/EDT). */
+  /** Game start shown in Eastern Time when startAt exists; else kick as logged. */
   function fmtGameStart(p) {
-    const ms = parseKickMs(p);
+    const ms = parseStartMs(p);
     if (ms != null) {
       const d = new Date(ms);
       const timeLabel = d.toLocaleTimeString('en-US', {
@@ -441,8 +413,18 @@
       });
       return { main: timeLabel, sub: day };
     }
+    // Legacy rows (no startAt): show kick as captured on the logger PC — no TZ guess.
     const kick = String((p && p.kick) || '').trim();
-    if (kick) return { main: kick + ' ET?', sub: '' };
+    const league = String((p && p.league) || '');
+    const dayMatch = league.match(
+      /\b((Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?)/i
+    );
+    if (kick) {
+      return {
+        main: kick,
+        sub: (dayMatch ? dayMatch[1] : '') + (dayMatch ? ' · as logged' : 'as logged'),
+      };
+    }
     if (p && p.loggedAt) {
       return { main: new Date(p.loggedAt).toLocaleString(), sub: 'logged' };
     }
