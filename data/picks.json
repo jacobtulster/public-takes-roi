@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T20:53:13.985Z",
+  "updatedAt": "2026-11-22T20:55:14.980Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2313,6 +2313,52 @@
       "tixFav": 71,
       "monFav": 80,
       "reason": "Tix 71% + $ 80% on fav"
+    },
+    {
+      "pickKey": "m|703|ut_martin_at_utah_valley|DOG|away|spread",
+      "matchupId": "703|ut_martin_at_utah_valley|DOG|away|spread",
+      "loggedAt": "2026-11-22T20:54:13.497Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - PARADISE JAM - SECOND ROUND - Sunday, November 22nd",
+      "away": "UT Martin",
+      "home": "Utah Valley",
+      "kick": "1:00",
+      "startAt": "2026-11-23T01:00:00.000Z",
+      "gameNumber": 703,
+      "takeRole": "DOG",
+      "takeTeam": "UT Martin",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 6.5,
+      "price": -100,
+      "tixFav": 90,
+      "monFav": 74,
+      "reason": "Tix 90% + $ 74% on fav"
+    },
+    {
+      "pickKey": "m|703|ut_martin_at_utah_valley|DOG|away|ml",
+      "matchupId": "703|ut_martin_at_utah_valley|DOG|away|ml",
+      "loggedAt": "2026-11-22T20:54:13.497Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - PARADISE JAM - SECOND ROUND - Sunday, November 22nd",
+      "away": "UT Martin",
+      "home": "Utah Valley",
+      "kick": "1:00",
+      "startAt": "2026-11-23T01:00:00.000Z",
+      "gameNumber": 703,
+      "takeRole": "DOG",
+      "takeTeam": "UT Martin",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 261,
+      "price": 261,
+      "tixFav": 90,
+      "monFav": 74,
+      "reason": "Tix 90% + $ 74% on fav"
     }
   ]
 }
