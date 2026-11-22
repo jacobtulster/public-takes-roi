@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:21:34.832Z",
+  "updatedAt": "2026-11-22T12:25:07.827Z",
   "picks": [
     {
       "pickKey": "m|389|hawaii_at_nevada|DOG|away|spread",
@@ -1033,6 +1033,28 @@
       "tixFav": 33,
       "monFav": 24,
       "reason": "Tix 33% + $ 24% on fav (<50)"
+    },
+    {
+      "pickKey": "m|463|miami_at_buffalo|FAV|home|ml",
+      "matchupId": "463|miami_at_buffalo|FAV|home|ml",
+      "loggedAt": "2026-11-22T12:25:04.736Z",
+      "sport": "NFL",
+      "league": "NFL WEEK 11 - Sunday, November 22nd",
+      "away": "Miami",
+      "home": "Buffalo",
+      "kick": "18:00",
+      "gameNumber": 463,
+      "takeRole": "FAV",
+      "takeTeam": "Buffalo",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -1364,
+      "price": -1364,
+      "tixFav": 48,
+      "monFav": 49,
+      "reason": "Tix 48% + $ 49% on fav (<50)"
     }
   ]
 }
