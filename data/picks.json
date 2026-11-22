@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:21:11.550Z",
+  "updatedAt": "2026-11-22T23:27:27.490Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -926,8 +926,8 @@
       "takeRole": "DOG",
       "takeTeam": "Delaware",
       "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 29.5,
       "price": -113,
@@ -935,7 +935,7 @@
       "monFav": 99,
       "reason": "Tix 89% + $ 99% on fav",
       "startAt": "2026-11-23T00:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T23:07:22.445Z"
+      "leanUpdatedAt": "2026-11-22T23:27:24.440Z"
     },
     {
       "pickKey": "m|683|cs_fullerton_at_portland_state|DOG|away|ml",
