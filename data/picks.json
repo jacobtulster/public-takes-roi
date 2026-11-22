@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:51:19.483Z",
+  "updatedAt": "2026-11-22T15:52:45.691Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1868,9 +1868,10 @@
       "market": "spread",
       "line": -2.5,
       "price": -106,
-      "tixFav": 14,
-      "monFav": 4,
-      "reason": "Tix 14% + $ 4% on fav (<50)"
+      "tixFav": 12,
+      "monFav": 2,
+      "reason": "Tix 12% + $ 2% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T15:52:42.604Z"
     },
     {
       "pickKey": "m|701|temple_at_stephen_f_austin|FAV|away|ml",
@@ -1891,9 +1892,10 @@
       "market": "ml",
       "line": -142,
       "price": -142,
-      "tixFav": 14,
-      "monFav": 4,
-      "reason": "Tix 14% + $ 4% on fav (<50)"
+      "tixFav": 12,
+      "monFav": 2,
+      "reason": "Tix 12% + $ 2% on fav (<50)",
+      "leanUpdatedAt": "2026-11-22T15:52:42.604Z"
     },
     {
       "pickKey": "m|661|duquesne_at_wyoming|DOG|away|spread",
