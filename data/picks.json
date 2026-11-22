@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:42:05.024515Z",
+  "updatedAt": "2026-11-22T22:46:13.985Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -485,11 +485,11 @@
       "market": "ml",
       "line": 111,
       "price": 111,
-      "tixFav": 70,
+      "tixFav": 71,
       "monFav": 80,
-      "reason": "Tix 70% + $ 80% on fav",
+      "reason": "Tix 71% + $ 80% on fav",
       "startAt": "2026-11-23T00:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:56:13.437Z"
+      "leanUpdatedAt": "2026-11-22T22:45:13.468Z"
     },
     {
       "pickKey": "m|679|liberty_at_richmond|DOG|home|ml",
@@ -1021,11 +1021,11 @@
       "market": "spread",
       "line": 2,
       "price": -106,
-      "tixFav": 70,
+      "tixFav": 71,
       "monFav": 80,
-      "reason": "Tix 70% + $ 80% on fav",
+      "reason": "Tix 71% + $ 80% on fav",
       "startAt": "2026-11-23T00:10:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:56:13.437Z"
+      "leanUpdatedAt": "2026-11-22T22:45:13.468Z"
     },
     {
       "pickKey": "m|687|utah_at_minnesota|DOG|away|ml",
