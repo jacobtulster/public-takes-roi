@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T13:59:01.383Z",
+  "updatedAt": "2026-11-22T13:59:21.227Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1336,6 +1336,50 @@
       "tixFav": 20,
       "monFav": 1,
       "reason": "Tix 20% + $ 1% on fav (<50)"
+    },
+    {
+      "pickKey": "m|691|california_baptist_at_portland|FAV|home|spread",
+      "matchupId": "691|california_baptist_at_portland|FAV|home|spread",
+      "loggedAt": "2026-11-22T13:59:18.276Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "California Baptist",
+      "home": "Portland",
+      "kick": "0:00",
+      "gameNumber": 691,
+      "takeRole": "FAV",
+      "takeTeam": "Portland",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -9.5,
+      "price": -103,
+      "tixFav": 25,
+      "monFav": 10,
+      "reason": "Tix 25% + $ 10% on fav (<50)"
+    },
+    {
+      "pickKey": "m|691|california_baptist_at_portland|FAV|home|ml",
+      "matchupId": "691|california_baptist_at_portland|FAV|home|ml",
+      "loggedAt": "2026-11-22T13:59:18.276Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "California Baptist",
+      "home": "Portland",
+      "kick": "0:00",
+      "gameNumber": 691,
+      "takeRole": "FAV",
+      "takeTeam": "Portland",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -479,
+      "price": -479,
+      "tixFav": 25,
+      "monFav": 10,
+      "reason": "Tix 25% + $ 10% on fav (<50)"
     }
   ]
 }
