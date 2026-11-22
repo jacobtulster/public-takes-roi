@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:14:06.456Z",
+  "updatedAt": "2026-11-22T21:17:43.263Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -162,10 +162,10 @@
       "line": 6,
       "price": -109,
       "tixFav": 77,
-      "monFav": 76,
-      "reason": "Tix 77% + $ 76% on fav",
+      "monFav": 75,
+      "reason": "Tix 77% + $ 75% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:14:03.418Z"
+      "leanUpdatedAt": "2026-11-22T21:17:40.202Z"
     },
     {
       "pickKey": "m|551|boston_at_golden_state|DOG|home|spread",
@@ -383,10 +383,10 @@
       "line": 232,
       "price": 232,
       "tixFav": 77,
-      "monFav": 76,
-      "reason": "Tix 77% + $ 76% on fav",
+      "monFav": 75,
+      "reason": "Tix 77% + $ 75% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:14:03.418Z"
+      "leanUpdatedAt": "2026-11-22T21:17:40.202Z"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|ml",
