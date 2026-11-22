@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T14:15:19.279Z",
+  "updatedAt": "2026-11-22T14:28:16.046Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -1468,6 +1468,52 @@
       "tixFav": 12,
       "monFav": 1,
       "reason": "Tix 12% + $ 1% on fav (<50)"
+    },
+    {
+      "pickKey": "m|671|western_kentucky_at_george_washington|DOG|away|spread",
+      "matchupId": "671|western_kentucky_at_george_washington|DOG|away|spread",
+      "loggedAt": "2026-11-22T14:28:12.863Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Western Kentucky",
+      "home": "George Washington",
+      "kick": "19:00",
+      "startAt": "2026-11-22T19:00:00.000Z",
+      "gameNumber": 671,
+      "takeRole": "DOG",
+      "takeTeam": "Western Kentucky",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 5,
+      "price": -105,
+      "tixFav": 90,
+      "monFav": 75,
+      "reason": "Tix 90% + $ 75% on fav"
+    },
+    {
+      "pickKey": "m|671|western_kentucky_at_george_washington|DOG|away|ml",
+      "matchupId": "671|western_kentucky_at_george_washington|DOG|away|ml",
+      "loggedAt": "2026-11-22T14:28:12.863Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Western Kentucky",
+      "home": "George Washington",
+      "kick": "19:00",
+      "startAt": "2026-11-22T19:00:00.000Z",
+      "gameNumber": 671,
+      "takeRole": "DOG",
+      "takeTeam": "Western Kentucky",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 184,
+      "price": 184,
+      "tixFav": 90,
+      "monFav": 75,
+      "reason": "Tix 90% + $ 75% on fav"
     }
   ]
 }
