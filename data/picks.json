@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:39:39.492Z",
+  "updatedAt": "2026-11-22T23:42:21.552Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2696,10 +2696,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -126,
-      "tixFav": 77,
-      "monFav": 97,
-      "reason": "Tix 77% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-22T23:05:24.464Z"
+      "tixFav": 78,
+      "monFav": 98,
+      "reason": "Tix 78% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-22T23:42:18.443Z"
     },
     {
       "pickKey": "m|5|pittsburgh_at_dallas|DOG|away|ml",
@@ -2720,10 +2720,10 @@
       "market": "ml",
       "line": 196,
       "price": 196,
-      "tixFav": 77,
-      "monFav": 97,
-      "reason": "Tix 77% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-22T23:05:24.464Z"
+      "tixFav": 78,
+      "monFav": 98,
+      "reason": "Tix 78% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-22T23:42:18.443Z"
     },
     {
       "pickKey": "m|695|ul_lafayette_at_usc|DOG|away|spread",
