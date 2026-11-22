@@ -338,43 +338,21 @@ th {
 .lean-glow {
   font-weight: 700;
   letter-spacing: 0.03em;
-}
-
-.lean-glow-dog {
-  color: #ffb06a;
+  color: var(--green);
   text-shadow:
-    0 0 6px rgba(240, 163, 94, 0.95),
-    0 0 14px rgba(255, 140, 60, 0.7),
-    0 0 26px rgba(255, 120, 40, 0.4);
-  animation: lean-pulse-dog 2.2s ease-in-out infinite;
+    0 0 6px rgba(61, 214, 140, 0.85),
+    0 0 14px rgba(61, 214, 140, 0.55),
+    0 0 24px rgba(40, 180, 110, 0.35);
+  animation: lean-pulse 2.2s ease-in-out infinite;
 }
 
-.lean-glow-fav {
-  color: #5dffb0;
-  text-shadow:
-    0 0 6px rgba(61, 214, 140, 0.95),
-    0 0 14px rgba(61, 214, 140, 0.7),
-    0 0 26px rgba(40, 200, 120, 0.4);
-  animation: lean-pulse-fav 2.2s ease-in-out infinite;
-}
-
-@keyframes lean-pulse-dog {
+@keyframes lean-pulse {
   0%,
   100% {
     filter: brightness(1);
   }
   50% {
-    filter: brightness(1.35);
-  }
-}
-
-@keyframes lean-pulse-fav {
-  0%,
-  100% {
-    filter: brightness(1);
-  }
-  50% {
-    filter: brightness(1.35);
+    filter: brightness(1.3);
   }
 }
 
