@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:20:19.796Z",
+  "updatedAt": "2026-11-22T12:21:34.832Z",
   "picks": [
     {
       "pickKey": "m|389|hawaii_at_nevada|DOG|away|spread",
@@ -989,6 +989,50 @@
       "tixFav": 17,
       "monFav": 13,
       "reason": "Tix 17% + $ 13% on fav (<50)"
+    },
+    {
+      "pickKey": "m|673|robert_morris_at_new_mexico_state|FAV|home|spread",
+      "matchupId": "673|robert_morris_at_new_mexico_state|FAV|home|spread",
+      "loggedAt": "2026-11-22T12:21:30.722Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Robert Morris",
+      "home": "New Mexico State",
+      "kick": "19:30",
+      "gameNumber": 673,
+      "takeRole": "FAV",
+      "takeTeam": "New Mexico State",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -2,
+      "price": -102,
+      "tixFav": 33,
+      "monFav": 24,
+      "reason": "Tix 33% + $ 24% on fav (<50)"
+    },
+    {
+      "pickKey": "m|673|robert_morris_at_new_mexico_state|FAV|home|ml",
+      "matchupId": "673|robert_morris_at_new_mexico_state|FAV|home|ml",
+      "loggedAt": "2026-11-22T12:21:30.722Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Robert Morris",
+      "home": "New Mexico State",
+      "kick": "19:30",
+      "gameNumber": 673,
+      "takeRole": "FAV",
+      "takeTeam": "New Mexico State",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -124,
+      "price": -124,
+      "tixFav": 33,
+      "monFav": 24,
+      "reason": "Tix 33% + $ 24% on fav (<50)"
     }
   ]
 }
