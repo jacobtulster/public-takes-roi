@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:17:05.568Z",
+  "updatedAt": "2026-11-22T16:19:59.732Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -43,11 +43,11 @@
       "market": "spread",
       "line": -10.5,
       "price": -109,
-      "tixFav": 48,
+      "tixFav": 49,
       "monFav": 41,
-      "reason": "Tix 48% + $ 41% on fav (<50)",
+      "reason": "Tix 49% + $ 41% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:15:06.608Z"
+      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -209,11 +209,11 @@
       "market": "ml",
       "line": -573,
       "price": -573,
-      "tixFav": 48,
+      "tixFav": 49,
       "monFav": 41,
-      "reason": "Tix 48% + $ 41% on fav (<50)",
+      "reason": "Tix 49% + $ 41% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:15:06.608Z"
+      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
     },
     {
       "pickKey": "m|463|miami_at_buffalo|FAV|home|ml",
@@ -359,10 +359,10 @@
       "line": 4.5,
       "price": -126,
       "tixFav": 80,
-      "monFav": 73,
-      "reason": "Tix 80% + $ 73% on fav",
+      "monFav": 74,
+      "reason": "Tix 80% + $ 74% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:08:48.614Z"
+      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
     },
     {
       "pickKey": "m|455|jacksonville_at_n_y_giants|DOG|home|ml",
@@ -972,10 +972,10 @@
       "line": 176,
       "price": 176,
       "tixFav": 80,
-      "monFav": 73,
-      "reason": "Tix 80% + $ 73% on fav",
+      "monFav": 74,
+      "reason": "Tix 80% + $ 74% on fav",
       "startAt": "2026-11-22T18:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:08:48.614Z"
+      "leanUpdatedAt": "2026-11-22T16:19:56.609Z"
     },
     {
       "pickKey": "m|667|evansville_at_memphis|DOG|away|spread",
@@ -1773,9 +1773,9 @@
       "line": 3.5,
       "price": -104,
       "tixFav": 77,
-      "monFav": 71,
-      "reason": "Tix 77% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-22T15:56:46.610Z"
+      "monFav": 70,
+      "reason": "Tix 77% + $ 70% on fav",
+      "leanUpdatedAt": "2026-11-22T16:19:54.612Z"
     },
     {
       "pickKey": "m|453|tampa_bay_at_detroit|DOG|away|ml",
@@ -1797,9 +1797,9 @@
       "line": 177,
       "price": 177,
       "tixFav": 77,
-      "monFav": 71,
-      "reason": "Tix 77% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-22T15:56:46.610Z"
+      "monFav": 70,
+      "reason": "Tix 77% + $ 70% on fav",
+      "leanUpdatedAt": "2026-11-22T16:19:54.612Z"
     },
     {
       "pickKey": "m|653|miami_ohio_at_illinois_chicago|FAV|home|spread",
