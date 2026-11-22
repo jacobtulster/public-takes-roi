@@ -540,13 +540,14 @@ code {
   .panel-chart {
     order: 2;
     flex: none;
-    height: 180px;
-    min-height: 180px;
-    max-height: 180px;
+    height: 280px;
+    min-height: 280px;
+    max-height: none;
   }
 
   .panel-chart .chart-box {
-    min-height: 120px;
+    min-height: 220px;
+    height: 220px;
   }
 
   .toolbar h2 {
