@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:48:09.466Z",
+  "updatedAt": "2026-11-23T00:49:02.783Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -965,7 +965,16 @@
       "monFav": 91,
       "reason": "Tix 80% + $ 91% on fav",
       "startAt": "2026-11-22T23:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T22:06:13.493Z"
+      "leanUpdatedAt": "2026-11-22T22:06:13.493Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 62,
+      "homeScore": 77,
+      "gradedAt": "2026-11-23T00:48:58.478Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921420",
+      "espnAway": "Utah Utes",
+      "espnHome": "Minnesota Golden Gophers"
     },
     {
       "pickKey": "m|689|delaware_at_ucla|DOG|away|spread",
@@ -1211,7 +1220,16 @@
       "monFav": 91,
       "reason": "Tix 80% + $ 91% on fav",
       "startAt": "2026-11-22T23:00:00.000Z",
-      "leanUpdatedAt": "2026-11-22T22:06:13.493Z"
+      "leanUpdatedAt": "2026-11-22T22:06:13.493Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 62,
+      "homeScore": 77,
+      "gradedAt": "2026-11-23T00:48:59.610Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921420",
+      "espnAway": "Utah Utes",
+      "espnHome": "Minnesota Golden Gophers"
     },
     {
       "pickKey": "m|537|boston_at_sacramento|DOG|home|ml",
