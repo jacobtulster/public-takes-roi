@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:54:33.542Z",
+  "updatedAt": "2026-11-23T00:55:10.509Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -174,7 +174,16 @@
       "monFav": 77,
       "reason": "Tix 79% + $ 77% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:22:13.505Z"
+      "leanUpdatedAt": "2026-11-22T21:22:13.505Z",
+      "result": "W",
+      "profit": 0.9174,
+      "awayScore": 18,
+      "homeScore": 23,
+      "gradedAt": "2026-11-23T00:55:05.305Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873069",
+      "espnAway": "Jacksonville Jaguars",
+      "espnHome": "New York Giants"
     },
     {
       "pickKey": "m|551|boston_at_golden_state|DOG|home|spread",
@@ -440,7 +449,16 @@
       "monFav": 77,
       "reason": "Tix 79% + $ 77% on fav",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:22:13.505Z"
+      "leanUpdatedAt": "2026-11-22T21:22:13.505Z",
+      "result": "W",
+      "profit": 2.32,
+      "awayScore": 18,
+      "homeScore": 23,
+      "gradedAt": "2026-11-23T00:55:05.305Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873069",
+      "espnAway": "Jacksonville Jaguars",
+      "espnHome": "New York Giants"
     },
     {
       "pickKey": "m|641|washington_state_at_duke|DOG|away|ml",
@@ -2207,7 +2225,16 @@
       "tixFav": 31,
       "monFav": 43,
       "reason": "Tix 31% + $ 43% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T22:18:13.230Z"
+      "leanUpdatedAt": "2026-11-22T22:18:13.230Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 70,
+      "homeScore": 72,
+      "gradedAt": "2026-11-23T00:55:07.476Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921205",
+      "espnAway": "Temple Owls",
+      "espnHome": "Stephen F. Austin Lumberjacks"
     },
     {
       "pickKey": "m|701|temple_at_stephen_f_austin|FAV|away|ml",
@@ -2231,7 +2258,16 @@
       "tixFav": 31,
       "monFav": 43,
       "reason": "Tix 31% + $ 43% on fav (<50)",
-      "leanUpdatedAt": "2026-11-22T22:18:13.230Z"
+      "leanUpdatedAt": "2026-11-22T22:18:13.230Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 70,
+      "homeScore": 72,
+      "gradedAt": "2026-11-23T00:55:07.476Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921205",
+      "espnAway": "Temple Owls",
+      "espnHome": "Stephen F. Austin Lumberjacks"
     },
     {
       "pickKey": "m|661|duquesne_at_wyoming|DOG|away|spread",
