@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:00:15.192Z",
+  "updatedAt": "2026-11-23T18:03:15.338Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -3784,9 +3784,10 @@
       "market": "spread",
       "line": 7,
       "price": -103,
-      "tixFav": 83,
+      "tixFav": 84,
       "monFav": 99,
-      "reason": "Tix 83% + $ 99% on fav"
+      "reason": "Tix 84% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T18:01:13.050Z"
     },
     {
       "pickKey": "m|853|arkansas_state_at_southern_utah|DOG|home|ml",
@@ -3807,9 +3808,10 @@
       "market": "ml",
       "line": 250,
       "price": 250,
-      "tixFav": 83,
+      "tixFav": 84,
       "monFav": 99,
-      "reason": "Tix 83% + $ 99% on fav"
+      "reason": "Tix 84% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T18:01:13.050Z"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|spread",
@@ -3830,9 +3832,10 @@
       "market": "spread",
       "line": -1.5,
       "price": -110,
-      "tixFav": 20,
-      "monFav": 38,
-      "reason": "Tix 20% + $ 38% on fav (<50)"
+      "tixFav": 19,
+      "monFav": 24,
+      "reason": "Tix 19% + $ 24% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T18:01:13.050Z"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|ml",
@@ -3853,9 +3856,10 @@
       "market": "ml",
       "line": -121,
       "price": -121,
-      "tixFav": 20,
-      "monFav": 38,
-      "reason": "Tix 20% + $ 38% on fav (<50)"
+      "tixFav": 19,
+      "monFav": 24,
+      "reason": "Tix 19% + $ 24% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T18:01:13.050Z"
     },
     {
       "pickKey": "m|857|yale_at_belmont|FAV|home|spread",
@@ -4154,9 +4158,10 @@
       "market": "spread",
       "line": 12,
       "price": -101,
-      "tixFav": 80,
-      "monFav": 93,
-      "reason": "Tix 80% + $ 93% on fav"
+      "tixFav": 81,
+      "monFav": 96,
+      "reason": "Tix 81% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T18:02:12.854Z"
     },
     {
       "pickKey": "m|883|washington_at_byu|DOG|away|ml",
@@ -4177,9 +4182,10 @@
       "market": "ml",
       "line": 588,
       "price": 588,
-      "tixFav": 80,
-      "monFav": 93,
-      "reason": "Tix 80% + $ 93% on fav"
+      "tixFav": 81,
+      "monFav": 96,
+      "reason": "Tix 81% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T18:02:12.854Z"
     },
     {
       "pickKey": "m|885|vcu_at_providence|DOG|away|spread",
@@ -4504,6 +4510,98 @@
       "tixFav": 93,
       "monFav": 99,
       "reason": "Tix 93% + $ 99% on fav"
+    },
+    {
+      "pickKey": "m|889|loyola_chicago_at_seattle|DOG|away|spread",
+      "matchupId": "889|loyola_chicago_at_seattle|DOG|away|spread",
+      "loggedAt": "2026-11-23T18:01:13.051Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - ACRISURE SERIES POD 4 - FINAL ROUND - Monday, November 23rd",
+      "away": "Loyola Chicago",
+      "home": "Seattle",
+      "kick": "2:30",
+      "startAt": "2026-11-24T02:30:00.000Z",
+      "gameNumber": 889,
+      "takeRole": "DOG",
+      "takeTeam": "Loyola Chicago",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 1.5,
+      "price": -108,
+      "tixFav": 75,
+      "monFav": 96,
+      "reason": "Tix 75% + $ 96% on fav"
+    },
+    {
+      "pickKey": "m|889|loyola_chicago_at_seattle|DOG|away|ml",
+      "matchupId": "889|loyola_chicago_at_seattle|DOG|away|ml",
+      "loggedAt": "2026-11-23T18:01:13.052Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - ACRISURE SERIES POD 4 - FINAL ROUND - Monday, November 23rd",
+      "away": "Loyola Chicago",
+      "home": "Seattle",
+      "kick": "2:30",
+      "startAt": "2026-11-24T02:30:00.000Z",
+      "gameNumber": 889,
+      "takeRole": "DOG",
+      "takeTeam": "Loyola Chicago",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 102,
+      "price": 102,
+      "tixFav": 75,
+      "monFav": 96,
+      "reason": "Tix 75% + $ 96% on fav"
+    },
+    {
+      "pickKey": "m|847|akron_at_wright_state|FAV|away|spread",
+      "matchupId": "847|akron_at_wright_state|FAV|away|spread",
+      "loggedAt": "2026-11-23T18:02:12.852Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Monday, November 23rd",
+      "away": "Akron",
+      "home": "Wright State",
+      "kick": "18:30",
+      "startAt": "2026-11-23T18:30:00.000Z",
+      "gameNumber": 847,
+      "takeRole": "FAV",
+      "takeTeam": "Akron",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": 1,
+      "price": -115,
+      "tixFav": 34,
+      "monFav": 37,
+      "reason": "Tix 34% + $ 37% on fav (<50)"
+    },
+    {
+      "pickKey": "m|847|akron_at_wright_state|FAV|away|ml",
+      "matchupId": "847|akron_at_wright_state|FAV|away|ml",
+      "loggedAt": "2026-11-23T18:02:12.853Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Monday, November 23rd",
+      "away": "Akron",
+      "home": "Wright State",
+      "kick": "18:30",
+      "startAt": "2026-11-23T18:30:00.000Z",
+      "gameNumber": 847,
+      "takeRole": "FAV",
+      "takeTeam": "Akron",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -109,
+      "price": -109,
+      "tixFav": 34,
+      "monFav": 37,
+      "reason": "Tix 34% + $ 37% on fav (<50)"
     }
   ]
 }
