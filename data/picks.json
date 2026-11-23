@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:42:52.081Z",
+  "updatedAt": "2026-11-23T18:42:59.845Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -4764,9 +4764,10 @@
       "market": "spread",
       "line": 2.5,
       "price": -110,
-      "tixFav": 75,
+      "tixFav": 80,
       "monFav": 96,
-      "reason": "Tix 75% + $ 96% on fav"
+      "reason": "Tix 80% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T18:42:56.865Z"
     },
     {
       "pickKey": "m|861|illinois_state_at_santa_clara|DOG|away|ml",
@@ -4787,9 +4788,10 @@
       "market": "ml",
       "line": 124,
       "price": 124,
-      "tixFav": 75,
+      "tixFav": 80,
       "monFav": 96,
-      "reason": "Tix 75% + $ 96% on fav"
+      "reason": "Tix 80% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T18:42:56.865Z"
     },
     {
       "pickKey": "m|881|mississippi_at_clemson|FAV|away|spread",
