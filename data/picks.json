@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T17:54:59.175Z",
+  "updatedAt": "2026-11-23T17:55:07.701Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -3363,14 +3363,15 @@
       "takeRole": "DOG",
       "takeTeam": "Portland",
       "takeSide": "away",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 4,
       "price": -110,
       "tixFav": 79,
       "monFav": 84,
-      "reason": "Tix 79% + $ 84% on fav"
+      "reason": "Tix 79% + $ 84% on fav",
+      "leanUpdatedAt": "2026-11-23T17:55:01.495Z"
     },
     {
       "pickKey": "m|553|portland_at_philadelphia|DOG|away|ml",
@@ -3386,14 +3387,15 @@
       "takeRole": "DOG",
       "takeTeam": "Portland",
       "takeSide": "away",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "ml",
       "line": 142,
       "price": 142,
       "tixFav": 79,
       "monFav": 84,
-      "reason": "Tix 79% + $ 84% on fav"
+      "reason": "Tix 79% + $ 84% on fav",
+      "leanUpdatedAt": "2026-11-23T17:55:01.495Z"
     },
     {
       "pickKey": "m|557|milwaukee_at_toronto|DOG|away|spread",
