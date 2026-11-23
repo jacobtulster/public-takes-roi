@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:29:40.565112Z",
+  "updatedAt": "2026-11-23T19:29:43.887Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3826,10 +3826,10 @@
       "market": "spread",
       "line": 7,
       "price": -103,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 99,
-      "reason": "Tix 78% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T19:00:04.873Z"
+      "reason": "Tix 79% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T19:29:40.875Z"
     },
     {
       "pickKey": "m|853|arkansas_state_at_southern_utah|DOG|home|ml",
@@ -3850,10 +3850,10 @@
       "market": "ml",
       "line": 250,
       "price": 250,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 99,
-      "reason": "Tix 78% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T19:00:04.873Z"
+      "reason": "Tix 79% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T19:29:40.875Z"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|spread",
@@ -4438,10 +4438,10 @@
       "market": "spread",
       "line": -4,
       "price": -108,
-      "tixFav": 36,
-      "monFav": 48,
-      "reason": "Tix 36% + $ 48% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T19:00:04.873Z"
+      "tixFav": 37,
+      "monFav": 14,
+      "reason": "Tix 37% + $ 14% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T19:29:40.875Z"
     },
     {
       "pickKey": "m|875|middle_tennessee_st_at_southern_illinois|FAV|home|ml",
@@ -4462,10 +4462,10 @@
       "market": "ml",
       "line": -177,
       "price": -177,
-      "tixFav": 36,
-      "monFav": 48,
-      "reason": "Tix 36% + $ 48% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T19:00:04.873Z"
+      "tixFav": 37,
+      "monFav": 14,
+      "reason": "Tix 37% + $ 14% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T19:29:40.875Z"
     },
     {
       "pickKey": "m|877|temple_at_ut_martin|FAV|away|spread",
