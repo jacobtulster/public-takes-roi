@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:43:41.547Z",
+  "updatedAt": "2026-11-23T00:47:30.496Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -47,7 +47,16 @@
       "monFav": 46,
       "reason": "Tix 48% + $ 46% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T20:06:46.902Z"
+      "leanUpdatedAt": "2026-11-22T20:06:46.902Z",
+      "result": "W",
+      "profit": 0.9174,
+      "awayScore": 24,
+      "homeScore": 38,
+      "gradedAt": "2026-11-23T00:47:25.154Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873075",
+      "espnAway": "Las Vegas Raiders",
+      "espnHome": "Denver Broncos"
     },
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -213,7 +222,16 @@
       "monFav": 46,
       "reason": "Tix 48% + $ 46% on fav (<50)",
       "startAt": "2026-11-22T21:25:00.000Z",
-      "leanUpdatedAt": "2026-11-22T20:06:46.902Z"
+      "leanUpdatedAt": "2026-11-22T20:06:46.902Z",
+      "result": "W",
+      "profit": 0.1745,
+      "awayScore": 24,
+      "homeScore": 38,
+      "gradedAt": "2026-11-23T00:47:25.465Z",
+      "gradeSource": "espn",
+      "espnEventId": "401873075",
+      "espnAway": "Las Vegas Raiders",
+      "espnHome": "Denver Broncos"
     },
     {
       "pickKey": "m|463|miami_at_buffalo|FAV|home|ml",
