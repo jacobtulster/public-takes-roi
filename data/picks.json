@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:28:35.128522Z",
+  "updatedAt": "2026-11-23T18:30:12.082Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3523,14 +3523,15 @@
       "takeRole": "DOG",
       "takeTeam": "Chicago",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 8.5,
       "price": -106,
       "tixFav": 70,
       "monFav": 99,
-      "reason": "Tix 70% + $ 99% on fav"
+      "reason": "Tix 70% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T18:30:08.860Z"
     },
     {
       "pickKey": "m|563|cleveland_at_chicago|DOG|home|ml",
@@ -3546,14 +3547,15 @@
       "takeRole": "DOG",
       "takeTeam": "Chicago",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 273,
       "price": 273,
       "tixFav": 70,
       "monFav": 99,
-      "reason": "Tix 70% + $ 99% on fav"
+      "reason": "Tix 70% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T18:30:08.860Z"
     },
     {
       "pickKey": "m|567|l_a_clippers_at_houston|DOG|away|spread",
