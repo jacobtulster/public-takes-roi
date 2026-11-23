@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:30:19.996873Z",
+  "updatedAt": "2026-11-23T18:35:42.200Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4744,6 +4744,52 @@
       "tixFav": 70,
       "monFav": 99,
       "reason": "Tix 70% + $ 99% on fav"
+    },
+    {
+      "pickKey": "m|861|illinois_state_at_santa_clara|DOG|away|spread",
+      "matchupId": "861|illinois_state_at_santa_clara|DOG|away|spread",
+      "loggedAt": "2026-11-23T18:35:38.879Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Monday, November 23rd",
+      "away": "Illinois State",
+      "home": "Santa Clara",
+      "kick": "0:00",
+      "startAt": "2026-11-24T00:00:00.000Z",
+      "gameNumber": 861,
+      "takeRole": "DOG",
+      "takeTeam": "Illinois State",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 2.5,
+      "price": -110,
+      "tixFav": 75,
+      "monFav": 96,
+      "reason": "Tix 75% + $ 96% on fav"
+    },
+    {
+      "pickKey": "m|861|illinois_state_at_santa_clara|DOG|away|ml",
+      "matchupId": "861|illinois_state_at_santa_clara|DOG|away|ml",
+      "loggedAt": "2026-11-23T18:35:38.879Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Monday, November 23rd",
+      "away": "Illinois State",
+      "home": "Santa Clara",
+      "kick": "0:00",
+      "startAt": "2026-11-24T00:00:00.000Z",
+      "gameNumber": 861,
+      "takeRole": "DOG",
+      "takeTeam": "Illinois State",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 124,
+      "price": 124,
+      "tixFav": 75,
+      "monFav": 96,
+      "reason": "Tix 75% + $ 96% on fav"
     }
   ]
 }
