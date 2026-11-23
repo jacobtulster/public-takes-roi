@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:35:41.530Z",
+  "updatedAt": "2026-11-23T00:38:05.538Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -103,10 +103,10 @@
       "line": 304,
       "price": 304,
       "tixFav": 84,
-      "monFav": 95,
-      "reason": "Tix 84% + $ 95% on fav",
+      "monFav": 90,
+      "reason": "Tix 84% + $ 90% on fav",
       "startAt": "2026-11-23T01:40:00.000Z",
-      "leanUpdatedAt": "2026-11-23T00:34:02.446Z"
+      "leanUpdatedAt": "2026-11-23T00:38:02.448Z"
     },
     {
       "pickKey": "m|537|boston_at_sacramento|DOG|home|spread",
@@ -186,10 +186,10 @@
       "line": 9.5,
       "price": -107,
       "tixFav": 84,
-      "monFav": 95,
-      "reason": "Tix 84% + $ 95% on fav",
+      "monFav": 90,
+      "reason": "Tix 84% + $ 90% on fav",
       "startAt": "2026-11-23T01:40:00.000Z",
-      "leanUpdatedAt": "2026-11-23T00:34:02.446Z"
+      "leanUpdatedAt": "2026-11-23T00:38:02.448Z"
     },
     {
       "pickKey": "m|467|las_vegas_at_denver|FAV|home|ml",
