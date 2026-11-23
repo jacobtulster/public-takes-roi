@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:34:05.476Z",
+  "updatedAt": "2026-11-23T00:35:41.530Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2702,10 +2702,10 @@
       "market": "spread",
       "line": 6.5,
       "price": -100,
-      "tixFav": 88,
-      "monFav": 77,
-      "reason": "Tix 88% + $ 77% on fav",
-      "leanUpdatedAt": "2026-11-23T00:27:38.437Z"
+      "tixFav": 85,
+      "monFav": 75,
+      "reason": "Tix 85% + $ 75% on fav",
+      "leanUpdatedAt": "2026-11-23T00:35:38.436Z"
     },
     {
       "pickKey": "m|703|ut_martin_at_utah_valley|DOG|away|ml",
@@ -2726,10 +2726,10 @@
       "market": "ml",
       "line": 261,
       "price": 261,
-      "tixFav": 88,
-      "monFav": 77,
-      "reason": "Tix 88% + $ 77% on fav",
-      "leanUpdatedAt": "2026-11-23T00:27:38.437Z"
+      "tixFav": 85,
+      "monFav": 75,
+      "reason": "Tix 85% + $ 75% on fav",
+      "leanUpdatedAt": "2026-11-23T00:35:38.436Z"
     },
     {
       "pickKey": "m|5|pittsburgh_at_dallas|DOG|away|spread",
@@ -2846,6 +2846,52 @@
       "tixFav": 70,
       "monFav": 74,
       "reason": "Tix 70% + $ 74% on fav"
+    },
+    {
+      "pickKey": "m|697|seattle_at_uc_san_diego|DOG|away|spread",
+      "matchupId": "697|seattle_at_uc_san_diego|DOG|away|spread",
+      "loggedAt": "2026-11-23T00:35:38.436Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Seattle",
+      "home": "UC San Diego",
+      "kick": "21:30",
+      "startAt": "2026-11-23T02:30:00.000Z",
+      "gameNumber": 697,
+      "takeRole": "DOG",
+      "takeTeam": "Seattle",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 1.5,
+      "price": -118,
+      "tixFav": 94,
+      "monFav": 83,
+      "reason": "Tix 94% + $ 83% on fav"
+    },
+    {
+      "pickKey": "m|697|seattle_at_uc_san_diego|DOG|away|ml",
+      "matchupId": "697|seattle_at_uc_san_diego|DOG|away|ml",
+      "loggedAt": "2026-11-23T00:35:38.436Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Sunday, November 22nd",
+      "away": "Seattle",
+      "home": "UC San Diego",
+      "kick": "21:30",
+      "startAt": "2026-11-23T02:30:00.000Z",
+      "gameNumber": 697,
+      "takeRole": "DOG",
+      "takeTeam": "Seattle",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": -107,
+      "price": -107,
+      "tixFav": 94,
+      "monFav": 83,
+      "reason": "Tix 94% + $ 83% on fav"
     }
   ]
 }
