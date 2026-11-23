@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:21:58.503404Z",
+  "updatedAt": "2026-11-23T23:24:21.924Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4660,9 +4660,9 @@
       "line": 17,
       "price": -112,
       "tixFav": 78,
-      "monFav": 82,
-      "reason": "Tix 78% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-23T23:19:26.334Z"
+      "monFav": 83,
+      "reason": "Tix 78% + $ 83% on fav",
+      "leanUpdatedAt": "2026-11-23T23:24:18.748Z"
     },
     {
       "pickKey": "m|887|colorado_state_at_arizona|DOG|away|ml",
@@ -4684,9 +4684,9 @@
       "line": 1046,
       "price": 1046,
       "tixFav": 78,
-      "monFav": 82,
-      "reason": "Tix 78% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-23T23:19:26.334Z"
+      "monFav": 83,
+      "reason": "Tix 78% + $ 83% on fav",
+      "leanUpdatedAt": "2026-11-23T23:24:18.748Z"
     },
     {
       "pickKey": "m|889|loyola_chicago_at_seattle|DOG|away|spread",
@@ -5103,9 +5103,10 @@
       "market": "spread",
       "line": 8,
       "price": -105,
-      "tixFav": 71,
+      "tixFav": 72,
       "monFav": 99,
-      "reason": "Tix 71% + $ 99% on fav"
+      "reason": "Tix 72% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T23:24:18.748Z"
     },
     {
       "pickKey": "m|871|eastern_washington_at_unlv|DOG|away|ml",
@@ -5126,9 +5127,10 @@
       "market": "ml",
       "line": 286,
       "price": 286,
-      "tixFav": 71,
+      "tixFav": 72,
       "monFav": 99,
-      "reason": "Tix 71% + $ 99% on fav"
+      "reason": "Tix 72% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T23:24:18.748Z"
     }
   ]
 }
