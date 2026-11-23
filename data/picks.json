@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:59:37.475Z",
+  "updatedAt": "2026-11-23T00:15:18.583Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -540,7 +540,16 @@
       "monFav": 88,
       "reason": "Tix 87% + $ 88% on fav",
       "startAt": "2026-11-22T21:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:11:32.609Z"
+      "leanUpdatedAt": "2026-11-22T16:11:32.609Z",
+      "result": "W",
+      "profit": 1,
+      "awayScore": 88,
+      "homeScore": 92,
+      "gradedAt": "2026-11-23T00:15:14.273Z",
+      "gradeSource": "espn",
+      "espnEventId": "401926795",
+      "espnAway": "Liberty Flames",
+      "espnHome": "Richmond Spiders"
     },
     {
       "pickKey": "m|655|butler_at_nebraska|DOG|away|spread",
@@ -784,7 +793,16 @@
       "monFav": 88,
       "reason": "Tix 87% + $ 88% on fav",
       "startAt": "2026-11-22T21:30:00.000Z",
-      "leanUpdatedAt": "2026-11-22T16:11:32.609Z"
+      "leanUpdatedAt": "2026-11-22T16:11:32.609Z",
+      "result": "W",
+      "profit": 0.9091,
+      "awayScore": 88,
+      "homeScore": 92,
+      "gradedAt": "2026-11-23T00:15:14.273Z",
+      "gradeSource": "espn",
+      "espnEventId": "401926795",
+      "espnAway": "Liberty Flames",
+      "espnHome": "Richmond Spiders"
     },
     {
       "pickKey": "m|9|chicago_at_vancouver|FAV|away|ml",
@@ -2248,7 +2266,16 @@
       "price": -104,
       "tixFav": 22,
       "monFav": 20,
-      "reason": "Tix 22% + $ 20% on fav (<50)"
+      "reason": "Tix 22% + $ 20% on fav (<50)",
+      "result": "W",
+      "profit": 0.9615,
+      "awayScore": 88,
+      "homeScore": 92,
+      "gradedAt": "2026-11-23T00:15:15.353Z",
+      "gradeSource": "espn",
+      "espnEventId": "401926795",
+      "espnAway": "Liberty Flames",
+      "espnHome": "Richmond Spiders"
     },
     {
       "pickKey": "m|679|liberty_at_richmond|FAV|home|ml",
@@ -2271,7 +2298,16 @@
       "price": -109,
       "tixFav": 22,
       "monFav": 20,
-      "reason": "Tix 22% + $ 20% on fav (<50)"
+      "reason": "Tix 22% + $ 20% on fav (<50)",
+      "result": "W",
+      "profit": 0.9174,
+      "awayScore": 88,
+      "homeScore": 92,
+      "gradedAt": "2026-11-23T00:15:15.353Z",
+      "gradeSource": "espn",
+      "espnEventId": "401926795",
+      "espnAway": "Liberty Flames",
+      "espnHome": "Richmond Spiders"
     },
     {
       "pickKey": "m|685|valparaiso_at_southern_miss|DOG|home|spread",
