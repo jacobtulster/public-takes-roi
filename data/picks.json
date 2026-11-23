@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:23:16.782762Z",
+  "updatedAt": "2026-11-23T19:26:48.056Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -843,10 +843,10 @@
       "line": 6.5,
       "price": -113,
       "tixFav": 84,
-      "monFav": 83,
-      "reason": "Tix 84% + $ 83% on fav",
+      "monFav": 84,
+      "reason": "Tix 84% + $ 84% on fav",
       "startAt": "2026-11-24T01:15:00.000Z",
-      "leanUpdatedAt": "2026-11-23T17:54:42.944Z"
+      "leanUpdatedAt": "2026-11-23T19:26:44.883Z"
     },
     {
       "pickKey": "m|655|butler_at_nebraska|DOG|away|ml",
@@ -1032,10 +1032,10 @@
       "line": 240,
       "price": 240,
       "tixFav": 84,
-      "monFav": 83,
-      "reason": "Tix 84% + $ 83% on fav",
+      "monFav": 84,
+      "reason": "Tix 84% + $ 84% on fav",
       "startAt": "2026-11-24T01:15:00.000Z",
-      "leanUpdatedAt": "2026-11-23T17:54:42.944Z"
+      "leanUpdatedAt": "2026-11-23T19:26:44.883Z"
     },
     {
       "pickKey": "m|687|utah_at_minnesota|DOG|away|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
