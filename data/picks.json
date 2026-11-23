@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T22:48:26.235702Z",
+  "updatedAt": "2026-11-23T22:59:19.146Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3913,7 +3913,16 @@
       "tixFav": 37,
       "monFav": 13,
       "reason": "Tix 37% + $ 13% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T20:56:54.035Z"
+      "leanUpdatedAt": "2026-11-23T20:56:54.035Z",
+      "result": "W",
+      "profit": 0.9091,
+      "awayScore": 63,
+      "homeScore": 73,
+      "gradedAt": "2026-11-23T22:59:15.131Z",
+      "gradeSource": "espn",
+      "espnEventId": "401919006",
+      "espnAway": "Tulane Green Wave",
+      "espnHome": "Georgia State Panthers"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|ml",
@@ -3937,7 +3946,16 @@
       "tixFav": 37,
       "monFav": 13,
       "reason": "Tix 37% + $ 13% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T20:56:54.035Z"
+      "leanUpdatedAt": "2026-11-23T20:56:54.035Z",
+      "result": "W",
+      "profit": 0.8264,
+      "awayScore": 63,
+      "homeScore": 73,
+      "gradedAt": "2026-11-23T22:59:15.132Z",
+      "gradeSource": "espn",
+      "espnEventId": "401919006",
+      "espnAway": "Tulane Green Wave",
+      "espnHome": "Georgia State Panthers"
     },
     {
       "pickKey": "m|857|yale_at_belmont|FAV|home|spread",
