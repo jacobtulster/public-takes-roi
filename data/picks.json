@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T20:00:48.515534Z",
+  "updatedAt": "2026-11-23T20:04:03.916Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3826,10 +3826,10 @@
       "market": "spread",
       "line": 7,
       "price": -103,
-      "tixFav": 81,
+      "tixFav": 82,
       "monFav": 99,
-      "reason": "Tix 81% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T19:49:51.485Z"
+      "reason": "Tix 82% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T20:02:13.191Z"
     },
     {
       "pickKey": "m|853|arkansas_state_at_southern_utah|DOG|home|ml",
@@ -3850,10 +3850,10 @@
       "market": "ml",
       "line": 250,
       "price": 250,
-      "tixFav": 81,
+      "tixFav": 82,
       "monFav": 99,
-      "reason": "Tix 81% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T19:49:51.486Z"
+      "reason": "Tix 82% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T20:02:13.191Z"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|spread",
@@ -3874,10 +3874,10 @@
       "market": "spread",
       "line": -1.5,
       "price": -110,
-      "tixFav": 19,
+      "tixFav": 26,
       "monFav": 15,
-      "reason": "Tix 19% + $ 15% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T19:23:00.850Z"
+      "reason": "Tix 26% + $ 15% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T20:02:13.191Z"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|ml",
@@ -3898,10 +3898,10 @@
       "market": "ml",
       "line": -121,
       "price": -121,
-      "tixFav": 19,
+      "tixFav": 26,
       "monFav": 15,
-      "reason": "Tix 19% + $ 15% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T19:23:00.850Z"
+      "reason": "Tix 26% + $ 15% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T20:02:13.191Z"
     },
     {
       "pickKey": "m|857|yale_at_belmont|FAV|home|spread",
@@ -3968,10 +3968,10 @@
       "market": "spread",
       "line": 7.5,
       "price": -111,
-      "tixFav": 74,
-      "monFav": 99,
-      "reason": "Tix 74% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T18:14:22.884Z"
+      "tixFav": 70,
+      "monFav": 98,
+      "reason": "Tix 70% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-23T20:02:13.191Z"
     },
     {
       "pickKey": "m|859|nevada_at_san_francisco|DOG|home|ml",
@@ -3992,10 +3992,10 @@
       "market": "ml",
       "line": 254,
       "price": 254,
-      "tixFav": 74,
-      "monFav": 99,
-      "reason": "Tix 74% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T18:14:22.884Z"
+      "tixFav": 70,
+      "monFav": 98,
+      "reason": "Tix 70% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-23T20:02:13.192Z"
     },
     {
       "pickKey": "m|865|denver_at_kansas|DOG|away|spread",
@@ -4017,8 +4017,9 @@
       "line": 36.5,
       "price": -118,
       "tixFav": 71,
-      "monFav": 86,
-      "reason": "Tix 71% + $ 86% on fav"
+      "monFav": 81,
+      "reason": "Tix 71% + $ 81% on fav",
+      "leanUpdatedAt": "2026-11-23T20:02:13.192Z"
     },
     {
       "pickKey": "m|867|monmouth_at_north_carolina|FAV|home|spread",
@@ -4456,10 +4457,10 @@
       "market": "spread",
       "line": -4,
       "price": -108,
-      "tixFav": 38,
-      "monFav": 9,
-      "reason": "Tix 38% + $ 9% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T19:49:51.486Z"
+      "tixFav": 39,
+      "monFav": 8,
+      "reason": "Tix 39% + $ 8% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T20:02:13.192Z"
     },
     {
       "pickKey": "m|875|middle_tennessee_st_at_southern_illinois|FAV|home|ml",
@@ -4480,10 +4481,10 @@
       "market": "ml",
       "line": -177,
       "price": -177,
-      "tixFav": 38,
-      "monFav": 9,
-      "reason": "Tix 38% + $ 9% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T19:49:51.486Z"
+      "tixFav": 39,
+      "monFav": 8,
+      "reason": "Tix 39% + $ 8% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T20:02:13.193Z"
     },
     {
       "pickKey": "m|877|temple_at_ut_martin|FAV|away|spread",
@@ -4858,6 +4859,52 @@
       "tixFav": 49,
       "monFav": 42,
       "reason": "Tix 49% + $ 42% on fav (<50)"
+    },
+    {
+      "pickKey": "m|869|unc_greensboro_at_pepperdine|FAV|home|spread",
+      "matchupId": "869|unc_greensboro_at_pepperdine|FAV|home|spread",
+      "loggedAt": "2026-11-23T20:02:13.192Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Monday, November 23rd",
+      "away": "UNC Greensboro",
+      "home": "Pepperdine",
+      "kick": "2:30",
+      "startAt": "2026-11-24T02:30:00.000Z",
+      "gameNumber": 869,
+      "takeRole": "FAV",
+      "takeTeam": "Pepperdine",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -10.5,
+      "price": -107,
+      "tixFav": 17,
+      "monFav": 6,
+      "reason": "Tix 17% + $ 6% on fav (<50)"
+    },
+    {
+      "pickKey": "m|869|unc_greensboro_at_pepperdine|FAV|home|ml",
+      "matchupId": "869|unc_greensboro_at_pepperdine|FAV|home|ml",
+      "loggedAt": "2026-11-23T20:02:13.192Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Monday, November 23rd",
+      "away": "UNC Greensboro",
+      "home": "Pepperdine",
+      "kick": "2:30",
+      "startAt": "2026-11-24T02:30:00.000Z",
+      "gameNumber": 869,
+      "takeRole": "FAV",
+      "takeTeam": "Pepperdine",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -614,
+      "price": -614,
+      "tixFav": 17,
+      "monFav": 6,
+      "reason": "Tix 17% + $ 6% on fav (<50)"
     }
   ]
 }
