@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:43:00.473037Z",
+  "updatedAt": "2026-11-23T23:45:55.926Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4517,10 +4517,10 @@
       "market": "spread",
       "line": 2.5,
       "price": 101,
-      "tixFav": 79,
-      "monFav": 80,
-      "reason": "Tix 79% + $ 80% on fav",
-      "leanUpdatedAt": "2026-11-23T23:40:46.509Z"
+      "tixFav": 80,
+      "monFav": 81,
+      "reason": "Tix 80% + $ 81% on fav",
+      "leanUpdatedAt": "2026-11-23T23:45:50.419Z"
     },
     {
       "pickKey": "m|555|memphis_at_charlotte|DOG|home|ml",
@@ -4541,10 +4541,10 @@
       "market": "ml",
       "line": 129,
       "price": 129,
-      "tixFav": 79,
-      "monFav": 80,
-      "reason": "Tix 79% + $ 80% on fav",
-      "leanUpdatedAt": "2026-11-23T23:40:46.509Z"
+      "tixFav": 80,
+      "monFav": 81,
+      "reason": "Tix 80% + $ 81% on fav",
+      "leanUpdatedAt": "2026-11-23T23:45:50.419Z"
     },
     {
       "pickKey": "m|875|middle_tennessee_st_at_southern_illinois|FAV|home|spread",
@@ -5169,9 +5169,10 @@
       "market": "spread",
       "line": 1,
       "price": -112,
-      "tixFav": 22,
-      "monFav": 34,
-      "reason": "Tix 22% + $ 34% on fav (<50)"
+      "tixFav": 21,
+      "monFav": 30,
+      "reason": "Tix 21% + $ 30% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T23:45:52.407Z"
     },
     {
       "pickKey": "m|553|portland_at_philadelphia|FAV|away|ml",
@@ -5192,9 +5193,56 @@
       "market": "ml",
       "line": -106,
       "price": -106,
-      "tixFav": 22,
-      "monFav": 34,
-      "reason": "Tix 22% + $ 34% on fav (<50)"
+      "tixFav": 21,
+      "monFav": 30,
+      "reason": "Tix 21% + $ 30% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T23:45:52.407Z"
+    },
+    {
+      "pickKey": "m|565|phoenix_at_new_orleans|DOG|home|spread",
+      "matchupId": "565|phoenix_at_new_orleans|DOG|home|spread",
+      "loggedAt": "2026-11-23T23:45:50.419Z",
+      "sport": "NBA",
+      "league": "NBA - Monday, November 23rd",
+      "away": "Phoenix",
+      "home": "New Orleans",
+      "kick": "1:10",
+      "startAt": "2026-11-24T01:10:00.000Z",
+      "gameNumber": 565,
+      "takeRole": "DOG",
+      "takeTeam": "New Orleans",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 3.5,
+      "price": -109,
+      "tixFav": 71,
+      "monFav": 95,
+      "reason": "Tix 71% + $ 95% on fav"
+    },
+    {
+      "pickKey": "m|565|phoenix_at_new_orleans|DOG|home|ml",
+      "matchupId": "565|phoenix_at_new_orleans|DOG|home|ml",
+      "loggedAt": "2026-11-23T23:45:50.419Z",
+      "sport": "NBA",
+      "league": "NBA - Monday, November 23rd",
+      "away": "Phoenix",
+      "home": "New Orleans",
+      "kick": "1:10",
+      "startAt": "2026-11-24T01:10:00.000Z",
+      "gameNumber": 565,
+      "takeRole": "DOG",
+      "takeTeam": "New Orleans",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 133,
+      "price": 133,
+      "tixFav": 71,
+      "monFav": 95,
+      "reason": "Tix 71% + $ 95% on fav"
     }
   ]
 }
