@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T17:55:07.701Z",
+  "updatedAt": "2026-11-23T17:57:14.221Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -4014,9 +4014,10 @@
       "market": "spread",
       "line": 10.5,
       "price": -112,
-      "tixFav": 95,
+      "tixFav": 96,
       "monFav": 98,
-      "reason": "Tix 95% + $ 98% on fav"
+      "reason": "Tix 96% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-23T17:56:13.746Z"
     },
     {
       "pickKey": "m|869|unc_greensboro_at_pepperdine|DOG|away|ml",
@@ -4037,9 +4038,10 @@
       "market": "ml",
       "line": 451,
       "price": 451,
-      "tixFav": 95,
+      "tixFav": 96,
       "monFav": 98,
-      "reason": "Tix 95% + $ 98% on fav"
+      "reason": "Tix 96% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-23T17:56:13.746Z"
     },
     {
       "pickKey": "m|873|indiana_state_at_east_carolina|DOG|away|spread",
