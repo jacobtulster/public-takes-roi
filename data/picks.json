@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:56:11.507Z",
+  "updatedAt": "2026-11-23T01:00:09.517Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2956,10 +2956,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -118,
-      "tixFav": 84,
+      "tixFav": 85,
       "monFav": 96,
-      "reason": "Tix 84% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-23T00:56:08.437Z"
+      "reason": "Tix 85% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T01:00:06.447Z"
     },
     {
       "pickKey": "m|697|seattle_at_uc_san_diego|DOG|away|ml",
@@ -2980,10 +2980,10 @@
       "market": "ml",
       "line": -107,
       "price": -107,
-      "tixFav": 84,
+      "tixFav": 85,
       "monFav": 96,
-      "reason": "Tix 84% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-23T00:56:08.437Z"
+      "reason": "Tix 85% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T01:00:06.447Z"
     }
   ]
 }
