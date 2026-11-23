@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:38:05.538Z",
+  "updatedAt": "2026-11-23T00:38:18.466Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -356,7 +356,16 @@
       "monFav": 98,
       "reason": "Tix 88% + $ 98% on fav",
       "startAt": "2026-11-22T22:07:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:52:13.405Z"
+      "leanUpdatedAt": "2026-11-22T21:52:13.405Z",
+      "result": "W",
+      "profit": 0.6944,
+      "awayScore": 6,
+      "homeScore": 2,
+      "gradedAt": "2026-11-23T00:38:13.657Z",
+      "gradeSource": "espn",
+      "espnEventId": "401892769",
+      "espnAway": "Buffalo Sabres",
+      "espnHome": "Tampa Bay Lightning"
     },
     {
       "pickKey": "m|469|pittsburgh_at_philadelphia|DOG|home|spread",
@@ -1289,7 +1298,16 @@
       "monFav": 98,
       "reason": "Tix 88% + $ 98% on fav",
       "startAt": "2026-11-22T22:07:00.000Z",
-      "leanUpdatedAt": "2026-11-22T21:52:13.405Z"
+      "leanUpdatedAt": "2026-11-22T21:52:13.405Z",
+      "result": "W",
+      "profit": 1.77,
+      "awayScore": 6,
+      "homeScore": 2,
+      "gradedAt": "2026-11-23T00:38:15.365Z",
+      "gradeSource": "espn",
+      "espnEventId": "401892769",
+      "espnAway": "Buffalo Sabres",
+      "espnHome": "Tampa Bay Lightning"
     },
     {
       "pickKey": "m|541|oklahoma_city_at_miami|DOG|away|ml",
