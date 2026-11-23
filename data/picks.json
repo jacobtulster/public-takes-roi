@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:52:45.623822Z",
+  "updatedAt": "2026-11-23T20:00:41.157Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3388,10 +3388,10 @@
       "market": "spread",
       "line": 4,
       "price": -110,
-      "tixFav": 79,
-      "monFav": 84,
-      "reason": "Tix 79% + $ 84% on fav",
-      "leanUpdatedAt": "2026-11-23T19:42:12.817Z"
+      "tixFav": 77,
+      "monFav": 82,
+      "reason": "Tix 77% + $ 82% on fav",
+      "leanUpdatedAt": "2026-11-23T20:00:12.680Z"
     },
     {
       "pickKey": "m|553|portland_at_philadelphia|DOG|away|ml",
@@ -3412,10 +3412,10 @@
       "market": "ml",
       "line": 142,
       "price": 142,
-      "tixFav": 79,
-      "monFav": 84,
-      "reason": "Tix 79% + $ 84% on fav",
-      "leanUpdatedAt": "2026-11-23T19:42:12.817Z"
+      "tixFav": 77,
+      "monFav": 82,
+      "reason": "Tix 77% + $ 82% on fav",
+      "leanUpdatedAt": "2026-11-23T20:00:12.680Z"
     },
     {
       "pickKey": "m|557|milwaukee_at_toronto|DOG|away|spread",
@@ -4112,7 +4112,16 @@
       "price": -113,
       "tixFav": 79,
       "monFav": 99,
-      "reason": "Tix 79% + $ 99% on fav"
+      "reason": "Tix 79% + $ 99% on fav",
+      "result": "W",
+      "profit": 0.885,
+      "awayScore": 77,
+      "homeScore": 76,
+      "gradedAt": "2026-11-23T20:00:33.136Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921209",
+      "espnAway": "Indiana State Sycamores",
+      "espnHome": "East Carolina Pirates"
     },
     {
       "pickKey": "m|873|indiana_state_at_east_carolina|DOG|away|ml",
@@ -4135,7 +4144,16 @@
       "price": 127,
       "tixFav": 79,
       "monFav": 99,
-      "reason": "Tix 79% + $ 99% on fav"
+      "reason": "Tix 79% + $ 99% on fav",
+      "result": "W",
+      "profit": 1.27,
+      "awayScore": 77,
+      "homeScore": 76,
+      "gradedAt": "2026-11-23T20:00:33.136Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921209",
+      "espnAway": "Indiana State Sycamores",
+      "espnHome": "East Carolina Pirates"
     },
     {
       "pickKey": "m|881|mississippi_at_clemson|DOG|home|spread",
@@ -4297,9 +4315,9 @@
       "line": 1.5,
       "price": -145,
       "tixFav": 83,
-      "monFav": 94,
-      "reason": "Tix 83% + $ 94% on fav",
-      "leanUpdatedAt": "2026-11-23T19:42:12.818Z"
+      "monFav": 95,
+      "reason": "Tix 83% + $ 95% on fav",
+      "leanUpdatedAt": "2026-11-23T20:00:12.681Z"
     },
     {
       "pickKey": "m|11|columbus_at_new_jersey|DOG|away|ml",
@@ -4321,9 +4339,9 @@
       "line": 179,
       "price": 179,
       "tixFav": 83,
-      "monFav": 94,
-      "reason": "Tix 83% + $ 94% on fav",
-      "leanUpdatedAt": "2026-11-23T19:42:12.818Z"
+      "monFav": 95,
+      "reason": "Tix 83% + $ 95% on fav",
+      "leanUpdatedAt": "2026-11-23T20:00:12.682Z"
     },
     {
       "pickKey": "m|13|calgary_at_ottawa|DOG|away|spread",
@@ -4719,9 +4737,9 @@
       "line": 1.5,
       "price": -159,
       "tixFav": 73,
-      "monFav": 85,
-      "reason": "Tix 73% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-23T19:49:12.699Z"
+      "monFav": 86,
+      "reason": "Tix 73% + $ 86% on fav",
+      "leanUpdatedAt": "2026-11-23T20:00:12.682Z"
     },
     {
       "pickKey": "m|23|minnesota_at_san_jose|DOG|home|ml",
@@ -4743,9 +4761,9 @@
       "line": 154,
       "price": 154,
       "tixFav": 73,
-      "monFav": 85,
-      "reason": "Tix 73% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-23T19:49:12.700Z"
+      "monFav": 86,
+      "reason": "Tix 73% + $ 86% on fav",
+      "leanUpdatedAt": "2026-11-23T20:00:12.682Z"
     },
     {
       "pickKey": "m|861|illinois_state_at_santa_clara|DOG|away|spread",
