@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T22:59:27.247009Z",
+  "updatedAt": "2026-11-23T23:15:19.147Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3865,7 +3865,16 @@
       "tixFav": 80,
       "monFav": 86,
       "reason": "Tix 80% + $ 86% on fav",
-      "leanUpdatedAt": "2026-11-23T20:31:13.443Z"
+      "leanUpdatedAt": "2026-11-23T20:31:13.443Z",
+      "result": "W",
+      "profit": 0.9709,
+      "awayScore": 104,
+      "homeScore": 102,
+      "gradedAt": "2026-11-23T23:15:13.115Z",
+      "gradeSource": "espn",
+      "espnEventId": "401929445",
+      "espnAway": "Arkansas State Red Wolves",
+      "espnHome": "Southern Utah Thunderbirds"
     },
     {
       "pickKey": "m|853|arkansas_state_at_southern_utah|DOG|home|ml",
@@ -3889,7 +3898,16 @@
       "tixFav": 80,
       "monFav": 86,
       "reason": "Tix 80% + $ 86% on fav",
-      "leanUpdatedAt": "2026-11-23T20:31:13.443Z"
+      "leanUpdatedAt": "2026-11-23T20:31:13.443Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 104,
+      "homeScore": 102,
+      "gradedAt": "2026-11-23T23:15:13.116Z",
+      "gradeSource": "espn",
+      "espnEventId": "401929445",
+      "espnAway": "Arkansas State Red Wolves",
+      "espnHome": "Southern Utah Thunderbirds"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|spread",
