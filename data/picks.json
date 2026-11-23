@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T20:13:36.581478Z",
+  "updatedAt": "2026-11-23T20:17:43.126Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3844,10 +3844,10 @@
       "market": "spread",
       "line": 7,
       "price": -103,
-      "tixFav": 83,
-      "monFav": 99,
-      "reason": "Tix 83% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T20:13:00.554Z"
+      "tixFav": 81,
+      "monFav": 97,
+      "reason": "Tix 81% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-23T20:17:39.601Z"
     },
     {
       "pickKey": "m|853|arkansas_state_at_southern_utah|DOG|home|ml",
@@ -3868,10 +3868,10 @@
       "market": "ml",
       "line": 250,
       "price": 250,
-      "tixFav": 83,
-      "monFav": 99,
-      "reason": "Tix 83% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T20:13:00.554Z"
+      "tixFav": 81,
+      "monFav": 97,
+      "reason": "Tix 81% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-23T20:17:39.601Z"
     },
     {
       "pickKey": "m|855|tulane_at_georgia_state|FAV|home|spread",
@@ -3986,10 +3986,10 @@
       "market": "spread",
       "line": 7.5,
       "price": -111,
-      "tixFav": 70,
-      "monFav": 98,
-      "reason": "Tix 70% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-23T20:02:13.191Z"
+      "tixFav": 71,
+      "monFav": 99,
+      "reason": "Tix 71% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T20:17:39.601Z"
     },
     {
       "pickKey": "m|859|nevada_at_san_francisco|DOG|home|ml",
@@ -4010,10 +4010,10 @@
       "market": "ml",
       "line": 254,
       "price": 254,
-      "tixFav": 70,
-      "monFav": 98,
-      "reason": "Tix 70% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-23T20:02:13.192Z"
+      "tixFav": 71,
+      "monFav": 99,
+      "reason": "Tix 71% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T20:17:39.601Z"
     },
     {
       "pickKey": "m|865|denver_at_kansas|DOG|away|spread",
@@ -4334,9 +4334,9 @@
       "line": 1.5,
       "price": -145,
       "tixFav": 83,
-      "monFav": 95,
-      "reason": "Tix 83% + $ 95% on fav",
-      "leanUpdatedAt": "2026-11-23T20:00:12.681Z"
+      "monFav": 94,
+      "reason": "Tix 83% + $ 94% on fav",
+      "leanUpdatedAt": "2026-11-23T20:17:12.697Z"
     },
     {
       "pickKey": "m|11|columbus_at_new_jersey|DOG|away|ml",
@@ -4358,9 +4358,9 @@
       "line": 179,
       "price": 179,
       "tixFav": 83,
-      "monFav": 95,
-      "reason": "Tix 83% + $ 95% on fav",
-      "leanUpdatedAt": "2026-11-23T20:00:12.682Z"
+      "monFav": 94,
+      "reason": "Tix 83% + $ 94% on fav",
+      "leanUpdatedAt": "2026-11-23T20:17:12.697Z"
     },
     {
       "pickKey": "m|13|calgary_at_ottawa|DOG|away|spread",
@@ -4475,10 +4475,10 @@
       "market": "spread",
       "line": -4,
       "price": -108,
-      "tixFav": 38,
-      "monFav": 8,
-      "reason": "Tix 38% + $ 8% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T20:13:00.555Z"
+      "tixFav": 35,
+      "monFav": 7,
+      "reason": "Tix 35% + $ 7% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T20:17:39.601Z"
     },
     {
       "pickKey": "m|875|middle_tennessee_st_at_southern_illinois|FAV|home|ml",
@@ -4499,10 +4499,10 @@
       "market": "ml",
       "line": -177,
       "price": -177,
-      "tixFav": 38,
-      "monFav": 8,
-      "reason": "Tix 38% + $ 8% on fav (<50)",
-      "leanUpdatedAt": "2026-11-23T20:13:00.555Z"
+      "tixFav": 35,
+      "monFav": 7,
+      "reason": "Tix 35% + $ 7% on fav (<50)",
+      "leanUpdatedAt": "2026-11-23T20:17:39.602Z"
     },
     {
       "pickKey": "m|877|temple_at_ut_martin|FAV|away|spread",
