@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:48:08.420Z",
+  "updatedAt": "2026-11-23T12:48:50.028Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -3305,7 +3305,16 @@
       "tixFav": 85,
       "monFav": 96,
       "reason": "Tix 85% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-23T01:00:06.447Z"
+      "leanUpdatedAt": "2026-11-23T01:00:06.447Z",
+      "result": "W",
+      "profit": 0.8475,
+      "awayScore": 90,
+      "homeScore": 64,
+      "gradedAt": "2026-11-23T12:48:45.566Z",
+      "gradeSource": "espn",
+      "espnEventId": "401917542",
+      "espnAway": "Seattle U Redhawks",
+      "espnHome": "UC San Diego Tritons"
     },
     {
       "pickKey": "m|697|seattle_at_uc_san_diego|DOG|away|ml",
@@ -3329,7 +3338,16 @@
       "tixFav": 85,
       "monFav": 96,
       "reason": "Tix 85% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-23T01:00:06.447Z"
+      "leanUpdatedAt": "2026-11-23T01:00:06.447Z",
+      "result": "W",
+      "profit": 0.9346,
+      "awayScore": 90,
+      "homeScore": 64,
+      "gradedAt": "2026-11-23T12:48:45.568Z",
+      "gradeSource": "espn",
+      "espnEventId": "401917542",
+      "espnAway": "Seattle U Redhawks",
+      "espnHome": "UC San Diego Tritons"
     },
     {
       "pickKey": "m|553|portland_at_philadelphia|DOG|away|spread",
