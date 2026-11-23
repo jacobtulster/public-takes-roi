@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T21:00:09.988067Z",
+  "updatedAt": "2026-11-23T21:08:22.183Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -842,11 +842,11 @@
       "market": "spread",
       "line": 6.5,
       "price": -113,
-      "tixFav": 84,
+      "tixFav": 83,
       "monFav": 84,
-      "reason": "Tix 84% + $ 84% on fav",
+      "reason": "Tix 83% + $ 84% on fav",
       "startAt": "2026-11-24T01:15:00.000Z",
-      "leanUpdatedAt": "2026-11-23T20:20:50.541Z"
+      "leanUpdatedAt": "2026-11-23T21:03:12.702Z"
     },
     {
       "pickKey": "m|655|butler_at_nebraska|DOG|away|ml",
@@ -1031,11 +1031,11 @@
       "market": "ml",
       "line": 240,
       "price": 240,
-      "tixFav": 84,
+      "tixFav": 83,
       "monFav": 84,
-      "reason": "Tix 84% + $ 84% on fav",
+      "reason": "Tix 83% + $ 84% on fav",
       "startAt": "2026-11-24T01:15:00.000Z",
-      "leanUpdatedAt": "2026-11-23T20:20:50.541Z"
+      "leanUpdatedAt": "2026-11-23T21:03:12.702Z"
     },
     {
       "pickKey": "m|687|utah_at_minnesota|DOG|away|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3389,9 +3389,9 @@
       "line": 4,
       "price": -110,
       "tixFav": 75,
-      "monFav": 82,
-      "reason": "Tix 75% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-23T20:49:11.004Z"
+      "monFav": 83,
+      "reason": "Tix 75% + $ 83% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.225Z"
     },
     {
       "pickKey": "m|553|portland_at_philadelphia|DOG|away|ml",
@@ -3413,9 +3413,9 @@
       "line": 142,
       "price": 142,
       "tixFav": 75,
-      "monFav": 82,
-      "reason": "Tix 75% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-23T20:49:11.004Z"
+      "monFav": 83,
+      "reason": "Tix 75% + $ 83% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.225Z"
     },
     {
       "pickKey": "m|557|milwaukee_at_toronto|DOG|away|spread",
@@ -4004,10 +4004,10 @@
       "market": "spread",
       "line": 7.5,
       "price": -111,
-      "tixFav": 70,
+      "tixFav": 71,
       "monFav": 99,
-      "reason": "Tix 70% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T20:25:13.163Z"
+      "reason": "Tix 71% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T21:01:02.940Z"
     },
     {
       "pickKey": "m|859|nevada_at_san_francisco|DOG|home|ml",
@@ -4028,10 +4028,10 @@
       "market": "ml",
       "line": 254,
       "price": 254,
-      "tixFav": 70,
+      "tixFav": 71,
       "monFav": 99,
-      "reason": "Tix 70% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T20:25:13.163Z"
+      "reason": "Tix 71% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-23T21:01:02.940Z"
     },
     {
       "pickKey": "m|865|denver_at_kansas|DOG|away|spread",
@@ -4352,9 +4352,9 @@
       "line": 1.5,
       "price": -145,
       "tixFav": 84,
-      "monFav": 94,
-      "reason": "Tix 84% + $ 94% on fav",
-      "leanUpdatedAt": "2026-11-23T20:29:13.205Z"
+      "monFav": 96,
+      "reason": "Tix 84% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.225Z"
     },
     {
       "pickKey": "m|11|columbus_at_new_jersey|DOG|away|ml",
@@ -4376,9 +4376,9 @@
       "line": 179,
       "price": 179,
       "tixFav": 84,
-      "monFav": 94,
-      "reason": "Tix 84% + $ 94% on fav",
-      "leanUpdatedAt": "2026-11-23T20:29:13.205Z"
+      "monFav": 96,
+      "reason": "Tix 84% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.226Z"
     },
     {
       "pickKey": "m|13|calgary_at_ottawa|DOG|away|spread",
@@ -4445,10 +4445,10 @@
       "market": "spread",
       "line": 2.5,
       "price": 101,
-      "tixFav": 74,
-      "monFav": 79,
-      "reason": "Tix 74% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-23T20:49:11.004Z"
+      "tixFav": 70,
+      "monFav": 77,
+      "reason": "Tix 70% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.225Z"
     },
     {
       "pickKey": "m|555|memphis_at_charlotte|DOG|home|ml",
@@ -4469,10 +4469,10 @@
       "market": "ml",
       "line": 129,
       "price": 129,
-      "tixFav": 74,
-      "monFav": 79,
-      "reason": "Tix 74% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-23T20:49:11.004Z"
+      "tixFav": 70,
+      "monFav": 77,
+      "reason": "Tix 70% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.225Z"
     },
     {
       "pickKey": "m|875|middle_tennessee_st_at_southern_illinois|FAV|home|spread",
@@ -4793,10 +4793,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -159,
-      "tixFav": 73,
+      "tixFav": 75,
       "monFav": 87,
-      "reason": "Tix 73% + $ 87% on fav",
-      "leanUpdatedAt": "2026-11-23T20:42:12.640Z"
+      "reason": "Tix 75% + $ 87% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.226Z"
     },
     {
       "pickKey": "m|23|minnesota_at_san_jose|DOG|home|ml",
@@ -4817,10 +4817,10 @@
       "market": "ml",
       "line": 154,
       "price": 154,
-      "tixFav": 73,
+      "tixFav": 75,
       "monFav": 87,
-      "reason": "Tix 73% + $ 87% on fav",
-      "leanUpdatedAt": "2026-11-23T20:42:12.640Z"
+      "reason": "Tix 75% + $ 87% on fav",
+      "leanUpdatedAt": "2026-11-23T21:05:13.226Z"
     },
     {
       "pickKey": "m|861|illinois_state_at_santa_clara|DOG|away|spread",
@@ -4963,6 +4963,52 @@
       "monFav": 11,
       "reason": "Tix 37% + $ 11% on fav (<50)",
       "leanUpdatedAt": "2026-11-23T20:46:43.955Z"
+    },
+    {
+      "pickKey": "m|17|los_angeles_at_montreal|DOG|away|spread",
+      "matchupId": "17|los_angeles_at_montreal|DOG|away|spread",
+      "loggedAt": "2026-11-23T21:05:13.226Z",
+      "sport": "NHL",
+      "league": "NHL - Monday, November 23rd",
+      "away": "Los Angeles",
+      "home": "Montreal",
+      "kick": "0:37",
+      "startAt": "2026-11-24T00:37:00.000Z",
+      "gameNumber": 17,
+      "takeRole": "DOG",
+      "takeTeam": "Los Angeles",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 1.5,
+      "price": -195,
+      "tixFav": 70,
+      "monFav": 98,
+      "reason": "Tix 70% + $ 98% on fav"
+    },
+    {
+      "pickKey": "m|17|los_angeles_at_montreal|DOG|away|ml",
+      "matchupId": "17|los_angeles_at_montreal|DOG|away|ml",
+      "loggedAt": "2026-11-23T21:05:13.226Z",
+      "sport": "NHL",
+      "league": "NHL - Monday, November 23rd",
+      "away": "Los Angeles",
+      "home": "Montreal",
+      "kick": "0:37",
+      "startAt": "2026-11-24T00:37:00.000Z",
+      "gameNumber": 17,
+      "takeRole": "DOG",
+      "takeTeam": "Los Angeles",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 130,
+      "price": 130,
+      "tixFav": 70,
+      "monFav": 98,
+      "reason": "Tix 70% + $ 98% on fav"
     }
   ]
 }
