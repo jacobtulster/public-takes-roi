@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:14:06.378Z",
+  "updatedAt": "2026-11-23T18:14:13.923Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -4648,6 +4648,52 @@
       "monFav": 37,
       "reason": "Tix 32% + $ 37% on fav (<50)",
       "leanUpdatedAt": "2026-11-23T18:07:20.114Z"
+    },
+    {
+      "pickKey": "m|891|san_jose_state_at_uc_san_diego|DOG|away|spread",
+      "matchupId": "891|san_jose_state_at_uc_san_diego|DOG|away|spread",
+      "loggedAt": "2026-11-23T18:14:10.909Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - ACRISURE SERIES POD 4 - FINAL ROUND - Monday, November 23rd",
+      "away": "San Jose State",
+      "home": "UC San Diego",
+      "kick": "5:00",
+      "startAt": "2026-11-24T05:00:00.000Z",
+      "gameNumber": 891,
+      "takeRole": "DOG",
+      "takeTeam": "San Jose State",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 2,
+      "price": -108,
+      "tixFav": 75,
+      "monFav": 97,
+      "reason": "Tix 75% + $ 97% on fav"
+    },
+    {
+      "pickKey": "m|891|san_jose_state_at_uc_san_diego|DOG|away|ml",
+      "matchupId": "891|san_jose_state_at_uc_san_diego|DOG|away|ml",
+      "loggedAt": "2026-11-23T18:14:10.909Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - ACRISURE SERIES POD 4 - FINAL ROUND - Monday, November 23rd",
+      "away": "San Jose State",
+      "home": "UC San Diego",
+      "kick": "5:00",
+      "startAt": "2026-11-24T05:00:00.000Z",
+      "gameNumber": 891,
+      "takeRole": "DOG",
+      "takeTeam": "San Jose State",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 112,
+      "price": 112,
+      "tixFav": 75,
+      "monFav": 97,
+      "reason": "Tix 75% + $ 97% on fav"
     }
   ]
 }
