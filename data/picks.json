@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:08:14.387Z",
+  "updatedAt": "2026-11-23T18:10:08.716870Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -3096,7 +3096,17 @@
       "tixFav": 93,
       "monFav": 79,
       "reason": "Tix 93% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-22T22:47:13.402Z"
+      "leanUpdatedAt": "2026-11-22T22:47:13.402Z",
+      "result": "W",
+      "profit": 1.0,
+      "awayScore": 76.0,
+      "homeScore": 78.0,
+      "gradedAt": "2026-11-23T18:10:07.599047Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final/OT",
+      "espnEventId": "401921206",
+      "espnAway": "UT Martin Skyhawks",
+      "espnHome": "Utah Valley Wolverines"
     },
     {
       "pickKey": "m|703|ut_martin_at_utah_valley|DOG|away|ml",
@@ -3120,7 +3130,17 @@
       "tixFav": 93,
       "monFav": 79,
       "reason": "Tix 93% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-22T22:47:13.402Z"
+      "leanUpdatedAt": "2026-11-22T22:47:13.402Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 76.0,
+      "homeScore": 78.0,
+      "gradedAt": "2026-11-23T18:10:07.599047Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final/OT",
+      "espnEventId": "401921206",
+      "espnAway": "UT Martin Skyhawks",
+      "espnHome": "Utah Valley Wolverines"
     },
     {
       "pickKey": "m|5|pittsburgh_at_dallas|DOG|away|spread",
@@ -3648,7 +3668,17 @@
       "price": -110,
       "tixFav": 44,
       "monFav": 9,
-      "reason": "Tix 44% + $ 9% on fav (<50)"
+      "reason": "Tix 44% + $ 9% on fav (<50)",
+      "result": "W",
+      "profit": 0.9091,
+      "awayScore": 48.0,
+      "homeScore": 79.0,
+      "gradedAt": "2026-11-23T18:10:08.104996Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401921700",
+      "espnAway": "Northern Iowa Panthers",
+      "espnHome": "Davidson Wildcats"
     },
     {
       "pickKey": "m|841|northern_iowa_at_davidson|FAV|home|ml",
@@ -3671,7 +3701,17 @@
       "price": -217,
       "tixFav": 44,
       "monFav": 9,
-      "reason": "Tix 44% + $ 9% on fav (<50)"
+      "reason": "Tix 44% + $ 9% on fav (<50)",
+      "result": "W",
+      "profit": 0.4608,
+      "awayScore": 48.0,
+      "homeScore": 79.0,
+      "gradedAt": "2026-11-23T18:10:08.108900Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401921700",
+      "espnAway": "Northern Iowa Panthers",
+      "espnHome": "Davidson Wildcats"
     },
     {
       "pickKey": "m|845|long_beach_state_at_florida_international|DOG|away|spread",
