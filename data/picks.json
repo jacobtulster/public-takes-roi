@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:14:32.911374Z",
+  "updatedAt": "2026-11-23T18:19:02.115Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4294,9 +4294,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -145,
-      "tixFav": 79,
+      "tixFav": 80,
       "monFav": 94,
-      "reason": "Tix 79% + $ 94% on fav"
+      "reason": "Tix 80% + $ 94% on fav",
+      "leanUpdatedAt": "2026-11-23T18:18:58.878Z"
     },
     {
       "pickKey": "m|11|columbus_at_new_jersey|DOG|away|ml",
@@ -4317,9 +4318,10 @@
       "market": "ml",
       "line": 179,
       "price": 179,
-      "tixFav": 79,
+      "tixFav": 80,
       "monFav": 94,
-      "reason": "Tix 79% + $ 94% on fav"
+      "reason": "Tix 80% + $ 94% on fav",
+      "leanUpdatedAt": "2026-11-23T18:18:58.878Z"
     },
     {
       "pickKey": "m|13|calgary_at_ottawa|DOG|away|spread",
@@ -4694,6 +4696,52 @@
       "tixFav": 75,
       "monFav": 97,
       "reason": "Tix 75% + $ 97% on fav"
+    },
+    {
+      "pickKey": "m|23|minnesota_at_san_jose|DOG|home|spread",
+      "matchupId": "23|minnesota_at_san_jose|DOG|home|spread",
+      "loggedAt": "2026-11-23T18:18:58.878Z",
+      "sport": "NHL",
+      "league": "NHL - Monday, November 23rd",
+      "away": "Minnesota",
+      "home": "San Jose",
+      "kick": "3:07",
+      "startAt": "2026-11-24T03:07:00.000Z",
+      "gameNumber": 23,
+      "takeRole": "DOG",
+      "takeTeam": "San Jose",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 1.5,
+      "price": -159,
+      "tixFav": 70,
+      "monFav": 99,
+      "reason": "Tix 70% + $ 99% on fav"
+    },
+    {
+      "pickKey": "m|23|minnesota_at_san_jose|DOG|home|ml",
+      "matchupId": "23|minnesota_at_san_jose|DOG|home|ml",
+      "loggedAt": "2026-11-23T18:18:58.878Z",
+      "sport": "NHL",
+      "league": "NHL - Monday, November 23rd",
+      "away": "Minnesota",
+      "home": "San Jose",
+      "kick": "3:07",
+      "startAt": "2026-11-24T03:07:00.000Z",
+      "gameNumber": 23,
+      "takeRole": "DOG",
+      "takeTeam": "San Jose",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 154,
+      "price": 154,
+      "tixFav": 70,
+      "monFav": 99,
+      "reason": "Tix 70% + $ 99% on fav"
     }
   ]
 }
