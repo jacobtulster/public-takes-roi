@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:34:59.117996Z",
+  "updatedAt": "2026-11-23T23:40:15.704Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4061,7 +4061,16 @@
       "tixFav": 70,
       "monFav": 93,
       "reason": "Tix 70% + $ 93% on fav",
-      "leanUpdatedAt": "2026-11-23T21:37:12.805Z"
+      "leanUpdatedAt": "2026-11-23T21:37:12.805Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 71,
+      "homeScore": 62,
+      "gradedAt": "2026-11-23T23:40:04.683Z",
+      "gradeSource": "espn",
+      "espnEventId": "401911457",
+      "espnAway": "Nevada Wolf Pack",
+      "espnHome": "San Francisco Dons"
     },
     {
       "pickKey": "m|859|nevada_at_san_francisco|DOG|home|ml",
@@ -4085,7 +4094,16 @@
       "tixFav": 70,
       "monFav": 93,
       "reason": "Tix 70% + $ 93% on fav",
-      "leanUpdatedAt": "2026-11-23T21:37:12.805Z"
+      "leanUpdatedAt": "2026-11-23T21:37:12.805Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 71,
+      "homeScore": 62,
+      "gradedAt": "2026-11-23T23:39:55.111Z",
+      "gradeSource": "espn",
+      "espnEventId": "401911457",
+      "espnAway": "Nevada Wolf Pack",
+      "espnHome": "San Francisco Dons"
     },
     {
       "pickKey": "m|865|denver_at_kansas|DOG|away|spread",
