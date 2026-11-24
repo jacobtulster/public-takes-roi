@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:43:06.495Z",
+  "updatedAt": "2026-11-24T23:43:10.610Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7297,10 +7297,10 @@
       "market": "spread",
       "line": 2,
       "price": -108,
-      "tixFav": 85,
+      "tixFav": 86,
       "monFav": 99,
-      "reason": "Tix 85% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:43.453Z"
+      "reason": "Tix 86% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:43:07.460Z"
     },
     {
       "pickKey": "m|701|utep_at_coll_of_charleston|DOG|away|ml",
@@ -7321,10 +7321,10 @@
       "market": "ml",
       "line": 111,
       "price": 111,
-      "tixFav": 85,
+      "tixFav": 86,
       "monFav": 99,
-      "reason": "Tix 85% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:43.453Z"
+      "reason": "Tix 86% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:43:07.460Z"
     },
     {
       "pickKey": "m|635|hampton_at_old_dominion|FAV|home|spread",
