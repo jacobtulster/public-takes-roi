@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T21:36:28.476361Z",
+  "updatedAt": "2026-11-24T21:47:58.371Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T19:11:08.348Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T19:11:08.358Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5915,10 +5915,10 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 86,
+      "tixFav": 85,
       "monFav": 74,
-      "reason": "Tix 86% + $ 74% on fav",
-      "leanUpdatedAt": "2026-11-24T21:26:59.356Z"
+      "reason": "Tix 85% + $ 74% on fav",
+      "leanUpdatedAt": "2026-11-24T21:38:11.061Z"
     },
     {
       "pickKey": "m|103|kent_state_at_eastern_michigan|DOG|away|ml",
@@ -5939,10 +5939,10 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 86,
+      "tixFav": 85,
       "monFav": 74,
-      "reason": "Tix 86% + $ 74% on fav",
-      "leanUpdatedAt": "2026-11-24T21:26:59.356Z"
+      "reason": "Tix 85% + $ 74% on fav",
+      "leanUpdatedAt": "2026-11-24T21:38:11.061Z"
     },
     {
       "pickKey": "m|503|boston_at_washington|DOG|home|spread",
@@ -6011,10 +6011,10 @@
       "market": "spread",
       "line": -8,
       "price": -101,
-      "tixFav": 26,
-      "monFav": 7,
-      "reason": "Tix 26% + $ 7% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:30:10.457Z"
+      "tixFav": 27,
+      "monFav": 8,
+      "reason": "Tix 27% + $ 8% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:38:11.061Z"
     },
     {
       "pickKey": "m|505|dallas_at_denver|FAV|home|ml",
@@ -6035,10 +6035,10 @@
       "market": "ml",
       "line": -296,
       "price": -296,
-      "tixFav": 26,
-      "monFav": 7,
-      "reason": "Tix 26% + $ 7% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:30:10.457Z"
+      "tixFav": 27,
+      "monFav": 8,
+      "reason": "Tix 27% + $ 8% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:38:11.061Z"
     },
     {
       "pickKey": "m|615|appalachian_state_at_yale|FAV|away|spread",
@@ -6585,10 +6585,10 @@
       "market": "spread",
       "line": 4,
       "price": -103,
-      "tixFav": 79,
-      "monFav": 99,
-      "reason": "Tix 79% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T21:33:10.240Z"
+      "tixFav": 80,
+      "monFav": 91,
+      "reason": "Tix 80% + $ 91% on fav",
+      "leanUpdatedAt": "2026-11-24T21:41:10.601Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|ml",
@@ -6609,10 +6609,10 @@
       "market": "ml",
       "line": 157,
       "price": 157,
-      "tixFav": 79,
-      "monFav": 99,
-      "reason": "Tix 79% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T21:33:10.240Z"
+      "tixFav": 80,
+      "monFav": 91,
+      "reason": "Tix 80% + $ 91% on fav",
+      "leanUpdatedAt": "2026-11-24T21:41:10.601Z"
     },
     {
       "pickKey": "m|621|kent_state_at_wyoming|FAV|home|spread",
@@ -6823,10 +6823,10 @@
       "market": "spread",
       "line": 7.5,
       "price": -106,
-      "tixFav": 88,
-      "monFav": 81,
-      "reason": "Tix 88% + $ 81% on fav",
-      "leanUpdatedAt": "2026-11-24T21:33:10.239Z"
+      "tixFav": 87,
+      "monFav": 83,
+      "reason": "Tix 87% + $ 83% on fav",
+      "leanUpdatedAt": "2026-11-24T21:41:10.599Z"
     },
     {
       "pickKey": "m|673|providence_at_arizona|DOG|away|ml",
@@ -6847,10 +6847,10 @@
       "market": "ml",
       "line": 272,
       "price": 272,
-      "tixFav": 88,
-      "monFav": 81,
-      "reason": "Tix 88% + $ 81% on fav",
-      "leanUpdatedAt": "2026-11-24T21:33:10.239Z"
+      "tixFav": 87,
+      "monFav": 83,
+      "reason": "Tix 87% + $ 83% on fav",
+      "leanUpdatedAt": "2026-11-24T21:41:10.599Z"
     },
     {
       "pickKey": "m|677|vcu_at_colorado_state|DOG|home|spread",
@@ -7084,10 +7084,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -101,
-      "tixFav": 70,
+      "tixFav": 72,
       "monFav": 93,
-      "reason": "Tix 70% + $ 93% on fav",
-      "leanUpdatedAt": "2026-11-24T21:26:59.357Z"
+      "reason": "Tix 72% + $ 93% on fav",
+      "leanUpdatedAt": "2026-11-24T21:41:10.597Z"
     },
     {
       "pickKey": "m|639|vanderbilt_at_ohio_state|DOG|home|ml",
@@ -7108,10 +7108,10 @@
       "market": "ml",
       "line": 110,
       "price": 110,
-      "tixFav": 70,
+      "tixFav": 72,
       "monFav": 93,
-      "reason": "Tix 70% + $ 93% on fav",
-      "leanUpdatedAt": "2026-11-24T21:26:59.357Z"
+      "reason": "Tix 72% + $ 93% on fav",
+      "leanUpdatedAt": "2026-11-24T21:41:10.597Z"
     },
     {
       "pickKey": "m|629|mercer_at_florida_atlantic|DOG|away|spread",
@@ -7160,6 +7160,52 @@
       "monFav": 99,
       "reason": "Tix 76% + $ 99% on fav",
       "leanUpdatedAt": "2026-11-24T21:33:10.237Z"
+    },
+    {
+      "pickKey": "m|631|elon_university_at_furman|FAV|home|spread",
+      "matchupId": "631|elon_university_at_furman|FAV|home|spread",
+      "loggedAt": "2026-11-24T21:41:10.597Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Elon University",
+      "home": "Furman",
+      "kick": "18:30",
+      "startAt": "2026-11-24T23:30:00.000Z",
+      "gameNumber": 631,
+      "takeRole": "FAV",
+      "takeTeam": "Furman",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -7.5,
+      "price": -102,
+      "tixFav": 45,
+      "monFav": 31,
+      "reason": "Tix 45% + $ 31% on fav (<50)"
+    },
+    {
+      "pickKey": "m|631|elon_university_at_furman|FAV|home|ml",
+      "matchupId": "631|elon_university_at_furman|FAV|home|ml",
+      "loggedAt": "2026-11-24T21:41:10.597Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Elon University",
+      "home": "Furman",
+      "kick": "18:30",
+      "startAt": "2026-11-24T23:30:00.000Z",
+      "gameNumber": 631,
+      "takeRole": "FAV",
+      "takeTeam": "Furman",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -324,
+      "price": -324,
+      "tixFav": 45,
+      "monFav": 31,
+      "reason": "Tix 45% + $ 31% on fav (<50)"
     }
   ]
 }
