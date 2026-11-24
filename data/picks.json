@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:30:04.406Z",
+  "updatedAt": "2026-11-24T23:30:16.485Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6393,10 +6393,10 @@
       "market": "spread",
       "line": 15.5,
       "price": -109,
-      "tixFav": 85,
+      "tixFav": 86,
       "monFav": 99,
-      "reason": "Tix 85% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:49.456Z"
+      "reason": "Tix 86% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|ml",
@@ -6417,10 +6417,10 @@
       "market": "ml",
       "line": 960,
       "price": 960,
-      "tixFav": 85,
+      "tixFav": 86,
       "monFav": 99,
-      "reason": "Tix 85% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:49.456Z"
+      "reason": "Tix 86% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
     },
     {
       "pickKey": "m|687|tennessee_at_maryland|DOG|home|spread",
@@ -6557,10 +6557,10 @@
       "market": "spread",
       "line": 10,
       "price": -111,
-      "tixFav": 93,
+      "tixFav": 92,
       "monFav": 97,
-      "reason": "Tix 93% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-24T23:23:05.458Z"
+      "reason": "Tix 92% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|ml",
@@ -6581,10 +6581,10 @@
       "market": "ml",
       "line": 421,
       "price": 421,
-      "tixFav": 93,
+      "tixFav": 92,
       "monFav": 97,
-      "reason": "Tix 93% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-24T23:23:05.458Z"
+      "reason": "Tix 92% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|spread",
@@ -7676,6 +7676,29 @@
       "monFav": 76,
       "reason": "Tix 75% + $ 76% on fav",
       "leanUpdatedAt": "2026-11-24T23:22:47.465Z"
+    },
+    {
+      "pickKey": "m|661|evansville_at_missouri|FAV|home|spread",
+      "matchupId": "661|evansville_at_missouri|FAV|home|spread",
+      "loggedAt": "2026-11-24T23:30:13.457Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Evansville",
+      "home": "Missouri",
+      "kick": "21:00",
+      "startAt": "2026-11-25T02:00:00.000Z",
+      "gameNumber": 661,
+      "takeRole": "FAV",
+      "takeTeam": "Missouri",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -30,
+      "price": -109,
+      "tixFav": 27,
+      "monFav": 4,
+      "reason": "Tix 27% + $ 4% on fav (<50)"
     }
   ]
 }
