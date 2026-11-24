@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:41:12.657Z",
+  "updatedAt": "2026-11-24T22:41:16.441Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7246,9 +7246,10 @@
       "market": "spread",
       "line": -5.5,
       "price": -111,
-      "tixFav": 33,
+      "tixFav": 25,
       "monFav": 9,
-      "reason": "Tix 33% + $ 9% on fav (<50)"
+      "reason": "Tix 25% + $ 9% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T22:41:13.451Z"
     },
     {
       "pickKey": "m|665|sam_houston_st_at_washington_state|FAV|home|ml",
@@ -7269,9 +7270,10 @@
       "market": "ml",
       "line": -229,
       "price": -229,
-      "tixFav": 33,
+      "tixFav": 25,
       "monFav": 9,
-      "reason": "Tix 33% + $ 9% on fav (<50)"
+      "reason": "Tix 25% + $ 9% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T22:41:13.451Z"
     },
     {
       "pickKey": "m|701|utep_at_coll_of_charleston|DOG|away|spread",
