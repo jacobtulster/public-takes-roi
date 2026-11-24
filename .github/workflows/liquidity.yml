@@ -1,9 +1,8 @@
 name: Fetch 4casters liquidity
 
+# Manual only — live liquidity is fetched while you have the ROI page open
+# (Public Takes — 4C Liquidity userscript). Keep this for a one-shot seed if needed.
 on:
-  schedule:
-    # Every 5 minutes — maker books move fast
-    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:

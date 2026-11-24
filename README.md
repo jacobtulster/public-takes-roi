@@ -44,12 +44,8 @@ Snapshot script: [`scripts/fetch_4casters_liquidity.py`](./scripts/fetch_4caster
 Workflow: [`.github/workflows/liquidity.yml`](./.github/workflows/liquidity.yml) (every 5 minutes)  
 Output: [`data/liquidity.json`](./data/liquidity.json)
 
-### One-time setup
+### How it updates
 
-1. Create a 4casters API key (account page) or use a login token.
-2. In the GitHub repo → **Settings → Secrets and variables → Actions**, add:
-   - Name: `FOURCASTERS_TOKEN`
-   - Value: your token
-3. Actions → **Fetch 4casters liquidity** → **Run workflow**
+Install the local userscript `Public Takes — 4C Liquidity.user.js` (Tampermonkey). While the ROI tab is open it pulls 4casters live every couple of minutes. No constant GitHub Actions polling.
 
-The site only *reads* the committed JSON (no token in the browser). Refresh pulls the latest snapshot after each Action push.
+Optional: repo secret `FOURCASTERS_TOKEN` + manual **Fetch 4casters liquidity** workflow if you want a committed `data/liquidity.json` snapshot.

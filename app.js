@@ -1043,21 +1043,62 @@
     return graded;
   }
 
+  function applyLiquidityPayload(raw) {
+    if (!raw || typeof raw !== 'object') return;
+    liqStore = {
+      updatedAt: raw.updatedAt || new Date().toISOString(),
+      games: Array.isArray(raw.games) ? raw.games : [],
+      error: raw.error || null,
+      source: raw.source || null,
+    };
+    if (activeView === 'liquidity') {
+      renderLiquidity();
+      if (liqStore.updatedAt) {
+        $('#updated-at').textContent =
+          '4C ' + new Date(liqStore.updatedAt).toLocaleString();
+      }
+    }
+  }
+
+  // Userscript (Public Takes — 4C Liquidity) feeds live books while the tab is open.
+  window.__publicTakesApplyLiquidity = applyLiquidityPayload;
+  if (window.__publicTakesLiquidityPending) {
+    applyLiquidityPayload(window.__publicTakesLiquidityPending);
+    window.__publicTakesLiquidityPending = null;
+  }
+
   async function loadLiquidityRemote() {
     const url = './data/liquidity.json?t=' + Date.now();
     try {
       const res = await fetch(url, { cache: 'no-store' });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const raw = await res.json();
-      liqStore = {
-        updatedAt: raw && raw.updatedAt ? raw.updatedAt : null,
-        games: raw && Array.isArray(raw.games) ? raw.games : [],
-        error: raw && raw.error ? raw.error : null,
-      };
+      // Don't clobber a fresher live userscript snapshot.
+      if (
+        liqStore &&
+        liqStore.source === 'live' &&
+        liqStore.updatedAt &&
+        raw &&
+        raw.updatedAt &&
+        new Date(liqStore.updatedAt) > new Date(raw.updatedAt)
+      ) {
+        return;
+      }
+      if (liqStore && liqStore.games && liqStore.games.length && raw && raw.source === undefined) {
+        // keep live if file is still the placeholder
+        if (!raw.games || !raw.games.length) return;
+      }
+      applyLiquidityPayload(raw);
     } catch (_) {
-      liqStore = { updatedAt: null, games: [], error: 'liquidity.json not loaded yet' };
+      if (!liqStore.games || !liqStore.games.length) {
+        liqStore = {
+          updatedAt: null,
+          games: [],
+          error: 'Open this page with the 4C Liquidity userscript enabled',
+        };
+        if (activeView === 'liquidity') renderLiquidity();
+      }
     }
-    if (activeView === 'liquidity') renderLiquidity();
   }
 
   async function loadRemote() {
