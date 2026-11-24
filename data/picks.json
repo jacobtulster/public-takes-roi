@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:47:34.535Z",
+  "updatedAt": "2026-11-24T22:47:40.428Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6346,9 +6346,9 @@
       "line": 1.5,
       "price": -108,
       "tixFav": 76,
-      "monFav": 90,
-      "reason": "Tix 76% + $ 90% on fav",
-      "leanUpdatedAt": "2026-11-24T21:33:10.240Z"
+      "monFav": 92,
+      "reason": "Tix 76% + $ 92% on fav",
+      "leanUpdatedAt": "2026-11-24T22:47:37.451Z"
     },
     {
       "pickKey": "m|683|baylor_at_alabama|DOG|away|ml",
@@ -6370,9 +6370,9 @@
       "line": 104,
       "price": 104,
       "tixFav": 76,
-      "monFav": 90,
-      "reason": "Tix 76% + $ 90% on fav",
-      "leanUpdatedAt": "2026-11-24T21:33:10.240Z"
+      "monFav": 92,
+      "reason": "Tix 76% + $ 92% on fav",
+      "leanUpdatedAt": "2026-11-24T22:47:37.451Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|spread",
