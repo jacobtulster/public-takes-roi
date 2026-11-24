@@ -659,6 +659,24 @@
     return '';
   }
 
+  function renderTop3Levels(levels, sideHeavy, tier) {
+    const rows = Array.isArray(levels) ? levels : [];
+    if (!rows.length) return '<div class="meta">—</div>';
+    const heavyCls = sideHeavy && tier ? `is-heavy liq-sum-${tier}` : '';
+    return (
+      `<div class="liq-top3 ${heavyCls}">` +
+      rows
+        .map((lv) => {
+          return (
+            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}</span>` +
+            `<span class="size">${fmtUsd(lv.size)}</span></div>`
+          );
+        })
+        .join('') +
+      `</div>`
+    );
+  }
+
   function renderPickLiquidityCells(pick) {
     const hit = findLiquidityGame(pick);
     if (!hit) {
@@ -692,10 +710,6 @@
     const homeSum = sumTop3Sizes(homeTop);
     const { ratio, heavy } = top3Ratio(awaySum, homeSum);
     const tier = ratioTier(ratio);
-    const awayCls =
-      heavy === 'away' && tier ? `is-heavy liq-sum-${tier}` : heavy === 'home' && tier ? 'is-light' : '';
-    const homeCls =
-      heavy === 'home' && tier ? `is-heavy liq-sum-${tier}` : heavy === 'away' && tier ? 'is-light' : '';
     const awayHead =
       escapeHtml(awayLabel) +
       (awayLine != null && awayLine !== '' ? ` · ${fmtSpreadLine(awayLine)}` : '');
@@ -704,21 +718,22 @@
       (homeLine != null && homeLine !== '' ? ` · ${fmtSpreadLine(homeLine)}` : '');
     const ratioHtml =
       heavy && tier
-        ? `<div class="liq-ratio liq-ratio-${tier}" title="Top-3 $ sum ratio at main line">${ratio.toFixed(1)}× ${escapeHtml(
+        ? `<div class="liq-ratio liq-ratio-${tier}" title="Ratio of summed top-3 $ at main line">${ratio.toFixed(1)}× ${escapeHtml(
             heavy === 'away' ? awayLabel : homeLabel
           )}</div>`
         : awaySum + homeSum > 0
           ? `<div class="liq-ratio liq-ratio-flat">${ratio.toFixed(1)}×</div>`
           : '';
+    const rankCls = tier ? `liq-rank liq-rank-${tier}` : 'liq-rank';
     return {
       rowClass: tier === 'hot' || tier === 'warm' ? 'liq-row-skew' : '',
       cells:
-        `<td class="col-4c"><span class="liq-rank">#${g.rank != null ? g.rank : '—'}</span>` +
+        `<td class="col-4c"><span class="${rankCls}">#${g.rank != null ? g.rank : '—'}</span>` +
         `<div class="meta">${fmtUsd(g.openInterest)} OI</div></td>` +
-        `<td class="col-4c-top"><div class="liq-sum-block">` +
-        `<div class="liq-sum-row ${awayCls}"><span class="liq-sum-name">${awayHead}</span><span class="liq-sum-amt">${fmtUsd(awaySum)}</span></div>` +
-        `<div class="liq-sum-row ${homeCls}"><span class="liq-sum-name">${homeHead}</span><span class="liq-sum-amt">${fmtUsd(homeSum)}</span></div>` +
-        `${ratioHtml}</div></td>`,
+        `<td class="col-4c-top"><div class="liq-top-pair">` +
+        `<div><div class="meta">${awayHead}</div>${renderTop3Levels(awayTop, heavy === 'away', tier)}</div>` +
+        `<div><div class="meta">${homeHead}</div>${renderTop3Levels(homeTop, heavy === 'home', tier)}</div>` +
+        `</div>${ratioHtml}</td>`,
     };
   }
 

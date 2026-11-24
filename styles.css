@@ -693,7 +693,7 @@ code {
 }
 
 .col-4c-top {
-  min-width: 168px;
+  min-width: 200px;
 }
 
 .liq-rank {
@@ -701,62 +701,69 @@ code {
   color: var(--accent);
 }
 
-.liq-sum-block {
-  display: grid;
-  gap: 3px;
-  min-width: 150px;
+.liq-rank-mild {
+  color: var(--liq-mild);
 }
 
-.liq-sum-row {
+.liq-rank-warm {
+  color: var(--liq-warm);
+  text-shadow: 0 0 8px rgba(255, 176, 32, 0.45);
+}
+
+.liq-rank-hot {
+  color: var(--liq-hot);
+  text-shadow: 0 0 10px rgba(255, 106, 0, 0.55);
+  font-size: 1.05em;
+}
+
+.liq-top-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.liq-top3 {
+  display: grid;
+  gap: 2px;
+  font-size: 10px;
+}
+
+.liq-level {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 10px;
-  font-size: 11px;
-  padding: 2px 6px;
+  gap: 6px;
+  padding: 1px 5px;
   border-radius: 4px;
   background: color-mix(in srgb, var(--bg2) 70%, transparent);
 }
 
-.liq-sum-name {
+.liq-level .odds {
   color: var(--muted);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 11em;
 }
 
-.liq-sum-amt {
-  font-weight: 700;
+.liq-level .size {
+  font-weight: 650;
   font-variant-numeric: tabular-nums;
-  white-space: nowrap;
 }
 
-.liq-sum-row.is-light {
-  opacity: 0.55;
-}
-
-.liq-sum-row.is-heavy.liq-sum-mild .liq-sum-amt {
+.liq-top3.is-heavy.liq-sum-mild .liq-level .size {
   color: var(--liq-mild);
 }
 
-.liq-sum-row.is-heavy.liq-sum-warm {
+.liq-top3.is-heavy.liq-sum-warm .liq-level {
   background: var(--liq-warm-bg);
-  outline: 1px solid color-mix(in srgb, var(--liq-warm) 55%, transparent);
 }
 
-.liq-sum-row.is-heavy.liq-sum-warm .liq-sum-amt {
+.liq-top3.is-heavy.liq-sum-warm .liq-level .size {
   color: var(--liq-warm);
-  font-size: 12px;
 }
 
-.liq-sum-row.is-heavy.liq-sum-hot {
+.liq-top3.is-heavy.liq-sum-hot .liq-level {
   background: var(--liq-hot-bg);
-  outline: 1px solid color-mix(in srgb, var(--liq-hot) 70%, transparent);
+  outline: 1px solid color-mix(in srgb, var(--liq-hot) 55%, transparent);
 }
 
-.liq-sum-row.is-heavy.liq-sum-hot .liq-sum-amt,
-.liq-sum-row.is-heavy.liq-sum-hot .liq-sum-name {
+.liq-top3.is-heavy.liq-sum-hot .liq-level .size {
   color: var(--liq-hot);
   font-weight: 800;
 }
