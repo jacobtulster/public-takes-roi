@@ -701,10 +701,6 @@ code {
   color: var(--accent);
 }
 
-.liq-rank-mild {
-  color: var(--liq-mild);
-}
-
 .liq-rank-warm {
   color: var(--liq-warm);
   text-shadow: 0 0 8px rgba(255, 176, 32, 0.45);
@@ -720,6 +716,16 @@ code {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px;
+}
+
+.liq-side-wrap.is-heavy.liq-sum-warm .meta {
+  color: var(--liq-warm);
+  font-weight: 650;
+}
+
+.liq-side-wrap.is-heavy.liq-sum-hot .meta {
+  color: var(--liq-hot);
+  font-weight: 700;
 }
 
 .liq-top3 {
@@ -746,24 +752,24 @@ code {
   font-variant-numeric: tabular-nums;
 }
 
-.liq-top3.is-heavy.liq-sum-mild .liq-level .size {
-  color: var(--liq-mild);
-}
-
-.liq-top3.is-heavy.liq-sum-warm .liq-level {
+/* Per-price highlight: this row’s $ is ≥2× the matching row on the other side */
+.liq-level.is-skew-level.liq-level-warm {
   background: var(--liq-warm-bg);
+  outline: 1px solid color-mix(in srgb, var(--liq-warm) 55%, transparent);
 }
 
-.liq-top3.is-heavy.liq-sum-warm .liq-level .size {
+.liq-level.is-skew-level.liq-level-warm .size {
   color: var(--liq-warm);
+  font-weight: 800;
 }
 
-.liq-top3.is-heavy.liq-sum-hot .liq-level {
+.liq-level.is-skew-level.liq-level-hot {
   background: var(--liq-hot-bg);
-  outline: 1px solid color-mix(in srgb, var(--liq-hot) 55%, transparent);
+  outline: 1px solid color-mix(in srgb, var(--liq-hot) 70%, transparent);
 }
 
-.liq-top3.is-heavy.liq-sum-hot .liq-level .size {
+.liq-level.is-skew-level.liq-level-hot .size,
+.liq-level.is-skew-level.liq-level-hot .odds {
   color: var(--liq-hot);
   font-weight: 800;
 }
@@ -784,11 +790,6 @@ code {
   font-weight: 600;
   font-size: 11px;
   background: transparent;
-}
-
-.liq-ratio-mild {
-  color: #1a1400;
-  background: var(--liq-mild);
 }
 
 .liq-ratio-warm {

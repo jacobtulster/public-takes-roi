@@ -651,24 +651,32 @@
     };
   }
 
-  /** Tier for visual punch: bigger disparity → hotter color. */
+  /** Only highlight at 2×+ side disparity (no color under that). */
   function ratioTier(ratio) {
     if (ratio >= 3) return 'hot';
     if (ratio >= 2) return 'warm';
-    if (ratio >= 1.5) return 'mild';
     return '';
   }
 
-  function renderTop3Levels(levels, sideHeavy, tier) {
+  function renderTop3Levels(levels, oppLevels) {
     const rows = Array.isArray(levels) ? levels : [];
+    const opp = Array.isArray(oppLevels) ? oppLevels : [];
     if (!rows.length) return '<div class="meta">—</div>';
-    const heavyCls = sideHeavy && tier ? `is-heavy liq-sum-${tier}` : '';
     return (
-      `<div class="liq-top3 ${heavyCls}">` +
+      `<div class="liq-top3">` +
       rows
-        .map((lv) => {
+        .map((lv, i) => {
+          const size = Number(lv && lv.size) || 0;
+          const oppSize = Number(opp[i] && opp[i].size) || 0;
+          // Highlight this raw price row when its $ is ≥2× the matching row on the other side
+          let beat = '';
+          if (size > 0 && (oppSize <= 0 || size / oppSize >= 2)) {
+            const rowRatio = oppSize > 0 ? size / oppSize : 99;
+            const rowTier = ratioTier(rowRatio);
+            if (rowTier) beat = ` is-skew-level liq-level-${rowTier}`;
+          }
           return (
-            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}</span>` +
+            `<div class="liq-level${beat}"><span class="odds">${fmtOddsShort(lv.odds)}</span>` +
             `<span class="size">${fmtUsd(lv.size)}</span></div>`
           );
         })
@@ -710,6 +718,7 @@
     const homeSum = sumTop3Sizes(homeTop);
     const { ratio, heavy } = top3Ratio(awaySum, homeSum);
     const tier = ratioTier(ratio);
+    const heavyName = heavy === 'away' ? awayLabel : heavy === 'home' ? homeLabel : '';
     const awayHead =
       escapeHtml(awayLabel) +
       (awayLine != null && awayLine !== '' ? ` · ${fmtSpreadLine(awayLine)}` : '');
@@ -717,22 +726,22 @@
       escapeHtml(homeLabel) +
       (homeLine != null && homeLine !== '' ? ` · ${fmtSpreadLine(homeLine)}` : '');
     const ratioHtml =
-      heavy && tier
-        ? `<div class="liq-ratio liq-ratio-${tier}" title="Ratio of summed top-3 $ at main line">${ratio.toFixed(1)}× ${escapeHtml(
-            heavy === 'away' ? awayLabel : homeLabel
-          )}</div>`
-        : awaySum + homeSum > 0
-          ? `<div class="liq-ratio liq-ratio-flat">${ratio.toFixed(1)}×</div>`
-          : '';
+      awaySum + homeSum > 0
+        ? `<div class="liq-ratio ${tier ? `liq-ratio-${tier}` : 'liq-ratio-flat'}" title="Ratio of summed top-3 $ at main line">${ratio.toFixed(1)}×${
+            heavyName ? ' ' + escapeHtml(heavyName) : ''
+          }</div>`
+        : '';
     const rankCls = tier ? `liq-rank liq-rank-${tier}` : 'liq-rank';
+    const awayWrap = heavy === 'away' && tier ? `liq-side-wrap is-heavy liq-sum-${tier}` : 'liq-side-wrap';
+    const homeWrap = heavy === 'home' && tier ? `liq-side-wrap is-heavy liq-sum-${tier}` : 'liq-side-wrap';
     return {
-      rowClass: tier === 'hot' || tier === 'warm' ? 'liq-row-skew' : '',
+      rowClass: tier ? 'liq-row-skew' : '',
       cells:
         `<td class="col-4c"><span class="${rankCls}">#${g.rank != null ? g.rank : '—'}</span>` +
         `<div class="meta">${fmtUsd(g.openInterest)} OI</div></td>` +
         `<td class="col-4c-top"><div class="liq-top-pair">` +
-        `<div><div class="meta">${awayHead}</div>${renderTop3Levels(awayTop, heavy === 'away', tier)}</div>` +
-        `<div><div class="meta">${homeHead}</div>${renderTop3Levels(homeTop, heavy === 'home', tier)}</div>` +
+        `<div class="${awayWrap}"><div class="meta">${awayHead}</div>${renderTop3Levels(awayTop, homeTop)}</div>` +
+        `<div class="${homeWrap}"><div class="meta">${homeHead}</div>${renderTop3Levels(homeTop, awayTop)}</div>` +
         `</div>${ratioHtml}</td>`,
     };
   }
