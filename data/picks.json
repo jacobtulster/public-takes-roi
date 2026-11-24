@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:01:40.616Z",
+  "updatedAt": "2026-11-24T23:01:46.668Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6987,9 +6987,10 @@
       "market": "spread",
       "line": 21,
       "price": -114,
-      "tixFav": 89,
-      "monFav": 77,
-      "reason": "Tix 89% + $ 77% on fav"
+      "tixFav": 90,
+      "monFav": 78,
+      "reason": "Tix 90% + $ 78% on fav",
+      "leanUpdatedAt": "2026-11-24T23:01:41.476Z"
     },
     {
       "pickKey": "m|627|southern_indiana_at_vmi|DOG|away|spread",
@@ -7296,9 +7297,10 @@
       "market": "spread",
       "line": 2,
       "price": -108,
-      "tixFav": 83,
+      "tixFav": 85,
       "monFav": 99,
-      "reason": "Tix 83% + $ 99% on fav"
+      "reason": "Tix 85% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:01:43.453Z"
     },
     {
       "pickKey": "m|701|utep_at_coll_of_charleston|DOG|away|ml",
@@ -7319,9 +7321,10 @@
       "market": "ml",
       "line": 111,
       "price": 111,
-      "tixFav": 83,
+      "tixFav": 85,
       "monFav": 99,
-      "reason": "Tix 83% + $ 99% on fav"
+      "reason": "Tix 85% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:01:43.453Z"
     },
     {
       "pickKey": "m|635|hampton_at_old_dominion|FAV|home|spread",
@@ -7550,10 +7553,10 @@
       "market": "spread",
       "line": 5,
       "price": -108,
-      "tixFav": 75,
+      "tixFav": 73,
       "monFav": 85,
-      "reason": "Tix 75% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-24T22:47:31.454Z"
+      "reason": "Tix 73% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-24T23:01:41.476Z"
     },
     {
       "pickKey": "m|653|oral_roberts_at_ut_arlington|DOG|away|ml",
@@ -7574,10 +7577,10 @@
       "market": "ml",
       "line": 180,
       "price": 180,
-      "tixFav": 75,
+      "tixFav": 73,
       "monFav": 85,
-      "reason": "Tix 75% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-24T22:47:31.454Z"
+      "reason": "Tix 73% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-24T23:01:41.476Z"
     },
     {
       "pickKey": "m|655|green_bay_at_umkc|DOG|away|spread",
