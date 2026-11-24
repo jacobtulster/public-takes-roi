@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:36:48.797Z",
+  "updatedAt": "2026-11-24T22:37:00.825718Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -6444,7 +6444,17 @@
       "tixFav": 82,
       "monFav": 73,
       "reason": "Tix 82% + $ 73% on fav",
-      "leanUpdatedAt": "2026-11-24T19:49:11.417Z"
+      "leanUpdatedAt": "2026-11-24T19:49:11.417Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 72.0,
+      "homeScore": 64.0,
+      "gradedAt": "2026-11-24T22:37:00.819752Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401906853",
+      "espnAway": "Tennessee Volunteers",
+      "espnHome": "Maryland Terrapins"
     },
     {
       "pickKey": "m|687|tennessee_at_maryland|DOG|home|ml",
@@ -6468,7 +6478,17 @@
       "tixFav": 82,
       "monFav": 73,
       "reason": "Tix 82% + $ 73% on fav",
-      "leanUpdatedAt": "2026-11-24T19:49:11.417Z"
+      "leanUpdatedAt": "2026-11-24T19:49:11.417Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 72.0,
+      "homeScore": 64.0,
+      "gradedAt": "2026-11-24T22:37:00.821039Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401906853",
+      "espnAway": "Tennessee Volunteers",
+      "espnHome": "Maryland Terrapins"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|spread",
