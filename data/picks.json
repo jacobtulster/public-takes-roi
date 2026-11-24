@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:34:35.976948Z",
+  "updatedAt": "2026-11-24T23:35:36.691Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5915,10 +5915,10 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 74,
-      "monFav": 73,
-      "reason": "Tix 74% + $ 73% on fav",
-      "leanUpdatedAt": "2026-11-24T23:28:29.457Z"
+      "tixFav": 73,
+      "monFav": 72,
+      "reason": "Tix 73% + $ 72% on fav",
+      "leanUpdatedAt": "2026-11-24T23:35:33.457Z"
     },
     {
       "pickKey": "m|103|kent_state_at_eastern_michigan|DOG|away|ml",
@@ -5939,10 +5939,10 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 74,
-      "monFav": 73,
-      "reason": "Tix 74% + $ 73% on fav",
-      "leanUpdatedAt": "2026-11-24T23:28:29.457Z"
+      "tixFav": 73,
+      "monFav": 72,
+      "reason": "Tix 73% + $ 72% on fav",
+      "leanUpdatedAt": "2026-11-24T23:35:33.457Z"
     },
     {
       "pickKey": "m|503|boston_at_washington|DOG|home|spread",
