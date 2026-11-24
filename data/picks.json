@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:43:19.781086Z",
+  "updatedAt": "2026-11-24T19:50:40.517Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T19:11:08.348Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T19:11:08.358Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -6434,15 +6434,15 @@
       "takeRole": "DOG",
       "takeTeam": "Maryland",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 4,
       "price": -107,
-      "tixFav": 83,
-      "monFav": 74,
-      "reason": "Tix 83% + $ 74% on fav",
-      "leanUpdatedAt": "2026-11-24T19:41:09.921Z"
+      "tixFav": 82,
+      "monFav": 73,
+      "reason": "Tix 82% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T19:49:11.417Z"
     },
     {
       "pickKey": "m|687|tennessee_at_maryland|DOG|home|ml",
@@ -6458,15 +6458,15 @@
       "takeRole": "DOG",
       "takeTeam": "Maryland",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "ml",
       "line": 153,
       "price": 153,
-      "tixFav": 83,
-      "monFav": 74,
-      "reason": "Tix 83% + $ 74% on fav",
-      "leanUpdatedAt": "2026-11-24T19:41:09.921Z"
+      "tixFav": 82,
+      "monFav": 73,
+      "reason": "Tix 82% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T19:49:11.417Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|spread",
@@ -6487,10 +6487,10 @@
       "market": "spread",
       "line": 3.5,
       "price": -114,
-      "tixFav": 78,
-      "monFav": 76,
-      "reason": "Tix 78% + $ 76% on fav",
-      "leanUpdatedAt": "2026-11-24T19:40:09.690Z"
+      "tixFav": 79,
+      "monFav": 77,
+      "reason": "Tix 79% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-24T19:49:11.417Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|ml",
@@ -6511,10 +6511,10 @@
       "market": "ml",
       "line": 135,
       "price": 135,
-      "tixFav": 78,
-      "monFav": 76,
-      "reason": "Tix 78% + $ 76% on fav",
-      "leanUpdatedAt": "2026-11-24T19:40:09.690Z"
+      "tixFav": 79,
+      "monFav": 77,
+      "reason": "Tix 79% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-24T19:49:11.417Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|spread",
@@ -6772,9 +6772,9 @@
       "line": 2,
       "price": -112,
       "tixFav": 75,
-      "monFav": 82,
-      "reason": "Tix 75% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-24T19:40:09.690Z"
+      "monFav": 85,
+      "reason": "Tix 75% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-24T19:49:11.415Z"
     },
     {
       "pickKey": "m|667|saint_louis_at_grand_canyon|DOG|away|ml",
@@ -6796,9 +6796,9 @@
       "line": 105,
       "price": 105,
       "tixFav": 75,
-      "monFav": 82,
-      "reason": "Tix 75% + $ 82% on fav",
-      "leanUpdatedAt": "2026-11-24T19:40:09.690Z"
+      "monFav": 85,
+      "reason": "Tix 75% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-24T19:49:11.415Z"
     },
     {
       "pickKey": "m|673|providence_at_arizona|DOG|away|spread",
@@ -6962,6 +6962,52 @@
       "tixFav": 86,
       "monFav": 77,
       "reason": "Tix 86% + $ 77% on fav"
+    },
+    {
+      "pickKey": "m|627|southern_indiana_at_vmi|DOG|away|spread",
+      "matchupId": "627|southern_indiana_at_vmi|DOG|away|spread",
+      "loggedAt": "2026-11-24T19:49:11.413Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Southern Indiana",
+      "home": "VMI",
+      "kick": "18:00",
+      "startAt": "2026-11-24T23:00:00.000Z",
+      "gameNumber": 627,
+      "takeRole": "DOG",
+      "takeTeam": "Southern Indiana",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 5,
+      "price": -107,
+      "tixFav": 88,
+      "monFav": 90,
+      "reason": "Tix 88% + $ 90% on fav"
+    },
+    {
+      "pickKey": "m|627|southern_indiana_at_vmi|DOG|away|ml",
+      "matchupId": "627|southern_indiana_at_vmi|DOG|away|ml",
+      "loggedAt": "2026-11-24T19:49:11.413Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Southern Indiana",
+      "home": "VMI",
+      "kick": "18:00",
+      "startAt": "2026-11-24T23:00:00.000Z",
+      "gameNumber": 627,
+      "takeRole": "DOG",
+      "takeTeam": "Southern Indiana",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 185,
+      "price": 185,
+      "tixFav": 88,
+      "monFav": 90,
+      "reason": "Tix 88% + $ 90% on fav"
     }
   ]
 }
