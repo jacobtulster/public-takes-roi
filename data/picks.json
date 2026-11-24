@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:41:55.563431Z",
+  "updatedAt": "2026-11-24T23:42:50.709Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -7748,6 +7748,52 @@
       "monFav": 17,
       "reason": "Tix 33% + $ 17% on fav (<50)",
       "leanUpdatedAt": "2026-11-24T23:40:25.458Z"
+    },
+    {
+      "pickKey": "m|645|nevada_at_santa_clara|FAV|away|spread",
+      "matchupId": "645|nevada_at_santa_clara|FAV|away|spread",
+      "loggedAt": "2026-11-24T23:42:47.468Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Nevada",
+      "home": "Santa Clara",
+      "kick": "19:05",
+      "startAt": "2026-11-25T00:05:00.000Z",
+      "gameNumber": 645,
+      "takeRole": "FAV",
+      "takeTeam": "Nevada",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": 1,
+      "price": -117,
+      "tixFav": 43,
+      "monFav": 26,
+      "reason": "Tix 43% + $ 26% on fav (<50)"
+    },
+    {
+      "pickKey": "m|645|nevada_at_santa_clara|FAV|away|ml",
+      "matchupId": "645|nevada_at_santa_clara|FAV|away|ml",
+      "loggedAt": "2026-11-24T23:42:47.468Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Nevada",
+      "home": "Santa Clara",
+      "kick": "19:05",
+      "startAt": "2026-11-25T00:05:00.000Z",
+      "gameNumber": 645,
+      "takeRole": "FAV",
+      "takeTeam": "Nevada",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -112,
+      "price": -112,
+      "tixFav": 43,
+      "monFav": 26,
+      "reason": "Tix 43% + $ 26% on fav (<50)"
     }
   ]
 }
