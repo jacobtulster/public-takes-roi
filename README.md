@@ -46,6 +46,4 @@ Output: [`data/liquidity.json`](./data/liquidity.json)
 
 ### How it updates
 
-Install the local userscript `Public Takes — 4C Liquidity.user.js` (Tampermonkey). While the ROI tab is open it pulls 4casters live every couple of minutes. No constant GitHub Actions polling.
-
-Optional: repo secret `FOURCASTERS_TOKEN` + manual **Fetch 4casters liquidity** workflow if you want a committed `data/liquidity.json` snapshot.
+Repo secret `FOURCASTERS_TOKEN` + GitHub Action [`.github/workflows/liquidity.yml`](./.github/workflows/liquidity.yml) every 15 minutes (and manual dispatch). The site just reads [`data/liquidity.json`](./data/liquidity.json).

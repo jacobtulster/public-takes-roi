@@ -1046,10 +1046,9 @@
   function applyLiquidityPayload(raw) {
     if (!raw || typeof raw !== 'object') return;
     liqStore = {
-      updatedAt: raw.updatedAt || new Date().toISOString(),
+      updatedAt: raw.updatedAt || null,
       games: Array.isArray(raw.games) ? raw.games : [],
       error: raw.error || null,
-      source: raw.source || null,
     };
     if (activeView === 'liquidity') {
       renderLiquidity();
@@ -1060,44 +1059,19 @@
     }
   }
 
-  // Userscript (Public Takes — 4C Liquidity) feeds live books while the tab is open.
-  window.__publicTakesApplyLiquidity = applyLiquidityPayload;
-  if (window.__publicTakesLiquidityPending) {
-    applyLiquidityPayload(window.__publicTakesLiquidityPending);
-    window.__publicTakesLiquidityPending = null;
-  }
-
   async function loadLiquidityRemote() {
     const url = './data/liquidity.json?t=' + Date.now();
     try {
       const res = await fetch(url, { cache: 'no-store' });
       if (!res.ok) throw new Error('HTTP ' + res.status);
-      const raw = await res.json();
-      // Don't clobber a fresher live userscript snapshot.
-      if (
-        liqStore &&
-        liqStore.source === 'live' &&
-        liqStore.updatedAt &&
-        raw &&
-        raw.updatedAt &&
-        new Date(liqStore.updatedAt) > new Date(raw.updatedAt)
-      ) {
-        return;
-      }
-      if (liqStore && liqStore.games && liqStore.games.length && raw && raw.source === undefined) {
-        // keep live if file is still the placeholder
-        if (!raw.games || !raw.games.length) return;
-      }
-      applyLiquidityPayload(raw);
+      applyLiquidityPayload(await res.json());
     } catch (_) {
-      if (!liqStore.games || !liqStore.games.length) {
-        liqStore = {
-          updatedAt: null,
-          games: [],
-          error: 'Open this page with the 4C Liquidity userscript enabled',
-        };
-        if (activeView === 'liquidity') renderLiquidity();
-      }
+      liqStore = {
+        updatedAt: null,
+        games: [],
+        error: 'liquidity.json not loaded yet',
+      };
+      if (activeView === 'liquidity') renderLiquidity();
     }
   }
 
