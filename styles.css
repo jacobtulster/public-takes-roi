@@ -677,3 +677,197 @@ code {
     display: none;
   }
 }
+
+/* —— View tabs + 4casters liquidity board —— */
+.view-tabs {
+  display: inline-flex;
+  gap: 4px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bg1) 85%, transparent);
+}
+
+.view-tab {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font: 11px/1.2 var(--font);
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.view-tab:hover {
+  color: var(--text);
+}
+
+.view-tab.is-active {
+  background: linear-gradient(180deg, #2a3348, #1a2438);
+  color: #e7eefc;
+  box-shadow: inset 0 0 0 1px #44506c;
+}
+
+#view-roi,
+#view-liquidity {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  flex: 1;
+}
+
+#view-roi[hidden],
+#view-liquidity[hidden] {
+  display: none !important;
+}
+
+.panel-liquidity {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: color-mix(in srgb, var(--card) 92%, transparent);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.liq-wrap {
+  flex: 1;
+  min-height: 0;
+}
+
+.liq-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.liq-table th,
+.liq-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 80%, transparent);
+  vertical-align: top;
+  text-align: left;
+}
+
+.liq-table th {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  background: var(--bg1);
+  z-index: 1;
+}
+
+.col-rank {
+  width: 36px;
+}
+
+.col-oi {
+  width: 88px;
+}
+
+.col-league {
+  width: 56px;
+}
+
+.col-flag {
+  width: 110px;
+}
+
+.liq-rank {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.liq-oi {
+  font-weight: 650;
+}
+
+.liq-sides {
+  display: grid;
+  gap: 4px;
+  min-width: 140px;
+}
+
+.liq-side-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.liq-side-row.is-heavy {
+  color: var(--green);
+  font-weight: 650;
+}
+
+.liq-side-row.is-light {
+  color: var(--red);
+}
+
+.liq-top3 {
+  display: grid;
+  gap: 3px;
+  min-width: 130px;
+  font-size: 11px;
+}
+
+.liq-level {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--bg2) 70%, transparent);
+}
+
+.liq-level .odds {
+  color: var(--muted);
+}
+
+.liq-level .size {
+  font-weight: 650;
+}
+
+.liq-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 7px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.liq-flag.is-away,
+.liq-flag.is-home {
+  background: var(--green-dim);
+  color: var(--green);
+}
+
+.liq-flag.is-none {
+  background: transparent;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.liq-row-heavy {
+  background: color-mix(in srgb, var(--green) 6%, transparent);
+}
+
+@media (max-width: 980px) {
+  .liq-table .col-top3:nth-of-type(7),
+  .liq-table td:nth-child(7) {
+    display: none;
+  }
+}

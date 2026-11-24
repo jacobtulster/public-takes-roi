@@ -55,6 +55,10 @@ ALIASES = {
     "middle tennessee st": "middle tennessee",
     "unc greensboro": "north carolina greensboro",
     "northern iowa": "northern iowa",
+    # OddsLogic "Mississippi" ↔ ESPN "Ole Miss"
+    "mississippi": "ole miss",
+    "ole miss": "ole miss",
+    "olemiss": "ole miss",
 }
 
 UA = {"User-Agent": "public-takes-roi-grader/1.1 (+espn-scoreboard)"}
@@ -172,7 +176,8 @@ def name_hit(needles: str, keys: list[str]) -> bool:
     need = [t for t in raw.split() if len(t) > 1 and t not in {"vs", "at", "and"}]
     if not need:
         return False
-    hay = " ".join(keys)
+    keyed = [ALIASES.get(k, k) for k in keys]
+    hay = " ".join(keyed)
     hay_c = compact(hay)
     needle_c = compact(raw)
     if needle_c and needle_c in hay_c:

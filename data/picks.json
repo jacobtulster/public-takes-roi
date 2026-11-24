@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T15:23:40.053473Z",
+  "updatedAt": "2026-11-24T19:02:55.782043Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -4459,7 +4459,17 @@
       "price": -115,
       "tixFav": 70,
       "monFav": 82,
-      "reason": "Tix 70% + $ 82% on fav"
+      "reason": "Tix 70% + $ 82% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 82.0,
+      "homeScore": 62.0,
+      "gradedAt": "2026-11-24T19:02:55.766440Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401918076",
+      "espnAway": "Ole Miss Rebels",
+      "espnHome": "Clemson Tigers"
     },
     {
       "pickKey": "m|881|mississippi_at_clemson|DOG|home|ml",
@@ -4482,7 +4492,17 @@
       "price": 203,
       "tixFav": 70,
       "monFav": 82,
-      "reason": "Tix 70% + $ 82% on fav"
+      "reason": "Tix 70% + $ 82% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 82.0,
+      "homeScore": 62.0,
+      "gradedAt": "2026-11-24T19:02:55.771437Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401918076",
+      "espnAway": "Ole Miss Rebels",
+      "espnHome": "Clemson Tigers"
     },
     {
       "pickKey": "m|883|washington_at_byu|DOG|away|spread",
@@ -5365,7 +5385,17 @@
       "price": -105,
       "tixFav": 49,
       "monFav": 42,
-      "reason": "Tix 49% + $ 42% on fav (<50)"
+      "reason": "Tix 49% + $ 42% on fav (<50)",
+      "result": "W",
+      "profit": 0.9524,
+      "awayScore": 82.0,
+      "homeScore": 62.0,
+      "gradedAt": "2026-11-24T19:02:55.778002Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401918076",
+      "espnAway": "Ole Miss Rebels",
+      "espnHome": "Clemson Tigers"
     },
     {
       "pickKey": "m|881|mississippi_at_clemson|FAV|away|ml",
@@ -5388,7 +5418,17 @@
       "price": -232,
       "tixFav": 49,
       "monFav": 42,
-      "reason": "Tix 49% + $ 42% on fav (<50)"
+      "reason": "Tix 49% + $ 42% on fav (<50)",
+      "result": "W",
+      "profit": 0.431,
+      "awayScore": 82.0,
+      "homeScore": 62.0,
+      "gradedAt": "2026-11-24T19:02:55.782043Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401918076",
+      "espnAway": "Ole Miss Rebels",
+      "espnHome": "Clemson Tigers"
     },
     {
       "pickKey": "m|869|unc_greensboro_at_pepperdine|FAV|home|spread",

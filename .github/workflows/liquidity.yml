@@ -1,0 +1,44 @@
+name: Fetch 4casters liquidity
+
+on:
+  schedule:
+    # Every 5 minutes — maker books move fast
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fourcasters-liquidity
+  cancel-in-progress: true
+
+jobs:
+  liquidity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Snapshot 4casters orderbooks
+        env:
+          FOURCASTERS_TOKEN: ${{ secrets.FOURCASTERS_TOKEN }}
+        run: python scripts/fetch_4casters_liquidity.py
+
+      - name: Commit liquidity snapshot
+        run: |
+          git config user.name "public-takes-bot"
+          git config user.email "public-takes-bot@users.noreply.github.com"
+          git add data/liquidity.json
+          if git diff --staged --quiet; then
+            echo "No liquidity changes."
+          else
+            git commit -m "chore: refresh 4casters liquidity snapshot"
+            git push
+          fi

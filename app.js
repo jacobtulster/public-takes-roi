@@ -10,9 +10,11 @@
   ];
 
   let store = { updatedAt: null, picks: [] };
+  let liqStore = { updatedAt: null, games: [], error: null };
   let chart;
   let activeCard = 'all';
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
+  let activeView = 'roi'; // roi | liquidity
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -542,7 +544,171 @@
     return ml != null ? ml : '—';
   }
 
+  function fmtUsd(n) {
+    const v = Number(n);
+    if (!Number.isFinite(v)) return '—';
+    return (
+      '$' +
+      Math.round(v).toLocaleString('en-US', { maximumFractionDigits: 0 })
+    );
+  }
+
+  function fmtOddsShort(n) {
+    const v = Number(n);
+    if (!Number.isFinite(v)) return '—';
+    return (v > 0 ? '+' : '') + String(v);
+  }
+
+  function setActiveView(view) {
+    activeView = view === 'liquidity' ? 'liquidity' : 'roi';
+    const roi = $('#view-roi');
+    const liq = $('#view-liquidity');
+    if (roi) roi.hidden = activeView !== 'roi';
+    if (liq) liq.hidden = activeView !== 'liquidity';
+    document.querySelectorAll('.view-tab').forEach((btn) => {
+      const on = btn.getAttribute('data-view') === activeView;
+      btn.classList.toggle('is-active', on);
+      btn.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    const bookHint = $('#book-hint');
+    const marketTabs = $('#market-tabs');
+    if (activeView === 'liquidity') {
+      if (bookHint) bookHint.textContent = 'Ranked by 4casters open interest';
+      if (marketTabs) marketTabs.hidden = true;
+      renderLiquidity();
+      if (liqStore.updatedAt) {
+        $('#updated-at').textContent =
+          '4C ' + new Date(liqStore.updatedAt).toLocaleString();
+      }
+    } else {
+      if (marketTabs) marketTabs.hidden = false;
+      renderAll();
+    }
+  }
+
+  function liqPrimaryBook(g) {
+    const sp = g && g.spread;
+    const ml = g && g.moneyline;
+    const spTot = sp ? Number(sp.awayTotal || 0) + Number(sp.homeTotal || 0) : 0;
+    if (spTot > 0) return { market: 'spread', book: sp };
+    return { market: 'moneyline', book: ml || { awayTotal: 0, homeTotal: 0, awayTop3: [], homeTop3: [], imbalance: {} } };
+  }
+
+  function renderTop3(levels, team) {
+    const rows = Array.isArray(levels) ? levels : [];
+    if (!rows.length) {
+      return `<div class="liq-top3"><span class="meta">No resting ${escapeHtml(team || 'side')}</span></div>`;
+    }
+    return (
+      `<div class="liq-top3">` +
+      rows
+        .map((lv) => {
+          const spread =
+            lv.spread != null && lv.spread !== ''
+              ? ` ${fmtOddsShort(lv.spread)}`
+              : '';
+          return (
+            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}${escapeHtml(spread)}</span>` +
+            `<span class="size">${fmtUsd(lv.size)}</span></div>`
+          );
+        })
+        .join('') +
+      `</div>`
+    );
+  }
+
+  function renderLiquidity() {
+    const body = $('#liq-body');
+    const empty = $('#liq-empty');
+    const stats = $('#liq-stats');
+    if (!body) return;
+    const league = ($('#liq-league') && $('#liq-league').value) || '';
+    const heavyOnly = ($('#liq-heavy') && $('#liq-heavy').value) === 'heavy';
+    const q = String(($('#liq-q') && $('#liq-q').value) || '')
+      .trim()
+      .toLowerCase();
+
+    let games = Array.isArray(liqStore.games) ? liqStore.games.slice() : [];
+    games = games.filter((g) => {
+      if (league && String(g.league || '').toUpperCase() !== league) return false;
+      if (heavyOnly && !g.heavySide) return false;
+      if (q) {
+        const hay = `${g.away || ''} ${g.home || ''} ${g.eventName || ''} ${g.league || ''}`.toLowerCase();
+        if (hay.indexOf(q) < 0) return false;
+      }
+      return true;
+    });
+
+    if (stats) {
+      const heavyN = games.filter((g) => g.heavySide).length;
+      stats.textContent = games.length
+        ? `${games.length} games · ${heavyN} heavy-side`
+        : liqStore.error
+          ? String(liqStore.error)
+          : 'No games';
+    }
+
+    if (!games.length) {
+      body.innerHTML = '';
+      if (empty) {
+        empty.hidden = false;
+        empty.textContent = liqStore.error
+          ? String(liqStore.error)
+          : 'No 4casters liquidity yet — add a FOURCASTERS_TOKEN repo secret, then run the liquidity workflow.';
+      }
+      return;
+    }
+    if (empty) empty.hidden = true;
+
+    body.innerHTML = games
+      .map((g) => {
+        const primary = liqPrimaryBook(g);
+        const book = primary.book || {};
+        const imb = book.imbalance || {};
+        const heavy = g.heavySide || imb.heavy;
+        const awayCls =
+          heavy === 'away' ? 'is-heavy' : heavy === 'home' ? 'is-light' : '';
+        const homeCls =
+          heavy === 'home' ? 'is-heavy' : heavy === 'away' ? 'is-light' : '';
+        const start = g.start
+          ? new Date(g.start).toLocaleString('en-US', {
+              timeZone: 'America/New_York',
+              weekday: 'short',
+              hour: 'numeric',
+              minute: '2-digit',
+              timeZoneName: 'short',
+            })
+          : '—';
+        const flag =
+          heavy === 'away' || heavy === 'home'
+            ? `<span class="liq-flag is-${heavy}">${heavy === 'away' ? escapeHtml(g.away || 'Away') : escapeHtml(g.home || 'Home')} ${Number(imb.ratio || g.heavyRatio || 0).toFixed(1)}×</span>`
+            : `<span class="liq-flag is-none">balanced</span>`;
+        const rowCls = heavy ? 'liq-row-heavy' : '';
+        return (
+          `<tr class="${rowCls}">` +
+          `<td class="col-rank"><span class="liq-rank">${g.rank != null ? g.rank : '—'}</span></td>` +
+          `<td class="col-start">${escapeHtml(start)}${g.live ? '<div class="meta">LIVE</div>' : ''}</td>` +
+          `<td class="col-matchup"><strong>${escapeHtml(g.away || '?')}</strong><div class="meta">@ ${escapeHtml(g.home || '?')}</div></td>` +
+          `<td class="col-league">${escapeHtml(g.league || '')}</td>` +
+          `<td class="col-oi"><span class="liq-oi">${fmtUsd(g.openInterest)}</span><div class="meta">matched ${fmtUsd(g.matchedVolume)}</div></td>` +
+          `<td class="col-sides"><div class="liq-sides">` +
+          `<div class="liq-side-row ${awayCls}"><span>${escapeHtml(g.away || 'Away')}</span><span>${fmtUsd(book.awayTotal)}</span></div>` +
+          `<div class="liq-side-row ${homeCls}"><span>${escapeHtml(g.home || 'Home')}</span><span>${fmtUsd(book.homeTotal)}</span></div>` +
+          `<div class="meta">${primary.market}</div></div></td>` +
+          `<td class="col-top3">${renderTop3(book.awayTop3, g.away)}</td>` +
+          `<td class="col-top3">${renderTop3(book.homeTop3, g.home)}</td>` +
+          `<td class="col-flag">${flag}</td>` +
+          `</tr>`
+        );
+      })
+      .join('');
+  }
+
   function renderAll() {
+    if (activeView === 'liquidity') {
+      renderLiquidity();
+      return;
+    }
     const marketPicks = picksForMarket(activeMarket);
     const aggs = summarize(marketPicks);
     const updated = store.updatedAt
@@ -603,6 +769,9 @@
     'illinois chicago': 'uic',
     'middle tennessee st': 'middle tennessee',
     'unc greensboro': 'north carolina greensboro',
+    mississippi: 'ole miss',
+    'ole miss': 'ole miss',
+    olemiss: 'ole miss',
   };
   const _espnBoardCache = Object.create(null);
   let _espnGradeInFlight = false;
@@ -643,7 +812,8 @@
     let raw = espnCanon(needles);
     const need = raw.split(' ').filter((t) => t.length > 1 && t !== 'vs' && t !== 'at' && t !== 'and');
     if (!need.length) return false;
-    const hay = keys.join(' ');
+    const keyed = (keys || []).map((k) => ESPN_ALIASES[k] || k);
+    const hay = keyed.join(' ');
     const hayC = espnCompact(hay);
     const needleC = espnCompact(raw);
     if (needleC && hayC.indexOf(needleC) >= 0) return true;
@@ -873,6 +1043,23 @@
     return graded;
   }
 
+  async function loadLiquidityRemote() {
+    const url = './data/liquidity.json?t=' + Date.now();
+    try {
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const raw = await res.json();
+      liqStore = {
+        updatedAt: raw && raw.updatedAt ? raw.updatedAt : null,
+        games: raw && Array.isArray(raw.games) ? raw.games : [],
+        error: raw && raw.error ? raw.error : null,
+      };
+    } catch (_) {
+      liqStore = { updatedAt: null, games: [], error: 'liquidity.json not loaded yet' };
+    }
+    if (activeView === 'liquidity') renderLiquidity();
+  }
+
   async function loadRemote() {
     const url = './data/picks.json?t=' + Date.now();
     const res = await fetch(url, { cache: 'no-store' });
@@ -881,6 +1068,7 @@
     renderAll();
     // Grade finals immediately from ESPN (do not wait for OddsLogic / GH Action).
     gradeOpenPicksFromEspn().catch(() => {});
+    loadLiquidityRemote().catch(() => {});
   }
 
   function exportJson() {
@@ -928,6 +1116,15 @@
       renderTable();
     });
   });
+  ['liq-league', 'liq-heavy', 'liq-q'].forEach((id) => {
+    const el = $('#' + id);
+    if (!el) return;
+    el.addEventListener('input', renderLiquidity);
+    el.addEventListener('change', renderLiquidity);
+  });
+  document.querySelectorAll('.view-tab').forEach((btn) => {
+    btn.addEventListener('click', () => setActiveView(btn.getAttribute('data-view')));
+  });
 
   loadRemote().catch(() => {
     store = { updatedAt: null, picks: [] };
@@ -941,6 +1138,9 @@
   setInterval(() => {
     gradeOpenPicksFromEspn().catch(() => {});
   }, 20000);
+  setInterval(() => {
+    loadLiquidityRemote().catch(() => {});
+  }, 60000);
 
   let _chartMqTimer = 0;
   if (window.matchMedia) {

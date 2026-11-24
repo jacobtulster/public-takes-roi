@@ -21,12 +21,35 @@ When OddsLogic logs both a spread and an ML take on the same game, both rows are
 
 ## Grading
 
-Open picks are settled automatically from ESPN finals (NCAAF / CFB, NCAAB, NFL, NBA, NHL, MLB, WNBA) by [`scripts/grade_picks.py`](./scripts/grade_picks.py).
+Open picks are settled automatically from **ESPN only** (never OddsLogic scores) by [`scripts/grade_picks.py`](./scripts/grade_picks.py) and by live ESPN grading in the browser.
 
 - Spreads (ATS): take-side points (`line`) vs final score → W / L / P, profit from American `price`
 - Moneylines: winner vs take side → W / L / P (ties push), profit from American `price`
-- GitHub Action [`.github/workflows/grade.yml`](./.github/workflows/grade.yml) runs every 30 minutes and on manual dispatch
+- GitHub Action [`.github/workflows/grade.yml`](./.github/workflows/grade.yml) runs every 5 minutes and on push / manual dispatch
+- Team aliases cover OddsLogic ↔ ESPN naming (e.g. `Mississippi` → `Ole Miss`)
 
 ```bash
 python scripts/grade_picks.py
 ```
+
+## 4casters liquidity board
+
+The **4C Liquidity** tab ranks today's games by resting maker liquidity (`openInterest`) from the 4casters API, and shows:
+
+- Side totals (spread preferred, else ML)
+- Top 3 prices + size on each side
+- A heavy-side flag when one side holds ≥65% of resting $ (or ≥2× the other)
+
+Snapshot script: [`scripts/fetch_4casters_liquidity.py`](./scripts/fetch_4casters_liquidity.py)  
+Workflow: [`.github/workflows/liquidity.yml`](./.github/workflows/liquidity.yml) (every 5 minutes)  
+Output: [`data/liquidity.json`](./data/liquidity.json)
+
+### One-time setup
+
+1. Create a 4casters API key (account page) or use a login token.
+2. In the GitHub repo → **Settings → Secrets and variables → Actions**, add:
+   - Name: `FOURCASTERS_TOKEN`
+   - Value: your token
+3. Actions → **Fetch 4casters liquidity** → **Run workflow**
+
+The site only *reads* the committed JSON (no token in the browser). Refresh pulls the latest snapshot after each Action push.
