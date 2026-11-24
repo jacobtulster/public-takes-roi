@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:01:16.769Z",
+  "updatedAt": "2026-11-24T23:01:22.481Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7521,15 +7521,15 @@
       "takeRole": "DOG",
       "takeTeam": "Sacred Heart",
       "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 22,
       "price": -107,
       "tixFav": 71,
       "monFav": 75,
       "reason": "Tix 71% + $ 75% on fav",
-      "leanUpdatedAt": "2026-11-24T22:54:01.468Z"
+      "leanUpdatedAt": "2026-11-24T23:01:19.455Z"
     },
     {
       "pickKey": "m|653|oral_roberts_at_ut_arlington|DOG|away|spread",
@@ -7624,6 +7624,29 @@
       "tixFav": 89,
       "monFav": 88,
       "reason": "Tix 89% + $ 88% on fav"
+    },
+    {
+      "pickKey": "m|625|sacred_heart_at_rutgers|DOG|away|ml",
+      "matchupId": "625|sacred_heart_at_rutgers|DOG|away|ml",
+      "loggedAt": "2026-11-24T23:01:19.455Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Sacred Heart",
+      "home": "Rutgers",
+      "kick": "18:00",
+      "startAt": "2026-11-24T23:00:00.000Z",
+      "gameNumber": 625,
+      "takeRole": "DOG",
+      "takeTeam": "Sacred Heart",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 1272,
+      "price": 1272,
+      "tixFav": 71,
+      "monFav": 75,
+      "reason": "Tix 71% + $ 75% on fav"
     }
   ]
 }
