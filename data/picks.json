@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:22:51.498Z",
+  "updatedAt": "2026-11-24T23:23:02.394Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6987,10 +6987,10 @@
       "market": "spread",
       "line": 21,
       "price": -114,
-      "tixFav": 90,
-      "monFav": 78,
-      "reason": "Tix 90% + $ 78% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:41.476Z"
+      "tixFav": 91,
+      "monFav": 83,
+      "reason": "Tix 91% + $ 83% on fav",
+      "leanUpdatedAt": "2026-11-24T23:22:59.458Z"
     },
     {
       "pickKey": "m|627|southern_indiana_at_vmi|DOG|away|spread",
