@@ -106,37 +106,60 @@ def order_size(o: dict[str, Any]) -> float:
     return 0.0
 
 
-def top_price_levels(orders: list[Any] | None, n: int = 3) -> list[dict[str, Any]]:
-    """Collapse book into top-n distinct prices (API already best-first)."""
-    levels: list[dict[str, Any]] = []
-    index: dict[tuple[Any, Any], int] = {}
+def parse_odds(raw: Any) -> float | None:
+    try:
+        return float(raw)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_spread(raw: Any) -> float | None:
+    if raw is None or raw == "":
+        return None
+    try:
+        return float(raw)
+    except (TypeError, ValueError):
+        return None
+
+
+def filter_orders_at_spread(orders: list[Any] | None, target: float | None) -> list[dict[str, Any]]:
+    """Keep only resting offers at 4casters' main displayed line."""
+    if target is None:
+        return [o for o in (orders or []) if isinstance(o, dict)]
+    out: list[dict[str, Any]] = []
     for raw in orders or []:
         if not isinstance(raw, dict):
             continue
-        try:
-            odds = int(raw.get("odds"))
-        except (TypeError, ValueError):
+        spr = parse_spread(raw.get("spread"))
+        if spr is None:
+            continue
+        if abs(spr - target) < 1e-6:
+            out.append(raw)
+    return out
+
+
+def top_price_levels(orders: list[Any] | None, n: int = 3) -> list[dict[str, Any]]:
+    """Collapse book into top-n distinct prices (API already best-first)."""
+    levels: list[dict[str, Any]] = []
+    index: dict[float, int] = {}
+    for raw in orders or []:
+        if not isinstance(raw, dict):
+            continue
+        odds = parse_odds(raw.get("odds"))
+        if odds is None:
             continue
         size = order_size(raw)
         if size <= 0:
             continue
-        spread = raw.get("spread")
-        try:
-            spread_n = float(spread) if spread is not None and spread != "" else None
-        except (TypeError, ValueError):
-            spread_n = None
-        key = (odds, spread_n)
-        if key in index:
-            levels[index[key]]["size"] = round(levels[index[key]]["size"] + size, 2)
+        if odds in index:
+            levels[index[odds]]["size"] = round(levels[index[odds]]["size"] + size, 2)
             continue
         if len(levels) >= n:
-            # Still accumulate into existing levels only; ignore deeper prices
             continue
-        index[key] = len(levels)
-        row: dict[str, Any] = {"odds": odds, "size": round(size, 2)}
-        if spread_n is not None:
-            row["spread"] = spread_n
-        levels.append(row)
+        index[odds] = len(levels)
+        # Keep int when whole number so UI shows -112 not -112.0
+        odds_out: float | int = int(odds) if float(odds).is_integer() else odds
+        levels.append({"odds": odds_out, "size": round(size, 2)})
     return levels
 
 
@@ -164,16 +187,27 @@ def imbalance(a: float, b: float) -> dict[str, Any]:
     }
 
 
-def summarize_market(away_orders: list[Any] | None, home_orders: list[Any] | None) -> dict[str, Any]:
+def summarize_market(
+    away_orders: list[Any] | None,
+    home_orders: list[Any] | None,
+    *,
+    away_line: float | None = None,
+    home_line: float | None = None,
+) -> dict[str, Any]:
     away_tot = side_total(away_orders)
     home_tot = side_total(home_orders)
-    return {
+    out: dict[str, Any] = {
         "awayTotal": away_tot,
         "homeTotal": home_tot,
         "awayTop3": top_price_levels(away_orders, 3),
         "homeTop3": top_price_levels(home_orders, 3),
         "imbalance": imbalance(away_tot, home_tot),
     }
+    if away_line is not None:
+        out["awayLine"] = away_line
+    if home_line is not None:
+        out["homeLine"] = home_line
+    return out
 
 
 def keep_game(game: dict[str, Any], today_et: str) -> bool:
@@ -217,7 +251,20 @@ def fetch_league(token: str, league: str) -> list[dict[str, Any]]:
 def shape_game(game: dict[str, Any], league: str) -> dict[str, Any]:
     away, home = participant_names(game)
     ml = summarize_market(game.get("awayMoneylines"), game.get("homeMoneylines"))
-    sp = summarize_market(game.get("awaySpreads"), game.get("homeSpreads"))
+
+    # Spread "the line" on 4casters = mainAwaySpread / mainHomeSpread (board default),
+    # not every alternate offer. Top-3 prices are only at that main number.
+    main_away = parse_spread(game.get("mainAwaySpread"))
+    main_home = parse_spread(game.get("mainHomeSpread"))
+    away_at_main = filter_orders_at_spread(game.get("awaySpreads"), main_away)
+    home_at_main = filter_orders_at_spread(game.get("homeSpreads"), main_home)
+    sp = summarize_market(
+        away_at_main,
+        home_at_main,
+        away_line=main_away,
+        home_line=main_home,
+    )
+
     oi = 0.0
     try:
         oi = float(game.get("openInterest") or 0)

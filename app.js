@@ -623,6 +623,13 @@
     return game.moneyline || sp || null;
   }
 
+  function fmtSpreadLine(n) {
+    if (n == null || n === '' || Number.isNaN(Number(n))) return '';
+    const v = Number(n);
+    if (v > 0) return '+' + v;
+    return String(v);
+  }
+
   function renderTop3Compact(levels) {
     const rows = Array.isArray(levels) ? levels : [];
     if (!rows.length) return '<div class="meta">—</div>';
@@ -630,10 +637,8 @@
       `<div class="liq-top3">` +
       rows
         .map((lv) => {
-          const spr =
-            lv.spread != null && lv.spread !== '' ? ` ${fmtOddsShort(lv.spread)}` : '';
           return (
-            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}${escapeHtml(spr)}</span>` +
+            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}</span>` +
             `<span class="size">${fmtUsd(lv.size)}</span></div>`
           );
         })
@@ -649,7 +654,6 @@
         rowClass: '',
         cells:
           `<td class="col-4c"><span class="meta">—</span></td>` +
-          `<td class="col-4c-side"><span class="meta">—</span></td>` +
           `<td class="col-4c-top"><span class="meta">—</span></td>`,
       };
     }
@@ -657,43 +661,39 @@
     const book = bookForPick(pick, g) || {};
     const imb = book.imbalance || {};
     let heavy = imb.heavy || null;
-    let awayTotal = Number(book.awayTotal || 0);
-    let homeTotal = Number(book.homeTotal || 0);
     let awayTop = book.awayTop3;
     let homeTop = book.homeTop3;
+    let awayLine = book.awayLine;
+    let homeLine = book.homeLine;
     let awayLabel = g.away || 'Away';
     let homeLabel = g.home || 'Home';
     if (hit.flipped) {
-      const t = awayTotal;
-      awayTotal = homeTotal;
-      homeTotal = t;
       const tt = awayTop;
       awayTop = homeTop;
       homeTop = tt;
       const tl = awayLabel;
       awayLabel = homeLabel;
       homeLabel = tl;
+      const ln = awayLine;
+      awayLine = homeLine;
+      homeLine = ln;
       if (heavy === 'away') heavy = 'home';
       else if (heavy === 'home') heavy = 'away';
     }
-    const awayCls = heavy === 'away' ? 'is-heavy' : heavy === 'home' ? 'is-light' : '';
-    const homeCls = heavy === 'home' ? 'is-heavy' : heavy === 'away' ? 'is-light' : '';
-    const flag =
-      heavy === 'away' || heavy === 'home'
-        ? `<div class="liq-flag is-${heavy}">${heavy === 'away' ? escapeHtml(awayLabel) : escapeHtml(homeLabel)} ${Number(imb.ratio || 0).toFixed(1)}×</div>`
-        : '';
+    const awayHead =
+      escapeHtml(awayLabel) +
+      (awayLine != null && awayLine !== '' ? ` · ${fmtSpreadLine(awayLine)}` : '');
+    const homeHead =
+      escapeHtml(homeLabel) +
+      (homeLine != null && homeLine !== '' ? ` · ${fmtSpreadLine(homeLine)}` : '');
     return {
       rowClass: heavy ? 'liq-row-heavy' : '',
       cells:
         `<td class="col-4c"><span class="liq-rank">#${g.rank != null ? g.rank : '—'}</span>` +
         `<div class="meta">${fmtUsd(g.openInterest)} OI</div></td>` +
-        `<td class="col-4c-side"><div class="liq-sides">` +
-        `<div class="liq-side-row ${awayCls}"><span>${escapeHtml(awayLabel)}</span><span>${fmtUsd(awayTotal)}</span></div>` +
-        `<div class="liq-side-row ${homeCls}"><span>${escapeHtml(homeLabel)}</span><span>${fmtUsd(homeTotal)}</span></div>` +
-        `${flag}</div></td>` +
         `<td class="col-4c-top"><div class="liq-top-pair">` +
-        `<div><div class="meta">${escapeHtml(awayLabel)}</div>${renderTop3Compact(awayTop)}</div>` +
-        `<div><div class="meta">${escapeHtml(homeLabel)}</div>${renderTop3Compact(homeTop)}</div>` +
+        `<div><div class="meta">${awayHead}</div>${renderTop3Compact(awayTop)}</div>` +
+        `<div><div class="meta">${homeHead}</div>${renderTop3Compact(homeTop)}</div>` +
         `</div></td>`,
     };
   }
