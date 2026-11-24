@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:23:23.459Z",
+  "updatedAt": "2026-11-24T19:29:23.927Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6011,10 +6011,10 @@
       "market": "spread",
       "line": -8,
       "price": -101,
-      "tixFav": 31,
+      "tixFav": 32,
       "monFav": 11,
-      "reason": "Tix 31% + $ 11% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
+      "reason": "Tix 32% + $ 11% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T19:26:10.278Z"
     },
     {
       "pickKey": "m|505|dallas_at_denver|FAV|home|ml",
@@ -6035,10 +6035,10 @@
       "market": "ml",
       "line": -296,
       "price": -296,
-      "tixFav": 31,
+      "tixFav": 32,
       "monFav": 11,
-      "reason": "Tix 31% + $ 11% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
+      "reason": "Tix 32% + $ 11% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T19:26:10.278Z"
     },
     {
       "pickKey": "m|615|appalachian_state_at_yale|FAV|away|spread",
