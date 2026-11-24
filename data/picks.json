@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:11:33.424065Z",
+  "updatedAt": "2026-11-24T19:13:00.382Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T19:11:08.348Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T19:11:08.358Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -6438,9 +6438,9 @@
       "line": 4,
       "price": -107,
       "tixFav": 82,
-      "monFav": 70,
-      "reason": "Tix 82% + $ 70% on fav",
-      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
+      "monFav": 73,
+      "reason": "Tix 82% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T19:11:21.692Z"
     },
     {
       "pickKey": "m|687|tennessee_at_maryland|DOG|home|ml",
@@ -6462,9 +6462,9 @@
       "line": 153,
       "price": 153,
       "tixFav": 82,
-      "monFav": 70,
-      "reason": "Tix 82% + $ 70% on fav",
-      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
+      "monFav": 73,
+      "reason": "Tix 82% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T19:11:21.692Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|spread",
