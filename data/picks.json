@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:51:53.350359Z",
+  "updatedAt": "2026-11-24T22:54:04.875Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -7200,9 +7200,10 @@
       "market": "spread",
       "line": -7.5,
       "price": -102,
-      "tixFav": 47,
+      "tixFav": 49,
       "monFav": 32,
-      "reason": "Tix 47% + $ 32% on fav (<50)"
+      "reason": "Tix 49% + $ 32% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T22:54:01.468Z"
     },
     {
       "pickKey": "m|631|elon_university_at_furman|FAV|home|ml",
@@ -7223,9 +7224,10 @@
       "market": "ml",
       "line": -324,
       "price": -324,
-      "tixFav": 47,
+      "tixFav": 49,
       "monFav": 32,
-      "reason": "Tix 47% + $ 32% on fav (<50)"
+      "reason": "Tix 49% + $ 32% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T22:54:01.468Z"
     },
     {
       "pickKey": "m|665|sam_houston_st_at_washington_state|FAV|home|spread",
@@ -7524,9 +7526,10 @@
       "market": "spread",
       "line": 22,
       "price": -107,
-      "tixFav": 70,
+      "tixFav": 71,
       "monFav": 75,
-      "reason": "Tix 70% + $ 75% on fav"
+      "reason": "Tix 71% + $ 75% on fav",
+      "leanUpdatedAt": "2026-11-24T22:54:01.468Z"
     },
     {
       "pickKey": "m|653|oral_roberts_at_ut_arlington|DOG|away|spread",
