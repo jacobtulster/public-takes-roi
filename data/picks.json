@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:49:04.978Z",
+  "updatedAt": "2026-11-24T23:49:10.654Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7105,10 +7105,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -101,
-      "tixFav": 70,
-      "monFav": 79,
-      "reason": "Tix 70% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-24T23:42:57.460Z"
+      "tixFav": 71,
+      "monFav": 76,
+      "reason": "Tix 71% + $ 76% on fav",
+      "leanUpdatedAt": "2026-11-24T23:49:07.462Z"
     },
     {
       "pickKey": "m|639|vanderbilt_at_ohio_state|DOG|home|ml",
@@ -7129,10 +7129,10 @@
       "market": "ml",
       "line": 110,
       "price": 110,
-      "tixFav": 70,
-      "monFav": 79,
-      "reason": "Tix 70% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-24T23:42:57.460Z"
+      "tixFav": 71,
+      "monFav": 76,
+      "reason": "Tix 71% + $ 76% on fav",
+      "leanUpdatedAt": "2026-11-24T23:49:07.462Z"
     },
     {
       "pickKey": "m|629|mercer_at_florida_atlantic|DOG|away|spread",
