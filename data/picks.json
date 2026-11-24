@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T14:44:40.681834Z",
+  "updatedAt": "2026-11-24T15:23:30.239Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5175,7 +5175,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5207,7 +5207,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5875,9 +5875,10 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 84,
-      "monFav": 98,
-      "reason": "Tix 84% + $ 98% on fav"
+      "tixFav": 88,
+      "monFav": 99,
+      "reason": "Tix 88% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
     },
     {
       "pickKey": "m|103|kent_state_at_eastern_michigan|DOG|away|ml",
@@ -5898,9 +5899,10 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 84,
-      "monFav": 98,
-      "reason": "Tix 84% + $ 98% on fav"
+      "tixFav": 88,
+      "monFav": 99,
+      "reason": "Tix 88% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
     },
     {
       "pickKey": "m|503|boston_at_washington|DOG|home|spread",
@@ -5969,9 +5971,10 @@
       "market": "spread",
       "line": -8,
       "price": -101,
-      "tixFav": 33,
-      "monFav": 3,
-      "reason": "Tix 33% + $ 3% on fav (<50)"
+      "tixFav": 39,
+      "monFav": 7,
+      "reason": "Tix 39% + $ 7% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
     },
     {
       "pickKey": "m|505|dallas_at_denver|FAV|home|ml",
@@ -5992,9 +5995,10 @@
       "market": "ml",
       "line": -296,
       "price": -296,
-      "tixFav": 33,
-      "monFav": 3,
-      "reason": "Tix 33% + $ 3% on fav (<50)"
+      "tixFav": 39,
+      "monFav": 7,
+      "reason": "Tix 39% + $ 7% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
     },
     {
       "pickKey": "m|615|appalachian_state_at_yale|FAV|away|spread",
@@ -6015,9 +6019,10 @@
       "market": "spread",
       "line": -1.5,
       "price": 102,
-      "tixFav": 33,
-      "monFav": 39,
-      "reason": "Tix 33% + $ 39% on fav (<50)"
+      "tixFav": 45,
+      "monFav": 46,
+      "reason": "Tix 45% + $ 46% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
     },
     {
       "pickKey": "m|615|appalachian_state_at_yale|FAV|away|ml",
@@ -6038,9 +6043,10 @@
       "market": "ml",
       "line": -109,
       "price": -109,
-      "tixFav": 33,
-      "monFav": 39,
-      "reason": "Tix 33% + $ 39% on fav (<50)"
+      "tixFav": 45,
+      "monFav": 46,
+      "reason": "Tix 45% + $ 46% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.799Z"
     },
     {
       "pickKey": "m|643|campbell_at_coastal_carolina|FAV|home|spread",
@@ -6061,9 +6067,10 @@
       "market": "spread",
       "line": -2,
       "price": -106,
-      "tixFav": 29,
-      "monFav": 47,
-      "reason": "Tix 29% + $ 47% on fav (<50)"
+      "tixFav": 20,
+      "monFav": 39,
+      "reason": "Tix 20% + $ 39% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|643|campbell_at_coastal_carolina|FAV|home|ml",
@@ -6084,9 +6091,10 @@
       "market": "ml",
       "line": -129,
       "price": -129,
-      "tixFav": 29,
-      "monFav": 47,
-      "reason": "Tix 29% + $ 47% on fav (<50)"
+      "tixFav": 20,
+      "monFav": 39,
+      "reason": "Tix 20% + $ 39% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|649|ipfw_at_se_missouri_state|FAV|home|spread",
@@ -6107,9 +6115,10 @@
       "market": "spread",
       "line": -4,
       "price": -104,
-      "tixFav": 17,
-      "monFav": 19,
-      "reason": "Tix 17% + $ 19% on fav (<50)"
+      "tixFav": 22,
+      "monFav": 11,
+      "reason": "Tix 22% + $ 11% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|649|ipfw_at_se_missouri_state|FAV|home|ml",
@@ -6130,9 +6139,10 @@
       "market": "ml",
       "line": -175,
       "price": -175,
-      "tixFav": 17,
-      "monFav": 19,
-      "reason": "Tix 17% + $ 19% on fav (<50)"
+      "tixFav": 22,
+      "monFav": 11,
+      "reason": "Tix 22% + $ 11% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|669|colorado_at_stanford|DOG|away|spread",
@@ -6245,9 +6255,10 @@
       "market": "spread",
       "line": 6.5,
       "price": -110,
-      "tixFav": 86,
+      "tixFav": 82,
       "monFav": 96,
-      "reason": "Tix 86% + $ 96% on fav"
+      "reason": "Tix 82% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|681|creighton_at_michigan|DOG|away|ml",
@@ -6268,9 +6279,10 @@
       "market": "ml",
       "line": 225,
       "price": 225,
-      "tixFav": 86,
+      "tixFav": 82,
       "monFav": 96,
-      "reason": "Tix 86% + $ 96% on fav"
+      "reason": "Tix 82% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|683|baylor_at_alabama|DOG|away|spread",
@@ -6332,14 +6344,15 @@
       "takeRole": "DOG",
       "takeTeam": "Kansas State",
       "takeSide": "home",
-      "ocLean": "flat",
+      "ocLean": "none",
       "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 15.5,
       "price": -109,
       "tixFav": 88,
       "monFav": 99,
-      "reason": "Tix 88% + $ 99% on fav"
+      "reason": "Tix 88% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|ml",
@@ -6355,14 +6368,15 @@
       "takeRole": "DOG",
       "takeTeam": "Kansas State",
       "takeSide": "home",
-      "ocLean": "flat",
+      "ocLean": "none",
       "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 960,
       "price": 960,
       "tixFav": 88,
       "monFav": 99,
-      "reason": "Tix 88% + $ 99% on fav"
+      "reason": "Tix 88% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|687|tennessee_at_maryland|DOG|home|spread",
@@ -6378,14 +6392,15 @@
       "takeRole": "DOG",
       "takeTeam": "Maryland",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 4,
       "price": -107,
-      "tixFav": 89,
-      "monFav": 99,
-      "reason": "Tix 89% + $ 99% on fav"
+      "tixFav": 83,
+      "monFav": 98,
+      "reason": "Tix 83% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|687|tennessee_at_maryland|DOG|home|ml",
@@ -6401,14 +6416,15 @@
       "takeRole": "DOG",
       "takeTeam": "Maryland",
       "takeSide": "home",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "ml",
       "line": 153,
       "price": 153,
-      "tixFav": 89,
-      "monFav": 99,
-      "reason": "Tix 89% + $ 99% on fav"
+      "tixFav": 83,
+      "monFav": 98,
+      "reason": "Tix 83% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|spread",
@@ -6429,9 +6445,10 @@
       "market": "spread",
       "line": 3.5,
       "price": -114,
-      "tixFav": 89,
-      "monFav": 79,
-      "reason": "Tix 89% + $ 79% on fav"
+      "tixFav": 88,
+      "monFav": 81,
+      "reason": "Tix 88% + $ 81% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.800Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|ml",
@@ -6452,9 +6469,10 @@
       "market": "ml",
       "line": 135,
       "price": 135,
-      "tixFav": 89,
-      "monFav": 79,
-      "reason": "Tix 89% + $ 79% on fav"
+      "tixFav": 88,
+      "monFav": 81,
+      "reason": "Tix 88% + $ 81% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.801Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|spread",
@@ -6470,14 +6488,15 @@
       "takeRole": "DOG",
       "takeTeam": "Oregon",
       "takeSide": "away",
-      "ocLean": "flat",
+      "ocLean": "none",
       "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 10,
       "price": -111,
       "tixFav": 94,
       "monFav": 98,
-      "reason": "Tix 94% + $ 98% on fav"
+      "reason": "Tix 94% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.801Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|ml",
@@ -6493,14 +6512,15 @@
       "takeRole": "DOG",
       "takeTeam": "Oregon",
       "takeSide": "away",
-      "ocLean": "flat",
+      "ocLean": "none",
       "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 421,
       "price": 421,
       "tixFav": 94,
       "monFav": 98,
-      "reason": "Tix 94% + $ 98% on fav"
+      "reason": "Tix 94% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.801Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|spread",
@@ -6521,9 +6541,10 @@
       "market": "spread",
       "line": 4,
       "price": -103,
-      "tixFav": 80,
-      "monFav": 83,
-      "reason": "Tix 80% + $ 83% on fav"
+      "tixFav": 93,
+      "monFav": 95,
+      "reason": "Tix 93% + $ 95% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.801Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|ml",
@@ -6544,9 +6565,102 @@
       "market": "ml",
       "line": 157,
       "price": 157,
-      "tixFav": 80,
-      "monFav": 83,
-      "reason": "Tix 80% + $ 83% on fav"
+      "tixFav": 93,
+      "monFav": 95,
+      "reason": "Tix 93% + $ 95% on fav",
+      "leanUpdatedAt": "2026-11-24T15:23:26.801Z"
+    },
+    {
+      "pickKey": "m|621|kent_state_at_wyoming|FAV|home|spread",
+      "matchupId": "621|kent_state_at_wyoming|FAV|home|spread",
+      "loggedAt": "2026-11-24T15:23:26.799Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Kent State",
+      "home": "Wyoming",
+      "kick": "22:30",
+      "startAt": "2026-11-24T22:30:00.000Z",
+      "gameNumber": 621,
+      "takeRole": "FAV",
+      "takeTeam": "Wyoming",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -8,
+      "price": -109,
+      "tixFav": 37,
+      "monFav": 25,
+      "reason": "Tix 37% + $ 25% on fav (<50)"
+    },
+    {
+      "pickKey": "m|621|kent_state_at_wyoming|FAV|home|ml",
+      "matchupId": "621|kent_state_at_wyoming|FAV|home|ml",
+      "loggedAt": "2026-11-24T15:23:26.800Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Kent State",
+      "home": "Wyoming",
+      "kick": "22:30",
+      "startAt": "2026-11-24T22:30:00.000Z",
+      "gameNumber": 621,
+      "takeRole": "FAV",
+      "takeTeam": "Wyoming",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -398,
+      "price": -398,
+      "tixFav": 37,
+      "monFav": 25,
+      "reason": "Tix 37% + $ 25% on fav (<50)"
+    },
+    {
+      "pickKey": "m|675|clemson_at_washington|FAV|away|spread",
+      "matchupId": "675|clemson_at_washington|FAV|away|spread",
+      "loggedAt": "2026-11-24T15:23:26.800Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - MAUI INVITATIONAL - SECOND ROUND - Tuesday, November 24th",
+      "away": "Clemson",
+      "home": "Washington",
+      "kick": "1:00",
+      "startAt": "2026-11-25T01:00:00.000Z",
+      "gameNumber": 675,
+      "takeRole": "FAV",
+      "takeTeam": "Clemson",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -1.5,
+      "price": -108,
+      "tixFav": 25,
+      "monFav": 15,
+      "reason": "Tix 25% + $ 15% on fav (<50)"
+    },
+    {
+      "pickKey": "m|675|clemson_at_washington|FAV|away|ml",
+      "matchupId": "675|clemson_at_washington|FAV|away|ml",
+      "loggedAt": "2026-11-24T15:23:26.800Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - MAUI INVITATIONAL - SECOND ROUND - Tuesday, November 24th",
+      "away": "Clemson",
+      "home": "Washington",
+      "kick": "1:00",
+      "startAt": "2026-11-25T01:00:00.000Z",
+      "gameNumber": 675,
+      "takeRole": "FAV",
+      "takeTeam": "Clemson",
+      "takeSide": "away",
+      "ocLean": "flat",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -119,
+      "price": -119,
+      "tixFav": 25,
+      "monFav": 15,
+      "reason": "Tix 25% + $ 15% on fav (<50)"
     }
   ]
 }
