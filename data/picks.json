@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T00:06:36.791Z",
+  "updatedAt": "2026-11-24T00:06:46.671Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -843,10 +843,10 @@
       "line": 6.5,
       "price": -113,
       "tixFav": 82,
-      "monFav": 78,
-      "reason": "Tix 82% + $ 78% on fav",
+      "monFav": 77,
+      "reason": "Tix 82% + $ 77% on fav",
       "startAt": "2026-11-24T01:15:00.000Z",
-      "leanUpdatedAt": "2026-11-23T23:57:21.848Z"
+      "leanUpdatedAt": "2026-11-24T00:06:43.673Z"
     },
     {
       "pickKey": "m|655|butler_at_nebraska|DOG|away|ml",
@@ -1032,10 +1032,10 @@
       "line": 240,
       "price": 240,
       "tixFav": 82,
-      "monFav": 78,
-      "reason": "Tix 82% + $ 78% on fav",
+      "monFav": 77,
+      "reason": "Tix 82% + $ 77% on fav",
       "startAt": "2026-11-24T01:15:00.000Z",
-      "leanUpdatedAt": "2026-11-23T23:57:21.848Z"
+      "leanUpdatedAt": "2026-11-24T00:06:43.673Z"
     },
     {
       "pickKey": "m|687|utah_at_minnesota|DOG|away|spread",
