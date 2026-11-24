@@ -14,7 +14,6 @@
   let chart;
   let activeCard = 'all';
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
-  let activeView = 'roi'; // roi | liquidity
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -488,13 +487,15 @@
               : 'ESPN'
             : p.lineSource || p.lineBook || '';
         const lean = fmtLeanMeta(p);
+        const liq = renderPickLiquidityCells(p);
         return (
-          `<tr>` +
+          `<tr class="${liq.rowClass}">` +
           `<td class="col-start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
           `<td class="col-matchup">${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
           `<td class="col-pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}<div class="meta lean-mobile">${lean}</div></td>` +
           `<td class="col-book"><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${lean}</div></td>` +
           `<td class="col-line">${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
+          liq.cells +
           `<td class="col-result"><span class="pill ${resPill}">${r || 'OPEN'}</span><div class="meta profit-inline">${profit}</div>${p.gradeSource ? `<div class="meta grade-src">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
           `<td class="col-profit">${profit}</td>` +
           `</tr>`
@@ -559,56 +560,80 @@
     return (v > 0 ? '+' : '') + String(v);
   }
 
-  function setActiveView(view) {
-    activeView = view === 'liquidity' ? 'liquidity' : 'roi';
-    const roi = $('#view-roi');
-    const liq = $('#view-liquidity');
-    if (roi) roi.hidden = activeView !== 'roi';
-    if (liq) liq.hidden = activeView !== 'liquidity';
-    document.querySelectorAll('.view-tab').forEach((btn) => {
-      const on = btn.getAttribute('data-view') === activeView;
-      btn.classList.toggle('is-active', on);
-      btn.setAttribute('aria-selected', on ? 'true' : 'false');
-    });
-    const bookHint = $('#book-hint');
-    const marketTabs = $('#market-tabs');
-    if (activeView === 'liquidity') {
-      if (bookHint) bookHint.textContent = 'Ranked by 4casters open interest';
-      if (marketTabs) marketTabs.hidden = true;
-      renderLiquidity();
-      if (liqStore.updatedAt) {
-        $('#updated-at').textContent =
-          '4C ' + new Date(liqStore.updatedAt).toLocaleString();
-      }
-    } else {
-      if (marketTabs) marketTabs.hidden = false;
-      renderAll();
-    }
+  function liqCanon(s) {
+    let t = String(s || '')
+      .toLowerCase()
+      .replace(/[\u2018\u2019']/g, '')
+      .replace(/&/g, ' and ')
+      .replace(/\./g, ' ')
+      .replace(/[^a-z0-9]+/g, ' ')
+      .replace(/\b(university|univ|the|saint|st)\b/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const aliases = {
+      mississippi: 'ole miss',
+      'ole miss': 'ole miss',
+      'l a clippers': 'los angeles clippers',
+      'la clippers': 'los angeles clippers',
+      'l a lakers': 'los angeles lakers',
+      'la lakers': 'los angeles lakers',
+      'ut martin': 'tennessee martin',
+    };
+    if (aliases[t]) t = aliases[t];
+    return t;
   }
 
-  function liqPrimaryBook(g) {
-    const sp = g && g.spread;
-    const ml = g && g.moneyline;
+  function liqNameHit(a, b) {
+    const left = liqCanon(a);
+    const right = liqCanon(b);
+    if (!left || !right) return false;
+    if (left === right) return true;
+    if (left.indexOf(right) >= 0 || right.indexOf(left) >= 0) return true;
+    const lt = left.split(' ').filter((x) => x.length > 1);
+    const rt = right.split(' ').filter((x) => x.length > 1);
+    if (!lt.length || !rt.length) return false;
+    let hits = 0;
+    for (let i = 0; i < lt.length; i++) {
+      if (rt.indexOf(lt[i]) >= 0) hits++;
+    }
+    return hits >= Math.min(2, lt.length, rt.length);
+  }
+
+  function findLiquidityGame(pick) {
+    const games = (liqStore && liqStore.games) || [];
+    if (!pick || !games.length) return null;
+    const away = pick.away || '';
+    const home = pick.home || '';
+    for (let i = 0; i < games.length; i++) {
+      const g = games[i];
+      if (!g) continue;
+      const fwd = liqNameHit(away, g.away) && liqNameHit(home, g.home);
+      const rev = liqNameHit(away, g.home) && liqNameHit(home, g.away);
+      if (fwd || rev) return { game: g, flipped: !fwd && rev };
+    }
+    return null;
+  }
+
+  function bookForPick(pick, game) {
+    if (!game) return null;
+    if (marketOf(pick) === 'ml') return game.moneyline || null;
+    const sp = game.spread;
     const spTot = sp ? Number(sp.awayTotal || 0) + Number(sp.homeTotal || 0) : 0;
-    if (spTot > 0) return { market: 'spread', book: sp };
-    return { market: 'moneyline', book: ml || { awayTotal: 0, homeTotal: 0, awayTop3: [], homeTop3: [], imbalance: {} } };
+    if (spTot > 0) return sp;
+    return game.moneyline || sp || null;
   }
 
-  function renderTop3(levels, team) {
+  function renderTop3Compact(levels) {
     const rows = Array.isArray(levels) ? levels : [];
-    if (!rows.length) {
-      return `<div class="liq-top3"><span class="meta">No resting ${escapeHtml(team || 'side')}</span></div>`;
-    }
+    if (!rows.length) return '<div class="meta">—</div>';
     return (
       `<div class="liq-top3">` +
       rows
         .map((lv) => {
-          const spread =
-            lv.spread != null && lv.spread !== ''
-              ? ` ${fmtOddsShort(lv.spread)}`
-              : '';
+          const spr =
+            lv.spread != null && lv.spread !== '' ? ` ${fmtOddsShort(lv.spread)}` : '';
           return (
-            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}${escapeHtml(spread)}</span>` +
+            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}${escapeHtml(spr)}</span>` +
             `<span class="size">${fmtUsd(lv.size)}</span></div>`
           );
         })
@@ -617,105 +642,74 @@
     );
   }
 
-  function renderLiquidity() {
-    const body = $('#liq-body');
-    const empty = $('#liq-empty');
-    const stats = $('#liq-stats');
-    if (!body) return;
-    const league = ($('#liq-league') && $('#liq-league').value) || '';
-    const heavyOnly = ($('#liq-heavy') && $('#liq-heavy').value) === 'heavy';
-    const q = String(($('#liq-q') && $('#liq-q').value) || '')
-      .trim()
-      .toLowerCase();
-
-    let games = Array.isArray(liqStore.games) ? liqStore.games.slice() : [];
-    games = games.filter((g) => {
-      if (league && String(g.league || '').toUpperCase() !== league) return false;
-      if (heavyOnly && !g.heavySide) return false;
-      if (q) {
-        const hay = `${g.away || ''} ${g.home || ''} ${g.eventName || ''} ${g.league || ''}`.toLowerCase();
-        if (hay.indexOf(q) < 0) return false;
-      }
-      return true;
-    });
-
-    if (stats) {
-      const heavyN = games.filter((g) => g.heavySide).length;
-      stats.textContent = games.length
-        ? `${games.length} games · ${heavyN} heavy-side`
-        : liqStore.error
-          ? String(liqStore.error)
-          : 'No games';
+  function renderPickLiquidityCells(pick) {
+    const hit = findLiquidityGame(pick);
+    if (!hit) {
+      return {
+        rowClass: '',
+        cells:
+          `<td class="col-4c"><span class="meta">—</span></td>` +
+          `<td class="col-4c-side"><span class="meta">—</span></td>` +
+          `<td class="col-4c-top"><span class="meta">—</span></td>`,
+      };
     }
-
-    if (!games.length) {
-      body.innerHTML = '';
-      if (empty) {
-        empty.hidden = false;
-        empty.textContent = liqStore.error
-          ? String(liqStore.error)
-          : 'No 4casters liquidity yet — add a FOURCASTERS_TOKEN repo secret, then run the liquidity workflow.';
-      }
-      return;
+    const g = hit.game;
+    const book = bookForPick(pick, g) || {};
+    const imb = book.imbalance || {};
+    let heavy = imb.heavy || null;
+    let awayTotal = Number(book.awayTotal || 0);
+    let homeTotal = Number(book.homeTotal || 0);
+    let awayTop = book.awayTop3;
+    let homeTop = book.homeTop3;
+    let awayLabel = g.away || 'Away';
+    let homeLabel = g.home || 'Home';
+    if (hit.flipped) {
+      const t = awayTotal;
+      awayTotal = homeTotal;
+      homeTotal = t;
+      const tt = awayTop;
+      awayTop = homeTop;
+      homeTop = tt;
+      const tl = awayLabel;
+      awayLabel = homeLabel;
+      homeLabel = tl;
+      if (heavy === 'away') heavy = 'home';
+      else if (heavy === 'home') heavy = 'away';
     }
-    if (empty) empty.hidden = true;
-
-    body.innerHTML = games
-      .map((g) => {
-        const primary = liqPrimaryBook(g);
-        const book = primary.book || {};
-        const imb = book.imbalance || {};
-        const heavy = g.heavySide || imb.heavy;
-        const awayCls =
-          heavy === 'away' ? 'is-heavy' : heavy === 'home' ? 'is-light' : '';
-        const homeCls =
-          heavy === 'home' ? 'is-heavy' : heavy === 'away' ? 'is-light' : '';
-        const start = g.start
-          ? new Date(g.start).toLocaleString('en-US', {
-              timeZone: 'America/New_York',
-              weekday: 'short',
-              hour: 'numeric',
-              minute: '2-digit',
-              timeZoneName: 'short',
-            })
-          : '—';
-        const flag =
-          heavy === 'away' || heavy === 'home'
-            ? `<span class="liq-flag is-${heavy}">${heavy === 'away' ? escapeHtml(g.away || 'Away') : escapeHtml(g.home || 'Home')} ${Number(imb.ratio || g.heavyRatio || 0).toFixed(1)}×</span>`
-            : `<span class="liq-flag is-none">balanced</span>`;
-        const rowCls = heavy ? 'liq-row-heavy' : '';
-        return (
-          `<tr class="${rowCls}">` +
-          `<td class="col-rank"><span class="liq-rank">${g.rank != null ? g.rank : '—'}</span></td>` +
-          `<td class="col-start">${escapeHtml(start)}${g.live ? '<div class="meta">LIVE</div>' : ''}</td>` +
-          `<td class="col-matchup"><strong>${escapeHtml(g.away || '?')}</strong><div class="meta">@ ${escapeHtml(g.home || '?')}</div></td>` +
-          `<td class="col-league">${escapeHtml(g.league || '')}</td>` +
-          `<td class="col-oi"><span class="liq-oi">${fmtUsd(g.openInterest)}</span><div class="meta">matched ${fmtUsd(g.matchedVolume)}</div></td>` +
-          `<td class="col-sides"><div class="liq-sides">` +
-          `<div class="liq-side-row ${awayCls}"><span>${escapeHtml(g.away || 'Away')}</span><span>${fmtUsd(book.awayTotal)}</span></div>` +
-          `<div class="liq-side-row ${homeCls}"><span>${escapeHtml(g.home || 'Home')}</span><span>${fmtUsd(book.homeTotal)}</span></div>` +
-          `<div class="meta">${primary.market}</div></div></td>` +
-          `<td class="col-top3">${renderTop3(book.awayTop3, g.away)}</td>` +
-          `<td class="col-top3">${renderTop3(book.homeTop3, g.home)}</td>` +
-          `<td class="col-flag">${flag}</td>` +
-          `</tr>`
-        );
-      })
-      .join('');
+    const awayCls = heavy === 'away' ? 'is-heavy' : heavy === 'home' ? 'is-light' : '';
+    const homeCls = heavy === 'home' ? 'is-heavy' : heavy === 'away' ? 'is-light' : '';
+    const flag =
+      heavy === 'away' || heavy === 'home'
+        ? `<div class="liq-flag is-${heavy}">${heavy === 'away' ? escapeHtml(awayLabel) : escapeHtml(homeLabel)} ${Number(imb.ratio || 0).toFixed(1)}×</div>`
+        : '';
+    return {
+      rowClass: heavy ? 'liq-row-heavy' : '',
+      cells:
+        `<td class="col-4c"><span class="liq-rank">#${g.rank != null ? g.rank : '—'}</span>` +
+        `<div class="meta">${fmtUsd(g.openInterest)} OI</div></td>` +
+        `<td class="col-4c-side"><div class="liq-sides">` +
+        `<div class="liq-side-row ${awayCls}"><span>${escapeHtml(awayLabel)}</span><span>${fmtUsd(awayTotal)}</span></div>` +
+        `<div class="liq-side-row ${homeCls}"><span>${escapeHtml(homeLabel)}</span><span>${fmtUsd(homeTotal)}</span></div>` +
+        `${flag}</div></td>` +
+        `<td class="col-4c-top"><div class="liq-top-pair">` +
+        `<div><div class="meta">${escapeHtml(awayLabel)}</div>${renderTop3Compact(awayTop)}</div>` +
+        `<div><div class="meta">${escapeHtml(homeLabel)}</div>${renderTop3Compact(homeTop)}</div>` +
+        `</div></td>`,
+    };
   }
 
   function renderAll() {
-    if (activeView === 'liquidity') {
-      renderLiquidity();
-      return;
-    }
     const marketPicks = picksForMarket(activeMarket);
     const aggs = summarize(marketPicks);
-    const updated = store.updatedAt
+    let updated = store.updatedAt
       ? 'Updated ' + new Date(store.updatedAt).toLocaleString()
       : marketPicks.length
         ? `${marketPicks.length} ${marketLabel(activeMarket)} picks`
         : 'No data yet';
+    if (liqStore.updatedAt) {
+      updated +=
+        ' · 4C ' + new Date(liqStore.updatedAt).toLocaleString();
+    }
     $('#updated-at').textContent = updated;
     const bookHint = $('#book-hint');
     if (bookHint) {
@@ -1050,13 +1044,7 @@
       games: Array.isArray(raw.games) ? raw.games : [],
       error: raw.error || null,
     };
-    if (activeView === 'liquidity') {
-      renderLiquidity();
-      if (liqStore.updatedAt) {
-        $('#updated-at').textContent =
-          '4C ' + new Date(liqStore.updatedAt).toLocaleString();
-      }
-    }
+    if (store && store.picks && store.picks.length) renderAll();
   }
 
   async function loadLiquidityRemote() {
@@ -1071,7 +1059,6 @@
         games: [],
         error: 'liquidity.json not loaded yet',
       };
-      if (activeView === 'liquidity') renderLiquidity();
     }
   }
 
@@ -1131,16 +1118,6 @@
       renderTable();
     });
   });
-  ['liq-league', 'liq-heavy', 'liq-q'].forEach((id) => {
-    const el = $('#' + id);
-    if (!el) return;
-    el.addEventListener('input', renderLiquidity);
-    el.addEventListener('change', renderLiquidity);
-  });
-  document.querySelectorAll('.view-tab').forEach((btn) => {
-    btn.addEventListener('click', () => setActiveView(btn.getAttribute('data-view')));
-  });
-
   loadRemote().catch(() => {
     store = { updatedAt: null, picks: [] };
     renderAll();

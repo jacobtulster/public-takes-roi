@@ -19,10 +19,6 @@
       <header class="topbar">
         <div class="topbar-brand">
           <h1 class="brand">Public % Takes</h1>
-          <div class="view-tabs" id="view-tabs" role="tablist" aria-label="View">
-            <button type="button" class="view-tab is-active" data-view="roi" role="tab" aria-selected="true">ROI</button>
-            <button type="button" class="view-tab" data-view="liquidity" role="tab" aria-selected="false">4C Liquidity</button>
-          </div>
           <div class="market-tabs" id="market-tabs" role="tablist" aria-label="Market book"></div>
           <p class="book-hint" id="book-hint">ATS book</p>
         </div>
@@ -35,111 +31,68 @@
         </div>
       </header>
 
-      <div id="view-roi">
-        <section class="grid-cards" id="summary-cards" aria-label="Bucket ROI"></section>
+      <section class="grid-cards" id="summary-cards" aria-label="Bucket ROI"></section>
 
-        <div class="main-split">
-          <section class="panel panel-chart">
-            <div class="toolbar">
-              <h2 id="chart-title">ATS ROI equity</h2>
-              <select id="chart-bucket" aria-label="Chart bucket">
-                <option value="all">All picks</option>
-                <option value="fav">Favs</option>
-                <option value="dog">Dogs</option>
-                <option value="fav_favorable">Favorable favs</option>
-                <option value="dog_favorable">Favorable dogs</option>
-                <option value="fav_not_favorable">Not-favorable favs</option>
-                <option value="dog_not_favorable">Not-favorable dogs</option>
-              </select>
-            </div>
-            <div class="chart-box"><canvas id="equity-chart"></canvas></div>
-          </section>
-
-          <section class="panel panel-picks">
-            <div class="toolbar">
-              <h2 id="picks-title">ATS picks</h2>
-              <span class="filter-stats" id="filter-stats" title="Record for selected bucket (W-P-L) · $ P/L @ $100/u"></span>
-              <select id="filter-bucket">
-                <option value="">All buckets</option>
-                <option value="fav_favorable">Favorable favs</option>
-                <option value="dog_favorable">Favorable dogs</option>
-                <option value="fav_not_favorable">Not-favorable favs</option>
-                <option value="dog_not_favorable">Not-favorable dogs</option>
-                <option value="fav">All favs</option>
-                <option value="dog">All dogs</option>
-              </select>
-              <select id="filter-result">
-                <option value="">All results</option>
-                <option value="open">Open</option>
-                <option value="W">Wins</option>
-                <option value="L">Losses</option>
-                <option value="P">Pushes</option>
-              </select>
-              <input id="filter-q" type="search" placeholder="Filter…" />
-            </div>
-            <div class="table-wrap">
-              <table>
-                <thead>
-                  <tr>
-                    <th class="col-start">Start</th>
-                    <th class="col-matchup">Matchup</th>
-                    <th class="col-pick">Pick</th>
-                    <th class="col-book">Book / bucket</th>
-                    <th class="col-line">Line</th>
-                    <th class="col-result">Result</th>
-                    <th class="col-profit">Profit</th>
-                  </tr>
-                </thead>
-                <tbody id="picks-body"></tbody>
-              </table>
-            </div>
-            <div class="empty" id="picks-empty" hidden>
-              No ATS picks yet — configure the OddsLogic userscript sync, then refresh.
-            </div>
-          </section>
-        </div>
-      </div>
-
-      <div id="view-liquidity" hidden>
-        <section class="panel panel-liquidity">
+      <div class="main-split">
+        <section class="panel panel-chart">
           <div class="toolbar">
-            <h2>4casters liquidity</h2>
-            <span class="filter-stats" id="liq-stats" title="Ranked by open interest (resting maker $)"></span>
-            <select id="liq-league">
-              <option value="">All leagues</option>
-              <option value="NCAAB">NCAAB</option>
-              <option value="NBA">NBA</option>
-              <option value="NFL">NFL</option>
-              <option value="NCAAF">NCAAF</option>
-              <option value="NHL">NHL</option>
-              <option value="WNBA">WNBA</option>
+            <h2 id="chart-title">ATS ROI equity</h2>
+            <select id="chart-bucket" aria-label="Chart bucket">
+              <option value="all">All picks</option>
+              <option value="fav">Favs</option>
+              <option value="dog">Dogs</option>
+              <option value="fav_favorable">Favorable favs</option>
+              <option value="dog_favorable">Favorable dogs</option>
+              <option value="fav_not_favorable">Not-favorable favs</option>
+              <option value="dog_not_favorable">Not-favorable dogs</option>
             </select>
-            <select id="liq-heavy">
-              <option value="">All books</option>
-              <option value="heavy">Heavy one-side only</option>
-            </select>
-            <input id="liq-q" type="search" placeholder="Filter matchup…" />
           </div>
-          <div class="table-wrap liq-wrap">
-            <table class="liq-table">
+          <div class="chart-box"><canvas id="equity-chart"></canvas></div>
+        </section>
+
+        <section class="panel panel-picks">
+          <div class="toolbar">
+            <h2 id="picks-title">ATS picks</h2>
+            <span class="filter-stats" id="filter-stats" title="Record for selected bucket (W-P-L) · $ P/L @ $100/u"></span>
+            <select id="filter-bucket">
+              <option value="">All buckets</option>
+              <option value="fav_favorable">Favorable favs</option>
+              <option value="dog_favorable">Favorable dogs</option>
+              <option value="fav_not_favorable">Not-favorable favs</option>
+              <option value="dog_not_favorable">Not-favorable dogs</option>
+              <option value="fav">All favs</option>
+              <option value="dog">All dogs</option>
+            </select>
+            <select id="filter-result">
+              <option value="">All results</option>
+              <option value="open">Open</option>
+              <option value="W">Wins</option>
+              <option value="L">Losses</option>
+              <option value="P">Pushes</option>
+            </select>
+            <input id="filter-q" type="search" placeholder="Filter…" />
+          </div>
+          <div class="table-wrap">
+            <table>
               <thead>
                 <tr>
-                  <th class="col-rank">#</th>
                   <th class="col-start">Start</th>
                   <th class="col-matchup">Matchup</th>
-                  <th class="col-league">Lg</th>
-                  <th class="col-oi">OI</th>
-                  <th class="col-sides">Side $ (spread)</th>
-                  <th class="col-top3">Top 3 away</th>
-                  <th class="col-top3">Top 3 home</th>
-                  <th class="col-flag">Flag</th>
+                  <th class="col-pick">Pick</th>
+                  <th class="col-book">Book / bucket</th>
+                  <th class="col-line">Line</th>
+                  <th class="col-4c" title="4casters rank by open interest">4C #</th>
+                  <th class="col-4c-side" title="Resting maker $ on each side">Maker $</th>
+                  <th class="col-4c-top" title="Top 3 resting prices each side">Top 3</th>
+                  <th class="col-result">Result</th>
+                  <th class="col-profit">Profit</th>
                 </tr>
               </thead>
-              <tbody id="liq-body"></tbody>
+              <tbody id="picks-body"></tbody>
             </table>
           </div>
-          <div class="empty" id="liq-empty" hidden>
-            No 4casters liquidity yet — GitHub Actions refreshes this every 15 minutes.
+          <div class="empty" id="picks-empty" hidden>
+            No ATS picks yet — configure the OddsLogic userscript sync, then refresh.
           </div>
         </section>
       </div>

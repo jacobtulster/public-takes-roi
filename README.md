@@ -32,18 +32,12 @@ Open picks are settled automatically from **ESPN only** (never OddsLogic scores)
 python scripts/grade_picks.py
 ```
 
-## 4casters liquidity board
+## 4casters liquidity (in the picks table)
 
-The **4C Liquidity** tab ranks today's games by resting maker liquidity (`openInterest`) from the 4casters API, and shows:
+Open picks show 4casters columns inline:
 
-- Side totals (spread preferred, else ML)
-- Top 3 prices + size on each side
-- A heavy-side flag when one side holds ≥65% of resting $ (or ≥2× the other)
+- **4C #** — rank by open interest (+ OI $)
+- **Maker $** — resting $ each side (green = heavy side)
+- **Top 3** — best three resting prices/sizes per side
 
-Snapshot script: [`scripts/fetch_4casters_liquidity.py`](./scripts/fetch_4casters_liquidity.py)  
-Workflow: [`.github/workflows/liquidity.yml`](./.github/workflows/liquidity.yml) (every 5 minutes)  
-Output: [`data/liquidity.json`](./data/liquidity.json)
-
-### How it updates
-
-Repo secret `FOURCASTERS_TOKEN` + GitHub Action [`.github/workflows/liquidity.yml`](./.github/workflows/liquidity.yml) every 15 minutes (and manual dispatch). The site just reads [`data/liquidity.json`](./data/liquidity.json).
+Snapshot: [`scripts/fetch_4casters_liquidity.py`](./scripts/fetch_4casters_liquidity.py) via [`.github/workflows/liquidity.yml`](./.github/workflows/liquidity.yml) every 15 minutes → [`data/liquidity.json`](./data/liquidity.json). Requires repo secret `FOURCASTERS_TOKEN`.
