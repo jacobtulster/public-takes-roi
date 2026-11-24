@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:23:02.394Z",
+  "updatedAt": "2026-11-24T23:23:08.666Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6345,10 +6345,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -108,
-      "tixFav": 76,
+      "tixFav": 78,
       "monFav": 92,
-      "reason": "Tix 76% + $ 92% on fav",
-      "leanUpdatedAt": "2026-11-24T23:08:49.449Z"
+      "reason": "Tix 78% + $ 92% on fav",
+      "leanUpdatedAt": "2026-11-24T23:23:05.458Z"
     },
     {
       "pickKey": "m|683|baylor_at_alabama|DOG|away|ml",
@@ -6369,10 +6369,10 @@
       "market": "ml",
       "line": 104,
       "price": 104,
-      "tixFav": 76,
+      "tixFav": 78,
       "monFav": 92,
-      "reason": "Tix 76% + $ 92% on fav",
-      "leanUpdatedAt": "2026-11-24T23:08:49.449Z"
+      "reason": "Tix 78% + $ 92% on fav",
+      "leanUpdatedAt": "2026-11-24T23:23:05.458Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|spread",
@@ -6557,10 +6557,10 @@
       "market": "spread",
       "line": 10,
       "price": -111,
-      "tixFav": 94,
-      "monFav": 99,
-      "reason": "Tix 94% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T15:23:26.801Z"
+      "tixFav": 93,
+      "monFav": 97,
+      "reason": "Tix 93% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-24T23:23:05.458Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|ml",
@@ -6581,10 +6581,10 @@
       "market": "ml",
       "line": 421,
       "price": 421,
-      "tixFav": 94,
-      "monFav": 99,
-      "reason": "Tix 94% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T15:23:26.801Z"
+      "tixFav": 93,
+      "monFav": 97,
+      "reason": "Tix 93% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-24T23:23:05.458Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|spread",
