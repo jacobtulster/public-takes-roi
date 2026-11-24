@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:08:36.686Z",
+  "updatedAt": "2026-11-24T23:08:42.450Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6509,10 +6509,10 @@
       "market": "spread",
       "line": 3.5,
       "price": -114,
-      "tixFav": 80,
-      "monFav": 71,
-      "reason": "Tix 80% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:37.469Z"
+      "tixFav": 78,
+      "monFav": 70,
+      "reason": "Tix 78% + $ 70% on fav",
+      "leanUpdatedAt": "2026-11-24T23:08:39.460Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|ml",
@@ -6533,10 +6533,10 @@
       "market": "ml",
       "line": 135,
       "price": 135,
-      "tixFav": 80,
-      "monFav": 71,
-      "reason": "Tix 80% + $ 71% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:37.469Z"
+      "tixFav": 78,
+      "monFav": 70,
+      "reason": "Tix 78% + $ 70% on fav",
+      "leanUpdatedAt": "2026-11-24T23:08:39.460Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|spread",
