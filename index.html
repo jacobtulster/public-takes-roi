@@ -70,23 +70,24 @@
               <option value="L">Losses</option>
               <option value="P">Pushes</option>
             </select>
+            <div class="liq-venue-tabs" id="liq-venue-tabs" role="tablist" aria-label="Liquidity venue">
+              <button type="button" class="liq-venue-tab is-active" data-venue="both">Both</button>
+              <button type="button" class="liq-venue-tab" data-venue="4c">4C</button>
+              <button type="button" class="liq-venue-tab" data-venue="novig">NV</button>
+            </div>
             <input id="filter-q" type="search" placeholder="Filter…" />
           </div>
           <div class="table-wrap">
-            <table>
+            <table class="picks-table liq-venue-both">
               <thead>
                 <tr>
                   <th class="col-start th-sort is-sorted is-asc" data-sort="start" title="Sort by start time" aria-sort="ascending">Start</th>
                   <th class="col-matchup">Matchup</th>
                   <th class="col-pick">Pick</th>
-                  <th class="col-book">Book / bucket</th>
                   <th class="col-line">Line</th>
-                  <th class="col-4c th-sort" data-sort="rank" title="Sort by 4casters OI rank (#1 = most interest)" aria-sort="none">4C #</th>
-                  <th class="col-4c-top" title="Top 3 resting prices/sizes at 4casters main line · ratio of summed $">4C line</th>
-                  <th class="col-nv th-sort" data-sort="novigRank" title="Sort by Novig OI rank (#1 = most interest)" aria-sort="none">NV #</th>
-                  <th class="col-nv-top" title="Top 3 resting prices/sizes at Novig main line · ratio of summed $">NV line</th>
+                  <th class="col-liq col-4c th-sort" data-sort="rank" title="4casters OI rank + main-line top 3" aria-sort="none">4C</th>
+                  <th class="col-liq col-nv th-sort" data-sort="novigRank" title="Novig OI rank + main-line top 3" aria-sort="none">NV</th>
                   <th class="col-result">Result</th>
-                  <th class="col-profit">Profit</th>
                 </tr>
               </thead>
               <tbody id="picks-body"></tbody>

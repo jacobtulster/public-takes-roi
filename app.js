@@ -17,6 +17,8 @@
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
   /** Table sort: 'start' | 'rank' (4C) | 'novigRank'. */
   let tableSort = { key: 'start', dir: 'asc' };
+  /** Which liquidity columns to show: both | 4c | novig */
+  let liqVenue = 'both';
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -492,6 +494,7 @@
       .filter(matchesFilter)
       .sort((a, b) => comparePicksForTable(a, b, now));
     syncSortHeaders();
+    syncLiqVenue();
     $('#picks-empty').hidden = rows.length > 0;
     const empty = $('#picks-empty');
     if (empty) {
@@ -524,20 +527,21 @@
               : 'ESPN'
             : p.lineSource || p.lineBook || '';
         const lean = fmtLeanMeta(p);
-        const liq4c = renderPickLiquidityCells(p, liqStore, { rankClass: 'col-4c', topClass: 'col-4c-top' });
-        const liqNv = renderPickLiquidityCells(p, novigStore, { rankClass: 'col-nv', topClass: 'col-nv-top' });
+        const liq4c = renderPickLiquidityCells(p, liqStore, 'col-4c');
+        const liqNv = renderPickLiquidityCells(p, novigStore, 'col-nv');
         const rowSkew = liq4c.rowClass || liqNv.rowClass || '';
         return (
           `<tr class="${rowSkew}">` +
           `<td class="col-start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
           `<td class="col-matchup">${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
-          `<td class="col-pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}<div class="meta lean-mobile">${lean}</div></td>` +
-          `<td class="col-book"><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${lean}</div></td>` +
-          `<td class="col-line">${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
+          `<td class="col-pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}` +
+          `<div class="meta pick-sub"><span class="pill ${mktPill}">${marketLabel(mkt)}</span> · ${lean}</div></td>` +
+          `<td class="col-line">${escapeHtml(line)}${src ? `<div class="meta">${escapeHtml(src)}</div>` : ''}</td>` +
           liq4c.cells +
           liqNv.cells +
-          `<td class="col-result"><span class="pill ${resPill}">${r || 'OPEN'}</span><div class="meta profit-inline">${profit}</div>${p.gradeSource ? `<div class="meta grade-src">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
-          `<td class="col-profit">${profit}</td>` +
+          `<td class="col-result"><span class="pill ${resPill}">${r || 'OPEN'}</span>` +
+          `<div class="meta profit-inline">${profit}</div>` +
+          `${p.gradeSource ? `<div class="meta grade-src">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
           `</tr>`
         );
       })
@@ -592,6 +596,24 @@
       '$' +
       Math.round(v).toLocaleString('en-US', { maximumFractionDigits: 0 })
     );
+  }
+
+  function fmtUsdCompact(n) {
+    const v = Number(n);
+    if (!Number.isFinite(v)) return '—';
+    const abs = Math.abs(v);
+    if (abs >= 1e6) return '$' + (v / 1e6).toFixed(abs >= 1e7 ? 1 : 2).replace(/\.?0+$/, '') + 'M';
+    if (abs >= 1e4) return '$' + (v / 1e3).toFixed(abs >= 1e5 ? 0 : 1).replace(/\.0$/, '') + 'k';
+    return fmtUsd(v);
+  }
+
+  function shortTeamLabel(name) {
+    const s = String(name || '').trim();
+    if (!s) return '—';
+    if (s.length <= 14) return s;
+    const parts = s.split(/\s+/).filter(Boolean);
+    if (parts.length >= 2) return parts[parts.length - 1];
+    return s.slice(0, 12) + '…';
   }
 
   function fmtOddsShort(n) {
@@ -725,16 +747,13 @@
     );
   }
 
-  function renderPickLiquidityCells(pick, venueStore, cols) {
-    const rankClass = (cols && cols.rankClass) || 'col-4c';
-    const topClass = (cols && cols.topClass) || 'col-4c-top';
+  function renderPickLiquidityCells(pick, venueStore, colClass) {
+    const cls = colClass || 'col-4c';
     const hit = findLiquidityGame(pick, venueStore);
     if (!hit) {
       return {
         rowClass: '',
-        cells:
-          `<td class="${rankClass}"><span class="meta">—</span></td>` +
-          `<td class="${topClass}"><span class="meta">—</span></td>`,
+        cells: `<td class="col-liq ${cls}"><span class="meta">—</span></td>`,
       };
     }
     const g = hit.game;
@@ -760,13 +779,13 @@
     const homeSum = sumTop3Sizes(homeTop);
     const { ratio, heavy } = top3Ratio(awaySum, homeSum);
     const tier = ratioTier(ratio);
-    const heavyName = heavy === 'away' ? awayLabel : heavy === 'home' ? homeLabel : '';
+    const heavyName = heavy === 'away' ? shortTeamLabel(awayLabel) : heavy === 'home' ? shortTeamLabel(homeLabel) : '';
     const awayHead =
-      escapeHtml(awayLabel) +
-      (awayLine != null && awayLine !== '' ? ` · ${fmtSpreadLine(awayLine)}` : '');
+      escapeHtml(shortTeamLabel(awayLabel)) +
+      (awayLine != null && awayLine !== '' ? ` ${fmtSpreadLine(awayLine)}` : '');
     const homeHead =
-      escapeHtml(homeLabel) +
-      (homeLine != null && homeLine !== '' ? ` · ${fmtSpreadLine(homeLine)}` : '');
+      escapeHtml(shortTeamLabel(homeLabel)) +
+      (homeLine != null && homeLine !== '' ? ` ${fmtSpreadLine(homeLine)}` : '');
     const ratioHtml =
       awaySum + homeSum > 0
         ? `<div class="liq-ratio ${tier ? `liq-ratio-${tier}` : 'liq-ratio-flat'}" title="Ratio of summed top-3 $ at main line">${ratio.toFixed(1)}×${
@@ -784,13 +803,25 @@
     return {
       rowClass: tier ? 'liq-row-skew' : '',
       cells:
-        `<td class="${rankClass}"><span class="${rankCls}">#${g.rank != null ? g.rank : '—'}</span>` +
-        `<div class="meta">${fmtUsd(g.openInterest)} OI</div></td>` +
-        `<td class="${topClass}"><div class="liq-top-pair">` +
+        `<td class="col-liq ${cls}">` +
+        `<div class="liq-headrow"><span class="${rankCls}">#${g.rank != null ? g.rank : '—'}</span>` +
+        `<span class="meta">${fmtUsdCompact(g.openInterest)}</span></div>` +
+        `<div class="liq-top-pair">` +
         `<div class="${awayWrap}"><div class="meta">${awayHead}</div>${renderTop3Levels(awayTop, homeTop)}</div>` +
         `<div class="${homeWrap}"><div class="meta">${homeHead}</div>${renderTop3Levels(homeTop, awayTop)}</div>` +
         `</div>${ratioHtml}</td>`,
     };
+  }
+
+  function syncLiqVenue() {
+    const table = document.querySelector('.picks-table');
+    if (table) {
+      table.classList.remove('liq-venue-both', 'liq-venue-4c', 'liq-venue-novig');
+      table.classList.add('liq-venue-' + liqVenue);
+    }
+    document.querySelectorAll('.liq-venue-tab').forEach((btn) => {
+      btn.classList.toggle('is-active', btn.getAttribute('data-venue') === liqVenue);
+    });
   }
 
   function renderAll() {
@@ -1243,6 +1274,15 @@
         tableSort.dir = 'asc';
       }
       renderTable();
+    });
+  });
+
+  document.querySelectorAll('.liq-venue-tab').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const v = btn.getAttribute('data-venue');
+      if (!v || v === liqVenue) return;
+      liqVenue = v;
+      syncLiqVenue();
     });
   });
   loadRemote().catch(() => {

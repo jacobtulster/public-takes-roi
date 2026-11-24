@@ -111,12 +111,16 @@ select:hover {
   font-size: 11px;
 }
 
-.lean-mobile {
-  display: none;
+.pick-sub {
+  margin-top: 2px;
+  line-height: 1.35;
 }
 
 .profit-inline {
-  display: none;
+  display: block;
+  margin-top: 2px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
 }
 
 .market-tabs {
@@ -269,8 +273,14 @@ select:hover {
   flex: 1;
   min-height: 0;
   max-height: none;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   border-radius: 6px;
+}
+
+.picks-table {
+  table-layout: fixed;
+  width: 100%;
 }
 
 .toolbar {
@@ -609,18 +619,8 @@ code {
     overflow: visible;
   }
 
-  /* Keep a real table — only essential cols on mobile */
-  .col-book {
-    display: none;
-  }
-
-  .lean-mobile {
-    display: block;
-    margin-top: 2px;
-  }
-
   .col-start {
-    width: 64px;
+    width: 58px;
     white-space: nowrap;
   }
 
@@ -632,7 +632,7 @@ code {
     display: none; /* drop ESPN source line */
   }
 
-  .col-result .meta {
+  .grade-src {
     display: none;
   }
 
@@ -645,10 +645,9 @@ code {
     padding: 7px 5px;
   }
 
-  .col-profit {
-    font-variant-numeric: tabular-nums;
-    font-weight: 650;
-    white-space: nowrap;
+  /* Phones: one venue at a time (Both still available via tab) */
+  .picks-table.liq-venue-both .col-nv {
+    display: none;
   }
 }
 
@@ -661,24 +660,12 @@ code {
     display: none;
   }
 
-  /* Narrow phones: fold profit under result, drop separate profit col */
-  .col-profit {
-    display: none;
-  }
-
-  .profit-inline {
-    display: block;
-    font-weight: 650;
-    font-variant-numeric: tabular-nums;
-    color: var(--text);
-  }
-
-  .grade-src {
-    display: none;
+  .col-matchup {
+    width: 28%;
   }
 }
 
-/* —— 4casters columns inside picks table —— */
+/* —— Exchange liquidity columns (4C / Novig) —— */
 :root {
   --liq-hot: #ff6a00;
   --liq-hot-bg: rgba(255, 106, 0, 0.22);
@@ -687,15 +674,73 @@ code {
   --liq-mild: #ffe566;
 }
 
-.col-4c,
-.col-nv {
-  width: 72px;
-  white-space: nowrap;
+.liq-venue-tabs {
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: color-mix(in srgb, var(--bg1) 85%, transparent);
 }
 
-.col-4c-top,
-.col-nv-top {
-  min-width: 200px;
+.liq-venue-tab {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: 600 11px/1 var(--font);
+  padding: 6px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.liq-venue-tab.is-active {
+  background: var(--card);
+  color: var(--text);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--line) 80%, transparent);
+}
+
+.col-start {
+  width: 9%;
+}
+
+.col-matchup {
+  width: 18%;
+}
+
+.col-pick {
+  width: 14%;
+}
+
+.col-line {
+  width: 10%;
+}
+
+.col-result {
+  width: 9%;
+}
+
+.col-liq {
+  width: 20%;
+  vertical-align: top;
+}
+
+.picks-table.liq-venue-4c .col-nv,
+.picks-table.liq-venue-novig .col-4c {
+  display: none;
+}
+
+.picks-table.liq-venue-4c .col-4c,
+.picks-table.liq-venue-novig .col-nv {
+  width: 40%;
+}
+
+.liq-headrow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 3px;
 }
 
 .liq-rank {
@@ -750,7 +795,19 @@ th.th-sort:hover {
 .liq-top-pair {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 6px;
+  gap: 4px;
+  min-width: 0;
+}
+
+.liq-side-wrap {
+  min-width: 0;
+}
+
+.liq-side-wrap .meta {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 9px;
 }
 
 .liq-side-wrap.is-heavy.liq-sum-warm .meta {
@@ -765,16 +822,16 @@ th.th-sort:hover {
 
 .liq-top3 {
   display: grid;
-  gap: 2px;
-  font-size: 10px;
+  gap: 1px;
+  font-size: 9px;
 }
 
 .liq-level {
   display: flex;
   justify-content: space-between;
-  gap: 6px;
-  padding: 1px 5px;
-  border-radius: 4px;
+  gap: 3px;
+  padding: 0 3px;
+  border-radius: 3px;
   background: color-mix(in srgb, var(--bg2) 70%, transparent);
 }
 
@@ -810,20 +867,23 @@ th.th-sort:hover {
 }
 
 .liq-ratio {
-  margin-top: 1px;
+  margin-top: 2px;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 800;
-  letter-spacing: 0.02em;
-  padding: 3px 6px;
-  border-radius: 4px;
+  letter-spacing: 0.01em;
+  padding: 2px 4px;
+  border-radius: 3px;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .liq-ratio-flat {
   color: var(--muted);
   font-weight: 600;
-  font-size: 11px;
+  font-size: 10px;
   background: transparent;
 }
 
@@ -843,7 +903,11 @@ th.th-sort:hover {
 }
 
 @media (max-width: 1100px) {
-  .col-4c-top {
-    display: none;
+  .col-matchup {
+    width: 16%;
+  }
+
+  .col-liq {
+    width: 22%;
   }
 }
