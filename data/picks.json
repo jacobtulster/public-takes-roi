@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T00:18:10.872186Z",
+  "updatedAt": "2026-11-24T00:18:46.930Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2216,7 +2216,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2249,7 +2249,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5068,15 +5068,15 @@
       "takeRole": "DOG",
       "takeTeam": "Los Angeles",
       "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 1.5,
       "price": -195,
-      "tixFav": 71,
-      "monFav": 98,
-      "reason": "Tix 71% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-23T21:10:13.111Z"
+      "tixFav": 70,
+      "monFav": 77,
+      "reason": "Tix 70% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-24T00:18:43.672Z"
     },
     {
       "pickKey": "m|17|los_angeles_at_montreal|DOG|away|ml",
@@ -5092,15 +5092,15 @@
       "takeRole": "DOG",
       "takeTeam": "Los Angeles",
       "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 130,
       "price": 130,
-      "tixFav": 71,
-      "monFav": 98,
-      "reason": "Tix 71% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-23T21:10:13.111Z"
+      "tixFav": 70,
+      "monFav": 77,
+      "reason": "Tix 70% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-24T00:18:43.672Z"
     },
     {
       "pickKey": "m|871|eastern_washington_at_unlv|DOG|away|spread",
