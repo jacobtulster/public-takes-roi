@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:00:26.499639Z",
+  "updatedAt": "2026-11-24T22:00:44.604Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T19:11:08.348Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T19:11:08.358Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -6919,10 +6919,10 @@
       "market": "spread",
       "line": -1.5,
       "price": 217,
-      "tixFav": 14,
+      "tixFav": 16,
       "monFav": 31,
-      "reason": "Tix 14% + $ 31% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:24:10.665Z"
+      "reason": "Tix 16% + $ 31% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T22:00:41.019Z"
     },
     {
       "pickKey": "m|25|vegas_at_edmonton|FAV|away|ml",
@@ -6943,10 +6943,10 @@
       "market": "ml",
       "line": -114,
       "price": -114,
-      "tixFav": 14,
+      "tixFav": 16,
       "monFav": 31,
-      "reason": "Tix 14% + $ 31% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:24:10.665Z"
+      "reason": "Tix 16% + $ 31% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T22:00:41.019Z"
     },
     {
       "pickKey": "m|651|central_michigan_at_notre_dame|DOG|away|spread",
