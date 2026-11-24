@@ -14,6 +14,8 @@
   let chart;
   let activeCard = 'all';
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
+  /** Table sort: 'start' (default kick order) or 'rank' (4C OI #). */
+  let tableSort = { key: 'start', dir: 'asc' };
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -398,6 +400,38 @@
     return String(b.gradedAt || b.loggedAt || '').localeCompare(String(a.gradedAt || a.loggedAt || ''));
   }
 
+  function pickLiqRank(pick) {
+    const hit = findLiquidityGame(pick);
+    if (!hit || hit.game == null || hit.game.rank == null) return null;
+    const n = Number(hit.game.rank);
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function comparePicksForTable(a, b, now) {
+    if (tableSort.key === 'rank') {
+      const ra = pickLiqRank(a);
+      const rb = pickLiqRank(b);
+      const aMiss = ra == null;
+      const bMiss = rb == null;
+      if (aMiss !== bMiss) return aMiss ? 1 : -1; // no 4C rank → bottom
+      if (!aMiss && ra !== rb) {
+        return tableSort.dir === 'asc' ? ra - rb : rb - ra;
+      }
+    }
+    return comparePicksByStart(a, b, now);
+  }
+
+  function syncSortHeaders() {
+    document.querySelectorAll('th.th-sort').forEach((th) => {
+      const key = th.getAttribute('data-sort');
+      const on = key === tableSort.key;
+      th.classList.toggle('is-sorted', on);
+      th.classList.toggle('is-asc', on && tableSort.dir === 'asc');
+      th.classList.toggle('is-desc', on && tableSort.dir === 'desc');
+      th.setAttribute('aria-sort', on ? (tableSort.dir === 'asc' ? 'ascending' : 'descending') : 'none');
+    });
+  }
+
   /** Game start shown in Eastern Time when startAt exists; else kick as logged. */
   function fmtGameStart(p) {
     const ms = parseStartMs(p);
@@ -454,7 +488,8 @@
     const rows = store.picks
       .slice()
       .filter(matchesFilter)
-      .sort((a, b) => comparePicksByStart(a, b, now));
+      .sort((a, b) => comparePicksForTable(a, b, now));
+    syncSortHeaders();
     $('#picks-empty').hidden = rows.length > 0;
     const empty = $('#picks-empty');
     if (empty) {
@@ -731,7 +766,12 @@
             heavyName ? ' ' + escapeHtml(heavyName) : ''
           }</div>`
         : '';
-    const rankCls = tier ? `liq-rank liq-rank-${tier}` : 'liq-rank';
+    // Color 4C # only for top-10 OI (1–3 hot, 4–10 warm) — not by book skew.
+    const rankNum = g.rank != null ? Number(g.rank) : NaN;
+    let rankCls = 'liq-rank';
+    if (Number.isFinite(rankNum) && rankNum >= 1 && rankNum <= 10) {
+      rankCls = rankNum <= 3 ? 'liq-rank liq-rank-hot' : 'liq-rank liq-rank-warm';
+    }
     const awayWrap = heavy === 'away' && tier ? `liq-side-wrap is-heavy liq-sum-${tier}` : 'liq-side-wrap';
     const homeWrap = heavy === 'home' && tier ? `liq-side-wrap is-heavy liq-sum-${tier}` : 'liq-side-wrap';
     return {
@@ -1163,6 +1203,21 @@
     });
     $('#' + id).addEventListener('change', () => {
       if (id === 'filter-bucket') renderFilterStats();
+      renderTable();
+    });
+  });
+
+  document.querySelectorAll('th.th-sort').forEach((th) => {
+    th.addEventListener('click', () => {
+      const key = th.getAttribute('data-sort');
+      if (!key) return;
+      if (tableSort.key === key) {
+        tableSort.dir = tableSort.dir === 'asc' ? 'desc' : 'asc';
+      } else {
+        tableSort.key = key;
+        // Rank: #1 first. Start: keep default upcoming-first order.
+        tableSort.dir = 'asc';
+      }
       renderTable();
     });
   });

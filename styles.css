@@ -701,6 +701,7 @@ code {
   color: var(--accent);
 }
 
+/* Top-10 OI only: 4–10 warm, 1–3 hot */
 .liq-rank-warm {
   color: var(--liq-warm);
   text-shadow: 0 0 8px rgba(255, 176, 32, 0.45);
@@ -710,6 +711,38 @@ code {
   color: var(--liq-hot);
   text-shadow: 0 0 10px rgba(255, 106, 0, 0.55);
   font-size: 1.05em;
+}
+
+th.th-sort {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+th.th-sort::after {
+  content: '';
+  display: inline-block;
+  margin-left: 4px;
+  opacity: 0.35;
+  border: 4px solid transparent;
+  border-top-color: currentColor;
+  transform: translateY(2px);
+  vertical-align: middle;
+}
+
+th.th-sort.is-sorted.is-asc::after {
+  opacity: 1;
+  border-top-color: transparent;
+  border-bottom-color: currentColor;
+  transform: translateY(-2px);
+}
+
+th.th-sort.is-sorted.is-desc::after {
+  opacity: 1;
+}
+
+th.th-sort:hover {
+  color: var(--accent);
 }
 
 .liq-top-pair {
