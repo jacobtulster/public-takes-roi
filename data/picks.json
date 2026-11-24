@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:41:06.090662Z",
+  "updatedAt": "2026-11-24T22:41:12.657Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -6510,9 +6510,9 @@
       "line": 3.5,
       "price": -114,
       "tixFav": 80,
-      "monFav": 72,
-      "reason": "Tix 80% + $ 72% on fav",
-      "leanUpdatedAt": "2026-11-24T21:07:10.449Z"
+      "monFav": 73,
+      "reason": "Tix 80% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T22:41:09.456Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|ml",
@@ -6534,9 +6534,9 @@
       "line": 135,
       "price": 135,
       "tixFav": 80,
-      "monFav": 72,
-      "reason": "Tix 80% + $ 72% on fav",
-      "leanUpdatedAt": "2026-11-24T21:07:10.449Z"
+      "monFav": 73,
+      "reason": "Tix 80% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T22:41:09.456Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|spread",
@@ -7525,6 +7525,52 @@
       "tixFav": 70,
       "monFav": 75,
       "reason": "Tix 70% + $ 75% on fav"
+    },
+    {
+      "pickKey": "m|653|oral_roberts_at_ut_arlington|DOG|away|spread",
+      "matchupId": "653|oral_roberts_at_ut_arlington|DOG|away|spread",
+      "loggedAt": "2026-11-24T22:41:09.456Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Oral Roberts",
+      "home": "UT Arlington",
+      "kick": "20:00",
+      "startAt": "2026-11-25T01:00:00.000Z",
+      "gameNumber": 653,
+      "takeRole": "DOG",
+      "takeTeam": "Oral Roberts",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 5,
+      "price": -108,
+      "tixFav": 71,
+      "monFav": 81,
+      "reason": "Tix 71% + $ 81% on fav"
+    },
+    {
+      "pickKey": "m|653|oral_roberts_at_ut_arlington|DOG|away|ml",
+      "matchupId": "653|oral_roberts_at_ut_arlington|DOG|away|ml",
+      "loggedAt": "2026-11-24T22:41:09.456Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Oral Roberts",
+      "home": "UT Arlington",
+      "kick": "20:00",
+      "startAt": "2026-11-25T01:00:00.000Z",
+      "gameNumber": 653,
+      "takeRole": "DOG",
+      "takeTeam": "Oral Roberts",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 180,
+      "price": 180,
+      "tixFav": 71,
+      "monFav": 81,
+      "reason": "Tix 71% + $ 81% on fav"
     }
   ]
 }
