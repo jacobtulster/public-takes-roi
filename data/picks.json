@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T21:52:49.875283Z",
+  "updatedAt": "2026-11-24T21:59:37.287Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T19:11:08.348Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T19:11:08.358Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5915,10 +5915,10 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 83,
-      "monFav": 73,
-      "reason": "Tix 83% + $ 73% on fav",
-      "leanUpdatedAt": "2026-11-24T21:49:09.938Z"
+      "tixFav": 82,
+      "monFav": 72,
+      "reason": "Tix 82% + $ 72% on fav",
+      "leanUpdatedAt": "2026-11-24T21:54:11.437Z"
     },
     {
       "pickKey": "m|103|kent_state_at_eastern_michigan|DOG|away|ml",
@@ -5939,10 +5939,10 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 83,
-      "monFav": 73,
-      "reason": "Tix 83% + $ 73% on fav",
-      "leanUpdatedAt": "2026-11-24T21:49:09.938Z"
+      "tixFav": 82,
+      "monFav": 72,
+      "reason": "Tix 82% + $ 72% on fav",
+      "leanUpdatedAt": "2026-11-24T21:54:11.437Z"
     },
     {
       "pickKey": "m|503|boston_at_washington|DOG|home|spread",
@@ -6011,10 +6011,10 @@
       "market": "spread",
       "line": -8,
       "price": -101,
-      "tixFav": 27,
-      "monFav": 8,
-      "reason": "Tix 27% + $ 8% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:38:11.061Z"
+      "tixFav": 28,
+      "monFav": 9,
+      "reason": "Tix 28% + $ 9% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:54:11.437Z"
     },
     {
       "pickKey": "m|505|dallas_at_denver|FAV|home|ml",
@@ -6035,10 +6035,10 @@
       "market": "ml",
       "line": -296,
       "price": -296,
-      "tixFav": 27,
-      "monFav": 8,
-      "reason": "Tix 27% + $ 8% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:38:11.061Z"
+      "tixFav": 28,
+      "monFav": 9,
+      "reason": "Tix 28% + $ 9% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:54:11.437Z"
     },
     {
       "pickKey": "m|615|appalachian_state_at_yale|FAV|away|spread",
@@ -6107,10 +6107,10 @@
       "market": "spread",
       "line": -2,
       "price": -106,
-      "tixFav": 27,
+      "tixFav": 26,
       "monFav": 27,
-      "reason": "Tix 27% + $ 27% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:49:09.939Z"
+      "reason": "Tix 26% + $ 27% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:56:09.813Z"
     },
     {
       "pickKey": "m|643|campbell_at_coastal_carolina|FAV|home|ml",
@@ -6131,10 +6131,10 @@
       "market": "ml",
       "line": -129,
       "price": -129,
-      "tixFav": 27,
+      "tixFav": 26,
       "monFav": 27,
-      "reason": "Tix 27% + $ 27% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T21:49:09.939Z"
+      "reason": "Tix 26% + $ 27% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:56:09.813Z"
     },
     {
       "pickKey": "m|649|ipfw_at_se_missouri_state|FAV|home|spread",
@@ -6155,10 +6155,10 @@
       "market": "spread",
       "line": -4,
       "price": -104,
-      "tixFav": 28,
+      "tixFav": 27,
       "monFav": 8,
-      "reason": "Tix 28% + $ 8% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T20:04:10.361Z"
+      "reason": "Tix 27% + $ 8% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:56:09.813Z"
     },
     {
       "pickKey": "m|649|ipfw_at_se_missouri_state|FAV|home|ml",
@@ -6179,10 +6179,10 @@
       "market": "ml",
       "line": -175,
       "price": -175,
-      "tixFav": 28,
+      "tixFav": 27,
       "monFav": 8,
-      "reason": "Tix 28% + $ 8% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T20:04:10.361Z"
+      "reason": "Tix 27% + $ 8% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T21:56:09.813Z"
     },
     {
       "pickKey": "m|669|colorado_at_stanford|DOG|away|spread",
@@ -6585,10 +6585,10 @@
       "market": "spread",
       "line": 4,
       "price": -103,
-      "tixFav": 80,
-      "monFav": 91,
-      "reason": "Tix 80% + $ 91% on fav",
-      "leanUpdatedAt": "2026-11-24T21:41:10.601Z"
+      "tixFav": 76,
+      "monFav": 99,
+      "reason": "Tix 76% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T21:56:09.815Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|ml",
@@ -6609,10 +6609,10 @@
       "market": "ml",
       "line": 157,
       "price": 157,
-      "tixFav": 80,
-      "monFav": 91,
-      "reason": "Tix 80% + $ 91% on fav",
-      "leanUpdatedAt": "2026-11-24T21:41:10.601Z"
+      "tixFav": 76,
+      "monFav": 99,
+      "reason": "Tix 76% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T21:56:09.815Z"
     },
     {
       "pickKey": "m|621|kent_state_at_wyoming|FAV|home|spread",
@@ -6823,10 +6823,10 @@
       "market": "spread",
       "line": 7.5,
       "price": -106,
-      "tixFav": 86,
-      "monFav": 81,
-      "reason": "Tix 86% + $ 81% on fav",
-      "leanUpdatedAt": "2026-11-24T21:49:09.940Z"
+      "tixFav": 84,
+      "monFav": 76,
+      "reason": "Tix 84% + $ 76% on fav",
+      "leanUpdatedAt": "2026-11-24T21:56:09.814Z"
     },
     {
       "pickKey": "m|673|providence_at_arizona|DOG|away|ml",
@@ -6847,10 +6847,10 @@
       "market": "ml",
       "line": 272,
       "price": 272,
-      "tixFav": 86,
-      "monFav": 81,
-      "reason": "Tix 86% + $ 81% on fav",
-      "leanUpdatedAt": "2026-11-24T21:49:09.940Z"
+      "tixFav": 84,
+      "monFav": 76,
+      "reason": "Tix 84% + $ 76% on fav",
+      "leanUpdatedAt": "2026-11-24T21:56:09.814Z"
     },
     {
       "pickKey": "m|677|vcu_at_colorado_state|DOG|home|spread",
@@ -7084,10 +7084,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -101,
-      "tixFav": 72,
+      "tixFav": 73,
       "monFav": 93,
-      "reason": "Tix 72% + $ 93% on fav",
-      "leanUpdatedAt": "2026-11-24T21:49:09.939Z"
+      "reason": "Tix 73% + $ 93% on fav",
+      "leanUpdatedAt": "2026-11-24T21:56:09.813Z"
     },
     {
       "pickKey": "m|639|vanderbilt_at_ohio_state|DOG|home|ml",
@@ -7108,10 +7108,10 @@
       "market": "ml",
       "line": 110,
       "price": 110,
-      "tixFav": 72,
+      "tixFav": 73,
       "monFav": 93,
-      "reason": "Tix 72% + $ 93% on fav",
-      "leanUpdatedAt": "2026-11-24T21:49:09.939Z"
+      "reason": "Tix 73% + $ 93% on fav",
+      "leanUpdatedAt": "2026-11-24T21:56:09.813Z"
     },
     {
       "pickKey": "m|629|mercer_at_florida_atlantic|DOG|away|spread",
@@ -7206,6 +7206,98 @@
       "tixFav": 45,
       "monFav": 31,
       "reason": "Tix 45% + $ 31% on fav (<50)"
+    },
+    {
+      "pickKey": "m|665|sam_houston_st_at_washington_state|FAV|home|spread",
+      "matchupId": "665|sam_houston_st_at_washington_state|FAV|home|spread",
+      "loggedAt": "2026-11-24T21:56:09.814Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Sam Houston St.",
+      "home": "Washington State",
+      "kick": "21:00",
+      "startAt": "2026-11-25T02:00:00.000Z",
+      "gameNumber": 665,
+      "takeRole": "FAV",
+      "takeTeam": "Washington State",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -5.5,
+      "price": -111,
+      "tixFav": 33,
+      "monFav": 9,
+      "reason": "Tix 33% + $ 9% on fav (<50)"
+    },
+    {
+      "pickKey": "m|665|sam_houston_st_at_washington_state|FAV|home|ml",
+      "matchupId": "665|sam_houston_st_at_washington_state|FAV|home|ml",
+      "loggedAt": "2026-11-24T21:56:09.814Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Sam Houston St.",
+      "home": "Washington State",
+      "kick": "21:00",
+      "startAt": "2026-11-25T02:00:00.000Z",
+      "gameNumber": 665,
+      "takeRole": "FAV",
+      "takeTeam": "Washington State",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -229,
+      "price": -229,
+      "tixFav": 33,
+      "monFav": 9,
+      "reason": "Tix 33% + $ 9% on fav (<50)"
+    },
+    {
+      "pickKey": "m|701|utep_at_coll_of_charleston|DOG|away|spread",
+      "matchupId": "701|utep_at_coll_of_charleston|DOG|away|spread",
+      "loggedAt": "2026-11-24T21:56:09.815Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - CANCUN CHALLENGE - SEMIFINAL ROUND - Tuesday, November 24th",
+      "away": "UTEP",
+      "home": "Coll Of Charleston",
+      "kick": "20:30",
+      "startAt": "2026-11-25T01:30:00.000Z",
+      "gameNumber": 701,
+      "takeRole": "DOG",
+      "takeTeam": "UTEP",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 2,
+      "price": -108,
+      "tixFav": 80,
+      "monFav": 99,
+      "reason": "Tix 80% + $ 99% on fav"
+    },
+    {
+      "pickKey": "m|701|utep_at_coll_of_charleston|DOG|away|ml",
+      "matchupId": "701|utep_at_coll_of_charleston|DOG|away|ml",
+      "loggedAt": "2026-11-24T21:56:09.815Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - CANCUN CHALLENGE - SEMIFINAL ROUND - Tuesday, November 24th",
+      "away": "UTEP",
+      "home": "Coll Of Charleston",
+      "kick": "20:30",
+      "startAt": "2026-11-25T01:30:00.000Z",
+      "gameNumber": 701,
+      "takeRole": "DOG",
+      "takeTeam": "UTEP",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 111,
+      "price": 111,
+      "tixFav": 80,
+      "monFav": 99,
+      "reason": "Tix 80% + $ 99% on fav"
     }
   ]
 }
