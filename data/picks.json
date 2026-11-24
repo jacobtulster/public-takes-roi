@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:30:29.084328Z",
+  "updatedAt": "2026-11-24T23:32:34.571Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -7699,6 +7699,52 @@
       "tixFav": 27,
       "monFav": 4,
       "reason": "Tix 27% + $ 4% on fav (<50)"
+    },
+    {
+      "pickKey": "m|501|detroit_at_orlando|FAV|home|spread",
+      "matchupId": "501|detroit_at_orlando|FAV|home|spread",
+      "loggedAt": "2026-11-24T23:32:31.467Z",
+      "sport": "NBA",
+      "league": "NBA - Tuesday, November 24th",
+      "away": "Detroit",
+      "home": "Orlando",
+      "kick": "19:10",
+      "startAt": "2026-11-25T00:10:00.000Z",
+      "gameNumber": 501,
+      "takeRole": "FAV",
+      "takeTeam": "Orlando",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -2.5,
+      "price": -104,
+      "tixFav": 31,
+      "monFav": 7,
+      "reason": "Tix 31% + $ 7% on fav (<50)"
+    },
+    {
+      "pickKey": "m|501|detroit_at_orlando|FAV|home|ml",
+      "matchupId": "501|detroit_at_orlando|FAV|home|ml",
+      "loggedAt": "2026-11-24T23:32:31.467Z",
+      "sport": "NBA",
+      "league": "NBA - Tuesday, November 24th",
+      "away": "Detroit",
+      "home": "Orlando",
+      "kick": "19:10",
+      "startAt": "2026-11-25T00:10:00.000Z",
+      "gameNumber": 501,
+      "takeRole": "FAV",
+      "takeTeam": "Orlando",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -133,
+      "price": -133,
+      "tixFav": 31,
+      "monFav": 7,
+      "reason": "Tix 31% + $ 7% on fav (<50)"
     }
   ]
 }
