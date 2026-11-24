@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T01:24:47.303068Z",
+  "updatedAt": "2026-11-24T03:58:43.289835Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -3391,7 +3391,17 @@
       "tixFav": 76,
       "monFav": 70,
       "reason": "Tix 76% + $ 70% on fav",
-      "leanUpdatedAt": "2026-11-24T00:07:11.679Z"
+      "leanUpdatedAt": "2026-11-24T00:07:11.679Z",
+      "result": "W",
+      "profit": 0.9091,
+      "awayScore": 128.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:41.216652Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910037",
+      "espnAway": "Portland Trail Blazers",
+      "espnHome": "Philadelphia 76ers"
     },
     {
       "pickKey": "m|553|portland_at_philadelphia|DOG|away|ml",
@@ -3415,7 +3425,17 @@
       "tixFav": 76,
       "monFav": 70,
       "reason": "Tix 76% + $ 70% on fav",
-      "leanUpdatedAt": "2026-11-24T00:07:11.679Z"
+      "leanUpdatedAt": "2026-11-24T00:07:11.679Z",
+      "result": "W",
+      "profit": 1.42,
+      "awayScore": 128.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:41.217256Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910037",
+      "espnAway": "Portland Trail Blazers",
+      "espnHome": "Philadelphia 76ers"
     },
     {
       "pickKey": "m|557|milwaukee_at_toronto|DOG|away|spread",
@@ -3438,7 +3458,17 @@
       "price": -112,
       "tixFav": 89,
       "monFav": 99,
-      "reason": "Tix 89% + $ 99% on fav"
+      "reason": "Tix 89% + $ 99% on fav",
+      "result": "W",
+      "profit": 0.8929,
+      "awayScore": 116.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:41.217523Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910039",
+      "espnAway": "Milwaukee Bucks",
+      "espnHome": "Toronto Raptors"
     },
     {
       "pickKey": "m|557|milwaukee_at_toronto|DOG|away|ml",
@@ -3461,7 +3491,17 @@
       "price": 353,
       "tixFav": 89,
       "monFav": 99,
-      "reason": "Tix 89% + $ 99% on fav"
+      "reason": "Tix 89% + $ 99% on fav",
+      "result": "W",
+      "profit": 3.53,
+      "awayScore": 116.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:41.217752Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910039",
+      "espnAway": "Milwaukee Bucks",
+      "espnHome": "Toronto Raptors"
     },
     {
       "pickKey": "m|559|brooklyn_at_minnesota|DOG|away|spread",
@@ -3484,7 +3524,17 @@
       "price": -103,
       "tixFav": 97,
       "monFav": 85,
-      "reason": "Tix 97% + $ 85% on fav"
+      "reason": "Tix 97% + $ 85% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 116.0,
+      "homeScore": 142.0,
+      "gradedAt": "2026-11-24T03:58:41.218005Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910040",
+      "espnAway": "Brooklyn Nets",
+      "espnHome": "Minnesota Timberwolves"
     },
     {
       "pickKey": "m|559|brooklyn_at_minnesota|DOG|away|ml",
@@ -3507,7 +3557,17 @@
       "price": 440,
       "tixFav": 97,
       "monFav": 85,
-      "reason": "Tix 97% + $ 85% on fav"
+      "reason": "Tix 97% + $ 85% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 116.0,
+      "homeScore": 142.0,
+      "gradedAt": "2026-11-24T03:58:41.218259Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910040",
+      "espnAway": "Brooklyn Nets",
+      "espnHome": "Minnesota Timberwolves"
     },
     {
       "pickKey": "m|563|cleveland_at_chicago|DOG|home|spread",
@@ -3531,7 +3591,17 @@
       "tixFav": 70,
       "monFav": 96,
       "reason": "Tix 70% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-24T00:30:27.671Z"
+      "leanUpdatedAt": "2026-11-24T00:30:27.671Z",
+      "result": "W",
+      "profit": 0.9434,
+      "awayScore": 108.0,
+      "homeScore": 122.0,
+      "gradedAt": "2026-11-24T03:58:41.218558Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910041",
+      "espnAway": "Cleveland Cavaliers",
+      "espnHome": "Chicago Bulls"
     },
     {
       "pickKey": "m|563|cleveland_at_chicago|DOG|home|ml",
@@ -3555,7 +3625,17 @@
       "tixFav": 70,
       "monFav": 96,
       "reason": "Tix 70% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-24T00:30:27.672Z"
+      "leanUpdatedAt": "2026-11-24T00:30:27.672Z",
+      "result": "W",
+      "profit": 2.73,
+      "awayScore": 108.0,
+      "homeScore": 122.0,
+      "gradedAt": "2026-11-24T03:58:41.218812Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910041",
+      "espnAway": "Cleveland Cavaliers",
+      "espnHome": "Chicago Bulls"
     },
     {
       "pickKey": "m|567|l_a_clippers_at_houston|DOG|away|spread",
@@ -3578,7 +3658,17 @@
       "price": -108,
       "tixFav": 86,
       "monFav": 92,
-      "reason": "Tix 86% + $ 92% on fav"
+      "reason": "Tix 86% + $ 92% on fav",
+      "result": "W",
+      "profit": 0.9259,
+      "awayScore": 104.0,
+      "homeScore": 116.0,
+      "gradedAt": "2026-11-24T03:58:41.219122Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910043",
+      "espnAway": "LA Clippers",
+      "espnHome": "Houston Rockets"
     },
     {
       "pickKey": "m|567|l_a_clippers_at_houston|DOG|away|ml",
@@ -3601,7 +3691,17 @@
       "price": 466,
       "tixFav": 86,
       "monFav": 92,
-      "reason": "Tix 86% + $ 92% on fav"
+      "reason": "Tix 86% + $ 92% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 104.0,
+      "homeScore": 116.0,
+      "gradedAt": "2026-11-24T03:58:41.219418Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910043",
+      "espnAway": "LA Clippers",
+      "espnHome": "Houston Rockets"
     },
     {
       "pickKey": "m|571|utah_at_l_a_lakers|DOG|away|spread",
@@ -4127,7 +4227,17 @@
       "tixFav": 72,
       "monFav": 76,
       "reason": "Tix 72% + $ 76% on fav",
-      "leanUpdatedAt": "2026-11-23T21:37:12.805Z"
+      "leanUpdatedAt": "2026-11-23T21:37:12.805Z",
+      "result": "W",
+      "profit": 0.8475,
+      "awayScore": 67.0,
+      "homeScore": 84.0,
+      "gradedAt": "2026-11-24T03:58:41.945044Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909788",
+      "espnAway": "Denver Pioneers",
+      "espnHome": "Kansas Jayhawks"
     },
     {
       "pickKey": "m|867|monmouth_at_north_carolina|FAV|home|spread",
@@ -4150,7 +4260,17 @@
       "price": -102,
       "tixFav": 33,
       "monFav": 5,
-      "reason": "Tix 33% + $ 5% on fav (<50)"
+      "reason": "Tix 33% + $ 5% on fav (<50)",
+      "result": "W",
+      "profit": 0.9804,
+      "awayScore": 45.0,
+      "homeScore": 85.0,
+      "gradedAt": "2026-11-24T03:58:41.946311Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401913102",
+      "espnAway": "Monmouth Hawks",
+      "espnHome": "North Carolina Tar Heels"
     },
     {
       "pickKey": "m|869|unc_greensboro_at_pepperdine|DOG|away|spread",
@@ -4446,7 +4566,17 @@
       "tixFav": 81,
       "monFav": 99,
       "reason": "Tix 81% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T23:19:26.334Z"
+      "leanUpdatedAt": "2026-11-23T23:19:26.334Z",
+      "result": "W",
+      "profit": 0.6897,
+      "awayScore": 2.0,
+      "homeScore": 3.0,
+      "gradedAt": "2026-11-24T03:58:42.751589Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892773",
+      "espnAway": "Columbus Blue Jackets",
+      "espnHome": "New Jersey Devils"
     },
     {
       "pickKey": "m|11|columbus_at_new_jersey|DOG|away|ml",
@@ -4470,7 +4600,17 @@
       "tixFav": 81,
       "monFav": 99,
       "reason": "Tix 81% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-23T23:19:26.334Z"
+      "leanUpdatedAt": "2026-11-23T23:19:26.334Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 2.0,
+      "homeScore": 3.0,
+      "gradedAt": "2026-11-24T03:58:42.751772Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892773",
+      "espnAway": "Columbus Blue Jackets",
+      "espnHome": "New Jersey Devils"
     },
     {
       "pickKey": "m|13|calgary_at_ottawa|DOG|away|spread",
@@ -4493,7 +4633,17 @@
       "price": -134,
       "tixFav": 91,
       "monFav": 99,
-      "reason": "Tix 91% + $ 99% on fav"
+      "reason": "Tix 91% + $ 99% on fav",
+      "result": "W",
+      "profit": 0.7463,
+      "awayScore": 1.0,
+      "homeScore": 2.0,
+      "gradedAt": "2026-11-24T03:58:42.751961Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892775",
+      "espnAway": "Calgary Flames",
+      "espnHome": "Ottawa Senators"
     },
     {
       "pickKey": "m|13|calgary_at_ottawa|DOG|away|ml",
@@ -4516,7 +4666,17 @@
       "price": 197,
       "tixFav": 91,
       "monFav": 99,
-      "reason": "Tix 91% + $ 99% on fav"
+      "reason": "Tix 91% + $ 99% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 1.0,
+      "homeScore": 2.0,
+      "gradedAt": "2026-11-24T03:58:42.752141Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892775",
+      "espnAway": "Calgary Flames",
+      "espnHome": "Ottawa Senators"
     },
     {
       "pickKey": "m|555|memphis_at_charlotte|DOG|home|spread",
@@ -4540,7 +4700,17 @@
       "tixFav": 80,
       "monFav": 81,
       "reason": "Tix 80% + $ 81% on fav",
-      "leanUpdatedAt": "2026-11-24T00:07:11.679Z"
+      "leanUpdatedAt": "2026-11-24T00:07:11.679Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 117.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:42.752249Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910036",
+      "espnAway": "Memphis Grizzlies",
+      "espnHome": "Charlotte Hornets"
     },
     {
       "pickKey": "m|555|memphis_at_charlotte|DOG|home|ml",
@@ -4564,7 +4734,17 @@
       "tixFav": 80,
       "monFav": 81,
       "reason": "Tix 80% + $ 81% on fav",
-      "leanUpdatedAt": "2026-11-24T00:07:11.679Z"
+      "leanUpdatedAt": "2026-11-24T00:07:11.679Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 117.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:42.752355Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910036",
+      "espnAway": "Memphis Grizzlies",
+      "espnHome": "Charlotte Hornets"
     },
     {
       "pickKey": "m|875|middle_tennessee_st_at_southern_illinois|FAV|home|spread",
@@ -4974,7 +5154,17 @@
       "tixFav": 72,
       "monFav": 87,
       "reason": "Tix 72% + $ 87% on fav",
-      "leanUpdatedAt": "2026-11-23T21:48:39.566Z"
+      "leanUpdatedAt": "2026-11-23T21:48:39.566Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 99.0,
+      "homeScore": 102.0,
+      "gradedAt": "2026-11-24T03:58:43.269276Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401917543",
+      "espnAway": "Illinois State Redbirds",
+      "espnHome": "Santa Clara Broncos"
     },
     {
       "pickKey": "m|861|illinois_state_at_santa_clara|DOG|away|ml",
@@ -4998,7 +5188,17 @@
       "tixFav": 72,
       "monFav": 87,
       "reason": "Tix 72% + $ 87% on fav",
-      "leanUpdatedAt": "2026-11-23T21:48:39.566Z"
+      "leanUpdatedAt": "2026-11-23T21:48:39.566Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 99.0,
+      "homeScore": 102.0,
+      "gradedAt": "2026-11-24T03:58:43.270406Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401917543",
+      "espnAway": "Illinois State Redbirds",
+      "espnHome": "Santa Clara Broncos"
     },
     {
       "pickKey": "m|881|mississippi_at_clemson|FAV|away|spread",
@@ -5116,7 +5316,17 @@
       "tixFav": 70,
       "monFav": 77,
       "reason": "Tix 70% + $ 77% on fav",
-      "leanUpdatedAt": "2026-11-24T00:18:43.672Z"
+      "leanUpdatedAt": "2026-11-24T00:18:43.672Z",
+      "result": "W",
+      "profit": 0.5128,
+      "awayScore": 2.0,
+      "homeScore": 1.0,
+      "gradedAt": "2026-11-24T03:58:43.279577Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892774",
+      "espnAway": "Los Angeles Kings",
+      "espnHome": "Montreal Canadiens"
     },
     {
       "pickKey": "m|17|los_angeles_at_montreal|DOG|away|ml",
@@ -5140,7 +5350,17 @@
       "tixFav": 70,
       "monFav": 77,
       "reason": "Tix 70% + $ 77% on fav",
-      "leanUpdatedAt": "2026-11-24T00:18:43.672Z"
+      "leanUpdatedAt": "2026-11-24T00:18:43.672Z",
+      "result": "W",
+      "profit": 1.3,
+      "awayScore": 2.0,
+      "homeScore": 1.0,
+      "gradedAt": "2026-11-24T03:58:43.279696Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892774",
+      "espnAway": "Los Angeles Kings",
+      "espnHome": "Montreal Canadiens"
     },
     {
       "pickKey": "m|871|eastern_washington_at_unlv|DOG|away|spread",
@@ -5212,7 +5432,17 @@
       "tixFav": 24,
       "monFav": 30,
       "reason": "Tix 24% + $ 30% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T00:10:51.678Z"
+      "leanUpdatedAt": "2026-11-24T00:10:51.678Z",
+      "result": "W",
+      "profit": 0.8929,
+      "awayScore": 128.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:43.284397Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910037",
+      "espnAway": "Portland Trail Blazers",
+      "espnHome": "Philadelphia 76ers"
     },
     {
       "pickKey": "m|553|portland_at_philadelphia|FAV|away|ml",
@@ -5236,7 +5466,17 @@
       "tixFav": 24,
       "monFav": 30,
       "reason": "Tix 24% + $ 30% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T00:10:51.678Z"
+      "leanUpdatedAt": "2026-11-24T00:10:51.678Z",
+      "result": "W",
+      "profit": 0.9434,
+      "awayScore": 128.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:43.284520Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910037",
+      "espnAway": "Portland Trail Blazers",
+      "espnHome": "Philadelphia 76ers"
     },
     {
       "pickKey": "m|565|phoenix_at_new_orleans|DOG|home|spread",
@@ -5259,7 +5499,17 @@
       "price": -109,
       "tixFav": 71,
       "monFav": 95,
-      "reason": "Tix 71% + $ 95% on fav"
+      "reason": "Tix 71% + $ 95% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 123.0,
+      "homeScore": 119.0,
+      "gradedAt": "2026-11-24T03:58:43.284742Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final/OT",
+      "espnEventId": "401910042",
+      "espnAway": "Phoenix Suns",
+      "espnHome": "New Orleans Pelicans"
     },
     {
       "pickKey": "m|565|phoenix_at_new_orleans|DOG|home|ml",
@@ -5282,7 +5532,17 @@
       "price": 133,
       "tixFav": 71,
       "monFav": 95,
-      "reason": "Tix 71% + $ 95% on fav"
+      "reason": "Tix 71% + $ 95% on fav",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 123.0,
+      "homeScore": 119.0,
+      "gradedAt": "2026-11-24T03:58:43.284959Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final/OT",
+      "espnEventId": "401910042",
+      "espnAway": "Phoenix Suns",
+      "espnHome": "New Orleans Pelicans"
     },
     {
       "pickKey": "m|557|milwaukee_at_toronto|FAV|home|spread",
@@ -5306,7 +5566,17 @@
       "tixFav": 44,
       "monFav": 30,
       "reason": "Tix 44% + $ 30% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T00:42:31.666Z"
+      "leanUpdatedAt": "2026-11-24T00:42:31.666Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 116.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:43.285106Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910039",
+      "espnAway": "Milwaukee Bucks",
+      "espnHome": "Toronto Raptors"
     },
     {
       "pickKey": "m|557|milwaukee_at_toronto|FAV|home|ml",
@@ -5330,7 +5600,17 @@
       "tixFav": 44,
       "monFav": 30,
       "reason": "Tix 44% + $ 30% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T00:42:31.666Z"
+      "leanUpdatedAt": "2026-11-24T00:42:31.666Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 116.0,
+      "homeScore": 111.0,
+      "gradedAt": "2026-11-24T03:58:43.285251Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401910039",
+      "espnAway": "Milwaukee Bucks",
+      "espnHome": "Toronto Raptors"
     },
     {
       "pickKey": "m|889|loyola_chicago_at_seattle|FAV|home|spread",
