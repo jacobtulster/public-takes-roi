@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:39:54.415269Z",
+  "updatedAt": "2026-11-24T23:40:28.904Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -6012,9 +6012,9 @@
       "line": -8,
       "price": -101,
       "tixFav": 29,
-      "monFav": 16,
-      "reason": "Tix 29% + $ 16% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:26:59.452Z"
+      "monFav": 17,
+      "reason": "Tix 29% + $ 17% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:40:25.459Z"
     },
     {
       "pickKey": "m|505|dallas_at_denver|FAV|home|ml",
@@ -6036,9 +6036,9 @@
       "line": -296,
       "price": -296,
       "tixFav": 29,
-      "monFav": 16,
-      "reason": "Tix 29% + $ 16% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:26:59.452Z"
+      "monFav": 17,
+      "reason": "Tix 29% + $ 17% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:40:25.459Z"
     },
     {
       "pickKey": "m|615|appalachian_state_at_yale|FAV|away|spread",
@@ -6345,10 +6345,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -108,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 92,
-      "reason": "Tix 78% + $ 92% on fav",
-      "leanUpdatedAt": "2026-11-24T23:32:51.454Z"
+      "reason": "Tix 79% + $ 92% on fav",
+      "leanUpdatedAt": "2026-11-24T23:37:03.456Z"
     },
     {
       "pickKey": "m|683|baylor_at_alabama|DOG|away|ml",
@@ -6369,10 +6369,10 @@
       "market": "ml",
       "line": 104,
       "price": 104,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 92,
-      "reason": "Tix 78% + $ 92% on fav",
-      "leanUpdatedAt": "2026-11-24T23:32:51.454Z"
+      "reason": "Tix 79% + $ 92% on fav",
+      "leanUpdatedAt": "2026-11-24T23:37:03.456Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|spread",
@@ -6557,10 +6557,10 @@
       "market": "spread",
       "line": 10,
       "price": -111,
-      "tixFav": 92,
+      "tixFav": 91,
       "monFav": 97,
-      "reason": "Tix 92% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
+      "reason": "Tix 91% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-24T23:37:03.456Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|ml",
@@ -6581,10 +6581,10 @@
       "market": "ml",
       "line": 421,
       "price": 421,
-      "tixFav": 92,
+      "tixFav": 91,
       "monFav": 97,
-      "reason": "Tix 92% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
+      "reason": "Tix 91% + $ 97% on fav",
+      "leanUpdatedAt": "2026-11-24T23:37:03.456Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|spread",
@@ -6748,9 +6748,9 @@
       "line": -1,
       "price": -104,
       "tixFav": 26,
-      "monFav": 5,
-      "reason": "Tix 26% + $ 5% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:30:01.458Z"
+      "monFav": 4,
+      "reason": "Tix 26% + $ 4% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:36:53.455Z"
     },
     {
       "pickKey": "m|641|tarleton_state_at_weber_state|FAV|home|ml",
@@ -6772,9 +6772,9 @@
       "line": -109,
       "price": -109,
       "tixFav": 26,
-      "monFav": 5,
-      "reason": "Tix 26% + $ 5% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:30:01.458Z"
+      "monFav": 4,
+      "reason": "Tix 26% + $ 4% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:36:53.455Z"
     },
     {
       "pickKey": "m|667|saint_louis_at_grand_canyon|DOG|away|spread",
@@ -7696,9 +7696,10 @@
       "market": "spread",
       "line": -30,
       "price": -109,
-      "tixFav": 27,
+      "tixFav": 25,
       "monFav": 4,
-      "reason": "Tix 27% + $ 4% on fav (<50)"
+      "reason": "Tix 25% + $ 4% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:37:03.456Z"
     },
     {
       "pickKey": "m|501|detroit_at_orlando|FAV|home|spread",
@@ -7719,9 +7720,10 @@
       "market": "spread",
       "line": -2.5,
       "price": -104,
-      "tixFav": 31,
-      "monFav": 7,
-      "reason": "Tix 31% + $ 7% on fav (<50)"
+      "tixFav": 33,
+      "monFav": 17,
+      "reason": "Tix 33% + $ 17% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:40:25.458Z"
     },
     {
       "pickKey": "m|501|detroit_at_orlando|FAV|home|ml",
@@ -7742,9 +7744,10 @@
       "market": "ml",
       "line": -133,
       "price": -133,
-      "tixFav": 31,
-      "monFav": 7,
-      "reason": "Tix 31% + $ 7% on fav (<50)"
+      "tixFav": 33,
+      "monFav": 17,
+      "reason": "Tix 33% + $ 17% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:40:25.458Z"
     }
   ]
 }
