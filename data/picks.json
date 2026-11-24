@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:14:25.300083Z",
+  "updatedAt": "2026-11-24T23:15:30.600Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -7346,8 +7346,9 @@
       "line": -7.5,
       "price": -114,
       "tixFav": 48,
-      "monFav": 29,
-      "reason": "Tix 48% + $ 29% on fav (<50)"
+      "monFav": 32,
+      "reason": "Tix 48% + $ 32% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:15:27.464Z"
     },
     {
       "pickKey": "m|635|hampton_at_old_dominion|FAV|home|ml",
@@ -7369,8 +7370,9 @@
       "line": -364,
       "price": -364,
       "tixFav": 48,
-      "monFav": 29,
-      "reason": "Tix 48% + $ 29% on fav (<50)"
+      "monFav": 32,
+      "reason": "Tix 48% + $ 32% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:15:27.464Z"
     },
     {
       "pickKey": "m|643|campbell_at_coastal_carolina|DOG|away|spread",
