@@ -630,21 +630,33 @@
     return String(v);
   }
 
-  function renderTop3Compact(levels) {
+  function sumTop3Sizes(levels) {
     const rows = Array.isArray(levels) ? levels : [];
-    if (!rows.length) return '<div class="meta">—</div>';
-    return (
-      `<div class="liq-top3">` +
-      rows
-        .map((lv) => {
-          return (
-            `<div class="liq-level"><span class="odds">${fmtOddsShort(lv.odds)}</span>` +
-            `<span class="size">${fmtUsd(lv.size)}</span></div>`
-          );
-        })
-        .join('') +
-      `</div>`
-    );
+    let tot = 0;
+    for (let i = 0; i < rows.length; i++) {
+      const v = Number(rows[i] && rows[i].size);
+      if (Number.isFinite(v) && v > 0) tot += v;
+    }
+    return tot;
+  }
+
+  function top3Ratio(a, b) {
+    const lo = Math.min(a, b);
+    const hi = Math.max(a, b);
+    if (hi <= 0) return { ratio: 1, heavy: null };
+    if (lo <= 0) return { ratio: hi > 0 ? 99 : 1, heavy: a >= b ? 'away' : 'home' };
+    return {
+      ratio: hi / lo,
+      heavy: a > b ? 'away' : b > a ? 'home' : null,
+    };
+  }
+
+  /** Tier for visual punch: bigger disparity → hotter color. */
+  function ratioTier(ratio) {
+    if (ratio >= 3) return 'hot';
+    if (ratio >= 2) return 'warm';
+    if (ratio >= 1.5) return 'mild';
+    return '';
   }
 
   function renderPickLiquidityCells(pick) {
@@ -659,8 +671,6 @@
     }
     const g = hit.game;
     const book = bookForPick(pick, g) || {};
-    const imb = book.imbalance || {};
-    let heavy = imb.heavy || null;
     let awayTop = book.awayTop3;
     let homeTop = book.homeTop3;
     let awayLine = book.awayLine;
@@ -677,24 +687,38 @@
       const ln = awayLine;
       awayLine = homeLine;
       homeLine = ln;
-      if (heavy === 'away') heavy = 'home';
-      else if (heavy === 'home') heavy = 'away';
     }
+    const awaySum = sumTop3Sizes(awayTop);
+    const homeSum = sumTop3Sizes(homeTop);
+    const { ratio, heavy } = top3Ratio(awaySum, homeSum);
+    const tier = ratioTier(ratio);
+    const awayCls =
+      heavy === 'away' && tier ? `is-heavy liq-sum-${tier}` : heavy === 'home' && tier ? 'is-light' : '';
+    const homeCls =
+      heavy === 'home' && tier ? `is-heavy liq-sum-${tier}` : heavy === 'away' && tier ? 'is-light' : '';
     const awayHead =
       escapeHtml(awayLabel) +
       (awayLine != null && awayLine !== '' ? ` · ${fmtSpreadLine(awayLine)}` : '');
     const homeHead =
       escapeHtml(homeLabel) +
       (homeLine != null && homeLine !== '' ? ` · ${fmtSpreadLine(homeLine)}` : '');
+    const ratioHtml =
+      heavy && tier
+        ? `<div class="liq-ratio liq-ratio-${tier}" title="Top-3 $ sum ratio at main line">${ratio.toFixed(1)}× ${escapeHtml(
+            heavy === 'away' ? awayLabel : homeLabel
+          )}</div>`
+        : awaySum + homeSum > 0
+          ? `<div class="liq-ratio liq-ratio-flat">${ratio.toFixed(1)}×</div>`
+          : '';
     return {
-      rowClass: heavy ? 'liq-row-heavy' : '',
+      rowClass: tier === 'hot' || tier === 'warm' ? 'liq-row-skew' : '',
       cells:
         `<td class="col-4c"><span class="liq-rank">#${g.rank != null ? g.rank : '—'}</span>` +
         `<div class="meta">${fmtUsd(g.openInterest)} OI</div></td>` +
-        `<td class="col-4c-top"><div class="liq-top-pair">` +
-        `<div><div class="meta">${awayHead}</div>${renderTop3Compact(awayTop)}</div>` +
-        `<div><div class="meta">${homeHead}</div>${renderTop3Compact(homeTop)}</div>` +
-        `</div></td>`,
+        `<td class="col-4c-top"><div class="liq-sum-block">` +
+        `<div class="liq-sum-row ${awayCls}"><span class="liq-sum-name">${awayHead}</span><span class="liq-sum-amt">${fmtUsd(awaySum)}</span></div>` +
+        `<div class="liq-sum-row ${homeCls}"><span class="liq-sum-name">${homeHead}</span><span class="liq-sum-amt">${fmtUsd(homeSum)}</span></div>` +
+        `${ratioHtml}</div></td>`,
     };
   }
 

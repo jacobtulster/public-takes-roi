@@ -679,13 +679,21 @@ code {
 }
 
 /* —— 4casters columns inside picks table —— */
+:root {
+  --liq-hot: #ff6a00;
+  --liq-hot-bg: rgba(255, 106, 0, 0.22);
+  --liq-warm: #ffb020;
+  --liq-warm-bg: rgba(255, 176, 32, 0.18);
+  --liq-mild: #ffe566;
+}
+
 .col-4c {
   width: 72px;
   white-space: nowrap;
 }
 
 .col-4c-top {
-  min-width: 200px;
+  min-width: 168px;
 }
 
 .liq-rank {
@@ -693,37 +701,102 @@ code {
   color: var(--accent);
 }
 
-.liq-top-pair {
+.liq-sum-block {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px;
+  gap: 3px;
+  min-width: 150px;
 }
 
-.liq-top3 {
-  display: grid;
-  gap: 2px;
-  font-size: 10px;
-}
-
-.liq-level {
+.liq-sum-row {
   display: flex;
   justify-content: space-between;
-  gap: 6px;
-  padding: 1px 5px;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 11px;
+  padding: 2px 6px;
   border-radius: 4px;
   background: color-mix(in srgb, var(--bg2) 70%, transparent);
 }
 
-.liq-level .odds {
+.liq-sum-name {
   color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 11em;
 }
 
-.liq-level .size {
-  font-weight: 650;
+.liq-sum-amt {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
-.liq-row-heavy {
-  background: color-mix(in srgb, var(--green) 6%, transparent);
+.liq-sum-row.is-light {
+  opacity: 0.55;
+}
+
+.liq-sum-row.is-heavy.liq-sum-mild .liq-sum-amt {
+  color: var(--liq-mild);
+}
+
+.liq-sum-row.is-heavy.liq-sum-warm {
+  background: var(--liq-warm-bg);
+  outline: 1px solid color-mix(in srgb, var(--liq-warm) 55%, transparent);
+}
+
+.liq-sum-row.is-heavy.liq-sum-warm .liq-sum-amt {
+  color: var(--liq-warm);
+  font-size: 12px;
+}
+
+.liq-sum-row.is-heavy.liq-sum-hot {
+  background: var(--liq-hot-bg);
+  outline: 1px solid color-mix(in srgb, var(--liq-hot) 70%, transparent);
+}
+
+.liq-sum-row.is-heavy.liq-sum-hot .liq-sum-amt,
+.liq-sum-row.is-heavy.liq-sum-hot .liq-sum-name {
+  color: var(--liq-hot);
+  font-weight: 800;
+}
+
+.liq-ratio {
+  margin-top: 1px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.liq-ratio-flat {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 11px;
+  background: transparent;
+}
+
+.liq-ratio-mild {
+  color: #1a1400;
+  background: var(--liq-mild);
+}
+
+.liq-ratio-warm {
+  color: #1a1200;
+  background: var(--liq-warm);
+}
+
+.liq-ratio-hot {
+  color: #fff;
+  background: var(--liq-hot);
+  box-shadow: 0 0 12px rgba(255, 106, 0, 0.45);
+}
+
+.liq-row-skew {
+  background: color-mix(in srgb, var(--liq-hot) 7%, transparent);
 }
 
 @media (max-width: 1100px) {
