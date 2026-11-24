@@ -11,10 +11,11 @@
 
   let store = { updatedAt: null, picks: [] };
   let liqStore = { updatedAt: null, games: [], error: null };
+  let novigStore = { updatedAt: null, games: [], error: null };
   let chart;
   let activeCard = 'all';
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
-  /** Table sort: 'start' (default kick order) or 'rank' (4C OI #). */
+  /** Table sort: 'start' | 'rank' (4C) | 'novigRank'. */
   let tableSort = { key: 'start', dir: 'asc' };
 
   const $ = (sel) => document.querySelector(sel);
@@ -400,20 +401,21 @@
     return String(b.gradedAt || b.loggedAt || '').localeCompare(String(a.gradedAt || a.loggedAt || ''));
   }
 
-  function pickLiqRank(pick) {
-    const hit = findLiquidityGame(pick);
+  function pickLiqRank(pick, venue) {
+    const hit = findLiquidityGame(pick, venue === 'novig' ? novigStore : liqStore);
     if (!hit || hit.game == null || hit.game.rank == null) return null;
     const n = Number(hit.game.rank);
     return Number.isFinite(n) ? n : null;
   }
 
   function comparePicksForTable(a, b, now) {
-    if (tableSort.key === 'rank') {
-      const ra = pickLiqRank(a);
-      const rb = pickLiqRank(b);
+    if (tableSort.key === 'rank' || tableSort.key === 'novigRank') {
+      const venue = tableSort.key === 'novigRank' ? 'novig' : '4c';
+      const ra = pickLiqRank(a, venue);
+      const rb = pickLiqRank(b, venue);
       const aMiss = ra == null;
       const bMiss = rb == null;
-      if (aMiss !== bMiss) return aMiss ? 1 : -1; // no 4C rank → bottom
+      if (aMiss !== bMiss) return aMiss ? 1 : -1;
       if (!aMiss && ra !== rb) {
         return tableSort.dir === 'asc' ? ra - rb : rb - ra;
       }
@@ -522,15 +524,18 @@
               : 'ESPN'
             : p.lineSource || p.lineBook || '';
         const lean = fmtLeanMeta(p);
-        const liq = renderPickLiquidityCells(p);
+        const liq4c = renderPickLiquidityCells(p, liqStore, { rankClass: 'col-4c', topClass: 'col-4c-top' });
+        const liqNv = renderPickLiquidityCells(p, novigStore, { rankClass: 'col-nv', topClass: 'col-nv-top' });
+        const rowSkew = liq4c.rowClass || liqNv.rowClass || '';
         return (
-          `<tr class="${liq.rowClass}">` +
+          `<tr class="${rowSkew}">` +
           `<td class="col-start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
           `<td class="col-matchup">${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
           `<td class="col-pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}<div class="meta lean-mobile">${lean}</div></td>` +
           `<td class="col-book"><span class="pill ${mktPill}">${marketLabel(mkt)}</span><div class="meta">${lean}</div></td>` +
           `<td class="col-line">${escapeHtml(line)}<div class="meta">${escapeHtml(src)}</div></td>` +
-          liq.cells +
+          liq4c.cells +
+          liqNv.cells +
           `<td class="col-result"><span class="pill ${resPill}">${r || 'OPEN'}</span><div class="meta profit-inline">${profit}</div>${p.gradeSource ? `<div class="meta grade-src">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
           `<td class="col-profit">${profit}</td>` +
           `</tr>`
@@ -634,8 +639,8 @@
     return hits >= Math.min(2, lt.length, rt.length);
   }
 
-  function findLiquidityGame(pick) {
-    const games = (liqStore && liqStore.games) || [];
+  function findLiquidityGame(pick, venueStore) {
+    const games = (venueStore && venueStore.games) || [];
     if (!pick || !games.length) return null;
     const away = pick.away || '';
     const home = pick.home || '';
@@ -720,14 +725,16 @@
     );
   }
 
-  function renderPickLiquidityCells(pick) {
-    const hit = findLiquidityGame(pick);
+  function renderPickLiquidityCells(pick, venueStore, cols) {
+    const rankClass = (cols && cols.rankClass) || 'col-4c';
+    const topClass = (cols && cols.topClass) || 'col-4c-top';
+    const hit = findLiquidityGame(pick, venueStore);
     if (!hit) {
       return {
         rowClass: '',
         cells:
-          `<td class="col-4c"><span class="meta">—</span></td>` +
-          `<td class="col-4c-top"><span class="meta">—</span></td>`,
+          `<td class="${rankClass}"><span class="meta">—</span></td>` +
+          `<td class="${topClass}"><span class="meta">—</span></td>`,
       };
     }
     const g = hit.game;
@@ -766,7 +773,7 @@
             heavyName ? ' ' + escapeHtml(heavyName) : ''
           }</div>`
         : '';
-    // Color 4C # only for top-10 OI (1–3 hot, 4–10 warm) — not by book skew.
+    // Color # only for top-10 OI (1–3 hot, 4–10 warm) — not by book skew.
     const rankNum = g.rank != null ? Number(g.rank) : NaN;
     let rankCls = 'liq-rank';
     if (Number.isFinite(rankNum) && rankNum >= 1 && rankNum <= 10) {
@@ -777,9 +784,9 @@
     return {
       rowClass: tier ? 'liq-row-skew' : '',
       cells:
-        `<td class="col-4c"><span class="${rankCls}">#${g.rank != null ? g.rank : '—'}</span>` +
+        `<td class="${rankClass}"><span class="${rankCls}">#${g.rank != null ? g.rank : '—'}</span>` +
         `<div class="meta">${fmtUsd(g.openInterest)} OI</div></td>` +
-        `<td class="col-4c-top"><div class="liq-top-pair">` +
+        `<td class="${topClass}"><div class="liq-top-pair">` +
         `<div class="${awayWrap}"><div class="meta">${awayHead}</div>${renderTop3Levels(awayTop, homeTop)}</div>` +
         `<div class="${homeWrap}"><div class="meta">${homeHead}</div>${renderTop3Levels(homeTop, awayTop)}</div>` +
         `</div>${ratioHtml}</td>`,
@@ -797,6 +804,10 @@
     if (liqStore.updatedAt) {
       updated +=
         ' · 4C ' + new Date(liqStore.updatedAt).toLocaleString();
+    }
+    if (novigStore.updatedAt) {
+      updated +=
+        ' · NV ' + new Date(novigStore.updatedAt).toLocaleString();
     }
     $('#updated-at').textContent = updated;
     const bookHint = $('#book-hint');
@@ -1125,27 +1136,40 @@
     return graded;
   }
 
-  function applyLiquidityPayload(raw) {
+  function applyLiquidityPayload(raw, venue) {
     if (!raw || typeof raw !== 'object') return;
-    liqStore = {
+    const next = {
       updatedAt: raw.updatedAt || null,
       games: Array.isArray(raw.games) ? raw.games : [],
       error: raw.error || null,
     };
+    if (venue === 'novig') novigStore = next;
+    else liqStore = next;
     if (store && store.picks && store.picks.length) renderAll();
   }
 
   async function loadLiquidityRemote() {
-    const url = './data/liquidity.json?t=' + Date.now();
+    const stamp = Date.now();
     try {
-      const res = await fetch(url, { cache: 'no-store' });
+      const res = await fetch('./data/liquidity.json?t=' + stamp, { cache: 'no-store' });
       if (!res.ok) throw new Error('HTTP ' + res.status);
-      applyLiquidityPayload(await res.json());
+      applyLiquidityPayload(await res.json(), '4c');
     } catch (_) {
       liqStore = {
         updatedAt: null,
         games: [],
         error: 'liquidity.json not loaded yet',
+      };
+    }
+    try {
+      const res = await fetch('./data/novig_liquidity.json?t=' + stamp, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      applyLiquidityPayload(await res.json(), 'novig');
+    } catch (_) {
+      novigStore = {
+        updatedAt: null,
+        games: [],
+        error: 'novig_liquidity.json not loaded yet',
       };
     }
   }

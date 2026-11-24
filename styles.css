@@ -687,12 +687,14 @@ code {
   --liq-mild: #ffe566;
 }
 
-.col-4c {
+.col-4c,
+.col-nv {
   width: 72px;
   white-space: nowrap;
 }
 
-.col-4c-top {
+.col-4c-top,
+.col-nv-top {
   min-width: 200px;
 }
 
