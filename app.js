@@ -301,6 +301,79 @@
       ` · NV fade big money ${an.record} ${fmtDollars(an.profit)} (${an.open} open)`;
   }
 
+  /**
+   * Dogs where public take + book both lean dog (liqSnap.liqAgreesTake),
+   * split by median combined top-3 $ into hi vs lo liquidity.
+   */
+  function renderDogLiqStats() {
+    const root = $('#dog-liq-stats');
+    if (!root) return;
+    const dogs = picksForMarket(activeMarket).filter((p) => {
+      if (String(p.takeRole || '').toUpperCase() !== 'DOG') return false;
+      const snap = p.liqSnap;
+      return snap && typeof snap === 'object' && snap.liqAgreesTake === true;
+    });
+    const graded = dogs.filter((p) => {
+      const r = String(p.result || '').toUpperCase();
+      return r === 'W' || r === 'L' || r === 'P';
+    });
+    const empty = emptyAgg();
+    const paint = (prefix, agg) => {
+      const rec = document.querySelector(`#${prefix}-record`);
+      const dol = document.querySelector(`#${prefix}-dollars`);
+      const nEl = document.querySelector(`#${prefix}-n`);
+      if (rec) rec.textContent = fmtRecord(agg);
+      if (dol) {
+        dol.textContent = agg.graded ? fmtDollars(agg.profit) : '$0';
+        dol.className = 'day-dollars' + (dollarClass(agg.profit) ? ' ' + dollarClass(agg.profit) : '');
+      }
+      if (nEl) nEl.textContent = `n=${agg.graded || 0}`;
+    };
+    if (graded.length < 2) {
+      paint('dog-hi-liq', empty);
+      paint('dog-lo-liq', empty);
+      root.title =
+        `Need ≥2 graded dogs where book also leans dog (stamped liqSnap). Have ${graded.length}.`;
+      return;
+    }
+    const sorted = graded
+      .slice()
+      .sort((a, b) => Number(a.liqSnap.combinedTop3 || 0) - Number(b.liqSnap.combinedTop3 || 0));
+    const mid = Math.floor(sorted.length / 2);
+    const lo = sorted.slice(0, mid);
+    const hi = sorted.slice(mid);
+    const toAgg = (list) => {
+      const a = emptyAgg();
+      list.forEach((p) => {
+        const r = String(p.result || '').toUpperCase();
+        const profit = Number(p.profit);
+        a.n++;
+        if (r === 'W') {
+          a.w++;
+          a.graded++;
+          a.profit += Number.isFinite(profit) ? profit : 0;
+        } else if (r === 'L') {
+          a.l++;
+          a.graded++;
+          a.profit += Number.isFinite(profit) ? profit : -1;
+        } else if (r === 'P') {
+          a.p++;
+          a.graded++;
+        }
+      });
+      return a;
+    };
+    const hiA = toAgg(hi);
+    const loA = toAgg(lo);
+    paint('dog-hi-liq', hiA);
+    paint('dog-lo-liq', loA);
+    const med = Number(sorted[mid] && sorted[mid].liqSnap && sorted[mid].liqSnap.combinedTop3) || 0;
+    root.title =
+      `ATS dogs · public dog + book leans dog · split at median combined top-3 $${med.toLocaleString()}` +
+      ` · hi ${fmtRecord(hiA)} ${fmtDollars(hiA.profit)}` +
+      ` · lo ${fmtRecord(loA)} ${fmtDollars(loA.profit)}`;
+  }
+
   function renderMarketTabs() {
     const root = $('#market-tabs');
     if (!root) return;
@@ -1203,6 +1276,7 @@
     renderMarketTabs();
     renderDayStats();
     renderTrustStats();
+    renderDogLiqStats();
     renderCards(aggs);
     renderChart();
     renderFilterStats();

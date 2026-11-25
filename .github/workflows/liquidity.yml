@@ -42,11 +42,12 @@ jobs:
             git pull --rebase --autostash origin main || git pull --rebase origin main || true
             python scripts/fetch_4casters_liquidity.py
             python scripts/liq_trust.py
-            git add data/liquidity.json data/liq_trust.json
+            python scripts/attach_pick_liquidity.py
+            git add data/liquidity.json data/liq_trust.json data/picks.json
             if git diff --staged --quiet; then
               echo "No liquidity / trust changes."
             else
-              git commit -m "chore: refresh 4casters liquidity + fade trust"
+              git commit -m "chore: refresh 4casters liquidity + fade trust + pick liq stamps"
               git push origin HEAD:main
             fi
             if [ "$i" -lt "$ticks" ]; then

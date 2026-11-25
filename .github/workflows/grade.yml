@@ -39,6 +39,9 @@ jobs:
       - name: Upsert + grade fade-disparity trust ledger
         run: python scripts/liq_trust.py
 
+      - name: Stamp / freeze pick combined liquidity
+        run: python scripts/attach_pick_liquidity.py
+
       - name: Commit graded picks + trust
         run: |
           git config user.name "public-takes-bot"

@@ -30,15 +30,16 @@ jobs:
         run: |
           python scripts/fetch_novig_liquidity.py
           python scripts/liq_trust.py
+          python scripts/attach_pick_liquidity.py
 
       - name: Commit Novig liquidity + fade trust
         run: |
           git config user.name "public-takes-bot"
           git config user.email "public-takes-bot@users.noreply.github.com"
-          git add data/novig_liquidity.json data/liq_trust.json
+          git add data/novig_liquidity.json data/liq_trust.json data/picks.json
           if git diff --staged --quiet; then
             echo "No Novig liquidity / trust changes."
           else
-            git commit -m "chore: refresh Novig liquidity + fade trust"
+            git commit -m "chore: refresh Novig liquidity + fade trust + pick liq stamps"
             git push
           fi
