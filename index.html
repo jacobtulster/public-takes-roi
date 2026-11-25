@@ -136,7 +136,32 @@
               <button type="button" class="liq-venue-tab" data-venue="4c">4C</button>
               <button type="button" class="liq-venue-tab" data-venue="novig">NV</button>
             </div>
-            <input id="filter-q" type="search" placeholder="Filter…" />
+            <div class="liq-venue-tabs signal-filter-tabs" id="signal-filter-tabs" role="tablist" aria-label="Good pick filters">
+              <button
+                type="button"
+                class="liq-venue-tab is-active"
+                data-signal=""
+                title="No signal filter"
+              >
+                All
+              </button>
+              <button
+                type="button"
+                class="liq-venue-tab"
+                data-signal="good_fav"
+                title="Fav favorable + combined ratio heavy on the dog"
+              >
+                Good fav
+              </button>
+              <button
+                type="button"
+                class="liq-venue-tab"
+                data-signal="good_dog"
+                title="Dog favorable + combined ratio heavy on the fav"
+              >
+                Good dog
+              </button>
+            </div>
           </div>
           <div class="table-wrap">
             <table class="picks-table liq-venue-both">

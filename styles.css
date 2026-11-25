@@ -371,15 +371,8 @@ select:hover {
   color: var(--red);
 }
 
-.toolbar input[type='search'] {
-  flex: 1;
-  min-width: 100px;
-  border: 1px solid var(--line);
-  background: var(--bg1);
-  color: var(--text);
-  border-radius: 7px;
-  padding: 6px 8px;
-  font: 11px/1.2 var(--font);
+.signal-filter-tabs {
+  flex: 0 0 auto;
 }
 
 table {

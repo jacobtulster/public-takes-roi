@@ -25,6 +25,8 @@
   let tableSort = { key: 'start', dir: 'asc' };
   /** Which liquidity columns to show: both | 4c | novig */
   let liqVenue = 'both';
+  /** '' | 'good_fav' | 'good_dog' */
+  let signalFilter = '';
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -606,24 +608,49 @@
     });
   }
 
+  /** Combined book heavy on the opposite side of the pick (needs both 4C+NV). */
+  function combinedHeavyOnOtherSide(pick) {
+    const c = combinedSideSums(pick);
+    if (!c || !c.heavy) return false;
+    const take = String(pick.takeSide || '').toLowerCase();
+    if (take !== 'away' && take !== 'home') return false;
+    return c.heavy !== take;
+  }
+
+  function matchesSignalFilter(pick) {
+    if (!signalFilter) return true;
+    if (signalFilter === 'good_fav') {
+      // Fav favorable + combined ratio on dog (heavy $ on dog)
+      if (!bucketKeysFor(pick).includes('fav_favorable')) return false;
+      return combinedHeavyOnOtherSide(pick);
+    }
+    if (signalFilter === 'good_dog') {
+      // Dog favorable + combined ratio on fav (heavy $ on fav)
+      if (!bucketKeysFor(pick).includes('dog_favorable')) return false;
+      return combinedHeavyOnOtherSide(pick);
+    }
+    return true;
+  }
+
   function matchesFilter(pick) {
     if (marketOf(pick) !== activeMarket) return false;
     const bucket = $('#filter-bucket').value;
     const result = $('#filter-result').value;
-    const q = ($('#filter-q').value || '').trim().toLowerCase();
     if (bucket === 'fav' || bucket === 'dog') {
       if (!bucketKeysFor(pick).includes(bucket)) return false;
     } else if (bucket && !bucketKeysFor(pick).includes(bucket)) return false;
     const r = String(pick.result || '').toUpperCase();
     if (result === 'open' && (r === 'W' || r === 'L' || r === 'P')) return false;
     if (result && result !== 'open' && r !== result) return false;
-    if (q) {
-      const hay = [pick.away, pick.home, pick.takeTeam, pick.league, pick.sport, pick.bucket, pick.market]
-        .join(' ')
-        .toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
+    if (!matchesSignalFilter(pick)) return false;
     return true;
+  }
+
+  function syncSignalFilterTabs() {
+    document.querySelectorAll('#signal-filter-tabs .liq-venue-tab').forEach((btn) => {
+      const v = btn.getAttribute('data-signal') || '';
+      btn.classList.toggle('is-active', v === signalFilter);
+    });
   }
 
   /**
@@ -858,14 +885,29 @@
       .join('');
   }
 
-  /** W-P-L + $ for the picks-panel bucket filter (left of the select). */
+  /** W-P-L + $ for the visible filtered set (bucket / signal / result). */
   function renderFilterStats() {
     const el = $('#filter-stats');
     if (!el) return;
-    const bucket = ($('#filter-bucket') && $('#filter-bucket').value) || '';
-    const key = bucket || 'all';
-    const aggs = summarize(picksForMarket(activeMarket));
-    const a = aggs[key] || emptyAgg();
+    const rows = picksForMarket(activeMarket).filter(matchesFilter);
+    const a = emptyAgg();
+    rows.forEach((pick) => {
+      const result = String(pick.result || '').toUpperCase();
+      const profit = Number(pick.profit);
+      a.n++;
+      if (result === 'W') {
+        a.w++;
+        a.graded++;
+        a.profit += Number.isFinite(profit) ? profit : 0;
+      } else if (result === 'L') {
+        a.l++;
+        a.graded++;
+        a.profit += Number.isFinite(profit) ? profit : -1;
+      } else if (result === 'P') {
+        a.p++;
+        a.graded++;
+      }
+    });
     const cls = dollarClass(a.profit);
     el.hidden = false;
     el.innerHTML =
@@ -1756,16 +1798,27 @@
     activeCard = $('#chart-bucket').value;
     renderAll();
   });
-  ['filter-bucket', 'filter-result', 'filter-q'].forEach((id) => {
+  ['filter-bucket', 'filter-result'].forEach((id) => {
     $('#' + id).addEventListener('input', () => {
-      if (id === 'filter-bucket') renderFilterStats();
+      renderFilterStats();
       renderTable();
     });
     $('#' + id).addEventListener('change', () => {
-      if (id === 'filter-bucket') renderFilterStats();
+      renderFilterStats();
       renderTable();
     });
   });
+
+  document.querySelectorAll('#signal-filter-tabs [data-signal]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const v = btn.getAttribute('data-signal') || '';
+      signalFilter = v;
+      syncSignalFilterTabs();
+      renderFilterStats();
+      renderTable();
+    });
+  });
+  syncSignalFilterTabs();
 
   document.querySelectorAll('th.th-sort').forEach((th) => {
     th.addEventListener('click', () => {
