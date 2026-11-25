@@ -163,10 +163,13 @@ def venue_sides(pick: dict[str, Any], games: list[Any]) -> dict[str, Any] | None
 def snapshot_for(pick: dict[str, Any], games4: list[Any], gamesN: list[Any]) -> dict[str, Any] | None:
     s4 = venue_sides(pick, games4)
     sN = venue_sides(pick, gamesN)
-    if not s4 and not sN:
+    # Combined stamp only when BOTH venues have top-3 $
+    if not s4 or not sN:
         return None
-    away = (s4["away"] if s4 else 0) + (sN["away"] if sN else 0)
-    home = (s4["home"] if s4 else 0) + (sN["home"] if sN else 0)
+    if s4["away"] + s4["home"] <= 0 or sN["away"] + sN["home"] <= 0:
+        return None
+    away = s4["away"] + sN["away"]
+    home = s4["home"] + sN["home"]
     total = away + home
     if total <= 0:
         return None
@@ -182,10 +185,10 @@ def snapshot_for(pick: dict[str, Any], games4: list[Any], gamesN: list[Any]) -> 
         "combinedHomeTop3": round(home, 2),
         "combinedRatio": round(ratio, 2),
         "combinedHeavySide": heavy,
-        "combinedOi": round((s4["oi"] if s4 else 0) + (sN["oi"] if sN else 0), 2),
+        "combinedOi": round(s4["oi"] + sN["oi"], 2),
         "liqAgreesTake": agrees,
-        "fourcastersTop3": round((s4["away"] + s4["home"]) if s4 else 0, 2),
-        "novigTop3": round((sN["away"] + sN["home"]) if sN else 0, 2),
+        "fourcastersTop3": round(s4["away"] + s4["home"], 2),
+        "novigTop3": round(sN["away"] + sN["home"], 2),
         "snappedAt": _now_iso(),
         "frozen": False,
     }

@@ -688,24 +688,25 @@
   function combinedSideSums(pick) {
     const a4 = venueSideSums(pick, liqStore);
     const an = venueSideSums(pick, novigStore);
-    if (!a4 && !an) return null;
-    const awaySum = (a4 ? a4.awaySum : 0) + (an ? an.awaySum : 0);
-    const homeSum = (a4 ? a4.homeSum : 0) + (an ? an.homeSum : 0);
+    // Require both venues with real top-3 $ — one-sided is not a combined ratio.
+    const has4 = a4 && a4.awaySum + a4.homeSum > 0;
+    const hasN = an && an.awaySum + an.homeSum > 0;
+    if (!has4 || !hasN) return null;
+    const awaySum = a4.awaySum + an.awaySum;
+    const homeSum = a4.homeSum + an.homeSum;
     if (awaySum + homeSum <= 0) return null;
     const { ratio, heavy } = top3Ratio(awaySum, homeSum);
-    const awayLabel = (a4 && a4.awayLabel) || (an && an.awayLabel) || pick.away || 'Away';
-    const homeLabel = (a4 && a4.homeLabel) || (an && an.homeLabel) || pick.home || 'Home';
     return {
       awaySum,
       homeSum,
       ratio,
       heavy,
-      awayLabel,
-      homeLabel,
-      r4: a4 && a4.awaySum + a4.homeSum > 0 ? a4.ratio : null,
-      rN: an && an.awaySum + an.homeSum > 0 ? an.ratio : null,
-      heavy4: a4 ? a4.heavy : null,
-      heavyN: an ? an.heavy : null,
+      awayLabel: a4.awayLabel || pick.away || 'Away',
+      homeLabel: a4.homeLabel || pick.home || 'Home',
+      r4: a4.ratio,
+      rN: an.ratio,
+      heavy4: a4.heavy,
+      heavyN: an.heavy,
     };
   }
 
@@ -1203,13 +1204,20 @@
     };
   }
 
-  /** Combined 4C+NV top-3 $ ratio (same side dollars summed). */
+  /** Combined 4C+NV top-3 $ ratio — only when both venues have books. */
   function renderCombinedRatioCell(pick) {
+    const a4 = venueSideSums(pick, liqStore);
+    const an = venueSideSums(pick, novigStore);
+    const has4 = a4 && a4.awaySum + a4.homeSum > 0;
+    const hasN = an && an.awaySum + an.homeSum > 0;
     const c = combinedSideSums(pick);
     if (!c) {
+      let why = '—';
+      if (has4 && !hasN) why = '4C only';
+      else if (!has4 && hasN) why = 'NV only';
       return {
         rowClass: '',
-        cells: `<td class="col-liq col-combined"><span class="meta">—</span></td>`,
+        cells: `<td class="col-liq col-combined"><span class="meta" title="Combined ratio needs both 4C and NV">${why}</span></td>`,
       };
     }
     const tier = ratioTier(c.ratio);
