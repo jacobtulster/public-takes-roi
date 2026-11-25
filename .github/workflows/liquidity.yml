@@ -41,11 +41,12 @@ jobs:
             echo "=== 4casters tick $i/$ticks ==="
             git pull --rebase --autostash origin main || git pull --rebase origin main || true
             python scripts/fetch_4casters_liquidity.py
-            git add data/liquidity.json
+            python scripts/liq_trust.py
+            git add data/liquidity.json data/liq_trust.json
             if git diff --staged --quiet; then
-              echo "No liquidity changes."
+              echo "No liquidity / trust changes."
             else
-              git commit -m "chore: refresh 4casters liquidity snapshot"
+              git commit -m "chore: refresh 4casters liquidity + fade trust"
               git push origin HEAD:main
             fi
             if [ "$i" -lt "$ticks" ]; then

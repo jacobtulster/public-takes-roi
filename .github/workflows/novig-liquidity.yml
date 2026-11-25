@@ -27,16 +27,18 @@ jobs:
           python-version: "3.11"
 
       - name: Snapshot Novig public orderbooks
-        run: python scripts/fetch_novig_liquidity.py
+        run: |
+          python scripts/fetch_novig_liquidity.py
+          python scripts/liq_trust.py
 
-      - name: Commit Novig liquidity snapshot
+      - name: Commit Novig liquidity + fade trust
         run: |
           git config user.name "public-takes-bot"
           git config user.email "public-takes-bot@users.noreply.github.com"
-          git add data/novig_liquidity.json
+          git add data/novig_liquidity.json data/liq_trust.json
           if git diff --staged --quiet; then
-            echo "No Novig liquidity changes."
+            echo "No Novig liquidity / trust changes."
           else
-            git commit -m "chore: refresh Novig liquidity snapshot"
+            git commit -m "chore: refresh Novig liquidity + fade trust"
             git push
           fi

@@ -1,48 +1,52 @@
-name: Grade public % takes
-
-on:
-  schedule:
-    # Every 5 minutes — settle ESPN finals ASAP after tip ends
-    - cron: "*/5 * * * *"
-  workflow_dispatch:
-  push:
-    paths:
-      - "data/picks.json"
-      - "scripts/grade_picks.py"
-      - ".github/workflows/grade.yml"
-
-permissions:
-  contents: write
-
-concurrency:
-  group: grade-public-takes
-  # Don't cancel mid-grade when OddsLogic sync pushes picks.json
-  cancel-in-progress: false
-
-jobs:
-  grade:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Grade open picks via ESPN scoreboards
-        run: python scripts/grade_picks.py
-
-      - name: Commit graded picks
-        run: |
-          git config user.name "public-takes-bot"
-          git config user.email "public-takes-bot@users.noreply.github.com"
-          git add data/picks.json
-          if git diff --staged --quiet; then
-            echo "No grading changes."
-          else
-            git commit -m "chore: grade settled public % takes (ESPN)"
-            git push
-          fi
+name: Grade public % takes
+
+on:
+  schedule:
+    # Every 5 minutes — settle ESPN finals ASAP after tip ends
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/picks.json"
+      - "scripts/grade_picks.py"
+      - "scripts/liq_trust.py"
+      - ".github/workflows/grade.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: grade-public-takes
+  # Don't cancel mid-grade when OddsLogic sync pushes picks.json
+  cancel-in-progress: false
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Grade open picks via ESPN scoreboards
+        run: python scripts/grade_picks.py
+
+      - name: Upsert + grade fade-disparity trust ledger
+        run: python scripts/liq_trust.py
+
+      - name: Commit graded picks + trust
+        run: |
+          git config user.name "public-takes-bot"
+          git config user.email "public-takes-bot@users.noreply.github.com"
+          git add data/picks.json data/liq_trust.json
+          if git diff --staged --quiet; then
+            echo "No grading changes."
+          else
+            git commit -m "chore: grade settled public % takes + fade trust (ESPN)"
+            git push
+          fi

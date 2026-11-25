@@ -12,6 +12,12 @@
   let store = { updatedAt: null, picks: [] };
   let liqStore = { updatedAt: null, games: [], error: null };
   let novigStore = { updatedAt: null, games: [], error: null };
+  /** Fade-heavy disparity ledger (4C / Novig top-3 ≥ 2× → bet light). */
+  let trustStore = {
+    updatedAt: null,
+    summary: { all: null, '4c': null, novig: null },
+    signals: [],
+  };
   let chart;
   let activeCard = 'all';
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
@@ -252,6 +258,47 @@
       `${marketLabel(activeMarket)} · Today ${fmtRecord(today)} ${fmtDollars(today.profit)}` +
       ` · Yesterday ${fmtRecord(yest)} ${fmtDollars(yest.profit)}` +
       ` · Week ${fmtRecord(week)} ${fmtDollars(week.profit)} (Mon–Sun ET)`;
+  }
+
+  function trustAgg(venue) {
+    const raw =
+      (trustStore.summary && trustStore.summary[venue]) ||
+      { w: 0, p: 0, l: 0, graded: 0, open: 0, profit: 0, record: '0-0-0' };
+    return {
+      w: Number(raw.w) || 0,
+      p: Number(raw.p) || 0,
+      l: Number(raw.l) || 0,
+      graded: Number(raw.graded) || 0,
+      open: Number(raw.open) || 0,
+      profit: Number(raw.profit) || 0,
+      record: raw.record || '0-0-0',
+    };
+  }
+
+  /** 4C / NV fade-disparity W-P-L (bet light when top-3 $ ≥ 2×). */
+  function renderTrustStats() {
+    const root = $('#trust-stats');
+    if (!root) return;
+    const paint = (prefix, venue) => {
+      const agg = trustAgg(venue);
+      const rec = document.querySelector(`#${prefix}-record`);
+      const dol = document.querySelector(`#${prefix}-dollars`);
+      const openEl = document.querySelector(`#${prefix}-open`);
+      if (rec) rec.textContent = agg.record || fmtRecord(agg);
+      if (dol) {
+        dol.textContent = agg.graded ? fmtDollars(agg.profit) : '$0';
+        dol.className = 'day-dollars' + (dollarClass(agg.profit) ? ' ' + dollarClass(agg.profit) : '');
+      }
+      if (openEl) openEl.textContent = `${agg.open || 0} open`;
+    };
+    paint('trust-4c', '4c');
+    paint('trust-nv', 'novig');
+    const a4 = trustAgg('4c');
+    const an = trustAgg('novig');
+    root.title =
+      `Fade heavy top-3 $ (≥2×) → bet light @ $100/u` +
+      ` · 4C ${a4.record} ${fmtDollars(a4.profit)} (${a4.open} open)` +
+      ` · NV ${an.record} ${fmtDollars(an.profit)} (${an.open} open)`;
   }
 
   function renderMarketTabs() {
@@ -1019,6 +1066,7 @@
     if (picksTitle) picksTitle.textContent = `${marketLabel(activeMarket)} picks`;
     renderMarketTabs();
     renderDayStats();
+    renderTrustStats();
     renderCards(aggs);
     renderChart();
     renderFilterStats();
@@ -1421,6 +1469,28 @@
     }
   }
 
+  async function loadTrustRemote() {
+    const stamp = Date.now();
+    try {
+      const res = await fetch('./data/liq_trust.json?t=' + stamp, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const raw = await res.json();
+      trustStore = {
+        updatedAt: raw && raw.updatedAt ? raw.updatedAt : null,
+        summary: (raw && raw.summary) || { all: null, '4c': null, novig: null },
+        signals: Array.isArray(raw && raw.signals) ? raw.signals : [],
+      };
+      renderTrustStats();
+    } catch (_) {
+      trustStore = {
+        updatedAt: null,
+        summary: { all: null, '4c': null, novig: null },
+        signals: [],
+      };
+      renderTrustStats();
+    }
+  }
+
   async function loadRemote() {
     const url = './data/picks.json?t=' + Date.now();
     const res = await fetch(url, { cache: 'no-store' });
@@ -1430,6 +1500,7 @@
     // Grade finals immediately from ESPN (do not wait for OddsLogic / GH Action).
     gradeOpenPicksFromEspn().catch(() => {});
     loadLiquidityRemote().catch(() => {});
+    loadTrustRemote().catch(() => {});
   }
 
   function exportJson() {
@@ -1515,6 +1586,7 @@
   }, 20000);
   setInterval(() => {
     loadLiquidityRemote().catch(() => {});
+    loadTrustRemote().catch(() => {});
   }, 60000);
 
   let _chartMqTimer = 0;

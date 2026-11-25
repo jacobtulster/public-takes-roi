@@ -301,12 +301,23 @@ select:hover {
   flex: 1;
 }
 
-.day-stats {
+.day-stats,
+.trust-stats {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
   flex: 0 0 auto;
+}
+
+.trust-stats .trust-stat {
+  border-color: color-mix(in srgb, var(--accent, #5b8cff) 35%, var(--line));
+}
+
+.day-open {
+  color: var(--muted);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
 }
 
 .day-stat,
