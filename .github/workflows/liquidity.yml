@@ -2,8 +2,8 @@ name: Fetch 4casters liquidity
 
 on:
   schedule:
-    # Every 5 minutes (GitHub Actions minimum practical cadence).
-    # Each run = 1 request per league (6 total) — not a tight poll loop.
+    # GitHub won't fire cron more often than ~every 5m, so each run
+    # loops for ~5 ticks × 60s ≈ once-per-minute snapshots.
     - cron: "*/5 * * * *"
   workflow_dispatch:
 
@@ -12,12 +12,13 @@ permissions:
 
 concurrency:
   group: fourcasters-liquidity
+  # New 5m window replaces a stuck prior loop
   cancel-in-progress: true
 
 jobs:
   liquidity:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 8
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,19 +28,27 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Snapshot 4casters orderbooks
+      - name: Snapshot every ~60s for this window
         env:
           FOURCASTERS_TOKEN: ${{ secrets.FOURCASTERS_TOKEN }}
-        run: python scripts/fetch_4casters_liquidity.py
-
-      - name: Commit liquidity snapshot
         run: |
+          set -e
           git config user.name "public-takes-bot"
           git config user.email "public-takes-bot@users.noreply.github.com"
-          git add data/liquidity.json
-          if git diff --staged --quiet; then
-            echo "No liquidity changes."
-          else
-            git commit -m "chore: refresh 4casters liquidity snapshot"
-            git push
-          fi
+
+          ticks=5
+          for i in $(seq 1 "$ticks"); do
+            echo "=== 4casters tick $i/$ticks ==="
+            git pull --rebase --autostash origin main || git pull --rebase origin main || true
+            python scripts/fetch_4casters_liquidity.py
+            git add data/liquidity.json
+            if git diff --staged --quiet; then
+              echo "No liquidity changes."
+            else
+              git commit -m "chore: refresh 4casters liquidity snapshot"
+              git push origin HEAD:main
+            fi
+            if [ "$i" -lt "$ticks" ]; then
+              sleep 60
+            fi
+          done
