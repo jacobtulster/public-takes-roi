@@ -15,7 +15,7 @@
   let chart;
   let activeCard = 'all';
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
-  /** Table sort: 'start' | 'rank' (4C) | 'novigRank'. */
+  /** Table sort: 'start' | 'rank' (4C ratio) | 'novigRank' (NV ratio). */
   let tableSort = { key: 'start', dir: 'asc' };
   /** Which liquidity columns to show: both | 4c | novig */
   let liqVenue = 'both';
@@ -554,17 +554,41 @@
     return Number.isFinite(n) ? n : null;
   }
 
+  /** Main-line top-3 $ ratio for a venue (same math as the cell badge). */
+  function pickLiqRatio(pick, venue) {
+    const hit = findLiquidityGame(pick, venue === 'novig' ? novigStore : liqStore);
+    if (!hit || !hit.game) return null;
+    const book = bookForPick(pick, hit.game);
+    if (!book) return null;
+    let awayTop = book.awayTop3;
+    let homeTop = book.homeTop3;
+    if (hit.flipped) {
+      const tmp = awayTop;
+      awayTop = homeTop;
+      homeTop = tmp;
+    }
+    const awaySum = sumTop3Sizes(awayTop);
+    const homeSum = sumTop3Sizes(homeTop);
+    if (awaySum + homeSum <= 0) return null;
+    return top3Ratio(awaySum, homeSum).ratio;
+  }
+
   function comparePicksForTable(a, b, now) {
     if (tableSort.key === 'rank' || tableSort.key === 'novigRank') {
       const venue = tableSort.key === 'novigRank' ? 'novig' : '4c';
-      const ra = pickLiqRank(a, venue);
-      const rb = pickLiqRank(b, venue);
+      const ra = pickLiqRatio(a, venue);
+      const rb = pickLiqRatio(b, venue);
       const aMiss = ra == null;
       const bMiss = rb == null;
       if (aMiss !== bMiss) return aMiss ? 1 : -1;
       if (!aMiss && ra !== rb) {
+        // desc = highest ratio first (default); asc = lowest first
         return tableSort.dir === 'asc' ? ra - rb : rb - ra;
       }
+      // Tie-break by OI rank (#1 first)
+      const oa = pickLiqRank(a, venue);
+      const ob = pickLiqRank(b, venue);
+      if (oa != null && ob != null && oa !== ob) return oa - ob;
     }
     return comparePicksByStart(a, b, now);
   }
@@ -1462,8 +1486,8 @@
         tableSort.dir = tableSort.dir === 'asc' ? 'desc' : 'asc';
       } else {
         tableSort.key = key;
-        // Rank: #1 first. Start: keep default upcoming-first order.
-        tableSort.dir = 'asc';
+        // 4C/NV: highest top-3 $ ratio first. Start: upcoming-first.
+        tableSort.dir = key === 'rank' || key === 'novigRank' ? 'desc' : 'asc';
       }
       renderTable();
     });
