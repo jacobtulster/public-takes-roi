@@ -130,12 +130,36 @@
     }
   }
 
+  function shiftEtDayKey(dayKey, deltaDays) {
+    const bits = String(dayKey || '')
+      .split('-')
+      .map(Number);
+    if (bits.length !== 3 || bits.some((n) => !Number.isFinite(n))) return '';
+    const dt = new Date(Date.UTC(bits[0], bits[1] - 1, bits[2]));
+    dt.setUTCDate(dt.getUTCDate() + deltaDays);
+    return (
+      dt.getUTCFullYear() +
+      '-' +
+      String(dt.getUTCMonth() + 1).padStart(2, '0') +
+      '-' +
+      String(dt.getUTCDate()).padStart(2, '0')
+    );
+  }
+
   function etYesterdayKey() {
+    return shiftEtDayKey(etDateKey(Date.now()), -1);
+  }
+
+  /** Monday (ET) of the current week as YYYY-MM-DD. */
+  function etWeekStartKey() {
     const today = etDateKey(Date.now());
     const bits = today.split('-').map(Number);
     if (bits.length !== 3 || bits.some((n) => !Number.isFinite(n))) return '';
-    const dt = new Date(Date.UTC(bits[0], bits[1] - 1, bits[2]));
-    dt.setUTCDate(dt.getUTCDate() - 1);
+    const dt = new Date(Date.UTC(bits[0], bits[1] - 1, bits[2], 12, 0, 0));
+    // getUTCDay: 0=Sun … 1=Mon — shift back to Monday
+    const dow = dt.getUTCDay();
+    const back = dow === 0 ? 6 : dow - 1;
+    dt.setUTCDate(dt.getUTCDate() - back);
     return (
       dt.getUTCFullYear() +
       '-' +
@@ -176,15 +200,42 @@
     return a;
   }
 
-  /** Always-visible Today / Yesterday W-P-L + $ for the active book. */
+  function summarizeRange(picks, startKey, endKeyInclusive) {
+    const a = emptyAgg();
+    if (!startKey || !endKeyInclusive) return a;
+    (picks || []).forEach((pick) => {
+      const day = pickEtDayKey(pick);
+      if (!day || day < startKey || day > endKeyInclusive) return;
+      const result = String(pick.result || '').toUpperCase();
+      const profit = Number(pick.profit);
+      a.n++;
+      if (result === 'W') {
+        a.w++;
+        a.graded++;
+        a.profit += Number.isFinite(profit) ? profit : 0;
+      } else if (result === 'L') {
+        a.l++;
+        a.graded++;
+        a.profit += Number.isFinite(profit) ? profit : -1;
+      } else if (result === 'P') {
+        a.p++;
+        a.graded++;
+      }
+    });
+    return a;
+  }
+
+  /** Always-visible Today / Yesterday / Week W-P-L + $ for the active book. */
   function renderDayStats() {
     const root = $('#day-stats');
     if (!root) return;
     const picks = picksForMarket(activeMarket);
     const todayKey = etDateKey(Date.now());
     const yestKey = etYesterdayKey();
+    const weekStart = etWeekStartKey();
     const today = summarizeDay(picks, todayKey);
     const yest = summarizeDay(picks, yestKey);
+    const week = summarizeRange(picks, weekStart, todayKey);
     const paint = (prefix, agg) => {
       const rec = root.querySelector(`#${prefix}-record`);
       const dol = root.querySelector(`#${prefix}-dollars`);
@@ -196,9 +247,11 @@
     };
     paint('day-today', today);
     paint('day-yest', yest);
+    paint('day-week', week);
     root.title =
       `${marketLabel(activeMarket)} · Today ${fmtRecord(today)} ${fmtDollars(today.profit)}` +
-      ` · Yesterday ${fmtRecord(yest)} ${fmtDollars(yest.profit)} (ET)`;
+      ` · Yesterday ${fmtRecord(yest)} ${fmtDollars(yest.profit)}` +
+      ` · Week ${fmtRecord(week)} ${fmtDollars(week.profit)} (Mon–Sun ET)`;
   }
 
   function renderMarketTabs() {
