@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:54:42.140Z",
+  "updatedAt": "2026-11-25T23:54:47.700Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -11899,9 +11899,9 @@
       "market": "spread",
       "line": -1.5,
       "price": 154,
-      "tixFav": 17,
-      "monFav": 12,
-      "reason": "Tix 17% + $ 12% on fav (<50)",
+      "tixFav": 29,
+      "monFav": 47,
+      "reason": "Tix 29% + $ 47% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 28086.04,
         "combinedAwayTop3": 2076.15,
@@ -11917,7 +11917,7 @@
         "snappedAt": "2026-11-25T23:14:21.141499Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
+      "leanUpdatedAt": "2026-11-25T23:54:44.512Z"
     },
     {
       "pickKey": "m|45|nashville_at_dallas|FAV|home|ml",
@@ -11938,9 +11938,9 @@
       "market": "ml",
       "line": -167,
       "price": -167,
-      "tixFav": 17,
-      "monFav": 12,
-      "reason": "Tix 17% + $ 12% on fav (<50)",
+      "tixFav": 29,
+      "monFav": 47,
+      "reason": "Tix 29% + $ 47% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 28086.04,
         "combinedAwayTop3": 2076.15,
@@ -11956,7 +11956,7 @@
         "snappedAt": "2026-11-25T23:14:21.141931Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
+      "leanUpdatedAt": "2026-11-25T23:54:44.512Z"
     },
     {
       "pickKey": "m|513|minnesota_at_oklahoma_city|FAV|home|spread",
