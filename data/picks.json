@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T18:29:47.922Z",
+  "updatedAt": "2026-11-25T18:29:52.757Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -10517,9 +10517,10 @@
       "market": "spread",
       "line": -20,
       "price": -105,
-      "tixFav": 40,
-      "monFav": 35,
-      "reason": "Tix 40% + $ 35% on fav (<50)"
+      "tixFav": 33,
+      "monFav": 31,
+      "reason": "Tix 33% + $ 31% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T18:29:49.400Z"
     },
     {
       "pickKey": "m|757|cs_bakersfield_at_pepperdine|DOG|away|spread",
