@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:08:16.497Z",
+  "updatedAt": "2026-11-25T00:11:26.841Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7735,15 +7735,15 @@
       "takeRole": "FAV",
       "takeTeam": "Orlando",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "fav_favorable",
+      "ocLean": "flat",
+      "bucket": "fav_not_favorable",
       "market": "spread",
       "line": -2.5,
       "price": -104,
       "tixFav": 35,
       "monFav": 30,
       "reason": "Tix 35% + $ 30% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:58:57.467Z"
+      "leanUpdatedAt": "2026-11-25T00:11:23.462Z"
     },
     {
       "pickKey": "m|501|detroit_at_orlando|FAV|home|ml",
@@ -7759,15 +7759,15 @@
       "takeRole": "FAV",
       "takeTeam": "Orlando",
       "takeSide": "home",
-      "ocLean": "favorable",
-      "bucket": "fav_favorable",
+      "ocLean": "flat",
+      "bucket": "fav_not_favorable",
       "market": "ml",
       "line": -133,
       "price": -133,
       "tixFav": 35,
       "monFav": 30,
       "reason": "Tix 35% + $ 30% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:58:57.467Z"
+      "leanUpdatedAt": "2026-11-25T00:11:23.462Z"
     },
     {
       "pickKey": "m|645|nevada_at_santa_clara|FAV|away|spread",
