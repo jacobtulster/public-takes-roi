@@ -1,103 +1,115 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Public % Takes — ROI</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
-    <script src="./app.js" defer></script>
-  </head>
-  <body>
-    <div class="wrap">
-      <header class="topbar">
-        <div class="topbar-brand">
-          <h1 class="brand">Public % Takes</h1>
-          <div class="market-tabs" id="market-tabs" role="tablist" aria-label="Market book"></div>
-          <p class="book-hint" id="book-hint">ATS book</p>
-        </div>
-        <div class="hero-actions">
-          <button type="button" class="btn btn-primary" id="btn-refresh">Refresh</button>
-          <label class="btn" for="file-import">Import</label>
-          <input id="file-import" type="file" accept="application/json,.json" hidden />
-          <button type="button" class="btn" id="btn-export">Export</button>
-          <span class="meta" id="updated-at">No data yet</span>
-        </div>
-      </header>
-
-      <section class="grid-cards" id="summary-cards" aria-label="Bucket ROI"></section>
-
-      <div class="main-split">
-        <section class="panel panel-chart">
-          <div class="toolbar">
-            <h2 id="chart-title">ATS ROI equity</h2>
-            <select id="chart-bucket" aria-label="Chart bucket">
-              <option value="all">All picks</option>
-              <option value="fav">Favs</option>
-              <option value="dog">Dogs</option>
-              <option value="fav_favorable">Favorable favs</option>
-              <option value="dog_favorable">Favorable dogs</option>
-              <option value="fav_not_favorable">Not-favorable favs</option>
-              <option value="dog_not_favorable">Not-favorable dogs</option>
-            </select>
-          </div>
-          <div class="chart-box"><canvas id="equity-chart"></canvas></div>
-        </section>
-
-        <section class="panel panel-picks">
-          <div class="toolbar">
-            <h2 id="picks-title">ATS picks</h2>
-            <span class="filter-stats" id="filter-stats" title="Record for selected bucket (W-P-L) · $ P/L @ $100/u"></span>
-            <select id="filter-bucket">
-              <option value="">All buckets</option>
-              <option value="fav_favorable">Favorable favs</option>
-              <option value="dog_favorable">Favorable dogs</option>
-              <option value="fav_not_favorable">Not-favorable favs</option>
-              <option value="dog_not_favorable">Not-favorable dogs</option>
-              <option value="fav">All favs</option>
-              <option value="dog">All dogs</option>
-            </select>
-            <select id="filter-result">
-              <option value="">All results</option>
-              <option value="open">Open</option>
-              <option value="W">Wins</option>
-              <option value="L">Losses</option>
-              <option value="P">Pushes</option>
-            </select>
-            <div class="liq-venue-tabs" id="liq-venue-tabs" role="tablist" aria-label="Liquidity venue">
-              <button type="button" class="liq-venue-tab is-active" data-venue="both">Both</button>
-              <button type="button" class="liq-venue-tab" data-venue="4c">4C</button>
-              <button type="button" class="liq-venue-tab" data-venue="novig">NV</button>
-            </div>
-            <input id="filter-q" type="search" placeholder="Filter…" />
-          </div>
-          <div class="table-wrap">
-            <table class="picks-table liq-venue-both">
-              <thead>
-                <tr>
-                  <th class="col-start th-sort is-sorted is-asc" data-sort="start" title="Sort by start time" aria-sort="ascending">Start</th>
-                  <th class="col-matchup">Matchup</th>
-                  <th class="col-pick">Pick</th>
-                  <th class="col-line">Line</th>
-                  <th class="col-liq col-4c th-sort" data-sort="rank" title="4casters OI rank + main-line top 3" aria-sort="none">4C</th>
-                  <th class="col-liq col-nv th-sort" data-sort="novigRank" title="Novig OI rank + main-line top 3" aria-sort="none">NV</th>
-                  <th class="col-result">Result</th>
-                </tr>
-              </thead>
-              <tbody id="picks-body"></tbody>
-            </table>
-          </div>
-          <div class="empty" id="picks-empty" hidden>
-            No ATS picks yet — configure the OddsLogic userscript sync, then refresh.
-          </div>
-        </section>
-      </div>
-    </div>
-  </body>
-</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Public % Takes — ROI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="topbar">
+        <div class="topbar-brand">
+          <h1 class="brand">Public % Takes</h1>
+          <div class="market-tabs" id="market-tabs" role="tablist" aria-label="Market book"></div>
+          <p class="book-hint" id="book-hint">ATS book</p>
+        </div>
+        <div class="day-stats" id="day-stats" aria-label="Today and yesterday records">
+          <div class="day-stat">
+            <span class="day-label">Today</span>
+            <span class="day-record" id="day-today-record">0-0-0</span>
+            <span class="day-dollars" id="day-today-dollars">$0</span>
+          </div>
+          <div class="day-stat">
+            <span class="day-label">Yest</span>
+            <span class="day-record" id="day-yest-record">0-0-0</span>
+            <span class="day-dollars" id="day-yest-dollars">$0</span>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <button type="button" class="btn btn-primary" id="btn-refresh">Refresh</button>
+          <label class="btn" for="file-import">Import</label>
+          <input id="file-import" type="file" accept="application/json,.json" hidden />
+          <button type="button" class="btn" id="btn-export">Export</button>
+          <span class="meta" id="updated-at">No data yet</span>
+        </div>
+      </header>
+
+      <section class="grid-cards" id="summary-cards" aria-label="Bucket ROI"></section>
+
+      <div class="main-split">
+        <section class="panel panel-chart">
+          <div class="toolbar">
+            <h2 id="chart-title">ATS ROI equity</h2>
+            <select id="chart-bucket" aria-label="Chart bucket">
+              <option value="all">All picks</option>
+              <option value="fav">Favs</option>
+              <option value="dog">Dogs</option>
+              <option value="fav_favorable">Favorable favs</option>
+              <option value="dog_favorable">Favorable dogs</option>
+              <option value="fav_not_favorable">Not-favorable favs</option>
+              <option value="dog_not_favorable">Not-favorable dogs</option>
+            </select>
+          </div>
+          <div class="chart-box"><canvas id="equity-chart"></canvas></div>
+        </section>
+
+        <section class="panel panel-picks">
+          <div class="toolbar">
+            <h2 id="picks-title">ATS picks</h2>
+            <span class="filter-stats" id="filter-stats" title="Record for selected bucket (W-P-L) · $ P/L @ $100/u"></span>
+            <select id="filter-bucket">
+              <option value="">All buckets</option>
+              <option value="fav_favorable">Favorable favs</option>
+              <option value="dog_favorable">Favorable dogs</option>
+              <option value="fav_not_favorable">Not-favorable favs</option>
+              <option value="dog_not_favorable">Not-favorable dogs</option>
+              <option value="fav">All favs</option>
+              <option value="dog">All dogs</option>
+            </select>
+            <select id="filter-result">
+              <option value="">All results</option>
+              <option value="open">Open</option>
+              <option value="W">Wins</option>
+              <option value="L">Losses</option>
+              <option value="P">Pushes</option>
+            </select>
+            <div class="liq-venue-tabs" id="liq-venue-tabs" role="tablist" aria-label="Liquidity venue">
+              <button type="button" class="liq-venue-tab is-active" data-venue="both">Both</button>
+              <button type="button" class="liq-venue-tab" data-venue="4c">4C</button>
+              <button type="button" class="liq-venue-tab" data-venue="novig">NV</button>
+            </div>
+            <input id="filter-q" type="search" placeholder="Filter…" />
+          </div>
+          <div class="table-wrap">
+            <table class="picks-table liq-venue-both">
+              <thead>
+                <tr>
+                  <th class="col-start th-sort is-sorted is-asc" data-sort="start" title="Sort by start time" aria-sort="ascending">Start</th>
+                  <th class="col-matchup">Matchup</th>
+                  <th class="col-pick">Pick</th>
+                  <th class="col-line">Line</th>
+                  <th class="col-liq col-4c th-sort" data-sort="rank" title="4casters OI rank + main-line top 3" aria-sort="none">4C</th>
+                  <th class="col-liq col-nv th-sort" data-sort="novigRank" title="Novig OI rank + main-line top 3" aria-sort="none">NV</th>
+                  <th class="col-result">Result</th>
+                </tr>
+              </thead>
+              <tbody id="picks-body"></tbody>
+            </table>
+          </div>
+          <div class="empty" id="picks-empty" hidden>
+            No ATS picks yet — configure the OddsLogic userscript sync, then refresh.
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
