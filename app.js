@@ -303,6 +303,79 @@
       ` · NV fade big money ${an.record} ${fmtDollars(an.profit)} (${an.open} open)`;
   }
 
+  /** Prefer frozen stamp; else live combined+favorable check. */
+  function isGoodSignalPick(pick, kind) {
+    const snap = pick && pick.liqSnap;
+    if (snap && typeof snap === 'object') {
+      if (kind === 'good_fav' && snap.goodFav === true) return true;
+      if (kind === 'good_dog' && snap.goodDog === true) return true;
+      // Older stamps: derive from agrees + bucket
+      if (snap.liqAgreesTake === true) {
+        if (kind === 'good_fav' && bucketKeysFor(pick).includes('fav_favorable')) return true;
+        if (kind === 'good_dog' && bucketKeysFor(pick).includes('dog_favorable')) return true;
+      }
+      if (snap.frozen) return false;
+    }
+    if (kind === 'good_fav') {
+      return bucketKeysFor(pick).includes('fav_favorable') && combinedHeavyOnOtherSide(pick);
+    }
+    if (kind === 'good_dog') {
+      return bucketKeysFor(pick).includes('dog_favorable') && combinedHeavyOnOtherSide(pick);
+    }
+    return false;
+  }
+
+  function summarizeSignalPicks(kind) {
+    const a = emptyAgg();
+    picksForMarket(activeMarket).forEach((pick) => {
+      if (!isGoodSignalPick(pick, kind)) return;
+      const result = String(pick.result || '').toUpperCase();
+      const profit = Number(pick.profit);
+      a.n++;
+      if (result === 'W') {
+        a.w++;
+        a.graded++;
+        a.profit += Number.isFinite(profit) ? profit : 0;
+      } else if (result === 'L') {
+        a.l++;
+        a.graded++;
+        a.profit += Number.isFinite(profit) ? profit : -1;
+      } else if (result === 'P') {
+        a.p++;
+        a.graded++;
+      } else {
+        a.open = (a.open || 0) + 1;
+      }
+    });
+    a.open = a.open || 0;
+    return a;
+  }
+
+  function renderGoodSignalStats() {
+    const root = $('#good-signal-stats');
+    if (!root) return;
+    const paint = (prefix, kind) => {
+      const agg = summarizeSignalPicks(kind);
+      const rec = document.querySelector(`#${prefix}-record`);
+      const dol = document.querySelector(`#${prefix}-dollars`);
+      const openEl = document.querySelector(`#${prefix}-open`);
+      if (rec) rec.textContent = fmtRecord(agg);
+      if (dol) {
+        dol.textContent = agg.graded ? fmtDollars(agg.profit) : '$0';
+        dol.className = 'day-dollars' + (dollarClass(agg.profit) ? ' ' + dollarClass(agg.profit) : '');
+      }
+      if (openEl) openEl.textContent = `${agg.open || 0} open`;
+    };
+    paint('good-fav', 'good_fav');
+    paint('good-dog', 'good_dog');
+    const gf = summarizeSignalPicks('good_fav');
+    const gd = summarizeSignalPicks('good_dog');
+    root.title =
+      `Good fav / dog · favorable + combined heavy on other side` +
+      ` · fav ${fmtRecord(gf)} ${fmtDollars(gf.profit)} (${gf.open} open)` +
+      ` · dog ${fmtRecord(gd)} ${fmtDollars(gd.profit)} (${gd.open} open)`;
+  }
+
   /**
    * Dogs where public take + book both lean dog (liqSnap.liqAgreesTake),
    * split by median combined top-3 $ into hi vs lo liquidity.
@@ -619,15 +692,8 @@
 
   function matchesSignalFilter(pick) {
     if (!signalFilter) return true;
-    if (signalFilter === 'good_fav') {
-      // Fav favorable + combined ratio on dog (heavy $ on dog)
-      if (!bucketKeysFor(pick).includes('fav_favorable')) return false;
-      return combinedHeavyOnOtherSide(pick);
-    }
-    if (signalFilter === 'good_dog') {
-      // Dog favorable + combined ratio on fav (heavy $ on fav)
-      if (!bucketKeysFor(pick).includes('dog_favorable')) return false;
-      return combinedHeavyOnOtherSide(pick);
+    if (signalFilter === 'good_fav' || signalFilter === 'good_dog') {
+      return isGoodSignalPick(pick, signalFilter);
     }
     return true;
   }
@@ -1326,6 +1392,7 @@
     renderMarketTabs();
     renderDayStats();
     renderTrustStats();
+    renderGoodSignalStats();
     renderDogLiqStats();
     renderCards(aggs);
     renderChart();

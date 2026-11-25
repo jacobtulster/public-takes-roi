@@ -178,7 +178,15 @@ def snapshot_for(pick: dict[str, Any], games4: list[Any], gamesN: list[Any]) -> 
     heavy = "away" if away > home else "home" if home > away else None
     take_side = str(pick.get("takeSide") or "").lower()
     agrees = bool(heavy and take_side in ("away", "home") and heavy != take_side)
-    # For a DOG take, agrees means book heavy is on the fav (liq also "suggests" dog)
+    role = str(pick.get("takeRole") or "").upper()
+    oc = str(pick.get("ocLean") or "").lower()
+    bucket = str(pick.get("bucket") or "")
+    favorable = oc == "favorable" or (
+        "favorable" in bucket and "not_favorable" not in bucket
+    )
+    # Good fav: fav favorable + combined heavy on dog. Good dog: dog favorable + heavy on fav.
+    good_fav = bool(agrees and favorable and role == "FAV")
+    good_dog = bool(agrees and favorable and role == "DOG")
     return {
         "combinedTop3": round(total, 2),
         "combinedAwayTop3": round(away, 2),
@@ -187,6 +195,8 @@ def snapshot_for(pick: dict[str, Any], games4: list[Any], gamesN: list[Any]) -> 
         "combinedHeavySide": heavy,
         "combinedOi": round(s4["oi"] + sN["oi"], 2),
         "liqAgreesTake": agrees,
+        "goodFav": good_fav,
+        "goodDog": good_dog,
         "fourcastersTop3": round(s4["away"] + s4["home"], 2),
         "novigTop3": round(sN["away"] + sN["home"], 2),
         "snappedAt": _now_iso(),
@@ -227,9 +237,31 @@ def main() -> int:
         tipped = bool(start and start <= now)
 
         if existing and existing.get("frozen"):
+            # Backfill goodFav/goodDog on older frozen stamps
+            if "goodFav" not in existing or "goodDog" not in existing:
+                role = str(pick.get("takeRole") or "").upper()
+                oc = str(pick.get("ocLean") or "").lower()
+                bucket = str(pick.get("bucket") or "")
+                favorable = oc == "favorable" or (
+                    "favorable" in bucket and "not_favorable" not in bucket
+                )
+                agrees = bool(existing.get("liqAgreesTake"))
+                existing["goodFav"] = bool(agrees and favorable and role == "FAV")
+                existing["goodDog"] = bool(agrees and favorable and role == "DOG")
+                pick["liqSnap"] = existing
+                updated += 1
             continue
         if tipped and existing:
             existing["frozen"] = True
+            role = str(pick.get("takeRole") or "").upper()
+            oc = str(pick.get("ocLean") or "").lower()
+            bucket = str(pick.get("bucket") or "")
+            favorable = oc == "favorable" or (
+                "favorable" in bucket and "not_favorable" not in bucket
+            )
+            agrees = bool(existing.get("liqAgreesTake"))
+            existing["goodFav"] = bool(agrees and favorable and role == "FAV")
+            existing["goodDog"] = bool(agrees and favorable and role == "DOG")
             pick["liqSnap"] = existing
             frozen += 1
             updated += 1
