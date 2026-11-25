@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:23:52.635Z",
+  "updatedAt": "2026-11-25T00:24:12.621Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6977,10 +6977,10 @@
       "market": "spread",
       "line": -1.5,
       "price": 217,
-      "tixFav": 17,
+      "tixFav": 18,
       "monFav": 21,
-      "reason": "Tix 17% + $ 21% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:18:01.460Z"
+      "reason": "Tix 18% + $ 21% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:24:09.464Z"
     },
     {
       "pickKey": "m|25|vegas_at_edmonton|FAV|away|ml",
@@ -7001,10 +7001,10 @@
       "market": "ml",
       "line": -114,
       "price": -114,
-      "tixFav": 17,
+      "tixFav": 18,
       "monFav": 21,
-      "reason": "Tix 17% + $ 21% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:18:01.460Z"
+      "reason": "Tix 18% + $ 21% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:24:09.464Z"
     },
     {
       "pickKey": "m|651|central_michigan_at_notre_dame|DOG|away|spread",
