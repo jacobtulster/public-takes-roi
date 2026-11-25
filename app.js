@@ -951,29 +951,14 @@
       .join('');
   }
 
-  /** W-P-L + $ for the visible filtered set (bucket / signal / result). */
+  /** W-P-L + $ for the bucket select only (not Good fav/dog — those have their own chips). */
   function renderFilterStats() {
     const el = $('#filter-stats');
     if (!el) return;
-    const rows = picksForMarket(activeMarket).filter(matchesFilter);
-    const a = emptyAgg();
-    rows.forEach((pick) => {
-      const result = String(pick.result || '').toUpperCase();
-      const profit = Number(pick.profit);
-      a.n++;
-      if (result === 'W') {
-        a.w++;
-        a.graded++;
-        a.profit += Number.isFinite(profit) ? profit : 0;
-      } else if (result === 'L') {
-        a.l++;
-        a.graded++;
-        a.profit += Number.isFinite(profit) ? profit : -1;
-      } else if (result === 'P') {
-        a.p++;
-        a.graded++;
-      }
-    });
+    const bucket = ($('#filter-bucket') && $('#filter-bucket').value) || '';
+    const key = bucket || 'all';
+    const aggs = summarize(picksForMarket(activeMarket));
+    const a = aggs[key] || emptyAgg();
     const cls = dollarClass(a.profit);
     el.hidden = false;
     el.innerHTML =
@@ -1881,7 +1866,6 @@
       const v = btn.getAttribute('data-signal') || '';
       signalFilter = v;
       syncSignalFilterTabs();
-      renderFilterStats();
       renderTable();
     });
   });
