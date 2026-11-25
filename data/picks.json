@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:00:14.758Z",
+  "updatedAt": "2026-11-25T00:01:26.653Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7796,6 +7796,52 @@
       "monFav": 25,
       "reason": "Tix 39% + $ 25% on fav (<50)",
       "leanUpdatedAt": "2026-11-24T23:55:11.464Z"
+    },
+    {
+      "pickKey": "m|633|samford_at_georgia_tech|DOG|away|spread",
+      "matchupId": "633|samford_at_georgia_tech|DOG|away|spread",
+      "loggedAt": "2026-11-25T00:01:23.463Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Samford",
+      "home": "Georgia Tech",
+      "kick": "19:00",
+      "startAt": "2026-11-25T00:00:00.000Z",
+      "gameNumber": 633,
+      "takeRole": "DOG",
+      "takeTeam": "Samford",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 10,
+      "price": -109,
+      "tixFav": 71,
+      "monFav": 97,
+      "reason": "Tix 71% + $ 97% on fav"
+    },
+    {
+      "pickKey": "m|633|samford_at_georgia_tech|DOG|away|ml",
+      "matchupId": "633|samford_at_georgia_tech|DOG|away|ml",
+      "loggedAt": "2026-11-25T00:01:23.463Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
+      "away": "Samford",
+      "home": "Georgia Tech",
+      "kick": "19:00",
+      "startAt": "2026-11-25T00:00:00.000Z",
+      "gameNumber": 633,
+      "takeRole": "DOG",
+      "takeTeam": "Samford",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 423,
+      "price": 423,
+      "tixFav": 71,
+      "monFav": 97,
+      "reason": "Tix 71% + $ 97% on fav"
     }
   ]
 }
