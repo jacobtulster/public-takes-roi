@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:39:03.090243Z",
+  "updatedAt": "2026-11-25T08:40:06.503205Z",
   "asOfEtDate": "2026-11-25",
   "source": "4casters",
   "games": [
@@ -12,7 +12,7 @@
       "away": "Green Bay Packers",
       "home": "Los Angeles Rams",
       "eventName": "GREEN BAY PACKERS VS LOS ANGELES RAMS",
-      "openInterest": 1127729.58,
+      "openInterest": 1127646.85,
       "matchedVolume": 537714.22,
       "moneyline": {
         "awayTotal": 66966.89,
@@ -53,7 +53,7 @@
         }
       },
       "spread": {
-        "awayTotal": 77721.62,
+        "awayTotal": 75465.43,
         "homeTotal": 78912.06,
         "awayTop3": [
           {
@@ -84,9 +84,9 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.4962,
-          "homeShare": 0.5038,
-          "ratio": 1.02,
+          "awayShare": 0.4888,
+          "homeShare": 0.5112,
+          "ratio": 1.05,
           "heavy": null
         },
         "awayLine": 2.5,
@@ -94,7 +94,7 @@
       },
       "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 1.02,
+      "heavyRatio": 1.05,
       "rank": 1
     },
     {
@@ -106,7 +106,7 @@
       "away": "Minnesota Timberwolves",
       "home": "Oklahoma City Thunder",
       "eventName": "MINNESOTA TIMBERWOLVES VS OKLAHOMA CITY THUNDER",
-      "openInterest": 235159.49,
+      "openInterest": 235124.25,
       "matchedVolume": 32513.97,
       "moneyline": {
         "awayTotal": 5406.38,
@@ -147,9 +147,13 @@
         }
       },
       "spread": {
-        "awayTotal": 5730.61,
-        "homeTotal": 5567.56,
+        "awayTotal": 6194.16,
+        "homeTotal": 6030.93,
         "awayTop3": [
+          {
+            "odds": 101,
+            "size": 463.54
+          },
           {
             "odds": -103,
             "size": 476.89
@@ -157,10 +161,6 @@
           {
             "odds": -104,
             "size": 973.44
-          },
-          {
-            "odds": -106,
-            "size": 2255.73
           }
         ],
         "homeTop3": [
@@ -178,8 +178,8 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.5072,
-          "homeShare": 0.4928,
+          "awayShare": 0.5067,
+          "homeShare": 0.4933,
           "ratio": 1.03,
           "heavy": null
         },
@@ -200,10 +200,10 @@
       "away": "Los Angeles Clippers",
       "home": "Memphis Grizzlies",
       "eventName": "LOS ANGELES CLIPPERS VS MEMPHIS GRIZZLIES",
-      "openInterest": 221900.98,
+      "openInterest": 221974.0,
       "matchedVolume": 20053.91,
       "moneyline": {
-        "awayTotal": 3426.74,
+        "awayTotal": 3617.54,
         "homeTotal": 11508.36,
         "awayTop3": [
           {
@@ -216,7 +216,7 @@
           },
           {
             "odds": 210,
-            "size": 596.16
+            "size": 786.96
           }
         ],
         "homeTop3": [
@@ -234,9 +234,9 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.2294,
-          "homeShare": 0.7706,
-          "ratio": 3.36,
+          "awayShare": 0.2392,
+          "homeShare": 0.7608,
+          "ratio": 3.18,
           "heavy": "home"
         }
       },
@@ -388,7 +388,7 @@
       "away": "Brooklyn Nets",
       "home": "Milwaukee Bucks",
       "eventName": "BROOKLYN NETS VS MILWAUKEE BUCKS",
-      "openInterest": 202168.85,
+      "openInterest": 202144.85,
       "matchedVolume": 70917.65,
       "moneyline": {
         "awayTotal": 7167.61,
@@ -482,10 +482,10 @@
       "away": "Phoenix Suns",
       "home": "Houston Rockets",
       "eventName": "PHOENIX SUNS VS HOUSTON ROCKETS",
-      "openInterest": 201765.92,
+      "openInterest": 201967.44,
       "matchedVolume": 2773.11,
       "moneyline": {
-        "awayTotal": 2448.27,
+        "awayTotal": 2459.02,
         "homeTotal": 8347.34,
         "awayTop3": [
           {
@@ -516,14 +516,14 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.2268,
-          "homeShare": 0.7732,
-          "ratio": 3.41,
+          "awayShare": 0.2276,
+          "homeShare": 0.7724,
+          "ratio": 3.39,
           "heavy": "home"
         }
       },
       "spread": {
-        "awayTotal": 8359.03,
+        "awayTotal": 8348.74,
         "homeTotal": 6732.9,
         "awayTop3": [
           {
@@ -554,8 +554,8 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.5539,
-          "homeShare": 0.4461,
+          "awayShare": 0.5536,
+          "homeShare": 0.4464,
           "ratio": 1.24,
           "heavy": null
         },
@@ -576,53 +576,53 @@
       "away": "Chicago Bulls",
       "home": "Charlotte Hornets",
       "eventName": "CHICAGO BULLS VS CHARLOTTE HORNETS",
-      "openInterest": 196322.74,
+      "openInterest": 196349.09,
       "matchedVolume": 29040.53,
       "moneyline": {
-        "awayTotal": 4111.76,
-        "homeTotal": 5115.88,
+        "awayTotal": 4445.61,
+        "homeTotal": 4858.0,
         "awayTop3": [
           {
-            "odds": 135,
-            "size": 669.45
+            "odds": 139,
+            "size": 307.91
           },
           {
-            "odds": 134,
-            "size": 969.46
+            "odds": 138,
+            "size": 763.77
           },
           {
-            "odds": 132.5,
-            "size": 795.47
+            "odds": 137,
+            "size": 190.38
           }
         ],
         "homeTop3": [
           {
-            "odds": -142,
-            "size": 799.46
-          },
-          {
             "odds": -144,
-            "size": 2294.46
+            "size": 1076.22
           },
           {
-            "odds": -145,
-            "size": 789.95
+            "odds": -147,
+            "size": 1156.89
+          },
+          {
+            "odds": -148,
+            "size": 255.83
           }
         ],
         "imbalance": {
-          "awayShare": 0.4456,
-          "homeShare": 0.5544,
-          "ratio": 1.24,
+          "awayShare": 0.4778,
+          "homeShare": 0.5222,
+          "ratio": 1.09,
           "heavy": null
         }
       },
       "spread": {
-        "awayTotal": 6418.34,
-        "homeTotal": 7151.28,
+        "awayTotal": 6792.48,
+        "homeTotal": 5957.89,
         "awayTop3": [
           {
-            "odds": 104.5,
-            "size": 247.85
+            "odds": 105,
+            "size": 479.05
           },
           {
             "odds": 104,
@@ -635,22 +635,22 @@
         ],
         "homeTop3": [
           {
-            "odds": -110,
-            "size": 236.5
-          },
-          {
-            "odds": -110.5,
-            "size": 1154.72
+            "odds": -112,
+            "size": 474.88
           },
           {
             "odds": -113,
             "size": 1322.05
+          },
+          {
+            "odds": -117,
+            "size": 1431.02
           }
         ],
         "imbalance": {
-          "awayShare": 0.473,
-          "homeShare": 0.527,
-          "ratio": 1.11,
+          "awayShare": 0.5327,
+          "homeShare": 0.4673,
+          "ratio": 1.14,
           "heavy": null
         },
         "awayLine": 2.5,
@@ -658,7 +658,7 @@
       },
       "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 1.11,
+      "heavyRatio": 1.14,
       "rank": 7
     },
     {
@@ -670,7 +670,7 @@
       "away": "Cleveland Cavaliers",
       "home": "New York Knicks",
       "eventName": "CLEVELAND CAVALIERS VS NEW YORK KNICKS",
-      "openInterest": 189212.58,
+      "openInterest": 189369.58,
       "matchedVolume": 7359.45,
       "moneyline": {
         "awayTotal": 2217.61,
@@ -944,6 +944,92 @@
       "rank": 10
     },
     {
+      "id": "6b059acdd24988529e9552ce",
+      "league": "NHL",
+      "sport": "hockey",
+      "start": "2026-11-26T03:07:00.000Z",
+      "live": false,
+      "away": "San Jose Sharks",
+      "home": "Anaheim Ducks",
+      "eventName": "SAN JOSE SHARKS VS ANAHEIM DUCKS",
+      "openInterest": 46606.48,
+      "matchedVolume": 3587.27,
+      "moneyline": {
+        "awayTotal": 3059.15,
+        "homeTotal": 3908.65,
+        "awayTop3": [
+          {
+            "odds": 135.5,
+            "size": 651.66
+          },
+          {
+            "odds": 134,
+            "size": 732.63
+          },
+          {
+            "odds": 132.5,
+            "size": 576.6
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -143,
+            "size": 274.56
+          },
+          {
+            "odds": -144,
+            "size": 810.72
+          },
+          {
+            "odds": -146,
+            "size": 49.64
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.439,
+          "homeShare": 0.561,
+          "ratio": 1.28,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 797.31,
+        "homeTotal": 1422.76,
+        "awayTop3": [
+          {
+            "odds": -119.5,
+            "size": 164.91
+          },
+          {
+            "odds": -120,
+            "size": 632.4
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": 113,
+            "size": 793.81
+          },
+          {
+            "odds": 110.5,
+            "size": 628.96
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.3591,
+          "homeShare": 0.6409,
+          "ratio": 1.78,
+          "heavy": null
+        },
+        "awayLine": 1.0,
+        "homeLine": -1.0
+      },
+      "heavySide": null,
+      "heavyMarket": "spread",
+      "heavyRatio": 1.78,
+      "rank": 11
+    },
+    {
       "id": "6b059040d24988529e9552a2",
       "league": "NHL",
       "sport": "hockey",
@@ -952,7 +1038,7 @@
       "away": "Utah Mammoth",
       "home": "Minnesota Wild",
       "eventName": "UTAH MAMMOTH VS MINNESOTA WILD",
-      "openInterest": 46470.83,
+      "openInterest": 46237.38,
       "matchedVolume": 68.33,
       "moneyline": {
         "awayTotal": 3149.44,
@@ -1031,92 +1117,6 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.15,
-      "rank": 11
-    },
-    {
-      "id": "6b059acdd24988529e9552ce",
-      "league": "NHL",
-      "sport": "hockey",
-      "start": "2026-11-26T03:07:00.000Z",
-      "live": false,
-      "away": "San Jose Sharks",
-      "home": "Anaheim Ducks",
-      "eventName": "SAN JOSE SHARKS VS ANAHEIM DUCKS",
-      "openInterest": 46369.08,
-      "matchedVolume": 3587.27,
-      "moneyline": {
-        "awayTotal": 3059.15,
-        "homeTotal": 3908.65,
-        "awayTop3": [
-          {
-            "odds": 135.5,
-            "size": 651.66
-          },
-          {
-            "odds": 134,
-            "size": 732.63
-          },
-          {
-            "odds": 132.5,
-            "size": 576.6
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -143,
-            "size": 274.56
-          },
-          {
-            "odds": -144,
-            "size": 810.72
-          },
-          {
-            "odds": -146,
-            "size": 49.64
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.439,
-          "homeShare": 0.561,
-          "ratio": 1.28,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 797.31,
-        "homeTotal": 1422.76,
-        "awayTop3": [
-          {
-            "odds": -119.5,
-            "size": 164.91
-          },
-          {
-            "odds": -120,
-            "size": 632.4
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 113,
-            "size": 793.81
-          },
-          {
-            "odds": 110.5,
-            "size": 628.96
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.3591,
-          "homeShare": 0.6409,
-          "ratio": 1.78,
-          "heavy": null
-        },
-        "awayLine": 1.0,
-        "homeLine": -1.0
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.78,
       "rank": 12
     },
     {
@@ -1128,7 +1128,7 @@
       "away": "Vancouver Canucks",
       "home": "Detroit Red Wings",
       "eventName": "VANCOUVER CANUCKS VS DETROIT RED WINGS",
-      "openInterest": 45719.26,
+      "openInterest": 44620.54,
       "matchedVolume": 4028.47,
       "moneyline": {
         "awayTotal": 3316.4,
@@ -1222,7 +1222,7 @@
       "away": "St. Bonaventure",
       "home": "Belmont",
       "eventName": "ST. BONAVENTURE VS BELMONT",
-      "openInterest": 45362.32,
+      "openInterest": 44034.27,
       "matchedVolume": 3104.48,
       "moneyline": {
         "awayTotal": 3162.46,
@@ -1308,96 +1308,6 @@
       "rank": 14
     },
     {
-      "id": "6b058f17d24988529e95528c",
-      "league": "NHL",
-      "sport": "hockey",
-      "start": "2026-11-26T00:07:00.000Z",
-      "live": false,
-      "away": "New Jersey Devils",
-      "home": "Columbus Blue Jackets",
-      "eventName": "NEW JERSEY DEVILS VS COLUMBUS BLUE JACKETS",
-      "openInterest": 44861.78,
-      "matchedVolume": 0.0,
-      "moneyline": {
-        "awayTotal": 3801.87,
-        "homeTotal": 2995.87,
-        "awayTop3": [
-          {
-            "odds": -148,
-            "size": 1007.61
-          },
-          {
-            "odds": -154.5,
-            "size": 465.05
-          },
-          {
-            "odds": -156.5,
-            "size": 701.12
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 145,
-            "size": 166.9
-          },
-          {
-            "odds": 144,
-            "size": 524.31
-          },
-          {
-            "odds": 142,
-            "size": 425.98
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5593,
-          "homeShare": 0.4407,
-          "ratio": 1.27,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 1635.56,
-        "homeTotal": 2499.35,
-        "awayTop3": [
-          {
-            "odds": 108.5,
-            "size": 892.17
-          },
-          {
-            "odds": 106,
-            "size": 743.4
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -113.5,
-            "size": 539.12
-          },
-          {
-            "odds": -115,
-            "size": 1012.0
-          },
-          {
-            "odds": -117.5,
-            "size": 948.23
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.3955,
-          "homeShare": 0.6045,
-          "ratio": 1.53,
-          "heavy": null
-        },
-        "awayLine": -1.0,
-        "homeLine": 1.0
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.53,
-      "rank": 15
-    },
-    {
       "id": "6b058f17d24988529e955290",
       "league": "NHL",
       "sport": "hockey",
@@ -1406,7 +1316,7 @@
       "away": "Calgary Flames",
       "home": "Pittsburgh Penguins",
       "eventName": "CALGARY FLAMES VS PITTSBURGH PENGUINS",
-      "openInterest": 44391.59,
+      "openInterest": 43859.21,
       "matchedVolume": 207.31,
       "moneyline": {
         "awayTotal": 2580.48,
@@ -1481,7 +1391,7 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.21,
-      "rank": 16
+      "rank": 15
     },
     {
       "id": "6b058f17d24988529e955296",
@@ -1492,7 +1402,7 @@
       "away": "Philadelphia Flyers",
       "home": "Washington Capitals",
       "eventName": "PHILADELPHIA FLYERS VS WASHINGTON CAPITALS",
-      "openInterest": 43775.89,
+      "openInterest": 43851.09,
       "matchedVolume": 121.02,
       "moneyline": {
         "awayTotal": 2569.26,
@@ -1571,92 +1481,268 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.03,
-      "rank": 17
+      "rank": 16
     },
     {
-      "id": "6b058f17d24988529e955298",
+      "id": "6b058f17d24988529e95528c",
       "league": "NHL",
       "sport": "hockey",
       "start": "2026-11-26T00:07:00.000Z",
       "live": false,
-      "away": "Ottawa Senators",
-      "home": "Florida Panthers",
-      "eventName": "OTTAWA SENATORS VS FLORIDA PANTHERS",
-      "openInterest": 42060.46,
-      "matchedVolume": 1697.03,
+      "away": "New Jersey Devils",
+      "home": "Columbus Blue Jackets",
+      "eventName": "NEW JERSEY DEVILS VS COLUMBUS BLUE JACKETS",
+      "openInterest": 43532.21,
+      "matchedVolume": 0.0,
       "moneyline": {
-        "awayTotal": 3124.2,
-        "homeTotal": 4605.05,
+        "awayTotal": 3801.87,
+        "homeTotal": 2995.87,
         "awayTop3": [
           {
-            "odds": 119,
-            "size": 376.47
+            "odds": -148,
+            "size": 1007.61
           },
           {
-            "odds": 118,
-            "size": 750.31
+            "odds": -154.5,
+            "size": 465.05
           },
           {
-            "odds": 117.5,
-            "size": 623.83
+            "odds": -156.5,
+            "size": 701.12
           }
         ],
         "homeTop3": [
           {
-            "odds": -125.5,
-            "size": 223.64
+            "odds": 145,
+            "size": 166.9
           },
           {
-            "odds": -126,
-            "size": 2261.6
+            "odds": 144,
+            "size": 524.31
           },
           {
-            "odds": -127.5,
-            "size": 688.5
+            "odds": 142,
+            "size": 425.98
           }
         ],
         "imbalance": {
-          "awayShare": 0.4042,
-          "homeShare": 0.5958,
-          "ratio": 1.47,
+          "awayShare": 0.5593,
+          "homeShare": 0.4407,
+          "ratio": 1.27,
           "heavy": null
         }
       },
       "spread": {
-        "awayTotal": 1738.73,
-        "homeTotal": 1159.49,
+        "awayTotal": 1635.56,
+        "homeTotal": 2499.35,
         "awayTop3": [
           {
-            "odds": -146.5,
-            "size": 133.31
+            "odds": 108.5,
+            "size": 892.17
           },
           {
-            "odds": -147,
-            "size": 787.92
-          },
-          {
-            "odds": -150,
-            "size": 817.5
+            "odds": 106,
+            "size": 743.4
           }
         ],
         "homeTop3": [
           {
-            "odds": 138.5,
-            "size": 103.25
+            "odds": -113.5,
+            "size": 539.12
           },
           {
-            "odds": 138,
-            "size": 471.74
+            "odds": -115,
+            "size": 1012.0
           },
           {
-            "odds": 135.5,
-            "size": 584.5
+            "odds": -117.5,
+            "size": 948.23
           }
         ],
         "imbalance": {
-          "awayShare": 0.5999,
-          "homeShare": 0.4001,
-          "ratio": 1.5,
+          "awayShare": 0.3955,
+          "homeShare": 0.6045,
+          "ratio": 1.53,
+          "heavy": null
+        },
+        "awayLine": -1.0,
+        "homeLine": 1.0
+      },
+      "heavySide": null,
+      "heavyMarket": "spread",
+      "heavyRatio": 1.53,
+      "rank": 17
+    },
+    {
+      "id": "6b05f3936f3255104bb2535f",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-26T00:00:00.000Z",
+      "live": false,
+      "away": "St. Thomas",
+      "home": "NC Wilmington",
+      "eventName": "ST. THOMAS VS NC WILMINGTON",
+      "openInterest": 41298.55,
+      "matchedVolume": 1650.91,
+      "moneyline": {
+        "awayTotal": 1711.56,
+        "homeTotal": 2259.01,
+        "awayTop3": [
+          {
+            "odds": 231,
+            "size": 703.24
+          },
+          {
+            "odds": 224,
+            "size": 32.14
+          },
+          {
+            "odds": 223,
+            "size": 799.23
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -243,
+            "size": 121.5
+          },
+          {
+            "odds": -245,
+            "size": 382.2
+          },
+          {
+            "odds": -247,
+            "size": 1388.85
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.4311,
+          "homeShare": 0.5689,
+          "ratio": 1.32,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 1063.61,
+        "homeTotal": 824.75,
+        "awayTop3": [
+          {
+            "odds": 101.5,
+            "size": 744.61
+          },
+          {
+            "odds": 100,
+            "size": 319.0
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -107.5,
+            "size": 150.5
+          },
+          {
+            "odds": -108.5,
+            "size": 288.61
+          },
+          {
+            "odds": -110.5,
+            "size": 385.64
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.5632,
+          "homeShare": 0.4368,
+          "ratio": 1.29,
+          "heavy": null
+        },
+        "awayLine": 6.0,
+        "homeLine": -6.0
+      },
+      "heavySide": null,
+      "heavyMarket": "spread",
+      "heavyRatio": 1.29,
+      "rank": 18
+    },
+    {
+      "id": "6b058f17d24988529e955294",
+      "league": "NHL",
+      "sport": "hockey",
+      "start": "2026-11-26T00:07:00.000Z",
+      "live": false,
+      "away": "New York Rangers",
+      "home": "Buffalo Sabres",
+      "eventName": "NEW YORK RANGERS VS BUFFALO SABRES",
+      "openInterest": 40641.74,
+      "matchedVolume": 1288.4,
+      "moneyline": {
+        "awayTotal": 2481.73,
+        "homeTotal": 4062.23,
+        "awayTop3": [
+          {
+            "odds": 116,
+            "size": 256.03
+          },
+          {
+            "odds": 115,
+            "size": 522.61
+          },
+          {
+            "odds": 114,
+            "size": 422.47
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -121,
+            "size": 698.17
+          },
+          {
+            "odds": -123.5,
+            "size": 279.11
+          },
+          {
+            "odds": -124.5,
+            "size": 900.13
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.3792,
+          "homeShare": 0.6208,
+          "ratio": 1.64,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 1156.02,
+        "homeTotal": 1424.57,
+        "awayTop3": [
+          {
+            "odds": -145.5,
+            "size": 369.57
+          },
+          {
+            "odds": -147,
+            "size": 786.45
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": 136.5,
+            "size": 200.0
+          },
+          {
+            "odds": 135.5,
+            "size": 647.97
+          },
+          {
+            "odds": 132.5,
+            "size": 576.6
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.448,
+          "homeShare": 0.552,
+          "ratio": 1.23,
           "heavy": null
         },
         "awayLine": 1.0,
@@ -1664,8 +1750,98 @@
       },
       "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 1.5,
-      "rank": 18
+      "heavyRatio": 1.23,
+      "rank": 19
+    },
+    {
+      "id": "6b058f17d24988529e95528e",
+      "league": "NHL",
+      "sport": "hockey",
+      "start": "2026-11-26T00:07:00.000Z",
+      "live": false,
+      "away": "Carolina Hurricanes",
+      "home": "Tampa Bay Lightning",
+      "eventName": "CAROLINA HURRICANES VS TAMPA BAY LIGHTNING",
+      "openInterest": 40033.22,
+      "matchedVolume": 928.69,
+      "moneyline": {
+        "awayTotal": 3550.2,
+        "homeTotal": 2753.12,
+        "awayTop3": [
+          {
+            "odds": -121,
+            "size": 724.18
+          },
+          {
+            "odds": -125,
+            "size": 650.0
+          },
+          {
+            "odds": -127.5,
+            "size": 684.67
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": 117.5,
+            "size": 609.36
+          },
+          {
+            "odds": 115,
+            "size": 483.48
+          },
+          {
+            "odds": 114,
+            "size": 424.29
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.5632,
+          "homeShare": 0.4368,
+          "ratio": 1.29,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 1725.47,
+        "homeTotal": 1409.44,
+        "awayTop3": [
+          {
+            "odds": 137.5,
+            "size": 423.27
+          },
+          {
+            "odds": 135.5,
+            "size": 686.35
+          },
+          {
+            "odds": 132.5,
+            "size": 615.85
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -145,
+            "size": 553.9
+          },
+          {
+            "odds": -147,
+            "size": 855.54
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.5504,
+          "homeShare": 0.4496,
+          "ratio": 1.22,
+          "heavy": null
+        },
+        "awayLine": -1.0,
+        "homeLine": 1.0
+      },
+      "heavySide": null,
+      "heavyMarket": "spread",
+      "heavyRatio": 1.22,
+      "rank": 20
     },
     {
       "id": "6b058f17d24988529e955292",
@@ -1676,7 +1852,7 @@
       "away": "St. Louis Blues",
       "home": "New York Islanders",
       "eventName": "ST. LOUIS BLUES VS NEW YORK ISLANDERS",
-      "openInterest": 41797.88,
+      "openInterest": 40009.19,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 4588.06,
@@ -1717,49 +1893,37 @@
         }
       },
       "spread": {
-        "awayTotal": 635.02,
-        "homeTotal": 1299.77,
+        "awayTotal": 1535.16,
+        "homeTotal": 1128.41,
         "awayTop3": [
           {
-            "odds": 262,
-            "size": 188.44
-          },
-          {
-            "odds": 255,
-            "size": 222.23
-          },
-          {
-            "odds": 233,
-            "size": 224.35
+            "odds": -288,
+            "size": 1535.16
           }
         ],
         "homeTop3": [
           {
-            "odds": -304,
-            "size": 605.98
+            "odds": 187.5,
+            "size": 614.51
           },
           {
-            "odds": -335,
-            "size": 213.88
-          },
-          {
-            "odds": -382,
-            "size": 479.91
+            "odds": 187,
+            "size": 513.9
           }
         ],
         "imbalance": {
-          "awayShare": 0.3282,
-          "homeShare": 0.6718,
-          "ratio": 2.05,
-          "heavy": "home"
+          "awayShare": 0.5764,
+          "homeShare": 0.4236,
+          "ratio": 1.36,
+          "heavy": null
         },
-        "awayLine": -1.5,
-        "homeLine": 1.5
+        "awayLine": 1.5,
+        "homeLine": -1.5
       },
-      "heavySide": "home",
+      "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 2.05,
-      "rank": 19
+      "heavyRatio": 1.36,
+      "rank": 21
     },
     {
       "id": "6b058f17d24988529e95529a",
@@ -1770,7 +1934,7 @@
       "away": "Winnipeg Jets",
       "home": "Boston Bruins",
       "eventName": "WINNIPEG JETS VS BOSTON BRUINS",
-      "openInterest": 41325.35,
+      "openInterest": 39889.64,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 2673.25,
@@ -1853,277 +2017,7 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.09,
-      "rank": 20
-    },
-    {
-      "id": "6b058f17d24988529e95528e",
-      "league": "NHL",
-      "sport": "hockey",
-      "start": "2026-11-26T00:07:00.000Z",
-      "live": false,
-      "away": "Carolina Hurricanes",
-      "home": "Tampa Bay Lightning",
-      "eventName": "CAROLINA HURRICANES VS TAMPA BAY LIGHTNING",
-      "openInterest": 41225.25,
-      "matchedVolume": 928.69,
-      "moneyline": {
-        "awayTotal": 3550.2,
-        "homeTotal": 2753.12,
-        "awayTop3": [
-          {
-            "odds": -121,
-            "size": 724.18
-          },
-          {
-            "odds": -125,
-            "size": 650.0
-          },
-          {
-            "odds": -127.5,
-            "size": 684.67
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 117.5,
-            "size": 609.36
-          },
-          {
-            "odds": 115,
-            "size": 483.48
-          },
-          {
-            "odds": 114,
-            "size": 424.29
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5632,
-          "homeShare": 0.4368,
-          "ratio": 1.29,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 1725.47,
-        "homeTotal": 1409.44,
-        "awayTop3": [
-          {
-            "odds": 137.5,
-            "size": 423.27
-          },
-          {
-            "odds": 135.5,
-            "size": 686.35
-          },
-          {
-            "odds": 132.5,
-            "size": 615.85
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -145,
-            "size": 553.9
-          },
-          {
-            "odds": -147,
-            "size": 855.54
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5504,
-          "homeShare": 0.4496,
-          "ratio": 1.22,
-          "heavy": null
-        },
-        "awayLine": -1.0,
-        "homeLine": 1.0
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.22,
-      "rank": 21
-    },
-    {
-      "id": "6b058f17d24988529e955294",
-      "league": "NHL",
-      "sport": "hockey",
-      "start": "2026-11-26T00:07:00.000Z",
-      "live": false,
-      "away": "New York Rangers",
-      "home": "Buffalo Sabres",
-      "eventName": "NEW YORK RANGERS VS BUFFALO SABRES",
-      "openInterest": 40804.88,
-      "matchedVolume": 1288.4,
-      "moneyline": {
-        "awayTotal": 2481.73,
-        "homeTotal": 4062.23,
-        "awayTop3": [
-          {
-            "odds": 116,
-            "size": 256.03
-          },
-          {
-            "odds": 115,
-            "size": 522.61
-          },
-          {
-            "odds": 114,
-            "size": 422.47
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -121,
-            "size": 698.17
-          },
-          {
-            "odds": -123.5,
-            "size": 279.11
-          },
-          {
-            "odds": -124.5,
-            "size": 900.13
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.3792,
-          "homeShare": 0.6208,
-          "ratio": 1.64,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 1156.02,
-        "homeTotal": 1424.57,
-        "awayTop3": [
-          {
-            "odds": -145.5,
-            "size": 369.57
-          },
-          {
-            "odds": -147,
-            "size": 786.45
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 136.5,
-            "size": 200.0
-          },
-          {
-            "odds": 135.5,
-            "size": 647.97
-          },
-          {
-            "odds": 132.5,
-            "size": 576.6
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.448,
-          "homeShare": 0.552,
-          "ratio": 1.23,
-          "heavy": null
-        },
-        "awayLine": 1.0,
-        "homeLine": -1.0
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.23,
       "rank": 22
-    },
-    {
-      "id": "6b05f3936f3255104bb2535f",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-26T00:00:00.000Z",
-      "live": false,
-      "away": "St. Thomas",
-      "home": "NC Wilmington",
-      "eventName": "ST. THOMAS VS NC WILMINGTON",
-      "openInterest": 40698.34,
-      "matchedVolume": 1650.91,
-      "moneyline": {
-        "awayTotal": 1711.56,
-        "homeTotal": 2259.01,
-        "awayTop3": [
-          {
-            "odds": 231,
-            "size": 703.24
-          },
-          {
-            "odds": 224,
-            "size": 32.14
-          },
-          {
-            "odds": 223,
-            "size": 799.23
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -243,
-            "size": 121.5
-          },
-          {
-            "odds": -245,
-            "size": 382.2
-          },
-          {
-            "odds": -247,
-            "size": 1388.85
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.4311,
-          "homeShare": 0.5689,
-          "ratio": 1.32,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 1063.61,
-        "homeTotal": 824.75,
-        "awayTop3": [
-          {
-            "odds": 101.5,
-            "size": 744.61
-          },
-          {
-            "odds": 100,
-            "size": 319.0
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -107.5,
-            "size": 150.5
-          },
-          {
-            "odds": -108.5,
-            "size": 288.61
-          },
-          {
-            "odds": -110.5,
-            "size": 385.64
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5632,
-          "homeShare": 0.4368,
-          "ratio": 1.29,
-          "heavy": null
-        },
-        "awayLine": 6.0,
-        "homeLine": -6.0
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.29,
-      "rank": 23
     },
     {
       "id": "6b059040d24988529e9552a6",
@@ -2134,7 +2028,7 @@
       "away": "Chicago Blackhawks",
       "home": "Seattle Kraken",
       "eventName": "CHICAGO BLACKHAWKS VS SEATTLE KRAKEN",
-      "openInterest": 39417.54,
+      "openInterest": 39017.13,
       "matchedVolume": 859.68,
       "moneyline": {
         "awayTotal": 2742.31,
@@ -2213,7 +2107,7 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.11,
-      "rank": 24
+      "rank": 23
     },
     {
       "id": "6b059040d24988529e9552a4",
@@ -2224,7 +2118,7 @@
       "away": "Montreal Canadiens",
       "home": "Colorado Avalanche",
       "eventName": "MONTREAL CANADIENS VS COLORADO AVALANCHE",
-      "openInterest": 38835.87,
+      "openInterest": 37861.04,
       "matchedVolume": 133.01,
       "moneyline": {
         "awayTotal": 3445.21,
@@ -2299,97 +2193,101 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.13,
-      "rank": 25
+      "rank": 24
     },
     {
-      "id": "6b059040d24988529e9552a0",
+      "id": "6b058f17d24988529e955298",
       "league": "NHL",
       "sport": "hockey",
-      "start": "2026-11-26T01:07:00.000Z",
+      "start": "2026-11-26T00:07:00.000Z",
       "live": false,
-      "away": "Nashville Predators",
-      "home": "Dallas Stars",
-      "eventName": "NASHVILLE PREDATORS VS DALLAS STARS",
-      "openInterest": 38066.72,
-      "matchedVolume": 1657.28,
+      "away": "Ottawa Senators",
+      "home": "Florida Panthers",
+      "eventName": "OTTAWA SENATORS VS FLORIDA PANTHERS",
+      "openInterest": 37573.74,
+      "matchedVolume": 1697.03,
       "moneyline": {
-        "awayTotal": 2609.99,
-        "homeTotal": 4121.94,
+        "awayTotal": 3124.2,
+        "homeTotal": 4605.05,
         "awayTop3": [
           {
-            "odds": 159.5,
-            "size": 388.09
+            "odds": 119,
+            "size": 376.47
           },
           {
-            "odds": 156.5,
-            "size": 469.65
+            "odds": 118,
+            "size": 750.31
           },
           {
-            "odds": 155,
-            "size": 728.27
+            "odds": 117.5,
+            "size": 623.83
           }
         ],
         "homeTop3": [
           {
-            "odds": -170,
-            "size": 491.59
+            "odds": -125.5,
+            "size": 223.64
           },
           {
-            "odds": -170.5,
-            "size": 654.72
+            "odds": -126,
+            "size": 2261.6
           },
           {
-            "odds": -172,
-            "size": 584.8
+            "odds": -127.5,
+            "size": 688.5
           }
         ],
         "imbalance": {
-          "awayShare": 0.3877,
-          "homeShare": 0.6123,
-          "ratio": 1.58,
+          "awayShare": 0.4042,
+          "homeShare": 0.5958,
+          "ratio": 1.47,
           "heavy": null
         }
       },
       "spread": {
-        "awayTotal": 1412.23,
-        "homeTotal": 695.07,
+        "awayTotal": 1738.73,
+        "homeTotal": 1159.49,
         "awayTop3": [
           {
-            "odds": -103.5,
-            "size": 145.94
+            "odds": -146.5,
+            "size": 133.31
           },
           {
-            "odds": -104,
-            "size": 572.0
+            "odds": -147,
+            "size": 787.92
           },
           {
-            "odds": -106,
-            "size": 694.3
+            "odds": -150,
+            "size": 817.5
           }
         ],
         "homeTop3": [
           {
-            "odds": -103.5,
-            "size": 141.79
+            "odds": 138.5,
+            "size": 103.25
           },
           {
-            "odds": -104,
-            "size": 553.28
+            "odds": 138,
+            "size": 471.74
+          },
+          {
+            "odds": 135.5,
+            "size": 584.5
           }
         ],
         "imbalance": {
-          "awayShare": 0.6702,
-          "homeShare": 0.3298,
-          "ratio": 2.03,
-          "heavy": "away"
+          "awayShare": 0.5999,
+          "homeShare": 0.4001,
+          "ratio": 1.5,
+          "heavy": null
         },
         "awayLine": 1.0,
         "homeLine": -1.0
       },
-      "heavySide": "away",
+      "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 2.03,
-      "rank": 26
+      "heavyRatio": 1.5,
+      "rank": 25
     },
     {
       "id": "6b05f3936f3255104bb2535d",
@@ -2483,7 +2381,7 @@
       "heavySide": "away",
       "heavyMarket": "spread",
       "heavyRatio": 2.52,
-      "rank": 27
+      "rank": 26
     },
     {
       "id": "6b05f3936f3255104bb2536b",
@@ -2494,15 +2392,15 @@
       "away": "Memphis",
       "home": "Penn State",
       "eventName": "MEMPHIS VS PENN STATE",
-      "openInterest": 36132.5,
+      "openInterest": 35626.77,
       "matchedVolume": 46.37,
       "moneyline": {
-        "awayTotal": 1687.38,
+        "awayTotal": 1768.42,
         "homeTotal": 992.18,
         "awayTop3": [
           {
-            "odds": -168.5,
-            "size": 173.56
+            "odds": -167.5,
+            "size": 254.6
           },
           {
             "odds": -170.5,
@@ -2528,9 +2426,9 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.6297,
-          "homeShare": 0.3703,
-          "ratio": 1.7,
+          "awayShare": 0.6406,
+          "homeShare": 0.3594,
+          "ratio": 1.78,
           "heavy": null
         }
       },
@@ -2577,7 +2475,7 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.06,
-      "rank": 28
+      "rank": 27
     },
     {
       "id": "6b05f3936f3255104bb2534b",
@@ -2588,7 +2486,7 @@
       "away": "St. Peter's",
       "home": "Columbia",
       "eventName": "ST. PETER'S VS COLUMBIA",
-      "openInterest": 35059.66,
+      "openInterest": 34519.25,
       "matchedVolume": 3471.31,
       "moneyline": {
         "awayTotal": 398.21,
@@ -2671,96 +2569,190 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.65,
-      "rank": 29
+      "rank": 28
     },
     {
-      "id": "6b05f3936f3255104bb25361",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-26T00:00:00.000Z",
+      "id": "6b059040d24988529e9552a0",
+      "league": "NHL",
+      "sport": "hockey",
+      "start": "2026-11-26T01:07:00.000Z",
       "live": false,
-      "away": "Duke",
-      "home": "Connecticut",
-      "eventName": "DUKE VS CONNECTICUT",
-      "openInterest": 34460.0,
-      "matchedVolume": 141.19,
+      "away": "Nashville Predators",
+      "home": "Dallas Stars",
+      "eventName": "NASHVILLE PREDATORS VS DALLAS STARS",
+      "openInterest": 34136.47,
+      "matchedVolume": 1657.28,
       "moneyline": {
-        "awayTotal": 1303.14,
-        "homeTotal": 3313.94,
+        "awayTotal": 2609.99,
+        "homeTotal": 4121.94,
         "awayTop3": [
           {
-            "odds": 131,
-            "size": 812.56
+            "odds": 159.5,
+            "size": 388.09
           },
           {
-            "odds": 130,
-            "size": 220.0
+            "odds": 156.5,
+            "size": 469.65
           },
           {
-            "odds": 127.5,
-            "size": 270.59
+            "odds": 155,
+            "size": 728.27
           }
         ],
         "homeTop3": [
           {
-            "odds": -139.5,
-            "size": 1584.12
+            "odds": -170,
+            "size": 491.59
           },
           {
-            "odds": -140,
-            "size": 1134.59
+            "odds": -170.5,
+            "size": 654.72
           },
           {
-            "odds": -141,
-            "size": 314.43
+            "odds": -172,
+            "size": 584.8
           }
         ],
         "imbalance": {
-          "awayShare": 0.2822,
-          "homeShare": 0.7178,
-          "ratio": 2.54,
-          "heavy": "home"
+          "awayShare": 0.3877,
+          "homeShare": 0.6123,
+          "ratio": 1.58,
+          "heavy": null
         }
       },
       "spread": {
-        "awayTotal": 743.88,
-        "homeTotal": 666.19,
+        "awayTotal": 1412.23,
+        "homeTotal": 695.07,
         "awayTop3": [
           {
-            "odds": 123.5,
-            "size": 185.43
+            "odds": -103.5,
+            "size": 145.94
           },
           {
-            "odds": 122,
-            "size": 242.62
+            "odds": -104,
+            "size": 572.0
           },
           {
-            "odds": 120,
-            "size": 315.83
+            "odds": -106,
+            "size": 694.3
           }
         ],
         "homeTop3": [
           {
-            "odds": -130.5,
-            "size": 277.96
+            "odds": -103.5,
+            "size": 141.79
           },
           {
-            "odds": -132.5,
-            "size": 388.23
+            "odds": -104,
+            "size": 553.28
           }
         ],
         "imbalance": {
-          "awayShare": 0.5275,
-          "homeShare": 0.4725,
-          "ratio": 1.12,
-          "heavy": null
+          "awayShare": 0.6702,
+          "homeShare": 0.3298,
+          "ratio": 2.03,
+          "heavy": "away"
         },
         "awayLine": 1.0,
         "homeLine": -1.0
       },
+      "heavySide": "away",
+      "heavyMarket": "spread",
+      "heavyRatio": 2.03,
+      "rank": 29
+    },
+    {
+      "id": "6b05f3936f3255104bb2533d",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-25T17:30:00.000Z",
+      "live": false,
+      "away": "Yale",
+      "home": "Wright State",
+      "eventName": "YALE VS WRIGHT STATE",
+      "openInterest": 33941.64,
+      "matchedVolume": 852.23,
+      "moneyline": {
+        "awayTotal": 1032.1,
+        "homeTotal": 1570.26,
+        "awayTop3": [
+          {
+            "odds": 224,
+            "size": 82.32
+          },
+          {
+            "odds": 223,
+            "size": 189.24
+          },
+          {
+            "odds": 222,
+            "size": 288.78
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -242,
+            "size": 193.6
+          },
+          {
+            "odds": -245,
+            "size": 372.4
+          },
+          {
+            "odds": -247,
+            "size": 727.69
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.3966,
+          "homeShare": 0.6034,
+          "ratio": 1.52,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 1637.89,
+        "homeTotal": 1073.88,
+        "awayTop3": [
+          {
+            "odds": -111,
+            "size": 245.31
+          },
+          {
+            "odds": -113,
+            "size": 229.39
+          },
+          {
+            "odds": -114,
+            "size": 728.02
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": 102.5,
+            "size": 60.49
+          },
+          {
+            "odds": 102,
+            "size": 254.9
+          },
+          {
+            "odds": -103,
+            "size": 19.0
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.604,
+          "homeShare": 0.396,
+          "ratio": 1.53,
+          "heavy": null
+        },
+        "awayLine": 6.5,
+        "homeLine": -6.5
+      },
       "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 1.12,
+      "heavyRatio": 1.53,
       "rank": 30
     },
     {
@@ -2772,7 +2764,7 @@
       "away": "CS Bakersfield",
       "home": "Pepperdine",
       "eventName": "CS BAKERSFIELD VS PEPPERDINE",
-      "openInterest": 34350.87,
+      "openInterest": 33773.3,
       "matchedVolume": 2260.41,
       "moneyline": {
         "awayTotal": 889.65,
@@ -2858,192 +2850,94 @@
       "rank": 31
     },
     {
-      "id": "6b05f3936f3255104bb2533d",
+      "id": "6b05f3936f3255104bb25361",
       "league": "NCAAB",
       "sport": "basketball",
-      "start": "2026-11-25T17:30:00.000Z",
+      "start": "2026-11-26T00:00:00.000Z",
       "live": false,
-      "away": "Yale",
-      "home": "Wright State",
-      "eventName": "YALE VS WRIGHT STATE",
-      "openInterest": 33890.89,
-      "matchedVolume": 852.23,
+      "away": "Duke",
+      "home": "Connecticut",
+      "eventName": "DUKE VS CONNECTICUT",
+      "openInterest": 33285.16,
+      "matchedVolume": 141.19,
       "moneyline": {
-        "awayTotal": 1035.13,
-        "homeTotal": 1685.19,
-        "awayTop3": [
-          {
-            "odds": 224,
-            "size": 82.32
-          },
-          {
-            "odds": 223,
-            "size": 189.24
-          },
-          {
-            "odds": 222,
-            "size": 288.78
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -242,
-            "size": 193.6
-          },
-          {
-            "odds": -245,
-            "size": 372.4
-          },
-          {
-            "odds": -247,
-            "size": 842.62
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.3805,
-          "homeShare": 0.6195,
-          "ratio": 1.63,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 1637.89,
-        "homeTotal": 1104.78,
-        "awayTop3": [
-          {
-            "odds": -111,
-            "size": 245.31
-          },
-          {
-            "odds": -113,
-            "size": 229.39
-          },
-          {
-            "odds": -114,
-            "size": 728.02
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 102.5,
-            "size": 60.49
-          },
-          {
-            "odds": 102,
-            "size": 254.9
-          },
-          {
-            "odds": -103,
-            "size": 19.0
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5972,
-          "homeShare": 0.4028,
-          "ratio": 1.48,
-          "heavy": null
-        },
-        "awayLine": 6.5,
-        "homeLine": -6.5
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.48,
-      "rank": 32
-    },
-    {
-      "id": "6b05f3936f3255104bb25357",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-25T22:00:00.000Z",
-      "live": false,
-      "away": "Portland State",
-      "home": "Cal Riverside",
-      "eventName": "PORTLAND STATE VS CAL RIVERSIDE",
-      "openInterest": 31580.91,
-      "matchedVolume": 2815.56,
-      "moneyline": {
-        "awayTotal": 1509.53,
-        "homeTotal": 2105.0,
+        "awayTotal": 1303.14,
+        "homeTotal": 3313.94,
         "awayTop3": [
           {
             "odds": 131,
-            "size": 987.88
+            "size": 812.56
           },
           {
-            "odds": 128.5,
-            "size": 87.16
+            "odds": 130,
+            "size": 220.0
           },
           {
             "odds": 127.5,
-            "size": 257.25
+            "size": 270.59
           }
         ],
         "homeTop3": [
           {
-            "odds": -138.5,
-            "size": 263.15
+            "odds": -139.5,
+            "size": 1584.12
           },
           {
             "odds": -140,
-            "size": 1107.11
+            "size": 1134.59
           },
           {
             "odds": -141,
-            "size": 298.92
+            "size": 314.43
           }
         ],
         "imbalance": {
-          "awayShare": 0.4176,
-          "homeShare": 0.5824,
-          "ratio": 1.39,
-          "heavy": null
+          "awayShare": 0.2822,
+          "homeShare": 0.7178,
+          "ratio": 2.54,
+          "heavy": "home"
         }
       },
       "spread": {
-        "awayTotal": 988.68,
-        "homeTotal": 735.14,
+        "awayTotal": 743.88,
+        "homeTotal": 666.19,
         "awayTop3": [
           {
-            "odds": -122,
-            "size": 123.22
+            "odds": 123.5,
+            "size": 185.43
           },
           {
-            "odds": -124.5,
-            "size": 343.62
+            "odds": 122,
+            "size": 242.62
           },
           {
-            "odds": -126,
-            "size": 521.84
+            "odds": 120,
+            "size": 315.83
           }
         ],
         "homeTop3": [
           {
-            "odds": 116,
-            "size": 391.34
+            "odds": -130.5,
+            "size": 277.96
           },
           {
-            "odds": 112.5,
-            "size": 218.67
-          },
-          {
-            "odds": 110.5,
-            "size": 104.98
+            "odds": -132.5,
+            "size": 388.23
           }
         ],
         "imbalance": {
-          "awayShare": 0.5735,
-          "homeShare": 0.4265,
-          "ratio": 1.34,
+          "awayShare": 0.5275,
+          "homeShare": 0.4725,
+          "ratio": 1.12,
           "heavy": null
         },
-        "awayLine": 3.5,
-        "homeLine": -3.5
+        "awayLine": 1.0,
+        "homeLine": -1.0
       },
       "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 1.34,
-      "rank": 33
+      "heavyRatio": 1.12,
+      "rank": 32
     },
     {
       "id": "6b05f3936f3255104bb2536d",
@@ -3054,7 +2948,7 @@
       "away": "Wake Forest",
       "home": "Mississippi State",
       "eventName": "WAKE FOREST VS MISSISSIPPI STATE",
-      "openInterest": 31407.1,
+      "openInterest": 31164.8,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 687.8,
@@ -3129,7 +3023,7 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.41,
-      "rank": 34
+      "rank": 33
     },
     {
       "id": "6b05f3936f3255104bb2533f",
@@ -3140,23 +3034,23 @@
       "away": "Lindenwood",
       "home": "Stony Brook",
       "eventName": "LINDENWOOD VS STONY BROOK",
-      "openInterest": 30152.26,
+      "openInterest": 30024.62,
       "matchedVolume": 811.33,
       "moneyline": {
-        "awayTotal": 776.94,
+        "awayTotal": 736.9,
         "homeTotal": 1280.36,
         "awayTop3": [
           {
-            "odds": 471,
-            "size": 11.0
-          },
-          {
             "odds": 467,
-            "size": 440.54
+            "size": 411.49
           },
           {
             "odds": 455,
             "size": 101.1
+          },
+          {
+            "odds": 445,
+            "size": 41.44
           }
         ],
         "homeTop3": [
@@ -3174,9 +3068,9 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.3777,
-          "homeShare": 0.6223,
-          "ratio": 1.65,
+          "awayShare": 0.3653,
+          "homeShare": 0.6347,
+          "ratio": 1.74,
           "heavy": null
         }
       },
@@ -3223,6 +3117,100 @@
       "heavySide": "away",
       "heavyMarket": "spread",
       "heavyRatio": 2.56,
+      "rank": 34
+    },
+    {
+      "id": "6b05f3936f3255104bb25357",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-25T22:00:00.000Z",
+      "live": false,
+      "away": "Portland State",
+      "home": "Cal Riverside",
+      "eventName": "PORTLAND STATE VS CAL RIVERSIDE",
+      "openInterest": 29816.59,
+      "matchedVolume": 2815.56,
+      "moneyline": {
+        "awayTotal": 1509.53,
+        "homeTotal": 2105.0,
+        "awayTop3": [
+          {
+            "odds": 131,
+            "size": 987.88
+          },
+          {
+            "odds": 128.5,
+            "size": 87.16
+          },
+          {
+            "odds": 127.5,
+            "size": 257.25
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -138.5,
+            "size": 263.15
+          },
+          {
+            "odds": -140,
+            "size": 1107.11
+          },
+          {
+            "odds": -141,
+            "size": 298.92
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.4176,
+          "homeShare": 0.5824,
+          "ratio": 1.39,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 903.8,
+        "homeTotal": 900.44,
+        "awayTop3": [
+          {
+            "odds": 121,
+            "size": 97.52
+          },
+          {
+            "odds": 120,
+            "size": 108.33
+          },
+          {
+            "odds": 117.5,
+            "size": 238.3
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -129,
+            "size": 28.12
+          },
+          {
+            "odds": -130,
+            "size": 265.2
+          },
+          {
+            "odds": -132.5,
+            "size": 139.12
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.5009,
+          "homeShare": 0.4991,
+          "ratio": 1.0,
+          "heavy": null
+        },
+        "awayLine": 1.5,
+        "homeLine": -1.5
+      },
+      "heavySide": null,
+      "heavyMarket": "spread",
+      "heavyRatio": 1.0,
       "rank": 35
     },
     {
@@ -3234,11 +3222,11 @@
       "away": "Abilene Christian",
       "home": "South Dakota State",
       "eventName": "ABILENE CHRISTIAN VS SOUTH DAKOTA STATE",
-      "openInterest": 30053.14,
+      "openInterest": 29203.86,
       "matchedVolume": 2287.08,
       "moneyline": {
         "awayTotal": 1177.66,
-        "homeTotal": 2359.02,
+        "homeTotal": 2481.97,
         "awayTop3": [
           {
             "odds": 296,
@@ -3256,7 +3244,7 @@
         "homeTop3": [
           {
             "odds": -320,
-            "size": 1314.93
+            "size": 1437.88
           },
           {
             "odds": -325,
@@ -3268,9 +3256,9 @@
           }
         ],
         "imbalance": {
-          "awayShare": 0.333,
-          "homeShare": 0.667,
-          "ratio": 2.0,
+          "awayShare": 0.3218,
+          "homeShare": 0.6782,
+          "ratio": 2.11,
           "heavy": "home"
         }
       },
@@ -3328,11 +3316,11 @@
       "away": "Akron",
       "home": "Appalachian State",
       "eventName": "AKRON VS APPALACHIAN STATE",
-      "openInterest": 27929.04,
+      "openInterest": 27791.18,
       "matchedVolume": 499.86,
       "moneyline": {
-        "awayTotal": 1334.63,
-        "homeTotal": 570.33,
+        "awayTotal": 1545.13,
+        "homeTotal": 557.62,
         "awayTop3": [
           {
             "odds": -244,
@@ -3344,7 +3332,7 @@
           },
           {
             "odds": -247,
-            "size": 647.24
+            "size": 857.75
           }
         ],
         "homeTop3": [
@@ -3358,13 +3346,13 @@
           },
           {
             "odds": 220,
-            "size": 294.86
+            "size": 282.14
           }
         ],
         "imbalance": {
-          "awayShare": 0.7006,
-          "homeShare": 0.2994,
-          "ratio": 2.34,
+          "awayShare": 0.7348,
+          "homeShare": 0.2652,
+          "ratio": 2.77,
           "heavy": "away"
         }
       },
@@ -3422,7 +3410,7 @@
       "away": "Eastern Washington",
       "home": "Loyola Marymount",
       "eventName": "EASTERN WASHINGTON VS LOYOLA MARYMOUNT",
-      "openInterest": 27579.2,
+      "openInterest": 27385.89,
       "matchedVolume": 1998.88,
       "moneyline": {
         "awayTotal": 976.33,
@@ -3508,7 +3496,7 @@
       "away": "Arkansas State",
       "home": "Florida International",
       "eventName": "ARKANSAS STATE VS FLORIDA INTERNATIONAL",
-      "openInterest": 25546.37,
+      "openInterest": 25365.42,
       "matchedVolume": 1924.65,
       "moneyline": {
         "awayTotal": 578.0,
@@ -3594,6 +3582,136 @@
       "rank": 39
     },
     {
+      "id": "6b05f3936f3255104bb25339",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-25T16:00:00.000Z",
+      "live": false,
+      "away": "Northern Iowa",
+      "home": "Charlotte U",
+      "eventName": "NORTHERN IOWA VS CHARLOTTE U",
+      "openInterest": 10987.11,
+      "matchedVolume": 2492.1,
+      "moneyline": {
+        "awayTotal": 2660.9,
+        "homeTotal": 2483.01,
+        "awayTop3": [
+          {
+            "odds": 290,
+            "size": 782.36
+          },
+          {
+            "odds": 236,
+            "size": 1878.54
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -329,
+            "size": 2388.18
+          },
+          {
+            "odds": -434,
+            "size": 94.83
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.5173,
+          "homeShare": 0.4827,
+          "ratio": 1.07,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 0,
+        "homeTotal": 0,
+        "awayTop3": [],
+        "homeTop3": [],
+        "imbalance": {
+          "awayShare": 0.5,
+          "homeShare": 0.5,
+          "ratio": 1.0,
+          "heavy": null
+        },
+        "awayLine": 0.0,
+        "homeLine": 0.0
+      },
+      "heavySide": null,
+      "heavyMarket": "moneyline",
+      "heavyRatio": 1.07,
+      "rank": 40
+    },
+    {
+      "id": "6b05f3936f3255104bb25355",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-25T21:30:00.000Z",
+      "live": false,
+      "away": "South Carolina",
+      "home": "USC",
+      "eventName": "SOUTH CAROLINA VS USC",
+      "openInterest": 9744.64,
+      "matchedVolume": 460.68,
+      "moneyline": {
+        "awayTotal": 574.18,
+        "homeTotal": 3100.65,
+        "awayTop3": [
+          {
+            "odds": 495,
+            "size": 233.85
+          },
+          {
+            "odds": 435,
+            "size": 340.33
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -587,
+            "size": 2743.7
+          },
+          {
+            "odds": -590,
+            "size": 356.95
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.1562,
+          "homeShare": 0.8438,
+          "ratio": 5.4,
+          "heavy": "home"
+        }
+      },
+      "spread": {
+        "awayTotal": 232.0,
+        "homeTotal": 1070.0,
+        "awayTop3": [
+          {
+            "odds": -116,
+            "size": 232.0
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -107,
+            "size": 1070.0
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.1782,
+          "homeShare": 0.8218,
+          "ratio": 4.61,
+          "heavy": "home"
+        },
+        "awayLine": 11.5,
+        "homeLine": -11.5
+      },
+      "heavySide": "home",
+      "heavyMarket": "spread",
+      "heavyRatio": 4.61,
+      "rank": 41
+    },
+    {
       "id": "6b05f3936f3255104bb2533b",
       "league": "NCAAB",
       "sport": "basketball",
@@ -3602,7 +3720,7 @@
       "away": "Virginia",
       "home": "Marquette",
       "eventName": "VIRGINIA VS MARQUETTE",
-      "openInterest": 10333.55,
+      "openInterest": 9663.04,
       "matchedVolume": 516.94,
       "moneyline": {
         "awayTotal": 2231.27,
@@ -3669,77 +3787,77 @@
       "heavySide": "home",
       "heavyMarket": "spread",
       "heavyRatio": 2.87,
-      "rank": 40
+      "rank": 42
     },
     {
-      "id": "6b05f3936f3255104bb25355",
+      "id": "6b05f3936f3255104bb25343",
       "league": "NCAAB",
       "sport": "basketball",
-      "start": "2026-11-25T21:30:00.000Z",
+      "start": "2026-11-25T18:00:00.000Z",
       "live": false,
-      "away": "South Carolina",
-      "home": "USC",
-      "eventName": "SOUTH CAROLINA VS USC",
-      "openInterest": 10017.11,
-      "matchedVolume": 460.68,
+      "away": "Eastern Kentucky",
+      "home": "Miami Ohio",
+      "eventName": "EASTERN KENTUCKY VS MIAMI OHIO",
+      "openInterest": 7132.15,
+      "matchedVolume": 0.0,
       "moneyline": {
-        "awayTotal": 652.8,
-        "homeTotal": 3100.65,
+        "awayTotal": 780.97,
+        "homeTotal": 1864.8,
         "awayTop3": [
           {
-            "odds": 495,
-            "size": 312.47
+            "odds": 671,
+            "size": 645.27
           },
           {
-            "odds": 435,
-            "size": 340.33
+            "odds": 650,
+            "size": 135.69
           }
         ],
         "homeTop3": [
           {
-            "odds": -587,
-            "size": 2743.7
-          },
-          {
-            "odds": -590,
-            "size": 356.95
+            "odds": -1400,
+            "size": 1864.8
           }
         ],
         "imbalance": {
-          "awayShare": 0.1739,
-          "homeShare": 0.8261,
-          "ratio": 4.75,
+          "awayShare": 0.2952,
+          "homeShare": 0.7048,
+          "ratio": 2.39,
           "heavy": "home"
         }
       },
       "spread": {
-        "awayTotal": 232.0,
-        "homeTotal": 1070.0,
+        "awayTotal": 893.18,
+        "homeTotal": 774.21,
         "awayTop3": [
           {
-            "odds": -116,
-            "size": 232.0
+            "odds": -280,
+            "size": 893.18
           }
         ],
         "homeTop3": [
           {
-            "odds": -107,
-            "size": 1070.0
+            "odds": -124,
+            "size": 647.22
+          },
+          {
+            "odds": -409,
+            "size": 126.99
           }
         ],
         "imbalance": {
-          "awayShare": 0.1782,
-          "homeShare": 0.8218,
-          "ratio": 4.61,
-          "heavy": "home"
+          "awayShare": 0.5357,
+          "homeShare": 0.4643,
+          "ratio": 1.15,
+          "heavy": null
         },
-        "awayLine": 11.5,
-        "homeLine": -11.5
+        "awayLine": 14.5,
+        "homeLine": -14.5
       },
-      "heavySide": "home",
+      "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 4.61,
-      "rank": 41
+      "heavyRatio": 1.15,
+      "rank": 43
     },
     {
       "id": "6b05f3936f3255104bb25347",
@@ -3750,7 +3868,7 @@
       "away": "LSU",
       "home": "Arizona State",
       "eventName": "LSU VS ARIZONA STATE",
-      "openInterest": 7781.21,
+      "openInterest": 6934.63,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 1287.44,
@@ -3825,7 +3943,7 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.69,
-      "rank": 42
+      "rank": 44
     },
     {
       "id": "6b0663e26d90b9c88017ff87",
@@ -3836,7 +3954,7 @@
       "away": "BYU",
       "home": "Providence",
       "eventName": "BYU VS PROVIDENCE",
-      "openInterest": 7643.76,
+      "openInterest": 6718.91,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 3909.86,
@@ -3877,107 +3995,37 @@
         }
       },
       "spread": {
-        "awayTotal": 750.75,
-        "homeTotal": 517.19,
+        "awayTotal": 914.72,
+        "homeTotal": 376.11,
         "awayTop3": [
           {
-            "odds": -136,
-            "size": 203.52
+            "odds": -107,
+            "size": 49.54
           },
           {
-            "odds": -151,
-            "size": 547.22
+            "odds": -338,
+            "size": 865.18
           }
         ],
         "homeTop3": [
           {
-            "odds": -108,
-            "size": 517.19
+            "odds": -121,
+            "size": 376.11
           }
         ],
         "imbalance": {
-          "awayShare": 0.5921,
-          "homeShare": 0.4079,
-          "ratio": 1.45,
-          "heavy": null
+          "awayShare": 0.7086,
+          "homeShare": 0.2914,
+          "ratio": 2.43,
+          "heavy": "away"
         },
-        "awayLine": -2.5,
-        "homeLine": 2.5
+        "awayLine": -3.5,
+        "homeLine": 3.5
       },
-      "heavySide": null,
+      "heavySide": "away",
       "heavyMarket": "spread",
-      "heavyRatio": 1.45,
-      "rank": 43
-    },
-    {
-      "id": "6b05f3936f3255104bb25343",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-25T18:00:00.000Z",
-      "live": false,
-      "away": "Eastern Kentucky",
-      "home": "Miami Ohio",
-      "eventName": "EASTERN KENTUCKY VS MIAMI OHIO",
-      "openInterest": 7603.47,
-      "matchedVolume": 0.0,
-      "moneyline": {
-        "awayTotal": 780.97,
-        "homeTotal": 1864.8,
-        "awayTop3": [
-          {
-            "odds": 671,
-            "size": 645.27
-          },
-          {
-            "odds": 650,
-            "size": 135.69
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -1400,
-            "size": 1864.8
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.2952,
-          "homeShare": 0.7048,
-          "ratio": 2.39,
-          "heavy": "home"
-        }
-      },
-      "spread": {
-        "awayTotal": 893.18,
-        "homeTotal": 774.21,
-        "awayTop3": [
-          {
-            "odds": -280,
-            "size": 893.18
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -124,
-            "size": 647.22
-          },
-          {
-            "odds": -409,
-            "size": 126.99
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5357,
-          "homeShare": 0.4643,
-          "ratio": 1.15,
-          "heavy": null
-        },
-        "awayLine": 14.5,
-        "homeLine": -14.5
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.15,
-      "rank": 44
+      "heavyRatio": 2.43,
+      "rank": 45
     },
     {
       "id": "6b05f3936f3255104bb25341",
@@ -3988,119 +4036,136 @@
       "away": "Southern Utah",
       "home": "Long Beach State",
       "eventName": "SOUTHERN UTAH VS LONG BEACH STATE",
-      "openInterest": 6802.13,
+      "openInterest": 5899.86,
       "matchedVolume": 296.5,
       "moneyline": {
-        "awayTotal": 1061.82,
-        "homeTotal": 969.82,
+        "awayTotal": 1748.29,
+        "homeTotal": 1840.41,
         "awayTop3": [
           {
             "odds": 105,
             "size": 1061.82
+          },
+          {
+            "odds": -111,
+            "size": 686.47
           }
         ],
         "homeTop3": [
           {
             "odds": -121,
-            "size": 969.82
+            "size": 1061.78
+          },
+          {
+            "odds": -154,
+            "size": 778.64
           }
         ],
         "imbalance": {
-          "awayShare": 0.5226,
-          "homeShare": 0.4774,
-          "ratio": 1.09,
+          "awayShare": 0.4872,
+          "homeShare": 0.5128,
+          "ratio": 1.05,
           "heavy": null
         }
       },
       "spread": {
-        "awayTotal": 2763.82,
-        "homeTotal": 804.14,
+        "awayTotal": 822.73,
+        "homeTotal": 565.88,
         "awayTop3": [
           {
-            "odds": -200,
-            "size": 2763.82
+            "odds": -287,
+            "size": 822.73
           }
         ],
         "homeTop3": [
           {
-            "odds": -338,
-            "size": 804.14
+            "odds": -348,
+            "size": 565.88
           }
         ],
         "imbalance": {
-          "awayShare": 0.7746,
-          "homeShare": 0.2254,
-          "ratio": 3.44,
-          "heavy": "away"
+          "awayShare": 0.5925,
+          "homeShare": 0.4075,
+          "ratio": 1.45,
+          "heavy": null
         },
-        "awayLine": -1.5,
-        "homeLine": 1.5
+        "awayLine": -4.5,
+        "homeLine": 4.5
       },
-      "heavySide": "away",
+      "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 3.44,
-      "rank": 45
+      "heavyRatio": 1.45,
+      "rank": 46
     },
     {
-      "id": "6b05f3936f3255104bb25339",
+      "id": "6b05f3936f3255104bb25337",
       "league": "NCAAB",
       "sport": "basketball",
       "start": "2026-11-25T16:00:00.000Z",
       "live": false,
-      "away": "Northern Iowa",
-      "home": "Charlotte U",
-      "eventName": "NORTHERN IOWA VS CHARLOTTE U",
-      "openInterest": 6784.08,
-      "matchedVolume": 2492.1,
+      "away": "Rice",
+      "home": "Ohio",
+      "eventName": "RICE VS OHIO",
+      "openInterest": 5750.03,
+      "matchedVolume": 0.0,
       "moneyline": {
-        "awayTotal": 782.36,
-        "homeTotal": 2483.01,
+        "awayTotal": 348.52,
+        "homeTotal": 2566.06,
         "awayTop3": [
           {
-            "odds": 290,
-            "size": 782.36
+            "odds": 149,
+            "size": 348.52
           }
         ],
         "homeTop3": [
           {
-            "odds": -329,
-            "size": 2388.18
+            "odds": -184,
+            "size": 1840.0
           },
           {
-            "odds": -434,
-            "size": 94.83
+            "odds": -266,
+            "size": 726.06
           }
         ],
         "imbalance": {
-          "awayShare": 0.2396,
-          "homeShare": 0.7604,
-          "ratio": 3.17,
+          "awayShare": 0.1196,
+          "homeShare": 0.8804,
+          "ratio": 7.36,
           "heavy": "home"
         }
       },
       "spread": {
-        "awayTotal": 600.24,
-        "homeTotal": 0,
+        "awayTotal": 590.88,
+        "homeTotal": 1901.38,
         "awayTop3": [
           {
-            "odds": -380,
-            "size": 600.24
+            "odds": -145,
+            "size": 590.88
           }
         ],
-        "homeTop3": [],
+        "homeTop3": [
+          {
+            "odds": 105,
+            "size": 1000.0
+          },
+          {
+            "odds": -266,
+            "size": 901.38
+          }
+        ],
         "imbalance": {
-          "awayShare": 1.0,
-          "homeShare": 0.0,
-          "ratio": 600240000000.0,
-          "heavy": "away"
+          "awayShare": 0.2371,
+          "homeShare": 0.7629,
+          "ratio": 3.22,
+          "heavy": "home"
         },
-        "awayLine": 11.5,
-        "homeLine": -11.5
+        "awayLine": 5.5,
+        "homeLine": -5.5
       },
-      "heavySide": "away",
+      "heavySide": "home",
       "heavyMarket": "spread",
-      "heavyRatio": 600240000000.0,
-      "rank": 46
+      "heavyRatio": 3.22,
+      "rank": 47
     },
     {
       "id": "6b0662b36d90b9c88017ff82",
@@ -4111,7 +4176,7 @@
       "away": "Mississippi",
       "home": "Arizona",
       "eventName": "MISSISSIPPI VS ARIZONA",
-      "openInterest": 6570.56,
+      "openInterest": 5423.19,
       "matchedVolume": 1.96,
       "moneyline": {
         "awayTotal": 872.74,
@@ -4144,110 +4209,40 @@
         }
       },
       "spread": {
-        "awayTotal": 806.47,
-        "homeTotal": 871.58,
+        "awayTotal": 698.47,
+        "homeTotal": 864.78,
         "awayTop3": [
           {
-            "odds": -165,
-            "size": 673.68
+            "odds": -124,
+            "size": 556.49
           },
           {
-            "odds": -182,
-            "size": 132.79
+            "odds": -131,
+            "size": 141.98
           }
         ],
         "homeTop3": [
           {
-            "odds": -111.5,
-            "size": 117.5
+            "odds": -142,
+            "size": 149.74
           },
           {
-            "odds": -161,
-            "size": 754.08
+            "odds": -273,
+            "size": 715.04
           }
         ],
         "imbalance": {
-          "awayShare": 0.4806,
-          "homeShare": 0.5194,
-          "ratio": 1.08,
+          "awayShare": 0.4468,
+          "homeShare": 0.5532,
+          "ratio": 1.24,
           "heavy": null
-        },
-        "awayLine": 7.5,
-        "homeLine": -7.5
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.08,
-      "rank": 47
-    },
-    {
-      "id": "6b05f3936f3255104bb25337",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-25T16:00:00.000Z",
-      "live": false,
-      "away": "Rice",
-      "home": "Ohio",
-      "eventName": "RICE VS OHIO",
-      "openInterest": 5895.25,
-      "matchedVolume": 0.0,
-      "moneyline": {
-        "awayTotal": 348.52,
-        "homeTotal": 2566.06,
-        "awayTop3": [
-          {
-            "odds": 149,
-            "size": 348.52
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -184,
-            "size": 1840.0
-          },
-          {
-            "odds": -266,
-            "size": 726.06
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.1196,
-          "homeShare": 0.8804,
-          "ratio": 7.36,
-          "heavy": "home"
-        }
-      },
-      "spread": {
-        "awayTotal": 507.0,
-        "homeTotal": 1751.15,
-        "awayTop3": [
-          {
-            "odds": -145,
-            "size": 507.0
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 105,
-            "size": 1000.0
-          },
-          {
-            "odds": -266,
-            "size": 751.15
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.2245,
-          "homeShare": 0.7755,
-          "ratio": 3.45,
-          "heavy": "home"
         },
         "awayLine": 5.5,
         "homeLine": -5.5
       },
-      "heavySide": "home",
+      "heavySide": null,
       "heavyMarket": "spread",
-      "heavyRatio": 3.45,
+      "heavyRatio": 1.24,
       "rank": 48
     },
     {
@@ -4259,7 +4254,7 @@
       "away": "Jacksonville State",
       "home": "Pacific",
       "eventName": "JACKSONVILLE STATE VS PACIFIC",
-      "openInterest": 5561.8,
+      "openInterest": 5040.71,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 769.19,
@@ -4333,7 +4328,7 @@
       "away": "Tulane",
       "home": "Davidson",
       "eventName": "TULANE VS DAVIDSON",
-      "openInterest": 5346.57,
+      "openInterest": 4878.46,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 982.1,
@@ -4399,216 +4394,6 @@
       "rank": 50
     },
     {
-      "id": "6b05f3936f3255104bb2534d",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-25T19:30:00.000Z",
-      "live": false,
-      "away": "Texas A&M",
-      "home": "Xavier",
-      "eventName": "TEXAS A&M VS XAVIER",
-      "openInterest": 5077.67,
-      "matchedVolume": 1134.9,
-      "moneyline": {
-        "awayTotal": 2046.17,
-        "homeTotal": 438.58,
-        "awayTop3": [
-          {
-            "odds": -206,
-            "size": 666.47
-          },
-          {
-            "odds": -210,
-            "size": 1379.7
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 188,
-            "size": 416.2
-          },
-          {
-            "odds": -123.5,
-            "size": 22.38
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.8235,
-          "homeShare": 0.1765,
-          "ratio": 4.67,
-          "heavy": "away"
-        }
-      },
-      "spread": {
-        "awayTotal": 1612.37,
-        "homeTotal": 557.21,
-        "awayTop3": [
-          {
-            "odds": -101,
-            "size": 542.37
-          },
-          {
-            "odds": -107,
-            "size": 1070.0
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -121,
-            "size": 557.21
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.7432,
-          "homeShare": 0.2568,
-          "ratio": 2.89,
-          "heavy": "away"
-        },
-        "awayLine": -5.5,
-        "homeLine": 5.5
-      },
-      "heavySide": "away",
-      "heavyMarket": "spread",
-      "heavyRatio": 2.89,
-      "rank": 51
-    },
-    {
-      "id": "6b0666386d90b9c88017ff8d",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-25T20:00:00.000Z",
-      "live": false,
-      "away": "SE Louisiana",
-      "home": "North Dakota",
-      "eventName": "SE LOUISIANA VS NORTH DAKOTA",
-      "openInterest": 4734.3,
-      "matchedVolume": 0.0,
-      "moneyline": {
-        "awayTotal": 1727.63,
-        "homeTotal": 1638.17,
-        "awayTop3": [
-          {
-            "odds": -112,
-            "size": 1050.38
-          },
-          {
-            "odds": -129,
-            "size": 677.25
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -108,
-            "size": 1638.17
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5133,
-          "homeShare": 0.4867,
-          "ratio": 1.05,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 834.93,
-        "homeTotal": 602.97,
-        "awayTop3": [
-          {
-            "odds": -141.5,
-            "size": 834.93
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -126,
-            "size": 602.97
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.5807,
-          "homeShare": 0.4193,
-          "ratio": 1.38,
-          "heavy": null
-        },
-        "awayLine": 0.0,
-        "homeLine": 0.0
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.38,
-      "rank": 52
-    },
-    {
-      "id": "6b05f3936f3255104bb2535b",
-      "league": "NCAAB",
-      "sport": "basketball",
-      "start": "2026-11-26T00:00:00.000Z",
-      "live": false,
-      "away": "CS Northridge",
-      "home": "Weber State",
-      "eventName": "CS NORTHRIDGE VS WEBER STATE",
-      "openInterest": 4526.95,
-      "matchedVolume": 329.77,
-      "moneyline": {
-        "awayTotal": 1806.12,
-        "homeTotal": 1003.23,
-        "awayTop3": [
-          {
-            "odds": -148,
-            "size": 1220.24
-          },
-          {
-            "odds": -189.5,
-            "size": 585.88
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": 131,
-            "size": 791.4
-          },
-          {
-            "odds": 119.5,
-            "size": 211.83
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.6429,
-          "homeShare": 0.3571,
-          "ratio": 1.8,
-          "heavy": null
-        }
-      },
-      "spread": {
-        "awayTotal": 86.35,
-        "homeTotal": 107.33,
-        "awayTop3": [
-          {
-            "odds": -269,
-            "size": 86.35
-          }
-        ],
-        "homeTop3": [
-          {
-            "odds": -347,
-            "size": 107.33
-          }
-        ],
-        "imbalance": {
-          "awayShare": 0.4458,
-          "homeShare": 0.5542,
-          "ratio": 1.24,
-          "heavy": null
-        },
-        "awayLine": -4.5,
-        "homeLine": 4.5
-      },
-      "heavySide": null,
-      "heavyMarket": "spread",
-      "heavyRatio": 1.24,
-      "rank": 53
-    },
-    {
       "id": "6b05f3936f3255104bb25359",
       "league": "NCAAB",
       "sport": "basketball",
@@ -4617,11 +4402,11 @@
       "away": "Utah State",
       "home": "SMU",
       "eventName": "UTAH STATE VS SMU",
-      "openInterest": 4521.83,
+      "openInterest": 4789.58,
       "matchedVolume": 0.0,
       "moneyline": {
         "awayTotal": 1494.33,
-        "homeTotal": 1101.03,
+        "homeTotal": 1481.21,
         "awayTop3": [
           {
             "odds": -177,
@@ -4636,12 +4421,16 @@
           {
             "odds": 165,
             "size": 1101.03
+          },
+          {
+            "odds": 135.5,
+            "size": 380.18
           }
         ],
         "imbalance": {
-          "awayShare": 0.5758,
-          "homeShare": 0.4242,
-          "ratio": 1.36,
+          "awayShare": 0.5022,
+          "homeShare": 0.4978,
+          "ratio": 1.01,
           "heavy": null
         }
       },
@@ -4672,7 +4461,7 @@
       "heavySide": "away",
       "heavyMarket": "spread",
       "heavyRatio": 37.14,
-      "rank": 54
+      "rank": 51
     },
     {
       "id": "6b05f3936f3255104bb25353",
@@ -4738,6 +4527,216 @@
       "heavySide": null,
       "heavyMarket": "spread",
       "heavyRatio": 1.0,
+      "rank": 52
+    },
+    {
+      "id": "6b05f3936f3255104bb2534d",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-25T19:30:00.000Z",
+      "live": false,
+      "away": "Texas A&M",
+      "home": "Xavier",
+      "eventName": "TEXAS A&M VS XAVIER",
+      "openInterest": 4032.59,
+      "matchedVolume": 1134.9,
+      "moneyline": {
+        "awayTotal": 2046.17,
+        "homeTotal": 438.58,
+        "awayTop3": [
+          {
+            "odds": -206,
+            "size": 666.47
+          },
+          {
+            "odds": -210,
+            "size": 1379.7
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": 188,
+            "size": 416.2
+          },
+          {
+            "odds": -123.5,
+            "size": 22.38
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.8235,
+          "homeShare": 0.1765,
+          "ratio": 4.67,
+          "heavy": "away"
+        }
+      },
+      "spread": {
+        "awayTotal": 1612.37,
+        "homeTotal": 557.21,
+        "awayTop3": [
+          {
+            "odds": -101,
+            "size": 542.37
+          },
+          {
+            "odds": -107,
+            "size": 1070.0
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -121,
+            "size": 557.21
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.7432,
+          "homeShare": 0.2568,
+          "ratio": 2.89,
+          "heavy": "away"
+        },
+        "awayLine": -5.5,
+        "homeLine": 5.5
+      },
+      "heavySide": "away",
+      "heavyMarket": "spread",
+      "heavyRatio": 2.89,
+      "rank": 53
+    },
+    {
+      "id": "6b0666386d90b9c88017ff8d",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-25T20:00:00.000Z",
+      "live": false,
+      "away": "SE Louisiana",
+      "home": "North Dakota",
+      "eventName": "SE LOUISIANA VS NORTH DAKOTA",
+      "openInterest": 4024.34,
+      "matchedVolume": 0.0,
+      "moneyline": {
+        "awayTotal": 1727.63,
+        "homeTotal": 855.27,
+        "awayTop3": [
+          {
+            "odds": -112,
+            "size": 1050.38
+          },
+          {
+            "odds": -129,
+            "size": 677.25
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -106,
+            "size": 855.27
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.6689,
+          "homeShare": 0.3311,
+          "ratio": 2.02,
+          "heavy": "away"
+        }
+      },
+      "spread": {
+        "awayTotal": 834.93,
+        "homeTotal": 602.97,
+        "awayTop3": [
+          {
+            "odds": -141.5,
+            "size": 834.93
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -126,
+            "size": 602.97
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.5807,
+          "homeShare": 0.4193,
+          "ratio": 1.38,
+          "heavy": null
+        },
+        "awayLine": 0.0,
+        "homeLine": 0.0
+      },
+      "heavySide": null,
+      "heavyMarket": "spread",
+      "heavyRatio": 1.38,
+      "rank": 54
+    },
+    {
+      "id": "6b05f3936f3255104bb2535b",
+      "league": "NCAAB",
+      "sport": "basketball",
+      "start": "2026-11-26T00:00:00.000Z",
+      "live": false,
+      "away": "CS Northridge",
+      "home": "Weber State",
+      "eventName": "CS NORTHRIDGE VS WEBER STATE",
+      "openInterest": 3155.81,
+      "matchedVolume": 329.77,
+      "moneyline": {
+        "awayTotal": 1806.12,
+        "homeTotal": 1003.23,
+        "awayTop3": [
+          {
+            "odds": -148,
+            "size": 1220.24
+          },
+          {
+            "odds": -189.5,
+            "size": 585.88
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": 131,
+            "size": 791.4
+          },
+          {
+            "odds": 119.5,
+            "size": 211.83
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.6429,
+          "homeShare": 0.3571,
+          "ratio": 1.8,
+          "heavy": null
+        }
+      },
+      "spread": {
+        "awayTotal": 86.35,
+        "homeTotal": 107.33,
+        "awayTop3": [
+          {
+            "odds": -269,
+            "size": 86.35
+          }
+        ],
+        "homeTop3": [
+          {
+            "odds": -347,
+            "size": 107.33
+          }
+        ],
+        "imbalance": {
+          "awayShare": 0.4458,
+          "homeShare": 0.5542,
+          "ratio": 1.24,
+          "heavy": null
+        },
+        "awayLine": -4.5,
+        "homeLine": 4.5
+      },
+      "heavySide": null,
+      "heavyMarket": "spread",
+      "heavyRatio": 1.24,
       "rank": 55
     },
     {
