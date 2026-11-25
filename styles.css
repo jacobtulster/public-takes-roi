@@ -375,6 +375,46 @@ select:hover {
   flex: 0 0 auto;
 }
 
+.signal-pill-fav,
+.good-signal-pill-fav {
+  border-color: rgba(61, 214, 140, 0.45) !important;
+  background: rgba(61, 214, 140, 0.14) !important;
+  color: var(--fav, #3dd68c);
+}
+
+.signal-pill-fav .day-label,
+.good-signal-pill-fav .day-label {
+  color: var(--fav, #3dd68c);
+  font-weight: 700;
+}
+
+.signal-pill-dog,
+.good-signal-pill-dog {
+  border-color: rgba(240, 163, 94, 0.5) !important;
+  background: rgba(240, 163, 94, 0.14) !important;
+  color: var(--dog, #f0a35e);
+}
+
+.signal-pill-dog .day-label,
+.good-signal-pill-dog .day-label {
+  color: var(--dog, #f0a35e);
+  font-weight: 700;
+}
+
+.signal-filter-tabs .signal-pill-fav.is-active {
+  background: rgba(61, 214, 140, 0.28) !important;
+  box-shadow: 0 0 0 1px rgba(61, 214, 140, 0.55);
+}
+
+.signal-filter-tabs .signal-pill-dog.is-active {
+  background: rgba(240, 163, 94, 0.28) !important;
+  box-shadow: 0 0 0 1px rgba(240, 163, 94, 0.55);
+}
+
+.good-signal-pill {
+  border-radius: 999px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
