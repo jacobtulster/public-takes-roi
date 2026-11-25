@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T18:40:24.373Z",
+  "updatedAt": "2026-11-25T18:40:30.429Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -11182,8 +11182,9 @@
       "line": -1.5,
       "price": 215,
       "tixFav": 5,
-      "monFav": 13,
-      "reason": "Tix 5% + $ 13% on fav (<50)"
+      "monFav": 12,
+      "reason": "Tix 5% + $ 12% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T18:40:27.206Z"
     },
     {
       "pickKey": "m|33|st_louis_at_ny_islanders|FAV|home|ml",
@@ -11205,8 +11206,9 @@
       "line": -118,
       "price": -118,
       "tixFav": 5,
-      "monFav": 13,
-      "reason": "Tix 5% + $ 13% on fav (<50)"
+      "monFav": 12,
+      "reason": "Tix 5% + $ 12% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T18:40:27.206Z"
     }
   ]
 }
