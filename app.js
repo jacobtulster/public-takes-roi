@@ -951,22 +951,6 @@
       .join('');
   }
 
-  /** W-P-L + $ for the bucket select only (not Good fav/dog — those have their own chips). */
-  function renderFilterStats() {
-    const el = $('#filter-stats');
-    if (!el) return;
-    const bucket = ($('#filter-bucket') && $('#filter-bucket').value) || '';
-    const key = bucket || 'all';
-    const aggs = summarize(picksForMarket(activeMarket));
-    const a = aggs[key] || emptyAgg();
-    const cls = dollarClass(a.profit);
-    el.hidden = false;
-    el.innerHTML =
-      `<span class="filter-record" title="Wins–Pushes–Losses">${fmtRecord(a)}</span>` +
-      `<span class="filter-sep">·</span>` +
-      `<span class="filter-dollars ${cls}">${a.graded ? fmtDollars(a.profit) : '$0'}</span>`;
-  }
-
   function escapeHtml(s) {
     return String(s)
       .replace(/&/g, '&amp;')
@@ -1381,7 +1365,6 @@
     renderDogLiqStats();
     renderCards(aggs);
     renderChart();
-    renderFilterStats();
     renderTable();
   }
 
@@ -1852,11 +1835,9 @@
   });
   ['filter-bucket', 'filter-result'].forEach((id) => {
     $('#' + id).addEventListener('input', () => {
-      renderFilterStats();
       renderTable();
     });
     $('#' + id).addEventListener('change', () => {
-      renderFilterStats();
       renderTable();
     });
   });
