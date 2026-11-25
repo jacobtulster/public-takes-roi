@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:11:26.841Z",
+  "updatedAt": "2026-11-25T00:11:50.405Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -5964,9 +5964,9 @@
       "line": 10.5,
       "price": -112,
       "tixFav": 72,
-      "monFav": 84,
-      "reason": "Tix 72% + $ 84% on fav",
-      "leanUpdatedAt": "2026-11-25T00:05:33.465Z"
+      "monFav": 85,
+      "reason": "Tix 72% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-25T00:11:47.466Z"
     },
     {
       "pickKey": "m|503|boston_at_washington|DOG|home|ml",
@@ -5988,9 +5988,9 @@
       "line": 336,
       "price": 336,
       "tixFav": 72,
-      "monFav": 84,
-      "reason": "Tix 72% + $ 84% on fav",
-      "leanUpdatedAt": "2026-11-25T00:05:33.465Z"
+      "monFav": 85,
+      "reason": "Tix 72% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-25T00:11:47.466Z"
     },
     {
       "pickKey": "m|505|dallas_at_denver|FAV|home|spread",
