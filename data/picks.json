@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:08:04.700Z",
+  "updatedAt": "2026-11-25T00:08:10.397Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7570,15 +7570,15 @@
       "takeRole": "DOG",
       "takeTeam": "Oral Roberts",
       "takeSide": "away",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 5,
       "price": -108,
-      "tixFav": 73,
-      "monFav": 85,
-      "reason": "Tix 73% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:41.476Z"
+      "tixFav": 71,
+      "monFav": 86,
+      "reason": "Tix 71% + $ 86% on fav",
+      "leanUpdatedAt": "2026-11-25T00:08:07.451Z"
     },
     {
       "pickKey": "m|653|oral_roberts_at_ut_arlington|DOG|away|ml",
@@ -7594,15 +7594,15 @@
       "takeRole": "DOG",
       "takeTeam": "Oral Roberts",
       "takeSide": "away",
-      "ocLean": "none",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "ml",
       "line": 180,
       "price": 180,
-      "tixFav": 73,
-      "monFav": 85,
-      "reason": "Tix 73% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-24T23:01:41.476Z"
+      "tixFav": 71,
+      "monFav": 86,
+      "reason": "Tix 71% + $ 86% on fav",
+      "leanUpdatedAt": "2026-11-25T00:08:07.451Z"
     },
     {
       "pickKey": "m|655|green_bay_at_umkc|DOG|away|spread",
