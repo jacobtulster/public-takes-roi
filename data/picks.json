@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:02:04.130188Z",
+  "updatedAt": "2026-11-25T00:02:08.011188Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -5915,10 +5915,10 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 73,
-      "monFav": 72,
-      "reason": "Tix 73% + $ 72% on fav",
-      "leanUpdatedAt": "2026-11-25T00:00:11.473Z"
+      "tixFav": 74,
+      "monFav": 73,
+      "reason": "Tix 74% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T23:47:51.459Z"
     },
     {
       "pickKey": "m|103|kent_state_at_eastern_michigan|DOG|away|ml",
@@ -5939,10 +5939,10 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 73,
-      "monFav": 72,
-      "reason": "Tix 73% + $ 72% on fav",
-      "leanUpdatedAt": "2026-11-25T00:00:11.473Z"
+      "tixFav": 74,
+      "monFav": 73,
+      "reason": "Tix 74% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-24T23:47:51.459Z"
     },
     {
       "pickKey": "m|503|boston_at_washington|DOG|home|spread",
@@ -6062,7 +6062,17 @@
       "tixFav": 48,
       "monFav": 34,
       "reason": "Tix 48% + $ 34% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T19:20:10.189Z"
+      "leanUpdatedAt": "2026-11-24T19:20:10.189Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 50.0,
+      "homeScore": 57.0,
+      "gradedAt": "2026-11-25T00:02:07.146596Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401929285",
+      "espnAway": "App State Mountaineers",
+      "espnHome": "Yale Bulldogs"
     },
     {
       "pickKey": "m|615|appalachian_state_at_yale|FAV|away|ml",
@@ -6086,7 +6096,17 @@
       "tixFav": 48,
       "monFav": 34,
       "reason": "Tix 48% + $ 34% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T19:20:10.189Z"
+      "leanUpdatedAt": "2026-11-24T19:20:10.189Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 50.0,
+      "homeScore": 57.0,
+      "gradedAt": "2026-11-25T00:02:07.149668Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401929285",
+      "espnAway": "App State Mountaineers",
+      "espnHome": "Yale Bulldogs"
     },
     {
       "pickKey": "m|643|campbell_at_coastal_carolina|FAV|home|spread",
@@ -6203,10 +6223,10 @@
       "market": "spread",
       "line": 4.5,
       "price": -110,
-      "tixFav": 72,
+      "tixFav": 71,
       "monFav": 85,
-      "reason": "Tix 72% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:39.465Z"
+      "reason": "Tix 71% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-24T23:08:49.449Z"
     },
     {
       "pickKey": "m|669|colorado_at_stanford|DOG|away|ml",
@@ -6227,10 +6247,10 @@
       "market": "ml",
       "line": 155,
       "price": 155,
-      "tixFav": 72,
+      "tixFav": 71,
       "monFav": 85,
-      "reason": "Tix 72% + $ 85% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:39.465Z"
+      "reason": "Tix 71% + $ 85% on fav",
+      "leanUpdatedAt": "2026-11-24T23:08:49.449Z"
     },
     {
       "pickKey": "m|677|vcu_at_colorado_state|FAV|away|spread",
@@ -6345,10 +6365,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -108,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 91,
-      "reason": "Tix 78% + $ 91% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:37.463Z"
+      "reason": "Tix 79% + $ 91% on fav",
+      "leanUpdatedAt": "2026-11-24T23:55:33.463Z"
     },
     {
       "pickKey": "m|683|baylor_at_alabama|DOG|away|ml",
@@ -6369,10 +6389,10 @@
       "market": "ml",
       "line": 104,
       "price": 104,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 91,
-      "reason": "Tix 78% + $ 91% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:37.463Z"
+      "reason": "Tix 79% + $ 91% on fav",
+      "leanUpdatedAt": "2026-11-24T23:55:33.463Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|spread",
@@ -6393,10 +6413,10 @@
       "market": "spread",
       "line": 15.5,
       "price": -109,
-      "tixFav": 87,
+      "tixFav": 86,
       "monFav": 99,
-      "reason": "Tix 87% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:43.464Z"
+      "reason": "Tix 86% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|ml",
@@ -6417,10 +6437,10 @@
       "market": "ml",
       "line": 960,
       "price": 960,
-      "tixFav": 87,
+      "tixFav": 86,
       "monFav": 99,
-      "reason": "Tix 87% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:43.464Z"
+      "reason": "Tix 86% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-24T23:30:13.457Z"
     },
     {
       "pickKey": "m|687|tennessee_at_maryland|DOG|home|spread",
@@ -6509,10 +6529,10 @@
       "market": "spread",
       "line": 3.5,
       "price": -114,
-      "tixFav": 79,
-      "monFav": 77,
-      "reason": "Tix 79% + $ 77% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:27.456Z"
+      "tixFav": 80,
+      "monFav": 78,
+      "reason": "Tix 80% + $ 78% on fav",
+      "leanUpdatedAt": "2026-11-24T23:55:21.466Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|ml",
@@ -6533,10 +6553,10 @@
       "market": "ml",
       "line": 135,
       "price": 135,
-      "tixFav": 79,
-      "monFav": 77,
-      "reason": "Tix 79% + $ 77% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:27.456Z"
+      "tixFav": 80,
+      "monFav": 78,
+      "reason": "Tix 80% + $ 78% on fav",
+      "leanUpdatedAt": "2026-11-24T23:55:21.466Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|spread",
@@ -6748,9 +6768,9 @@
       "line": -1,
       "price": -104,
       "tixFav": 26,
-      "monFav": 5,
-      "reason": "Tix 26% + $ 5% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:01:27.455Z"
+      "monFav": 4,
+      "reason": "Tix 26% + $ 4% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:36:53.455Z"
     },
     {
       "pickKey": "m|641|tarleton_state_at_weber_state|FAV|home|ml",
@@ -6772,9 +6792,9 @@
       "line": -109,
       "price": -109,
       "tixFav": 26,
-      "monFav": 5,
-      "reason": "Tix 26% + $ 5% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:01:27.455Z"
+      "monFav": 4,
+      "reason": "Tix 26% + $ 4% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:36:53.455Z"
     },
     {
       "pickKey": "m|667|saint_louis_at_grand_canyon|DOG|away|spread",
@@ -7249,10 +7269,10 @@
       "market": "spread",
       "line": -5.5,
       "price": -111,
-      "tixFav": 44,
-      "monFav": 18,
-      "reason": "Tix 44% + $ 18% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:01:37.463Z"
+      "tixFav": 37,
+      "monFav": 16,
+      "reason": "Tix 37% + $ 16% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:08:49.449Z"
     },
     {
       "pickKey": "m|665|sam_houston_st_at_washington_state|FAV|home|ml",
@@ -7273,10 +7293,10 @@
       "market": "ml",
       "line": -229,
       "price": -229,
-      "tixFav": 44,
-      "monFav": 18,
-      "reason": "Tix 44% + $ 18% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:01:37.463Z"
+      "tixFav": 37,
+      "monFav": 16,
+      "reason": "Tix 37% + $ 16% on fav (<50)",
+      "leanUpdatedAt": "2026-11-24T23:08:49.449Z"
     },
     {
       "pickKey": "m|701|utep_at_coll_of_charleston|DOG|away|spread",
@@ -7796,54 +7816,6 @@
       "monFav": 25,
       "reason": "Tix 39% + $ 25% on fav (<50)",
       "leanUpdatedAt": "2026-11-24T23:55:11.464Z"
-    },
-    {
-      "pickKey": "m|633|samford_at_georgia_tech|DOG|away|spread",
-      "matchupId": "633|samford_at_georgia_tech|DOG|away|spread",
-      "loggedAt": "2026-11-25T00:01:23.463Z",
-      "sport": "NCAAB",
-      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
-      "away": "Samford",
-      "home": "Georgia Tech",
-      "kick": "19:00",
-      "startAt": "2026-11-25T00:00:00.000Z",
-      "gameNumber": 633,
-      "takeRole": "DOG",
-      "takeTeam": "Samford",
-      "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
-      "market": "spread",
-      "line": 10,
-      "price": -109,
-      "tixFav": 71,
-      "monFav": 97,
-      "reason": "Tix 71% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:51.469Z"
-    },
-    {
-      "pickKey": "m|633|samford_at_georgia_tech|DOG|away|ml",
-      "matchupId": "633|samford_at_georgia_tech|DOG|away|ml",
-      "loggedAt": "2026-11-25T00:01:23.463Z",
-      "sport": "NCAAB",
-      "league": "COLLEGE BASKETBALL - Tuesday, November 24th",
-      "away": "Samford",
-      "home": "Georgia Tech",
-      "kick": "19:00",
-      "startAt": "2026-11-25T00:00:00.000Z",
-      "gameNumber": 633,
-      "takeRole": "DOG",
-      "takeTeam": "Samford",
-      "takeSide": "away",
-      "ocLean": "favorable",
-      "bucket": "dog_favorable",
-      "market": "ml",
-      "line": 423,
-      "price": 423,
-      "tixFav": 71,
-      "monFav": 97,
-      "reason": "Tix 71% + $ 97% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:51.469Z"
     }
   ]
 }
