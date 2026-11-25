@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:32:58.788Z",
+  "updatedAt": "2026-11-25T00:33:04.500Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7738,10 +7738,10 @@
       "market": "spread",
       "line": 2,
       "price": -108,
-      "tixFav": 86,
-      "monFav": 99,
-      "reason": "Tix 86% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T23:43:07.460Z",
+      "tixFav": 80,
+      "monFav": 98,
+      "reason": "Tix 80% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-25T00:33:01.456Z",
       "liqSnap": {
         "combinedTop3": 15443.12,
         "combinedAwayTop3": 8517.39,
@@ -7775,10 +7775,10 @@
       "market": "ml",
       "line": 111,
       "price": 111,
-      "tixFav": 86,
-      "monFav": 99,
-      "reason": "Tix 86% + $ 99% on fav",
-      "leanUpdatedAt": "2026-11-24T23:43:07.460Z",
+      "tixFav": 80,
+      "monFav": 98,
+      "reason": "Tix 80% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-25T00:33:01.456Z",
       "liqSnap": {
         "combinedTop3": 27086.26,
         "combinedAwayTop3": 18935.9,
