@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:08:10.397Z",
+  "updatedAt": "2026-11-25T00:08:16.497Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6365,10 +6365,10 @@
       "market": "spread",
       "line": 1.5,
       "price": -108,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 91,
-      "reason": "Tix 78% + $ 91% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:37.463Z"
+      "reason": "Tix 79% + $ 91% on fav",
+      "leanUpdatedAt": "2026-11-25T00:08:11.457Z"
     },
     {
       "pickKey": "m|683|baylor_at_alabama|DOG|away|ml",
@@ -6389,10 +6389,10 @@
       "market": "ml",
       "line": 104,
       "price": 104,
-      "tixFav": 78,
+      "tixFav": 79,
       "monFav": 91,
-      "reason": "Tix 78% + $ 91% on fav",
-      "leanUpdatedAt": "2026-11-25T00:01:37.463Z"
+      "reason": "Tix 79% + $ 91% on fav",
+      "leanUpdatedAt": "2026-11-25T00:08:11.457Z"
     },
     {
       "pickKey": "m|685|gonzaga_at_kansas_state|DOG|home|spread",
@@ -6577,10 +6577,10 @@
       "market": "spread",
       "line": 10,
       "price": -111,
-      "tixFav": 90,
+      "tixFav": 89,
       "monFav": 96,
-      "reason": "Tix 90% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-24T23:55:33.463Z"
+      "reason": "Tix 89% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-25T00:08:13.468Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|ml",
@@ -6601,10 +6601,10 @@
       "market": "ml",
       "line": 421,
       "price": 421,
-      "tixFav": 90,
+      "tixFav": 89,
       "monFav": 96,
-      "reason": "Tix 90% + $ 96% on fav",
-      "leanUpdatedAt": "2026-11-24T23:55:33.463Z"
+      "reason": "Tix 89% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-25T00:08:13.468Z"
     },
     {
       "pickKey": "m|699|eastern_michigan_at_kennesaw_state|DOG|away|spread",
@@ -7716,10 +7716,10 @@
       "market": "spread",
       "line": -30,
       "price": -109,
-      "tixFav": 25,
-      "monFav": 4,
-      "reason": "Tix 25% + $ 4% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:37:03.456Z"
+      "tixFav": 31,
+      "monFav": 22,
+      "reason": "Tix 31% + $ 22% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:08:11.457Z"
     },
     {
       "pickKey": "m|501|detroit_at_orlando|FAV|home|spread",
