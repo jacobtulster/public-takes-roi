@@ -343,6 +343,54 @@ def signal_id(venue: str, away: str, home: str, start: str | None, market: str) 
     return f"{venue}|{slug_team(away)}_at_{slug_team(home)}|{day}|{market}"
 
 
+def is_nhl_or_mlb(game: dict[str, Any]) -> bool:
+    blob = f"{game.get('sport') or ''} {game.get('league') or ''} {game.get('eventName') or ''}".upper()
+    return "NHL" in blob or "MLB" in blob or "HOCKEY" in blob or "BASEBALL" in blob
+
+
+def plus15_in_band(line: Any, top3: list[Any] | None) -> bool:
+    try:
+        if abs(float(line) - 1.5) > 0.05:
+            return False
+    except (TypeError, ValueError):
+        return False
+    for row in top3 or []:
+        if not isinstance(row, dict):
+            continue
+        try:
+            odds = float(row.get("odds"))
+        except (TypeError, ValueError):
+            continue
+        if -145 <= odds <= 100:
+            return True
+    return False
+
+
+def spread_has_plus15_band(sp: dict[str, Any] | None) -> bool:
+    if not isinstance(sp, dict):
+        return False
+    return plus15_in_band(sp.get("awayLine"), sp.get("awayTop3")) or plus15_in_band(
+        sp.get("homeLine"), sp.get("homeTop3")
+    )
+
+
+def pick_liquidity_book(game: dict[str, Any]) -> tuple[dict[str, Any] | None, str]:
+    """NHL/MLB → ML unless +1.5 is +100…-145; else prefer spread then ML."""
+    sp = game.get("spread") if isinstance(game.get("spread"), dict) else None
+    ml = game.get("moneyline") if isinstance(game.get("moneyline"), dict) else None
+    if is_nhl_or_mlb(game):
+        if spread_has_plus15_band(sp):
+            return sp, "spread"
+        if ml and top3_sum(ml.get("awayTop3")) + top3_sum(ml.get("homeTop3")) > 0:
+            return ml, "ml"
+        return (ml or sp), ("ml" if ml else "spread" if sp else "spread")
+    if sp and top3_sum(sp.get("awayTop3")) + top3_sum(sp.get("homeTop3")) > 0:
+        return sp, "spread"
+    if ml and top3_sum(ml.get("awayTop3")) + top3_sum(ml.get("homeTop3")) > 0:
+        return ml, "ml"
+    return None, "spread"
+
+
 def extract_signal(game: dict[str, Any], venue: str) -> dict[str, Any] | None:
     """Build a light-side fade signal from a liquidity game row."""
     away = str(game.get("away") or "").strip()
@@ -350,18 +398,8 @@ def extract_signal(game: dict[str, Any], venue: str) -> dict[str, Any] | None:
     if not away or not home:
         return None
 
-    # Prefer spread book (same as UI disparity); fall back to ML
-    sp = game.get("spread") if isinstance(game.get("spread"), dict) else None
-    ml = game.get("moneyline") if isinstance(game.get("moneyline"), dict) else None
-    book = None
-    market = "spread"
-    if sp and top3_sum(sp.get("awayTop3")) + top3_sum(sp.get("homeTop3")) > 0:
-        book = sp
-        market = "spread"
-    elif ml and top3_sum(ml.get("awayTop3")) + top3_sum(ml.get("homeTop3")) > 0:
-        book = ml
-        market = "ml"
-    else:
+    book, market = pick_liquidity_book(game)
+    if not book:
         return None
 
     ratio, heavy = top3_ratio(book.get("awayTop3"), book.get("homeTop3"))

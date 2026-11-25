@@ -679,7 +679,8 @@ code {
     padding: 7px 5px;
   }
 
-  /* Phones: one venue at a time (Both still available via tab) */
+  /* Phones: combined summary; hide per-venue detail when Both */
+  .picks-table.liq-venue-both .col-4c,
   .picks-table.liq-venue-both .col-nv {
     display: none;
   }
@@ -755,8 +756,12 @@ code {
 }
 
 .col-liq {
-  width: 20%;
+  width: 16%;
   vertical-align: top;
+}
+
+.col-combined {
+  width: 12%;
 }
 
 .picks-table.liq-venue-4c .col-nv,
@@ -766,7 +771,18 @@ code {
 
 .picks-table.liq-venue-4c .col-4c,
 .picks-table.liq-venue-novig .col-nv {
-  width: 40%;
+  width: 32%;
+}
+
+.picks-table.liq-venue-4c .col-combined,
+.picks-table.liq-venue-novig .col-combined {
+  width: 16%;
+}
+
+.liq-combined-meta {
+  margin-top: 2px;
+  font-size: 10px;
+  color: var(--muted);
 }
 
 .liq-headrow {

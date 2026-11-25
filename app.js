@@ -21,7 +21,7 @@
   let chart;
   let activeCard = 'all';
   let activeMarket = 'spread'; // ATS book by default; ML is a separate ledger
-  /** Table sort: 'start' | 'rank' (4C ratio) | 'novigRank' (NV ratio). */
+  /** Table sort: 'start' | 'rank' | 'novigRank' | 'combinedRank'. */
   let tableSort = { key: 'start', dir: 'asc' };
   /** Which liquidity columns to show: both | 4c | novig */
   let liqVenue = 'both';
@@ -603,26 +603,43 @@
 
   /** Main-line top-3 $ ratio for a venue (same math as the cell badge). */
   function pickLiqRatio(pick, venue) {
-    const hit = findLiquidityGame(pick, venue === 'novig' ? novigStore : liqStore);
-    if (!hit || !hit.game) return null;
-    const book = bookForPick(pick, hit.game);
-    if (!book) return null;
-    let awayTop = book.awayTop3;
-    let homeTop = book.homeTop3;
-    if (hit.flipped) {
-      const tmp = awayTop;
-      awayTop = homeTop;
-      homeTop = tmp;
+    if (venue === 'combined') {
+      const c = combinedSideSums(pick);
+      return c ? c.ratio : null;
     }
-    const awaySum = sumTop3Sizes(awayTop);
-    const homeSum = sumTop3Sizes(homeTop);
+    const sides = venueSideSums(pick, venue === 'novig' ? novigStore : liqStore);
+    if (!sides || sides.awaySum + sides.homeSum <= 0) return null;
+    return sides.ratio;
+  }
+
+  function combinedSideSums(pick) {
+    const a4 = venueSideSums(pick, liqStore);
+    const an = venueSideSums(pick, novigStore);
+    if (!a4 && !an) return null;
+    const awaySum = (a4 ? a4.awaySum : 0) + (an ? an.awaySum : 0);
+    const homeSum = (a4 ? a4.homeSum : 0) + (an ? an.homeSum : 0);
     if (awaySum + homeSum <= 0) return null;
-    return top3Ratio(awaySum, homeSum).ratio;
+    const { ratio, heavy } = top3Ratio(awaySum, homeSum);
+    const awayLabel = (a4 && a4.awayLabel) || (an && an.awayLabel) || pick.away || 'Away';
+    const homeLabel = (a4 && a4.homeLabel) || (an && an.homeLabel) || pick.home || 'Home';
+    return {
+      awaySum,
+      homeSum,
+      ratio,
+      heavy,
+      awayLabel,
+      homeLabel,
+      r4: a4 && a4.awaySum + a4.homeSum > 0 ? a4.ratio : null,
+      rN: an && an.awaySum + an.homeSum > 0 ? an.ratio : null,
+      heavy4: a4 ? a4.heavy : null,
+      heavyN: an ? an.heavy : null,
+    };
   }
 
   function comparePicksForTable(a, b, now) {
-    if (tableSort.key === 'rank' || tableSort.key === 'novigRank') {
-      const venue = tableSort.key === 'novigRank' ? 'novig' : '4c';
+    if (tableSort.key === 'rank' || tableSort.key === 'novigRank' || tableSort.key === 'combinedRank') {
+      const venue =
+        tableSort.key === 'novigRank' ? 'novig' : tableSort.key === 'combinedRank' ? 'combined' : '4c';
       const ra = pickLiqRatio(a, venue);
       const rb = pickLiqRatio(b, venue);
       const aMiss = ra == null;
@@ -632,10 +649,12 @@
         // desc = highest ratio first (default); asc = lowest first
         return tableSort.dir === 'asc' ? ra - rb : rb - ra;
       }
-      // Tie-break by OI rank (#1 first)
-      const oa = pickLiqRank(a, venue);
-      const ob = pickLiqRank(b, venue);
-      if (oa != null && ob != null && oa !== ob) return oa - ob;
+      // Tie-break by OI rank (#1 first) — skip for combined
+      if (venue !== 'combined') {
+        const oa = pickLiqRank(a, venue);
+        const ob = pickLiqRank(b, venue);
+        if (oa != null && ob != null && oa !== ob) return oa - ob;
+      }
     }
     return comparePicksByStart(a, b, now);
   }
@@ -744,7 +763,8 @@
         const lean = fmtLeanMeta(p);
         const liq4c = renderPickLiquidityCells(p, liqStore, 'col-4c');
         const liqNv = renderPickLiquidityCells(p, novigStore, 'col-nv');
-        const rowSkew = liq4c.rowClass || liqNv.rowClass || '';
+        const liqComb = renderCombinedRatioCell(p);
+        const rowSkew = liq4c.rowClass || liqNv.rowClass || liqComb.rowClass || '';
         return (
           `<tr class="${rowSkew}">` +
           `<td class="col-start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
@@ -754,6 +774,7 @@
           `<td class="col-line">${escapeHtml(line)}${src ? `<div class="meta">${escapeHtml(src)}</div>` : ''}</td>` +
           liq4c.cells +
           liqNv.cells +
+          liqComb.cells +
           `<td class="col-result"><span class="pill ${resPill}">${r || 'OPEN'}</span>` +
           `<div class="meta profit-inline">${profit}</div>` +
           `${p.gradeSource ? `<div class="meta grade-src">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
@@ -891,13 +912,88 @@
     return null;
   }
 
+  function isNhlOrMlb(pick, game) {
+    const blob = [
+      pick && pick.sport,
+      pick && pick.league,
+      game && game.sport,
+      game && game.league,
+      game && game.eventName,
+    ]
+      .filter(Boolean)
+      .join(' ')
+      .toUpperCase();
+    return /\bNHL\b/.test(blob) || /\bMLB\b/.test(blob) || /HOCKEY/.test(blob) || /\bBASEBALL\b/.test(blob);
+  }
+
+  /** +1.5 priced between +100 and -145 (inclusive). */
+  function plus15InJuiceBand(line, top3) {
+    if (Math.abs(Number(line) - 1.5) > 0.05) return false;
+    const rows = Array.isArray(top3) ? top3 : [];
+    for (let i = 0; i < rows.length; i++) {
+      const odds = Number(rows[i] && rows[i].odds);
+      if (Number.isFinite(odds) && odds >= -145 && odds <= 100) return true;
+    }
+    return false;
+  }
+
+  function spreadHasPlus15Band(sp) {
+    if (!sp || typeof sp !== 'object') return false;
+    return (
+      plus15InJuiceBand(sp.awayLine, sp.awayTop3) || plus15InJuiceBand(sp.homeLine, sp.homeTop3)
+    );
+  }
+
+  /**
+   * Liquidity book for disparity:
+   * NHL/MLB → ML, unless +1.5 is +100…-145 then use that spread.
+   * Else → match the pick market (ATS prefers spread).
+   */
   function bookForPick(pick, game) {
     if (!game) return null;
-    if (marketOf(pick) === 'ml') return game.moneyline || null;
     const sp = game.spread;
+    const ml = game.moneyline;
+    if (isNhlOrMlb(pick, game)) {
+      if (spreadHasPlus15Band(sp)) return sp;
+      if (ml && sumTop3Sizes(ml.awayTop3) + sumTop3Sizes(ml.homeTop3) > 0) return ml;
+      return ml || sp || null;
+    }
+    if (marketOf(pick) === 'ml') return ml || null;
     const spTot = sp ? Number(sp.awayTotal || 0) + Number(sp.homeTotal || 0) : 0;
     if (spTot > 0) return sp;
-    return game.moneyline || sp || null;
+    return ml || sp || null;
+  }
+
+  function venueSideSums(pick, venueStore) {
+    const hit = findLiquidityGame(pick, venueStore);
+    if (!hit || !hit.game) return null;
+    const book = bookForPick(pick, hit.game);
+    if (!book) return null;
+    let awayTop = book.awayTop3;
+    let homeTop = book.homeTop3;
+    let awayLine = book.awayLine;
+    let homeLine = book.homeLine;
+    let awayLabel = hit.game.away || 'Away';
+    let homeLabel = hit.game.home || 'Home';
+    if (hit.flipped) {
+      const tt = awayTop;
+      awayTop = homeTop;
+      homeTop = tt;
+      const tl = awayLabel;
+      awayLabel = homeLabel;
+      homeLabel = tl;
+      const ln = awayLine;
+      awayLine = homeLine;
+      homeLine = ln;
+    }
+    return {
+      awaySum: sumTop3Sizes(awayTop),
+      homeSum: sumTop3Sizes(homeTop),
+      awayLabel,
+      homeLabel,
+      ratio: top3Ratio(sumTop3Sizes(awayTop), sumTop3Sizes(homeTop)).ratio,
+      heavy: top3Ratio(sumTop3Sizes(awayTop), sumTop3Sizes(homeTop)).heavy,
+    };
   }
 
   function fmtSpreadLine(n) {
@@ -995,6 +1091,12 @@
     const { ratio, heavy } = top3Ratio(awaySum, homeSum);
     const tier = ratioTier(ratio);
     const heavyName = heavy === 'away' ? shortTeamLabel(awayLabel) : heavy === 'home' ? shortTeamLabel(homeLabel) : '';
+    const nhlMlb = isNhlOrMlb(pick, g);
+    const bookNote = nhlMlb
+      ? spreadHasPlus15Band(g.spread)
+        ? ' · +1.5'
+        : ' · ML'
+      : '';
     const awayHead =
       escapeHtml(shortTeamLabel(awayLabel)) +
       (awayLine != null && awayLine !== '' ? ` ${fmtSpreadLine(awayLine)}` : '');
@@ -1003,7 +1105,7 @@
       (homeLine != null && homeLine !== '' ? ` ${fmtSpreadLine(homeLine)}` : '');
     const ratioHtml =
       awaySum + homeSum > 0
-        ? `<div class="liq-ratio ${tier ? `liq-ratio-${tier}` : 'liq-ratio-flat'}" title="Ratio of summed top-3 $ at main line">${ratio.toFixed(1)}×${
+        ? `<div class="liq-ratio ${tier ? `liq-ratio-${tier}` : 'liq-ratio-flat'}" title="Ratio of summed top-3 $ at main line${bookNote}">${ratio.toFixed(1)}×${
             heavyName ? ' ' + escapeHtml(heavyName) : ''
           }</div>`
         : '';
@@ -1020,11 +1122,45 @@
       cells:
         `<td class="col-liq ${cls}">` +
         `<div class="liq-headrow"><span class="${rankCls}">#${g.rank != null ? g.rank : '—'}</span>` +
-        `<span class="meta">${fmtUsdCompact(g.openInterest)}</span></div>` +
+        `<span class="meta">${fmtUsdCompact(g.openInterest)}${bookNote ? `<span class="meta">${bookNote}</span>` : ''}</span></div>` +
         `<div class="liq-top-pair">` +
         `<div class="${awayWrap}"><div class="meta">${awayHead}</div>${renderTop3Levels(awayTop, homeTop)}</div>` +
         `<div class="${homeWrap}"><div class="meta">${homeHead}</div>${renderTop3Levels(homeTop, awayTop)}</div>` +
         `</div>${ratioHtml}</td>`,
+    };
+  }
+
+  /** Combined 4C+NV top-3 $ ratio (same side dollars summed). */
+  function renderCombinedRatioCell(pick) {
+    const c = combinedSideSums(pick);
+    if (!c) {
+      return {
+        rowClass: '',
+        cells: `<td class="col-liq col-combined"><span class="meta">—</span></td>`,
+      };
+    }
+    const tier = ratioTier(c.ratio);
+    const heavyName =
+      c.heavy === 'away'
+        ? shortTeamLabel(c.awayLabel)
+        : c.heavy === 'home'
+          ? shortTeamLabel(c.homeLabel)
+          : '';
+    const parts = [];
+    if (c.r4 != null) parts.push(`4C ${c.r4.toFixed(1)}×`);
+    if (c.rN != null) parts.push(`NV ${c.rN.toFixed(1)}×`);
+    return {
+      rowClass: tier ? 'liq-row-skew' : '',
+      cells:
+        `<td class="col-liq col-combined">` +
+        `<div class="liq-ratio ${tier ? `liq-ratio-${tier}` : 'liq-ratio-flat'}" title="4C+NV summed top-3 $ ratio">${c.ratio.toFixed(1)}×${
+          heavyName ? ' ' + escapeHtml(heavyName) : ''
+        }</div>` +
+        (parts.length
+          ? `<div class="liq-combined-meta meta">${parts.map(escapeHtml).join(' · ')}</div>`
+          : '') +
+        `<div class="meta">${fmtUsdCompact(c.awaySum)} / ${fmtUsdCompact(c.homeSum)}</div>` +
+        `</td>`,
     };
   }
 
@@ -1558,7 +1694,7 @@
       } else {
         tableSort.key = key;
         // 4C/NV: highest top-3 $ ratio first. Start: upcoming-first.
-        tableSort.dir = key === 'rank' || key === 'novigRank' ? 'desc' : 'asc';
+        tableSort.dir = key === 'rank' || key === 'novigRank' || key === 'combinedRank' ? 'desc' : 'asc';
       }
       renderTable();
     });
