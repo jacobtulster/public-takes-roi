@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:48:47.676Z",
+  "updatedAt": "2026-11-25T23:48:51.631Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -10019,9 +10019,9 @@
       "market": "spread",
       "line": -1.5,
       "price": 170,
-      "tixFav": 6,
-      "monFav": 15,
-      "reason": "Tix 6% + $ 15% on fav (<50)",
+      "tixFav": 5,
+      "monFav": 14,
+      "reason": "Tix 5% + $ 14% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 9798.6,
         "combinedAwayTop3": 8234.14,
@@ -10037,7 +10037,7 @@
         "snappedAt": "2026-11-25T23:14:21.101692Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
+      "leanUpdatedAt": "2026-11-25T23:48:48.458Z"
     },
     {
       "pickKey": "m|49|san_jose_at_anaheim|FAV|home|ml",
@@ -10058,9 +10058,9 @@
       "market": "ml",
       "line": -138,
       "price": -138,
-      "tixFav": 6,
-      "monFav": 15,
-      "reason": "Tix 6% + $ 15% on fav (<50)",
+      "tixFav": 5,
+      "monFav": 14,
+      "reason": "Tix 5% + $ 14% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 9798.6,
         "combinedAwayTop3": 8234.14,
@@ -10076,7 +10076,7 @@
         "snappedAt": "2026-11-25T23:14:21.102555Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
+      "leanUpdatedAt": "2026-11-25T23:48:48.458Z"
     },
     {
       "pickKey": "m|53|chicago_at_seattle|DOG|away|spread",
