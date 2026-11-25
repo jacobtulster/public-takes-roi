@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:05:37.069Z",
+  "updatedAt": "2026-11-25T00:08:04.700Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6719,10 +6719,10 @@
       "market": "spread",
       "line": -1.5,
       "price": -108,
-      "tixFav": 42,
+      "tixFav": 41,
       "monFav": 48,
-      "reason": "Tix 42% + $ 48% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:49:11.553Z"
+      "reason": "Tix 41% + $ 48% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:08:01.457Z"
     },
     {
       "pickKey": "m|675|clemson_at_washington|FAV|away|ml",
@@ -6743,10 +6743,10 @@
       "market": "ml",
       "line": -119,
       "price": -119,
-      "tixFav": 42,
+      "tixFav": 41,
       "monFav": 48,
-      "reason": "Tix 42% + $ 48% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:49:11.553Z"
+      "reason": "Tix 41% + $ 48% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:08:01.457Z"
     },
     {
       "pickKey": "m|641|tarleton_state_at_weber_state|FAV|home|spread",
@@ -7008,9 +7008,9 @@
       "line": 21,
       "price": -114,
       "tixFav": 92,
-      "monFav": 90,
-      "reason": "Tix 92% + $ 90% on fav",
-      "leanUpdatedAt": "2026-11-24T23:55:21.466Z"
+      "monFav": 92,
+      "reason": "Tix 92% + $ 92% on fav",
+      "leanUpdatedAt": "2026-11-25T00:08:01.457Z"
     },
     {
       "pickKey": "m|627|southern_indiana_at_vmi|DOG|away|spread",
