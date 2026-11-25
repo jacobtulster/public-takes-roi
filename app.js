@@ -296,9 +296,9 @@
     const a4 = trustAgg('4c');
     const an = trustAgg('novig');
     root.title =
-      `Fade heavy top-3 $ (≥2×) → bet light @ $100/u` +
-      ` · 4C ${a4.record} ${fmtDollars(a4.profit)} (${a4.open} open)` +
-      ` · NV ${an.record} ${fmtDollars(an.profit)} (${an.open} open)`;
+      `Fade big money (top-3 $ ≥2×) → bet light @ $100/u` +
+      ` · 4C fade big money ${a4.record} ${fmtDollars(a4.profit)} (${a4.open} open)` +
+      ` · NV fade big money ${an.record} ${fmtDollars(an.profit)} (${an.open} open)`;
   }
 
   function renderMarketTabs() {
