@@ -292,22 +292,37 @@ select:hover {
   flex-shrink: 0;
 }
 
-.panel-picks .toolbar {
-  /* Keep chip row height stable so active-tab toggles don't shove the table */
-  min-height: 48px;
-  align-content: flex-start;
+.panel-picks .toolbar.toolbar-picks {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 3px;
+  min-height: 0;
+}
+
+.panel-picks .toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  align-items: center;
+  min-width: 0;
+}
+
+.panel-picks .toolbar-row-filters {
+  flex-wrap: nowrap;
 }
 
 .panel-picks .toolbar select {
-  padding: 3px 6px;
-  font-size: 10px;
-  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 9px;
+  border-radius: 4px;
+  line-height: 1.15;
 }
 
 .toolbar h2 {
   flex: 0 1 auto;
   min-width: 0;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .panel-chart .toolbar h2 {
@@ -319,7 +334,7 @@ select:hover {
   display: inline-flex;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 3px;
+  gap: 2px;
   flex: 0 0 auto;
 }
 
@@ -337,13 +352,13 @@ select:hover {
 .filter-stats {
   display: inline-flex;
   align-items: baseline;
-  gap: 3px;
+  gap: 2px;
   margin-right: 0;
-  padding: 2px 6px;
+  padding: 1px 4px;
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: 4px;
   background: color-mix(in srgb, var(--bg1) 85%, #0b1220);
-  font: 600 10px/1.15 var(--font);
+  font: 600 9px/1.1 var(--font);
   letter-spacing: 0.01em;
   white-space: nowrap;
 }
@@ -751,8 +766,9 @@ code {
   gap: 1px;
   padding: 1px;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: 5px;
   background: color-mix(in srgb, var(--bg1) 85%, transparent);
+  flex: 0 0 auto;
 }
 
 .liq-venue-tab {
@@ -760,9 +776,9 @@ code {
   border: 0;
   background: transparent;
   color: var(--muted);
-  font: 600 10px/1 var(--font);
-  padding: 4px 6px;
-  border-radius: 4px;
+  font: 600 9px/1 var(--font);
+  padding: 3px 5px;
+  border-radius: 3px;
   cursor: pointer;
   box-shadow: none;
 }

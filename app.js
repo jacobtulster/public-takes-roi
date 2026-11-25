@@ -1867,7 +1867,7 @@
     });
   });
 
-  document.querySelectorAll('.liq-venue-tab').forEach((btn) => {
+  document.querySelectorAll('#liq-venue-tabs .liq-venue-tab').forEach((btn) => {
     btn.addEventListener('click', () => {
       const v = btn.getAttribute('data-venue');
       if (!v || v === liqVenue) return;
