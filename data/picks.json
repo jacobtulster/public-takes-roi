@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:20:24.752Z",
+  "updatedAt": "2026-11-25T00:22:38.610Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6866,7 +6866,16 @@
       "tixFav": 84,
       "monFav": 76,
       "reason": "Tix 84% + $ 76% on fav",
-      "leanUpdatedAt": "2026-11-24T21:56:09.814Z"
+      "leanUpdatedAt": "2026-11-24T21:56:09.814Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 66,
+      "homeScore": 84,
+      "gradedAt": "2026-11-25T00:22:34.385Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921710",
+      "espnAway": "Providence Friars",
+      "espnHome": "Arizona Wildcats"
     },
     {
       "pickKey": "m|673|providence_at_arizona|DOG|away|ml",
@@ -6890,7 +6899,16 @@
       "tixFav": 84,
       "monFav": 76,
       "reason": "Tix 84% + $ 76% on fav",
-      "leanUpdatedAt": "2026-11-24T21:56:09.814Z"
+      "leanUpdatedAt": "2026-11-24T21:56:09.814Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 66,
+      "homeScore": 84,
+      "gradedAt": "2026-11-25T00:22:34.385Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921710",
+      "espnAway": "Providence Friars",
+      "espnHome": "Arizona Wildcats"
     },
     {
       "pickKey": "m|677|vcu_at_colorado_state|DOG|home|spread",
