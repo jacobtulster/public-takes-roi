@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:26:46.750Z",
+  "updatedAt": "2026-11-25T00:32:58.788Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -6042,7 +6042,7 @@
       "reason": "Tix 31% + $ 17% on fav (<50)",
       "leanUpdatedAt": "2026-11-25T00:05:33.465Z",
       "liqSnap": {
-        "combinedTop3": 52777.0,
+        "combinedTop3": 52777,
         "combinedAwayTop3": 24372.3,
         "combinedHomeTop3": 28404.7,
         "combinedRatio": 1.17,
@@ -6313,7 +6313,7 @@
         "combinedHeavySide": "home",
         "combinedOi": 7107857.39,
         "liqAgreesTake": true,
-        "fourcastersTop3": 15161.0,
+        "fourcastersTop3": 15161,
         "novigTop3": 11314.5,
         "snappedAt": "2026-11-25T00:31:54.774877Z",
         "frozen": false
@@ -6711,10 +6711,10 @@
       "market": "spread",
       "line": 3.5,
       "price": -114,
-      "tixFav": 78,
-      "monFav": 79,
-      "reason": "Tix 78% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-25T00:14:09.456Z",
+      "tixFav": 77,
+      "monFav": 73,
+      "reason": "Tix 77% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-25T00:32:55.454Z",
       "liqSnap": {
         "combinedTop3": 15460.12,
         "combinedAwayTop3": 9728.46,
@@ -6748,10 +6748,10 @@
       "market": "ml",
       "line": 135,
       "price": 135,
-      "tixFav": 78,
-      "monFav": 79,
-      "reason": "Tix 78% + $ 79% on fav",
-      "leanUpdatedAt": "2026-11-25T00:14:09.456Z",
+      "tixFav": 77,
+      "monFav": 73,
+      "reason": "Tix 77% + $ 73% on fav",
+      "leanUpdatedAt": "2026-11-25T00:32:55.454Z",
       "liqSnap": {
         "combinedTop3": 27605.13,
         "combinedAwayTop3": 10018.24,
@@ -6953,10 +6953,10 @@
       "market": "spread",
       "line": -1.5,
       "price": -108,
-      "tixFav": 39,
-      "monFav": 47,
-      "reason": "Tix 39% + $ 47% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:20:09.489Z",
+      "tixFav": 41,
+      "monFav": 49,
+      "reason": "Tix 41% + $ 49% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:32:55.454Z",
       "liqSnap": {
         "combinedTop3": 20211.49,
         "combinedAwayTop3": 13968.24,
@@ -6990,10 +6990,10 @@
       "market": "ml",
       "line": -119,
       "price": -119,
-      "tixFav": 39,
-      "monFav": 47,
-      "reason": "Tix 39% + $ 47% on fav (<50)",
-      "leanUpdatedAt": "2026-11-25T00:20:09.489Z",
+      "tixFav": 41,
+      "monFav": 49,
+      "reason": "Tix 41% + $ 49% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:32:55.454Z",
       "liqSnap": {
         "combinedTop3": 43731.07,
         "combinedAwayTop3": 29541.81,
@@ -8431,7 +8431,7 @@
         "combinedHomeTop3": 4587.12,
         "combinedRatio": 10.43,
         "combinedHeavySide": "home",
-        "combinedOi": 1317296.0,
+        "combinedOi": 1317296,
         "liqAgreesTake": false,
         "fourcastersTop3": 0,
         "novigTop3": 5027.11,
@@ -8439,6 +8439,5 @@
         "frozen": false
       }
     }
-  ],
-  "liqSnapUpdatedAt": "2026-11-25T00:31:54.801322Z"
+  ]
 }
