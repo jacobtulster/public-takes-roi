@@ -2,8 +2,9 @@ name: Fetch 4casters liquidity
 
 on:
   schedule:
-    # Every 15 minutes
-    - cron: "*/15 * * * *"
+    # Every 5 minutes (GitHub Actions minimum practical cadence).
+    # Each run = 1 request per league (6 total) — not a tight poll loop.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
