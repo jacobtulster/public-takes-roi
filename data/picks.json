@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:39:06.661Z",
+  "updatedAt": "2026-11-25T00:39:10.497Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -7756,10 +7756,10 @@
       "market": "spread",
       "line": 2,
       "price": -108,
-      "tixFav": 80,
+      "tixFav": 81,
       "monFav": 98,
-      "reason": "Tix 80% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-25T00:33:01.456Z",
+      "reason": "Tix 81% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-25T00:39:07.485Z",
       "liqSnap": {
         "combinedTop3": 15443.12,
         "combinedAwayTop3": 8517.39,
@@ -7793,10 +7793,10 @@
       "market": "ml",
       "line": 111,
       "price": 111,
-      "tixFav": 80,
+      "tixFav": 81,
       "monFav": 98,
-      "reason": "Tix 80% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-25T00:33:01.456Z",
+      "reason": "Tix 81% + $ 98% on fav",
+      "leanUpdatedAt": "2026-11-25T00:39:07.485Z",
       "liqSnap": {
         "combinedTop3": 27086.26,
         "combinedAwayTop3": 18935.9,
@@ -8440,9 +8440,9 @@
       "market": "spread",
       "line": -18,
       "price": -114,
-      "tixFav": 44,
+      "tixFav": 40,
       "monFav": 3,
-      "reason": "Tix 44% + $ 3% on fav (<50)",
+      "reason": "Tix 40% + $ 3% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 5027.11,
         "combinedAwayTop3": 439.99,
@@ -8455,7 +8455,8 @@
         "novigTop3": 5027.11,
         "snappedAt": "2026-11-25T00:29:47.377220Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-25T00:39:07.484Z"
     }
   ]
 }
