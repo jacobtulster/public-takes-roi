@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T00:01:26.653Z",
+  "updatedAt": "2026-11-25T00:01:30.663Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -6509,10 +6509,10 @@
       "market": "spread",
       "line": 3.5,
       "price": -114,
-      "tixFav": 80,
-      "monFav": 78,
-      "reason": "Tix 80% + $ 78% on fav",
-      "leanUpdatedAt": "2026-11-24T23:55:21.466Z"
+      "tixFav": 79,
+      "monFav": 77,
+      "reason": "Tix 79% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-25T00:01:27.456Z"
     },
     {
       "pickKey": "m|691|texas_tech_at_louisville|DOG|home|ml",
@@ -6533,10 +6533,10 @@
       "market": "ml",
       "line": 135,
       "price": 135,
-      "tixFav": 80,
-      "monFav": 78,
-      "reason": "Tix 80% + $ 78% on fav",
-      "leanUpdatedAt": "2026-11-24T23:55:21.466Z"
+      "tixFav": 79,
+      "monFav": 77,
+      "reason": "Tix 79% + $ 77% on fav",
+      "leanUpdatedAt": "2026-11-25T00:01:27.456Z"
     },
     {
       "pickKey": "m|693|oregon_at_st_john_s|DOG|away|spread",
@@ -6748,9 +6748,9 @@
       "line": -1,
       "price": -104,
       "tixFav": 26,
-      "monFav": 4,
-      "reason": "Tix 26% + $ 4% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:36:53.455Z"
+      "monFav": 5,
+      "reason": "Tix 26% + $ 5% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:01:27.455Z"
     },
     {
       "pickKey": "m|641|tarleton_state_at_weber_state|FAV|home|ml",
@@ -6772,9 +6772,9 @@
       "line": -109,
       "price": -109,
       "tixFav": 26,
-      "monFav": 4,
-      "reason": "Tix 26% + $ 4% on fav (<50)",
-      "leanUpdatedAt": "2026-11-24T23:36:53.455Z"
+      "monFav": 5,
+      "reason": "Tix 26% + $ 5% on fav (<50)",
+      "leanUpdatedAt": "2026-11-25T00:01:27.455Z"
     },
     {
       "pickKey": "m|667|saint_louis_at_grand_canyon|DOG|away|spread",
