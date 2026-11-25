@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:36:55.635Z",
+  "updatedAt": "2026-11-25T23:37:01.698Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -10020,8 +10020,8 @@
       "line": -1.5,
       "price": 170,
       "tixFav": 6,
-      "monFav": 16,
-      "reason": "Tix 6% + $ 16% on fav (<50)",
+      "monFav": 15,
+      "reason": "Tix 6% + $ 15% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 9798.6,
         "combinedAwayTop3": 8234.14,
@@ -10037,7 +10037,7 @@
         "snappedAt": "2026-11-25T23:14:21.101692Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-25T21:38:12.889Z"
+      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
     },
     {
       "pickKey": "m|49|san_jose_at_anaheim|FAV|home|ml",
@@ -10059,8 +10059,8 @@
       "line": -138,
       "price": -138,
       "tixFav": 6,
-      "monFav": 16,
-      "reason": "Tix 6% + $ 16% on fav (<50)",
+      "monFav": 15,
+      "reason": "Tix 6% + $ 15% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 9798.6,
         "combinedAwayTop3": 8234.14,
@@ -10076,7 +10076,7 @@
         "snappedAt": "2026-11-25T23:14:21.102555Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-25T21:38:12.889Z"
+      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
     },
     {
       "pickKey": "m|53|chicago_at_seattle|DOG|away|spread",
@@ -11881,9 +11881,9 @@
       "market": "spread",
       "line": -1.5,
       "price": 154,
-      "tixFav": 18,
-      "monFav": 15,
-      "reason": "Tix 18% + $ 15% on fav (<50)",
+      "tixFav": 17,
+      "monFav": 12,
+      "reason": "Tix 17% + $ 12% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 28086.04,
         "combinedAwayTop3": 2076.15,
@@ -11898,7 +11898,8 @@
         "novigTop3": 13296.33,
         "snappedAt": "2026-11-25T23:14:21.141499Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
     },
     {
       "pickKey": "m|45|nashville_at_dallas|FAV|home|ml",
@@ -11919,9 +11920,9 @@
       "market": "ml",
       "line": -167,
       "price": -167,
-      "tixFav": 18,
-      "monFav": 15,
-      "reason": "Tix 18% + $ 15% on fav (<50)",
+      "tixFav": 17,
+      "monFav": 12,
+      "reason": "Tix 17% + $ 12% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 28086.04,
         "combinedAwayTop3": 2076.15,
@@ -11936,7 +11937,8 @@
         "novigTop3": 13296.33,
         "snappedAt": "2026-11-25T23:14:21.141931Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-25T23:36:58.467Z"
     },
     {
       "pickKey": "m|513|minnesota_at_oklahoma_city|FAV|home|spread",
