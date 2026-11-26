@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T15:46:25.825Z",
+  "updatedAt": "2026-11-26T16:41:11.232Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T19:11:08.348Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T19:11:08.358Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -12964,14 +12964,14 @@
       "market": "spread",
       "line": -2.5,
       "price": -105,
-      "tixFav": 36,
-      "monFav": 16,
-      "reason": "Tix 36% + $ 16% on fav (<50)",
+      "tixFav": 39,
+      "monFav": 15,
+      "reason": "Tix 39% + $ 15% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 9333.14,
         "combinedAwayTop3": 7465.16,
         "combinedHomeTop3": 1867.98,
-        "combinedRatio": 4.0,
+        "combinedRatio": 4,
         "combinedHeavySide": "away",
         "combinedOi": 1216153.52,
         "liqAgreesTake": true,
@@ -12981,7 +12981,8 @@
         "novigTop3": 7869.2,
         "snappedAt": "2026-11-26T15:46:37.882255Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|803|utah_state_at_usc|FAV|home|ml",
@@ -13002,9 +13003,9 @@
       "market": "ml",
       "line": -133,
       "price": -133,
-      "tixFav": 36,
-      "monFav": 16,
-      "reason": "Tix 36% + $ 16% on fav (<50)",
+      "tixFav": 39,
+      "monFav": 15,
+      "reason": "Tix 39% + $ 15% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 8521.69,
         "combinedAwayTop3": 5723.71,
@@ -13019,7 +13020,8 @@
         "novigTop3": 2697.34,
         "snappedAt": "2026-11-26T15:46:37.882650Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|807|depaul_at_pittsburgh|FAV|away|spread",
@@ -13040,9 +13042,9 @@
       "market": "spread",
       "line": -1.5,
       "price": -108,
-      "tixFav": 17,
+      "tixFav": 19,
       "monFav": 2,
-      "reason": "Tix 17% + $ 2% on fav (<50)",
+      "reason": "Tix 19% + $ 2% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 9912.58,
         "combinedAwayTop3": 7720.89,
@@ -13057,7 +13059,8 @@
         "novigTop3": 7061.65,
         "snappedAt": "2026-11-26T15:46:37.883033Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|807|depaul_at_pittsburgh|FAV|away|ml",
@@ -13078,14 +13081,14 @@
       "market": "ml",
       "line": -120,
       "price": -120,
-      "tixFav": 17,
+      "tixFav": 19,
       "monFav": 2,
-      "reason": "Tix 17% + $ 2% on fav (<50)",
+      "reason": "Tix 19% + $ 2% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 15938.56,
         "combinedAwayTop3": 14167.05,
         "combinedHomeTop3": 1771.51,
-        "combinedRatio": 8.0,
+        "combinedRatio": 8,
         "combinedHeavySide": "away",
         "combinedOi": 510838.28,
         "liqAgreesTake": false,
@@ -13095,7 +13098,8 @@
         "novigTop3": 13786.17,
         "snappedAt": "2026-11-26T15:46:37.883639Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|817|tennessee_at_iowa_state|FAV|home|spread",
@@ -13117,8 +13121,8 @@
       "line": -3,
       "price": -109,
       "tixFav": 22,
-      "monFav": 30,
-      "reason": "Tix 22% + $ 30% on fav (<50)",
+      "monFav": 40,
+      "reason": "Tix 22% + $ 40% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 10925.6,
         "combinedAwayTop3": 3823.95,
@@ -13133,7 +13137,8 @@
         "novigTop3": 7246.62,
         "snappedAt": "2026-11-26T15:46:37.884105Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|817|tennessee_at_iowa_state|FAV|home|ml",
@@ -13155,8 +13160,8 @@
       "line": -154,
       "price": -154,
       "tixFav": 22,
-      "monFav": 30,
-      "reason": "Tix 22% + $ 30% on fav (<50)",
+      "monFav": 40,
+      "reason": "Tix 22% + $ 40% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 14831.54,
         "combinedAwayTop3": 2390.22,
@@ -13171,7 +13176,8 @@
         "novigTop3": 11717.25,
         "snappedAt": "2026-11-26T15:46:37.884586Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|819|louisville_at_st_john_s|DOG|away|spread",
@@ -13192,9 +13198,9 @@
       "market": "spread",
       "line": 2,
       "price": -111,
-      "tixFav": 72,
+      "tixFav": 74,
       "monFav": 96,
-      "reason": "Tix 72% + $ 96% on fav",
+      "reason": "Tix 74% + $ 96% on fav",
       "liqSnap": {
         "combinedTop3": 11011.81,
         "combinedAwayTop3": 7088.98,
@@ -13209,7 +13215,8 @@
         "novigTop3": 8770.97,
         "snappedAt": "2026-11-26T15:46:37.884906Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|819|louisville_at_st_john_s|DOG|away|ml",
@@ -13230,9 +13237,9 @@
       "market": "ml",
       "line": 109,
       "price": 109,
-      "tixFav": 72,
+      "tixFav": 74,
       "monFav": 96,
-      "reason": "Tix 72% + $ 96% on fav",
+      "reason": "Tix 74% + $ 96% on fav",
       "liqSnap": {
         "combinedTop3": 17810.63,
         "combinedAwayTop3": 14499.86,
@@ -13247,7 +13254,8 @@
         "novigTop3": 14479.05,
         "snappedAt": "2026-11-26T15:46:37.885234Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|821|texas_tech_at_oregon|DOG|home|spread",
@@ -13268,9 +13276,9 @@
       "market": "spread",
       "line": 10,
       "price": -109,
-      "tixFav": 95,
-      "monFav": 96,
-      "reason": "Tix 95% + $ 96% on fav",
+      "tixFav": 91,
+      "monFav": 91,
+      "reason": "Tix 91% + $ 91% on fav",
       "liqSnap": {
         "combinedTop3": 20660.12,
         "combinedAwayTop3": 18167.29,
@@ -13285,7 +13293,8 @@
         "novigTop3": 18310.1,
         "snappedAt": "2026-11-26T15:46:37.885812Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|821|texas_tech_at_oregon|DOG|home|ml",
@@ -13306,9 +13315,9 @@
       "market": "ml",
       "line": 414,
       "price": 414,
-      "tixFav": 95,
-      "monFav": 96,
-      "reason": "Tix 95% + $ 96% on fav",
+      "tixFav": 91,
+      "monFav": 91,
+      "reason": "Tix 91% + $ 91% on fav",
       "liqSnap": {
         "combinedTop3": 25283.07,
         "combinedAwayTop3": 15283.23,
@@ -13323,7 +13332,8 @@
         "novigTop3": 21366.53,
         "snappedAt": "2026-11-26T15:46:37.886353Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|825|tcu_at_creighton|FAV|home|spread",
@@ -13344,9 +13354,9 @@
       "market": "spread",
       "line": -1,
       "price": -107,
-      "tixFav": 25,
+      "tixFav": 28,
       "monFav": 10,
-      "reason": "Tix 25% + $ 10% on fav (<50)",
+      "reason": "Tix 28% + $ 10% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 10149.79,
         "combinedAwayTop3": 2205.05,
@@ -13361,7 +13371,8 @@
         "novigTop3": 9112.66,
         "snappedAt": "2026-11-26T15:46:37.886701Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|825|tcu_at_creighton|FAV|home|ml",
@@ -13382,9 +13393,9 @@
       "market": "ml",
       "line": -113,
       "price": -113,
-      "tixFav": 25,
+      "tixFav": 28,
       "monFav": 10,
-      "reason": "Tix 25% + $ 10% on fav (<50)",
+      "reason": "Tix 28% + $ 10% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 2735.77,
         "combinedAwayTop3": 1456.43,
@@ -13399,7 +13410,8 @@
         "novigTop3": 906.9,
         "snappedAt": "2026-11-26T15:46:37.887033Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|827|alabama_at_kansas_state|DOG|home|spread",
@@ -13420,9 +13432,9 @@
       "market": "spread",
       "line": 14,
       "price": -110,
-      "tixFav": 88,
+      "tixFav": 86,
       "monFav": 88,
-      "reason": "Tix 88% + $ 88% on fav",
+      "reason": "Tix 86% + $ 88% on fav",
       "liqSnap": {
         "combinedTop3": 8806.75,
         "combinedAwayTop3": 3766.6,
@@ -13437,7 +13449,8 @@
         "novigTop3": 6519.44,
         "snappedAt": "2026-11-26T15:46:37.887368Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
     },
     {
       "pickKey": "m|827|alabama_at_kansas_state|DOG|home|ml",
@@ -13458,9 +13471,9 @@
       "market": "ml",
       "line": 802,
       "price": 802,
-      "tixFav": 88,
+      "tixFav": 86,
       "monFav": 88,
-      "reason": "Tix 88% + $ 88% on fav",
+      "reason": "Tix 86% + $ 88% on fav",
       "liqSnap": {
         "combinedTop3": 12432.74,
         "combinedAwayTop3": 649.99,
@@ -13475,8 +13488,54 @@
         "novigTop3": 12282.81,
         "snappedAt": "2026-11-26T15:46:37.887693Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
+    },
+    {
+      "pickKey": "m|833|saint_mary_s_ca_at_ucla|DOG|away|spread",
+      "matchupId": "833|saint_mary_s_ca_at_ucla|DOG|away|spread",
+      "loggedAt": "2026-11-26T16:41:07.911Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Thursday, November 26th",
+      "away": "Saint Mary's CA",
+      "home": "UCLA",
+      "kick": "22:00",
+      "startAt": "2026-11-26T22:00:00.000Z",
+      "gameNumber": 833,
+      "takeRole": "DOG",
+      "takeTeam": "Saint Mary's CA",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "spread",
+      "line": 7.5,
+      "price": -114,
+      "tixFav": 79,
+      "monFav": 75,
+      "reason": "Tix 79% + $ 75% on fav"
+    },
+    {
+      "pickKey": "m|833|saint_mary_s_ca_at_ucla|DOG|away|ml",
+      "matchupId": "833|saint_mary_s_ca_at_ucla|DOG|away|ml",
+      "loggedAt": "2026-11-26T16:41:07.911Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Thursday, November 26th",
+      "away": "Saint Mary's CA",
+      "home": "UCLA",
+      "kick": "22:00",
+      "startAt": "2026-11-26T22:00:00.000Z",
+      "gameNumber": 833,
+      "takeRole": "DOG",
+      "takeTeam": "Saint Mary's CA",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
+      "market": "ml",
+      "line": 262,
+      "price": 262,
+      "tixFav": 79,
+      "monFav": 75,
+      "reason": "Tix 79% + $ 75% on fav"
     }
-  ],
-  "liqSnapUpdatedAt": "2026-11-26T15:46:37.887696Z"
+  ]
 }
