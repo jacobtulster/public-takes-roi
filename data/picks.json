@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T16:45:58.769Z",
+  "updatedAt": "2026-11-26T16:46:04.262Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -13200,9 +13200,9 @@
       "market": "spread",
       "line": 2,
       "price": -111,
-      "tixFav": 74,
+      "tixFav": 75,
       "monFav": 96,
-      "reason": "Tix 74% + $ 96% on fav",
+      "reason": "Tix 75% + $ 96% on fav",
       "liqSnap": {
         "combinedTop3": 11011.81,
         "combinedAwayTop3": 7088.98,
@@ -13218,7 +13218,7 @@
         "snappedAt": "2026-11-26T15:46:37.884906Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
+      "leanUpdatedAt": "2026-11-26T16:46:01.267Z"
     },
     {
       "pickKey": "m|819|louisville_at_st_john_s|DOG|away|ml",
@@ -13239,9 +13239,9 @@
       "market": "ml",
       "line": 109,
       "price": 109,
-      "tixFav": 74,
+      "tixFav": 75,
       "monFav": 96,
-      "reason": "Tix 74% + $ 96% on fav",
+      "reason": "Tix 75% + $ 96% on fav",
       "liqSnap": {
         "combinedTop3": 17810.63,
         "combinedAwayTop3": 14499.86,
@@ -13257,7 +13257,7 @@
         "snappedAt": "2026-11-26T15:46:37.885234Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
+      "leanUpdatedAt": "2026-11-26T16:46:01.267Z"
     },
     {
       "pickKey": "m|821|texas_tech_at_oregon|DOG|home|spread",
@@ -13356,9 +13356,9 @@
       "market": "spread",
       "line": -1,
       "price": -107,
-      "tixFav": 28,
-      "monFav": 10,
-      "reason": "Tix 28% + $ 10% on fav (<50)",
+      "tixFav": 30,
+      "monFav": 11,
+      "reason": "Tix 30% + $ 11% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 10149.79,
         "combinedAwayTop3": 2205.05,
@@ -13374,7 +13374,7 @@
         "snappedAt": "2026-11-26T15:46:37.886701Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
+      "leanUpdatedAt": "2026-11-26T16:46:01.267Z"
     },
     {
       "pickKey": "m|825|tcu_at_creighton|FAV|home|ml",
@@ -13395,9 +13395,9 @@
       "market": "ml",
       "line": -113,
       "price": -113,
-      "tixFav": 28,
-      "monFav": 10,
-      "reason": "Tix 28% + $ 10% on fav (<50)",
+      "tixFav": 30,
+      "monFav": 11,
+      "reason": "Tix 30% + $ 11% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 2735.77,
         "combinedAwayTop3": 1456.43,
@@ -13413,7 +13413,7 @@
         "snappedAt": "2026-11-26T15:46:37.887033Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
+      "leanUpdatedAt": "2026-11-26T16:46:01.267Z"
     },
     {
       "pickKey": "m|827|alabama_at_kansas_state|DOG|home|spread",
