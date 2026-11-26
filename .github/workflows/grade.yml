@@ -44,12 +44,37 @@ jobs:
 
       - name: Commit graded picks + trust
         run: |
+          set -euo pipefail
           git config user.name "public-takes-bot"
           git config user.email "public-takes-bot@users.noreply.github.com"
-          git add data/picks.json data/liq_trust.json
-          if git diff --staged --quiet; then
-            echo "No grading changes."
-          else
+
+          try_commit_push() {
+            git add data/picks.json data/liq_trust.json
+            if git diff --staged --quiet; then
+              echo "No grading changes."
+              return 0
+            fi
             git commit -m "chore: grade settled public % takes + fade trust (ESPN)"
-            git push
+            git push origin HEAD:main
+          }
+
+          if try_commit_push; then
+            exit 0
           fi
+
+          # Race with OddsLogic sync / liquidity bots that also push main.
+          # Re-run grading from latest tip and retry the push.
+          for attempt in 1 2 3 4 5; do
+            echo "Push rejected (attempt ${attempt}/5); re-grading from origin/main..."
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/grade_picks.py
+            python scripts/liq_trust.py
+            python scripts/attach_pick_liquidity.py
+            if try_commit_push; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Failed to push after retries"
+          exit 1

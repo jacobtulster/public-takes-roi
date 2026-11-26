@@ -39,16 +39,30 @@ jobs:
           ticks=5
           for i in $(seq 1 "$ticks"); do
             echo "=== 4casters tick $i/$ticks ==="
-            git pull --rebase --autostash origin main || git pull --rebase origin main || true
-            python scripts/fetch_4casters_liquidity.py
-            python scripts/liq_trust.py
-            python scripts/attach_pick_liquidity.py
-            git add data/liquidity.json data/liq_trust.json data/picks.json
-            if git diff --staged --quiet; then
-              echo "No liquidity / trust changes."
-            else
+            pushed=0
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              git reset --hard origin/main
+              python scripts/fetch_4casters_liquidity.py
+              python scripts/liq_trust.py
+              python scripts/attach_pick_liquidity.py
+              git add data/liquidity.json data/liq_trust.json data/picks.json
+              if git diff --staged --quiet; then
+                echo "No liquidity / trust changes."
+                pushed=1
+                break
+              fi
               git commit -m "chore: refresh 4casters liquidity + fade trust + pick liq stamps"
-              git push origin HEAD:main
+              if git push origin HEAD:main; then
+                pushed=1
+                break
+              fi
+              echo "Push rejected (attempt ${attempt}/5); retrying from origin/main..."
+              sleep $((attempt * 2))
+            done
+            if [ "$pushed" -ne 1 ]; then
+              echo "Failed to push 4casters tick $i after retries"
+              exit 1
             fi
             if [ "$i" -lt "$ticks" ]; then
               sleep 60
