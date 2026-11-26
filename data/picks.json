@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T00:50:16.091Z",
+  "updatedAt": "2026-11-26T00:50:37.574Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -9379,9 +9379,9 @@
       "market": "spread",
       "line": 3,
       "price": -106,
-      "tixFav": 73,
-      "monFav": 86,
-      "reason": "Tix 73% + $ 86% on fav",
+      "tixFav": 72,
+      "monFav": 85,
+      "reason": "Tix 72% + $ 85% on fav",
       "liqSnap": {
         "combinedTop3": 29255.82,
         "combinedAwayTop3": 24355.04,
@@ -9397,7 +9397,7 @@
         "snappedAt": "2026-11-25T23:14:21.094436Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T00:50:12.461Z"
+      "leanUpdatedAt": "2026-11-26T00:50:34.458Z"
     },
     {
       "pickKey": "m|521|san_antonio_at_portland|DOG|home|ml",
@@ -9418,9 +9418,9 @@
       "market": "ml",
       "line": 131,
       "price": 131,
-      "tixFav": 73,
-      "monFav": 86,
-      "reason": "Tix 73% + $ 86% on fav",
+      "tixFav": 72,
+      "monFav": 85,
+      "reason": "Tix 72% + $ 85% on fav",
       "liqSnap": {
         "combinedTop3": 10056.3,
         "combinedAwayTop3": 6215.62,
@@ -9436,7 +9436,7 @@
         "snappedAt": "2026-11-25T23:14:21.095107Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T00:50:12.461Z"
+      "leanUpdatedAt": "2026-11-26T00:50:34.458Z"
     },
     {
       "pickKey": "m|729|abilene_christian_at_south_dakota_state|FAV|home|spread",
