@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T00:02:01.732Z",
+  "updatedAt": "2026-11-26T00:02:07.933Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -9626,8 +9626,8 @@
       "takeRole": "DOG",
       "takeTeam": "Penn State",
       "takeSide": "home",
-      "ocLean": "flat",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "spread",
       "line": 4,
       "price": -109,
@@ -9649,7 +9649,7 @@
         "snappedAt": "2026-11-25T16:10:22.913425Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T00:01:58.470Z"
+      "leanUpdatedAt": "2026-11-26T00:02:04.497Z"
     },
     {
       "pickKey": "m|781|memphis_at_penn_state|DOG|home|ml",
@@ -9665,8 +9665,8 @@
       "takeRole": "DOG",
       "takeTeam": "Penn State",
       "takeSide": "home",
-      "ocLean": "flat",
-      "bucket": "dog_not_favorable",
+      "ocLean": "favorable",
+      "bucket": "dog_favorable",
       "market": "ml",
       "line": 149,
       "price": 149,
@@ -9688,7 +9688,7 @@
         "snappedAt": "2026-11-25T16:10:22.914244Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T00:01:58.470Z"
+      "leanUpdatedAt": "2026-11-26T00:02:04.497Z"
     },
     {
       "pickKey": "m|783|wake_forest_at_mississippi_state|DOG|away|spread",
