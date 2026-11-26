@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T16:45:50.092Z",
+  "updatedAt": "2026-11-26T16:45:58.769Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -12966,9 +12966,9 @@
       "market": "spread",
       "line": -2.5,
       "price": -105,
-      "tixFav": 39,
-      "monFav": 15,
-      "reason": "Tix 39% + $ 15% on fav (<50)",
+      "tixFav": 41,
+      "monFav": 22,
+      "reason": "Tix 41% + $ 22% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 9333.14,
         "combinedAwayTop3": 7465.16,
@@ -12984,7 +12984,7 @@
         "snappedAt": "2026-11-26T15:46:37.882255Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
+      "leanUpdatedAt": "2026-11-26T16:45:55.242Z"
     },
     {
       "pickKey": "m|803|utah_state_at_usc|FAV|home|ml",
@@ -13005,9 +13005,9 @@
       "market": "ml",
       "line": -133,
       "price": -133,
-      "tixFav": 39,
-      "monFav": 15,
-      "reason": "Tix 39% + $ 15% on fav (<50)",
+      "tixFav": 41,
+      "monFav": 22,
+      "reason": "Tix 41% + $ 22% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 8521.69,
         "combinedAwayTop3": 5723.71,
@@ -13023,7 +13023,7 @@
         "snappedAt": "2026-11-26T15:46:37.882650Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
+      "leanUpdatedAt": "2026-11-26T16:45:55.242Z"
     },
     {
       "pickKey": "m|807|depaul_at_pittsburgh|FAV|away|spread",
@@ -13122,9 +13122,9 @@
       "market": "spread",
       "line": -3,
       "price": -109,
-      "tixFav": 22,
+      "tixFav": 21,
       "monFav": 40,
-      "reason": "Tix 22% + $ 40% on fav (<50)",
+      "reason": "Tix 21% + $ 40% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 10925.6,
         "combinedAwayTop3": 3823.95,
@@ -13140,7 +13140,7 @@
         "snappedAt": "2026-11-26T15:46:37.884105Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:45:46.726Z"
+      "leanUpdatedAt": "2026-11-26T16:45:55.242Z"
     },
     {
       "pickKey": "m|817|tennessee_at_iowa_state|FAV|home|ml",
@@ -13161,9 +13161,9 @@
       "market": "ml",
       "line": -154,
       "price": -154,
-      "tixFav": 22,
+      "tixFav": 21,
       "monFav": 40,
-      "reason": "Tix 22% + $ 40% on fav (<50)",
+      "reason": "Tix 21% + $ 40% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 14831.54,
         "combinedAwayTop3": 2390.22,
@@ -13179,7 +13179,7 @@
         "snappedAt": "2026-11-26T15:46:37.884586Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-26T16:45:46.727Z"
+      "leanUpdatedAt": "2026-11-26T16:45:55.242Z"
     },
     {
       "pickKey": "m|819|louisville_at_st_john_s|DOG|away|spread",
