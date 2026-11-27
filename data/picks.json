@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T22:06:07.272Z",
+  "updatedAt": "2026-11-27T22:06:15.655Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -16134,9 +16134,10 @@
       "market": "spread",
       "line": -10,
       "price": -116,
-      "tixFav": 43,
-      "monFav": 29,
-      "reason": "Tix 43% + $ 29% on fav (<50)"
+      "tixFav": 42,
+      "monFav": 26,
+      "reason": "Tix 42% + $ 26% on fav (<50)",
+      "leanUpdatedAt": "2026-11-27T22:06:08.205Z"
     },
     {
       "pickKey": "m|657|michigan_at_kansas_state|FAV|away|ml",
@@ -16157,9 +16158,10 @@
       "market": "ml",
       "line": -484,
       "price": -484,
-      "tixFav": 43,
-      "monFav": 29,
-      "reason": "Tix 43% + $ 29% on fav (<50)"
+      "tixFav": 42,
+      "monFav": 26,
+      "reason": "Tix 42% + $ 26% on fav (<50)",
+      "leanUpdatedAt": "2026-11-27T22:06:08.205Z"
     },
     {
       "pickKey": "m|659|miami_florida_at_alabama|FAV|away|spread",
