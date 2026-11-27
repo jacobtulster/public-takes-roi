@@ -13388,7 +13388,7 @@
         "fourcastersTop3": 20036.31,
         "novigTop3": 23910.36,
         "snappedAt": "2026-11-27T03:51:06.380487Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T03:50:23.599Z"
     },
@@ -13427,7 +13427,7 @@
         "fourcastersTop3": 6214.13,
         "novigTop3": 45516.84,
         "snappedAt": "2026-11-27T03:51:06.380901Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T03:50:23.600Z"
     },
@@ -13964,5 +13964,5 @@
       "espnHome": "Michigan Wolverines"
     }
   ],
-  "liqSnapUpdatedAt": "2026-11-27T03:51:06.380918Z"
+  "liqSnapUpdatedAt": "2026-11-27T04:49:04.415731Z"
 }
