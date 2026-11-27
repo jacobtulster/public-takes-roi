@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:08:24.816Z",
+  "updatedAt": "2026-11-27T01:57:21.576274Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -13289,7 +13289,7 @@
         "goodDog": false,
         "fourcastersTop3": 19324.89,
         "novigTop3": 13220.02,
-        "snappedAt": "2026-11-27T00:08:41.291510Z",
+        "snappedAt": "2026-11-27T01:57:26.047483Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T00:08:21.600Z"
@@ -13328,7 +13328,7 @@
         "goodDog": false,
         "fourcastersTop3": 2961.17,
         "novigTop3": 17325.36,
-        "snappedAt": "2026-11-27T00:08:41.291881Z",
+        "snappedAt": "2026-11-27T01:57:26.047706Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T00:08:21.600Z"
@@ -13367,7 +13367,7 @@
         "goodDog": false,
         "fourcastersTop3": 31653.3,
         "novigTop3": 23910.36,
-        "snappedAt": "2026-11-27T00:08:41.292376Z",
+        "snappedAt": "2026-11-27T01:57:26.047993Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T00:02:27.668Z"
@@ -13406,7 +13406,7 @@
         "goodDog": false,
         "fourcastersTop3": 9132.43,
         "novigTop3": 45516.84,
-        "snappedAt": "2026-11-27T00:08:41.292875Z",
+        "snappedAt": "2026-11-27T01:57:26.048276Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T00:02:27.668Z"
@@ -13448,7 +13448,17 @@
         "snappedAt": "2026-11-26T22:06:41.775141Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T22:48:23.592Z"
+      "leanUpdatedAt": "2026-11-26T22:48:23.592Z",
+      "result": "W",
+      "profit": 0.9346,
+      "awayScore": 87.0,
+      "homeScore": 95.0,
+      "gradedAt": "2026-11-27T01:57:21.552204Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920538",
+      "espnAway": "TCU Horned Frogs",
+      "espnHome": "Creighton Bluejays"
     },
     {
       "pickKey": "m|825|tcu_at_creighton|FAV|home|ml",
@@ -13487,7 +13497,17 @@
         "snappedAt": "2026-11-26T22:06:41.775513Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T22:48:23.592Z"
+      "leanUpdatedAt": "2026-11-26T22:48:23.592Z",
+      "result": "W",
+      "profit": 0.885,
+      "awayScore": 87.0,
+      "homeScore": 95.0,
+      "gradedAt": "2026-11-27T01:57:21.556991Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920538",
+      "espnAway": "TCU Horned Frogs",
+      "espnHome": "Creighton Bluejays"
     },
     {
       "pickKey": "m|827|alabama_at_kansas_state|DOG|home|spread",
@@ -13523,7 +13543,7 @@
         "goodDog": true,
         "fourcastersTop3": 7595.48,
         "novigTop3": 13476.31,
-        "snappedAt": "2026-11-27T00:08:41.293288Z",
+        "snappedAt": "2026-11-27T01:57:26.048511Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
@@ -13562,7 +13582,7 @@
         "goodDog": false,
         "fourcastersTop3": 2703.0,
         "novigTop3": 71646.39,
-        "snappedAt": "2026-11-27T00:08:41.293702Z",
+        "snappedAt": "2026-11-27T01:57:26.048744Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-26T16:41:07.911Z"
@@ -13604,7 +13624,17 @@
         "snappedAt": "2026-11-26T16:55:47.890881Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T22:06:27.583Z"
+      "leanUpdatedAt": "2026-11-26T22:06:27.583Z",
+      "result": "W",
+      "profit": 0.8772,
+      "awayScore": 85.0,
+      "homeScore": 70.0,
+      "gradedAt": "2026-11-27T01:57:21.564209Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401917547",
+      "espnAway": "Saint Mary's Gaels",
+      "espnHome": "UCLA Bruins"
     },
     {
       "pickKey": "m|833|saint_mary_s_ca_at_ucla|DOG|away|ml",
@@ -13643,7 +13673,17 @@
         "snappedAt": "2026-11-26T16:55:47.891414Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T22:06:27.583Z"
+      "leanUpdatedAt": "2026-11-26T22:06:27.583Z",
+      "result": "W",
+      "profit": 2.62,
+      "awayScore": 85.0,
+      "homeScore": 70.0,
+      "gradedAt": "2026-11-27T01:57:21.566632Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401917547",
+      "espnAway": "Saint Mary's Gaels",
+      "espnHome": "UCLA Bruins"
     },
     {
       "pickKey": "m|807|depaul_at_pittsburgh|DOG|away|spread",
@@ -13757,7 +13797,17 @@
         "novigTop3": 9112.66,
         "snappedAt": "2026-11-26T22:06:41.777802Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9804,
+      "awayScore": 87.0,
+      "homeScore": 95.0,
+      "gradedAt": "2026-11-27T01:57:21.573876Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920538",
+      "espnAway": "TCU Horned Frogs",
+      "espnHome": "Creighton Bluejays"
     },
     {
       "pickKey": "m|825|tcu_at_creighton|DOG|home|ml",
@@ -13795,7 +13845,17 @@
         "novigTop3": 906.9,
         "snappedAt": "2026-11-26T22:06:41.778164Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9346,
+      "awayScore": 87.0,
+      "homeScore": 95.0,
+      "gradedAt": "2026-11-27T01:57:21.576263Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920538",
+      "espnAway": "TCU Horned Frogs",
+      "espnHome": "Creighton Bluejays"
     },
     {
       "pickKey": "m|823|miami_florida_at_michigan|FAV|home|spread",
@@ -13864,5 +13924,5 @@
       "espnHome": "Michigan Wolverines"
     }
   ],
-  "liqSnapUpdatedAt": "2026-11-27T00:08:41.293718Z"
+  "liqSnapUpdatedAt": "2026-11-27T01:57:26.048752Z"
 }
