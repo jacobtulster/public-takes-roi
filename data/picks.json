@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:02:30.994Z",
+  "updatedAt": "2026-11-27T00:02:41.484Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -12940,7 +12940,16 @@
         "snappedAt": "2026-11-26T16:55:47.883628Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T16:45:55.242Z"
+      "leanUpdatedAt": "2026-11-26T16:45:55.242Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 78,
+      "homeScore": 74,
+      "gradedAt": "2026-11-27T00:02:37.931Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921673",
+      "espnAway": "Utah State Aggies",
+      "espnHome": "USC Trojans"
     },
     {
       "pickKey": "m|803|utah_state_at_usc|FAV|home|ml",
@@ -12979,7 +12988,16 @@
         "snappedAt": "2026-11-26T16:55:47.884207Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-26T16:45:55.242Z"
+      "leanUpdatedAt": "2026-11-26T16:45:55.242Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 78,
+      "homeScore": 74,
+      "gradedAt": "2026-11-27T00:02:37.931Z",
+      "gradeSource": "espn",
+      "espnEventId": "401921673",
+      "espnAway": "Utah State Aggies",
+      "espnHome": "USC Trojans"
     },
     {
       "pickKey": "m|807|depaul_at_pittsburgh|FAV|away|spread",
