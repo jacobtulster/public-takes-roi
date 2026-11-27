@@ -2234,7 +2234,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2267,7 +2267,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -5195,7 +5195,7 @@
       "gradedAt": "2026-11-24T19:11:08.348Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -5227,7 +5227,7 @@
       "gradedAt": "2026-11-24T19:11:08.358Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -12828,7 +12828,7 @@
         "fourcastersTop3": 26804.45,
         "novigTop3": 220225.87,
         "snappedAt": "2026-11-26T15:46:37.881377Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:55:34.370Z",
       "result": "W",
@@ -12876,7 +12876,7 @@
         "fourcastersTop3": 37955.22,
         "novigTop3": 73497.4,
         "snappedAt": "2026-11-26T15:46:37.881437Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:55:34.370Z",
       "result": "W",
@@ -12924,7 +12924,7 @@
         "fourcastersTop3": 3963.95,
         "novigTop3": 5909.28,
         "snappedAt": "2026-11-26T15:46:37.881641Z",
-        "frozen": false
+        "frozen": true
       },
       "result": "P",
       "profit": 0,
@@ -12972,7 +12972,7 @@
         "fourcastersTop3": 2107.76,
         "novigTop3": 4190.5,
         "snappedAt": "2026-11-26T15:46:37.881837Z",
-        "frozen": false
+        "frozen": true
       },
       "result": "W",
       "profit": 0.7143,
@@ -13020,7 +13020,7 @@
         "fourcastersTop3": 1463.94,
         "novigTop3": 7869.2,
         "snappedAt": "2026-11-26T15:46:37.882255Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:45:55.242Z",
       "result": "L",
@@ -13068,7 +13068,7 @@
         "fourcastersTop3": 5824.35,
         "novigTop3": 2697.34,
         "snappedAt": "2026-11-26T15:46:37.882650Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:45:55.242Z",
       "result": "L",
@@ -13116,7 +13116,7 @@
         "fourcastersTop3": 2850.93,
         "novigTop3": 7061.65,
         "snappedAt": "2026-11-26T15:46:37.883033Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:41:07.911Z",
       "result": "L",
@@ -13165,7 +13165,7 @@
         "fourcastersTop3": 2152.39,
         "novigTop3": 13786.17,
         "snappedAt": "2026-11-26T15:46:37.883639Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:41:07.911Z",
       "result": "L",
@@ -13214,7 +13214,7 @@
         "fourcastersTop3": 3678.98,
         "novigTop3": 7246.62,
         "snappedAt": "2026-11-26T15:46:37.884105Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:45:55.242Z",
       "result": "L",
@@ -13262,7 +13262,7 @@
         "fourcastersTop3": 3114.29,
         "novigTop3": 11717.25,
         "snappedAt": "2026-11-26T15:46:37.884586Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:45:55.242Z",
       "result": "L",
@@ -13310,7 +13310,7 @@
         "fourcastersTop3": 2240.84,
         "novigTop3": 8770.97,
         "snappedAt": "2026-11-26T15:46:37.884906Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:55:34.371Z",
       "result": "W",
@@ -13358,7 +13358,7 @@
         "fourcastersTop3": 3331.58,
         "novigTop3": 14479.05,
         "snappedAt": "2026-11-26T15:46:37.885234Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:55:34.371Z",
       "result": "W",
@@ -13402,11 +13402,11 @@
         "combinedOi": 341706.65,
         "liqAgreesTake": true,
         "goodFav": false,
-        "goodDog": true,
+        "goodDog": false,
         "fourcastersTop3": 2350.02,
         "novigTop3": 18310.1,
         "snappedAt": "2026-11-26T15:46:37.885812Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T03:50:23.599Z",
       "result": "W",
@@ -13450,11 +13450,11 @@
         "combinedOi": 341706.65,
         "liqAgreesTake": true,
         "goodFav": false,
-        "goodDog": true,
+        "goodDog": false,
         "fourcastersTop3": 3916.54,
         "novigTop3": 21366.53,
         "snappedAt": "2026-11-26T15:46:37.886353Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T03:50:23.600Z",
       "result": "L",
@@ -13502,7 +13502,7 @@
         "fourcastersTop3": 1037.13,
         "novigTop3": 9112.66,
         "snappedAt": "2026-11-26T15:46:37.886701Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:46:01.267Z",
       "result": "W",
@@ -13551,7 +13551,7 @@
         "fourcastersTop3": 1828.87,
         "novigTop3": 906.9,
         "snappedAt": "2026-11-26T15:46:37.887033Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:46:01.267Z",
       "result": "W",
@@ -13600,7 +13600,7 @@
         "fourcastersTop3": 2287.31,
         "novigTop3": 6519.44,
         "snappedAt": "2026-11-26T15:46:37.887368Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:41:07.911Z",
       "result": "W",
@@ -13648,7 +13648,7 @@
         "fourcastersTop3": 149.93,
         "novigTop3": 12282.81,
         "snappedAt": "2026-11-26T15:46:37.887693Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T16:41:07.911Z",
       "result": "L",
@@ -13696,7 +13696,7 @@
         "fourcastersTop3": 3438.48,
         "novigTop3": 8410.97,
         "snappedAt": "2026-11-26T16:41:22.199878Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T22:06:27.583Z",
       "result": "W",
@@ -13745,7 +13745,7 @@
         "fourcastersTop3": 3745.22,
         "novigTop3": 15009.14,
         "snappedAt": "2026-11-26T16:41:22.200179Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-26T22:06:27.583Z",
       "result": "W",
@@ -14053,7 +14053,7 @@
         "fourcastersTop3": 36700.01,
         "novigTop3": 83804.15,
         "snappedAt": "2026-11-27T12:46:36.300182Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -14092,7 +14092,7 @@
         "fourcastersTop3": 95804.09,
         "novigTop3": 142082.74,
         "snappedAt": "2026-11-27T12:46:36.300263Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -14130,7 +14130,7 @@
         "fourcastersTop3": 16862.32,
         "novigTop3": 65874.42,
         "snappedAt": "2026-11-27T12:46:36.300528Z",
-        "frozen": false
+        "frozen": true
       },
       "result": "P",
       "profit": 0,
@@ -14177,7 +14177,7 @@
         "fourcastersTop3": 6576.15,
         "novigTop3": 6773.53,
         "snappedAt": "2026-11-27T12:46:36.300799Z",
-        "frozen": false
+        "frozen": true
       },
       "result": "W",
       "profit": 0.6494,
@@ -14224,7 +14224,7 @@
         "fourcastersTop3": 5190.11,
         "novigTop3": 20431.37,
         "snappedAt": "2026-11-27T12:46:36.301007Z",
-        "frozen": false
+        "frozen": true
       },
       "result": "L",
       "profit": -1,
@@ -14271,7 +14271,7 @@
         "fourcastersTop3": 8448.19,
         "novigTop3": 12235.82,
         "snappedAt": "2026-11-27T12:46:36.301210Z",
-        "frozen": false
+        "frozen": true
       },
       "result": "L",
       "profit": -1,
@@ -14318,7 +14318,7 @@
         "fourcastersTop3": 53741.89,
         "novigTop3": 43357.93,
         "snappedAt": "2026-11-27T12:46:36.301369Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
       "result": "L",
@@ -14366,7 +14366,7 @@
         "fourcastersTop3": 5523.05,
         "novigTop3": 7251.97,
         "snappedAt": "2026-11-27T12:46:36.301523Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
       "result": "L",
@@ -14414,7 +14414,7 @@
         "fourcastersTop3": 19288.17,
         "novigTop3": 17527.49,
         "snappedAt": "2026-11-27T12:46:36.301976Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -14452,7 +14452,7 @@
         "fourcastersTop3": 2712.24,
         "novigTop3": 6103.03,
         "snappedAt": "2026-11-27T12:46:36.302415Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -14490,7 +14490,7 @@
         "fourcastersTop3": 6726.76,
         "novigTop3": 23195.78,
         "snappedAt": "2026-11-27T12:46:36.302663Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
       "result": "L",
@@ -14538,7 +14538,7 @@
         "fourcastersTop3": 10166.21,
         "novigTop3": 14645.2,
         "snappedAt": "2026-11-27T12:46:36.302895Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
       "result": "L",
@@ -14574,18 +14574,18 @@
       "monFav": 87,
       "reason": "Tix 73% + $ 87% on fav",
       "liqSnap": {
-        "combinedTop3": 74984.82,
-        "combinedAwayTop3": 21851.4,
-        "combinedHomeTop3": 53133.42,
-        "combinedRatio": 2.43,
-        "combinedHeavySide": "home",
-        "combinedOi": 6184759.64,
-        "liqAgreesTake": false,
+        "combinedTop3": 53129.84,
+        "combinedAwayTop3": 27371.7,
+        "combinedHomeTop3": 25758.14,
+        "combinedRatio": 1.06,
+        "combinedHeavySide": "away",
+        "combinedOi": 9424499.53,
+        "liqAgreesTake": true,
         "goodFav": false,
-        "goodDog": false,
-        "fourcastersTop3": 22500.78,
-        "novigTop3": 52484.04,
-        "snappedAt": "2026-11-27T12:46:36.303105Z",
+        "goodDog": true,
+        "fourcastersTop3": 31482.24,
+        "novigTop3": 21647.6,
+        "snappedAt": "2026-11-27T22:06:37.718526Z",
         "frozen": false
       }
     },
@@ -14612,18 +14612,18 @@
       "monFav": 87,
       "reason": "Tix 73% + $ 87% on fav",
       "liqSnap": {
-        "combinedTop3": 45610.7,
-        "combinedAwayTop3": 35224.58,
-        "combinedHomeTop3": 10386.12,
-        "combinedRatio": 3.39,
+        "combinedTop3": 90482.01,
+        "combinedAwayTop3": 57049.89,
+        "combinedHomeTop3": 33432.12,
+        "combinedRatio": 1.71,
         "combinedHeavySide": "away",
-        "combinedOi": 6184759.64,
+        "combinedOi": 9424499.53,
         "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": true,
-        "fourcastersTop3": 10477.22,
-        "novigTop3": 35133.48,
-        "snappedAt": "2026-11-27T12:46:36.303309Z",
+        "fourcastersTop3": 12806.12,
+        "novigTop3": 77675.89,
+        "snappedAt": "2026-11-27T22:06:37.718670Z",
         "frozen": false
       }
     },
@@ -14650,18 +14650,18 @@
       "monFav": 20,
       "reason": "Tix 26% + $ 20% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 77261.75,
-        "combinedAwayTop3": 47441.73,
-        "combinedHomeTop3": 29820.02,
-        "combinedRatio": 1.59,
+        "combinedTop3": 39572.37,
+        "combinedAwayTop3": 21583.72,
+        "combinedHomeTop3": 17988.65,
+        "combinedRatio": 1.2,
         "combinedHeavySide": "away",
-        "combinedOi": 8893916.75,
+        "combinedOi": 12163761.93,
         "liqAgreesTake": true,
         "goodFav": true,
         "goodDog": false,
-        "fourcastersTop3": 45432.1,
-        "novigTop3": 31829.65,
-        "snappedAt": "2026-11-27T12:46:36.303442Z",
+        "fourcastersTop3": 13877.03,
+        "novigTop3": 25695.34,
+        "snappedAt": "2026-11-27T22:06:37.718760Z",
         "frozen": false
       }
     },
@@ -14688,18 +14688,18 @@
       "monFav": 20,
       "reason": "Tix 26% + $ 20% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 14172.25,
-        "combinedAwayTop3": 5959.37,
-        "combinedHomeTop3": 8212.88,
-        "combinedRatio": 1.38,
+        "combinedTop3": 102231.79,
+        "combinedAwayTop3": 45687.26,
+        "combinedHomeTop3": 56544.53,
+        "combinedRatio": 1.24,
         "combinedHeavySide": "home",
-        "combinedOi": 8893916.75,
+        "combinedOi": 12163761.93,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 9909.11,
-        "novigTop3": 4263.14,
-        "snappedAt": "2026-11-27T12:46:36.303570Z",
+        "fourcastersTop3": 42625.08,
+        "novigTop3": 59606.71,
+        "snappedAt": "2026-11-27T22:06:37.718860Z",
         "frozen": false
       }
     },
@@ -14726,18 +14726,18 @@
       "monFav": 21,
       "reason": "Tix 47% + $ 21% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 17727.58,
-        "combinedAwayTop3": 9374.88,
-        "combinedHomeTop3": 8352.7,
-        "combinedRatio": 1.12,
-        "combinedHeavySide": "away",
-        "combinedOi": 1384952.79,
-        "liqAgreesTake": true,
+        "combinedTop3": 53849.88,
+        "combinedAwayTop3": 22831.07,
+        "combinedHomeTop3": 31018.81,
+        "combinedRatio": 1.36,
+        "combinedHeavySide": "home",
+        "combinedOi": 3568086.12,
+        "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 6621.29,
-        "novigTop3": 11106.29,
-        "snappedAt": "2026-11-27T12:46:36.304061Z",
+        "fourcastersTop3": 31863.23,
+        "novigTop3": 21986.65,
+        "snappedAt": "2026-11-27T22:06:37.719275Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.317Z"
@@ -14765,18 +14765,18 @@
       "monFav": 21,
       "reason": "Tix 47% + $ 21% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 10265.43,
-        "combinedAwayTop3": 5701.63,
-        "combinedHomeTop3": 4563.8,
-        "combinedRatio": 1.25,
-        "combinedHeavySide": "away",
-        "combinedOi": 1384952.79,
-        "liqAgreesTake": true,
+        "combinedTop3": 21490.04,
+        "combinedAwayTop3": 2363.76,
+        "combinedHomeTop3": 19126.28,
+        "combinedRatio": 8.09,
+        "combinedHeavySide": "home",
+        "combinedOi": 3568086.12,
+        "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 5449.53,
-        "novigTop3": 4815.9,
-        "snappedAt": "2026-11-27T12:46:36.304538Z",
+        "fourcastersTop3": 16264.33,
+        "novigTop3": 5225.71,
+        "snappedAt": "2026-11-27T22:06:37.719679Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.317Z"
@@ -14804,18 +14804,18 @@
       "monFav": 94,
       "reason": "Tix 90% + $ 94% on fav",
       "liqSnap": {
-        "combinedTop3": 18044.38,
-        "combinedAwayTop3": 4478.24,
-        "combinedHomeTop3": 13566.14,
-        "combinedRatio": 3.03,
+        "combinedTop3": 32794.32,
+        "combinedAwayTop3": 13088.04,
+        "combinedHomeTop3": 19706.28,
+        "combinedRatio": 1.51,
         "combinedHeavySide": "home",
-        "combinedOi": 6142133.47,
+        "combinedOi": 9400029.48,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 3077,
-        "novigTop3": 14967.38,
-        "snappedAt": "2026-11-27T12:46:36.304904Z",
+        "fourcastersTop3": 8840.12,
+        "novigTop3": 23954.2,
+        "snappedAt": "2026-11-27T22:06:37.719992Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T12:46:52.767Z"
@@ -14843,18 +14843,18 @@
       "monFav": 94,
       "reason": "Tix 90% + $ 94% on fav",
       "liqSnap": {
-        "combinedTop3": 5691,
-        "combinedAwayTop3": 2511.58,
-        "combinedHomeTop3": 3179.42,
-        "combinedRatio": 1.27,
+        "combinedTop3": 19945.02,
+        "combinedAwayTop3": 5358.5,
+        "combinedHomeTop3": 14586.52,
+        "combinedRatio": 2.72,
         "combinedHeavySide": "home",
-        "combinedOi": 6142133.47,
+        "combinedOi": 9400029.48,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 2582.34,
-        "novigTop3": 3108.66,
-        "snappedAt": "2026-11-27T12:46:36.305257Z",
+        "fourcastersTop3": 4854.49,
+        "novigTop3": 15090.53,
+        "snappedAt": "2026-11-27T22:06:37.720296Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T12:46:52.768Z"
@@ -14882,18 +14882,18 @@
       "monFav": 99,
       "reason": "Tix 73% + $ 99% on fav",
       "liqSnap": {
-        "combinedTop3": 11453.89,
-        "combinedAwayTop3": 6441.32,
-        "combinedHomeTop3": 5012.57,
-        "combinedRatio": 1.29,
-        "combinedHeavySide": "away",
-        "combinedOi": 2260332.86,
-        "liqAgreesTake": false,
+        "combinedTop3": 45457.67,
+        "combinedAwayTop3": 20360.76,
+        "combinedHomeTop3": 25096.91,
+        "combinedRatio": 1.23,
+        "combinedHeavySide": "home",
+        "combinedOi": 4794976.7,
+        "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 3988.31,
-        "novigTop3": 7465.58,
-        "snappedAt": "2026-11-27T12:46:36.305787Z",
+        "fourcastersTop3": 24737.41,
+        "novigTop3": 20720.26,
+        "snappedAt": "2026-11-27T22:06:37.720654Z",
         "frozen": false
       }
     },
@@ -14920,18 +14920,18 @@
       "monFav": 99,
       "reason": "Tix 73% + $ 99% on fav",
       "liqSnap": {
-        "combinedTop3": 15130.43,
-        "combinedAwayTop3": 6036.36,
-        "combinedHomeTop3": 9094.07,
-        "combinedRatio": 1.51,
+        "combinedTop3": 14655.84,
+        "combinedAwayTop3": 7022.12,
+        "combinedHomeTop3": 7633.72,
+        "combinedRatio": 1.09,
         "combinedHeavySide": "home",
-        "combinedOi": 2260332.86,
+        "combinedOi": 4794976.7,
         "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 3314.41,
-        "novigTop3": 11816.02,
-        "snappedAt": "2026-11-27T12:46:36.306280Z",
+        "fourcastersTop3": 14233.91,
+        "novigTop3": 421.93,
+        "snappedAt": "2026-11-27T22:06:37.721023Z",
         "frozen": false
       }
     },
@@ -14958,18 +14958,18 @@
       "monFav": 48,
       "reason": "Tix 33% + $ 48% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 12044.93,
-        "combinedAwayTop3": 5952.33,
-        "combinedHomeTop3": 6092.6,
-        "combinedRatio": 1.02,
-        "combinedHeavySide": "home",
-        "combinedOi": 1852342.51,
-        "liqAgreesTake": false,
-        "goodFav": false,
+        "combinedTop3": 27847.33,
+        "combinedAwayTop3": 14421.06,
+        "combinedHomeTop3": 13426.27,
+        "combinedRatio": 1.07,
+        "combinedHeavySide": "away",
+        "combinedOi": 3155340.73,
+        "liqAgreesTake": true,
+        "goodFav": true,
         "goodDog": false,
-        "fourcastersTop3": 3661.88,
-        "novigTop3": 8383.05,
-        "snappedAt": "2026-11-27T12:46:36.306800Z",
+        "fourcastersTop3": 16230.02,
+        "novigTop3": 11617.31,
+        "snappedAt": "2026-11-27T22:06:37.721570Z",
         "frozen": false
       }
     },
@@ -14996,18 +14996,18 @@
       "monFav": 48,
       "reason": "Tix 33% + $ 48% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 11828.41,
-        "combinedAwayTop3": 6479.94,
-        "combinedHomeTop3": 5348.47,
-        "combinedRatio": 1.21,
-        "combinedHeavySide": "away",
-        "combinedOi": 1852342.51,
-        "liqAgreesTake": true,
-        "goodFav": true,
+        "combinedTop3": 17112.46,
+        "combinedAwayTop3": 2310.18,
+        "combinedHomeTop3": 14802.28,
+        "combinedRatio": 6.41,
+        "combinedHeavySide": "home",
+        "combinedOi": 3155340.73,
+        "liqAgreesTake": false,
+        "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 3764.4,
-        "novigTop3": 8064.01,
-        "snappedAt": "2026-11-27T12:46:36.307290Z",
+        "fourcastersTop3": 7846.31,
+        "novigTop3": 9266.15,
+        "snappedAt": "2026-11-27T22:06:37.722125Z",
         "frozen": false
       }
     },
@@ -15034,18 +15034,18 @@
       "monFav": 26,
       "reason": "Tix 36% + $ 26% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 12346.77,
-        "combinedAwayTop3": 6185.62,
-        "combinedHomeTop3": 6161.15,
-        "combinedRatio": 1,
-        "combinedHeavySide": "away",
-        "combinedOi": 2474839.32,
-        "liqAgreesTake": true,
+        "combinedTop3": 46077.67,
+        "combinedAwayTop3": 19722.14,
+        "combinedHomeTop3": 26355.53,
+        "combinedRatio": 1.34,
+        "combinedHeavySide": "home",
+        "combinedOi": 4809241.03,
+        "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 3150.67,
-        "novigTop3": 9196.1,
-        "snappedAt": "2026-11-27T12:46:36.307868Z",
+        "fourcastersTop3": 23364.14,
+        "novigTop3": 22713.53,
+        "snappedAt": "2026-11-27T22:06:37.722549Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.318Z"
@@ -15073,18 +15073,18 @@
       "monFav": 26,
       "reason": "Tix 36% + $ 26% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 6571.27,
-        "combinedAwayTop3": 2534.74,
-        "combinedHomeTop3": 4036.53,
-        "combinedRatio": 1.59,
+        "combinedTop3": 32175.85,
+        "combinedAwayTop3": 8418.22,
+        "combinedHomeTop3": 23757.63,
+        "combinedRatio": 2.82,
         "combinedHeavySide": "home",
-        "combinedOi": 2474839.32,
+        "combinedOi": 4809241.03,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 3696.24,
-        "novigTop3": 2875.03,
-        "snappedAt": "2026-11-27T12:46:36.308422Z",
+        "fourcastersTop3": 14176.08,
+        "novigTop3": 17999.77,
+        "snappedAt": "2026-11-27T22:06:37.722972Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.318Z"
@@ -15124,7 +15124,7 @@
         "fourcastersTop3": 1340.4,
         "novigTop3": 2625.48,
         "snappedAt": "2026-11-27T12:46:36.309734Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15162,7 +15162,7 @@
         "fourcastersTop3": 1245.52,
         "novigTop3": 4932.24,
         "snappedAt": "2026-11-27T12:46:36.311030Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15200,7 +15200,7 @@
         "fourcastersTop3": 1247.1,
         "novigTop3": 3571.91,
         "snappedAt": "2026-11-27T12:46:36.312114Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15238,7 +15238,7 @@
         "fourcastersTop3": 2442.07,
         "novigTop3": 1357.84,
         "snappedAt": "2026-11-27T12:46:36.313195Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15264,18 +15264,18 @@
       "monFav": 38,
       "reason": "Tix 33% + $ 38% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 6715.28,
-        "combinedAwayTop3": 4390.15,
-        "combinedHomeTop3": 2325.13,
-        "combinedRatio": 1.89,
-        "combinedHeavySide": "away",
-        "combinedOi": 179840.9,
-        "liqAgreesTake": true,
+        "combinedTop3": 14653.17,
+        "combinedAwayTop3": 6578.06,
+        "combinedHomeTop3": 8075.11,
+        "combinedRatio": 1.23,
+        "combinedHeavySide": "home",
+        "combinedOi": 2055395.52,
+        "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 1952.47,
-        "novigTop3": 4762.81,
-        "snappedAt": "2026-11-27T12:46:36.314548Z",
+        "fourcastersTop3": 3162.48,
+        "novigTop3": 11490.69,
+        "snappedAt": "2026-11-27T22:06:37.723822Z",
         "frozen": false
       }
     },
@@ -15302,18 +15302,18 @@
       "monFav": 25,
       "reason": "Tix 37% + $ 25% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 4769.7,
-        "combinedAwayTop3": 2671.51,
-        "combinedHomeTop3": 2098.19,
-        "combinedRatio": 1.27,
+        "combinedTop3": 12452.05,
+        "combinedAwayTop3": 8723.99,
+        "combinedHomeTop3": 3728.06,
+        "combinedRatio": 2.34,
         "combinedHeavySide": "away",
-        "combinedOi": 2414315.62,
+        "combinedOi": 3521500.83,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 2206.9,
-        "novigTop3": 2562.8,
-        "snappedAt": "2026-11-27T12:46:36.315302Z",
+        "fourcastersTop3": 4150.92,
+        "novigTop3": 8301.13,
+        "snappedAt": "2026-11-27T22:06:37.724469Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.318Z"
@@ -15341,18 +15341,18 @@
       "monFav": 25,
       "reason": "Tix 37% + $ 25% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 7671.46,
-        "combinedAwayTop3": 935.5,
-        "combinedHomeTop3": 6735.96,
-        "combinedRatio": 7.2,
+        "combinedTop3": 70089.17,
+        "combinedAwayTop3": 28268.79,
+        "combinedHomeTop3": 41820.38,
+        "combinedRatio": 1.48,
         "combinedHeavySide": "home",
-        "combinedOi": 2414315.62,
+        "combinedOi": 3521500.83,
         "liqAgreesTake": true,
         "goodFav": true,
         "goodDog": false,
-        "fourcastersTop3": 3091,
-        "novigTop3": 4580.46,
-        "snappedAt": "2026-11-27T12:46:36.316051Z",
+        "fourcastersTop3": 29906.23,
+        "novigTop3": 40182.94,
+        "snappedAt": "2026-11-27T22:06:37.725101Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.318Z"
@@ -15380,18 +15380,18 @@
       "monFav": 2,
       "reason": "Tix 46% + $ 2% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 7180.12,
-        "combinedAwayTop3": 4447.94,
-        "combinedHomeTop3": 2732.18,
-        "combinedRatio": 1.63,
-        "combinedHeavySide": "away",
-        "combinedOi": 152766.6,
-        "liqAgreesTake": true,
+        "combinedTop3": 8868.66,
+        "combinedAwayTop3": 2883.43,
+        "combinedHomeTop3": 5985.23,
+        "combinedRatio": 2.08,
+        "combinedHeavySide": "home",
+        "combinedOi": 300682.77,
+        "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 4637.56,
-        "novigTop3": 2542.56,
-        "snappedAt": "2026-11-27T12:46:36.317408Z",
+        "fourcastersTop3": 5976.14,
+        "novigTop3": 2892.52,
+        "snappedAt": "2026-11-27T22:06:37.726431Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.318Z"
@@ -15419,18 +15419,18 @@
       "monFav": 2,
       "reason": "Tix 46% + $ 2% on fav (<50)",
       "liqSnap": {
-        "combinedTop3": 3061.41,
-        "combinedAwayTop3": 857.51,
-        "combinedHomeTop3": 2203.9,
-        "combinedRatio": 2.57,
+        "combinedTop3": 18986.54,
+        "combinedAwayTop3": 5659.48,
+        "combinedHomeTop3": 13327.06,
+        "combinedRatio": 2.35,
         "combinedHeavySide": "home",
-        "combinedOi": 152766.6,
+        "combinedOi": 300682.77,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 1845.01,
-        "novigTop3": 1216.4,
-        "snappedAt": "2026-11-27T12:46:36.318773Z",
+        "fourcastersTop3": 5455.25,
+        "novigTop3": 13531.29,
+        "snappedAt": "2026-11-27T22:06:37.727753Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T22:05:49.318Z"
@@ -15458,18 +15458,18 @@
       "monFav": 91,
       "reason": "Tix 82% + $ 91% on fav",
       "liqSnap": {
-        "combinedTop3": 3032.54,
-        "combinedAwayTop3": 1663.18,
-        "combinedHomeTop3": 1369.36,
-        "combinedRatio": 1.21,
+        "combinedTop3": 7908.28,
+        "combinedAwayTop3": 4380.18,
+        "combinedHomeTop3": 3528.1,
+        "combinedRatio": 1.24,
         "combinedHeavySide": "away",
-        "combinedOi": 191348.05,
+        "combinedOi": 3013149.93,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 1451.3,
-        "novigTop3": 1581.24,
-        "snappedAt": "2026-11-27T12:46:36.320041Z",
+        "fourcastersTop3": 3406.04,
+        "novigTop3": 4502.24,
+        "snappedAt": "2026-11-27T22:06:37.728551Z",
         "frozen": false
       }
     },
@@ -15496,18 +15496,18 @@
       "monFav": 91,
       "reason": "Tix 82% + $ 91% on fav",
       "liqSnap": {
-        "combinedTop3": 4970.09,
-        "combinedAwayTop3": 617.33,
-        "combinedHomeTop3": 4352.76,
-        "combinedRatio": 7.05,
-        "combinedHeavySide": "home",
-        "combinedOi": 191348.05,
-        "liqAgreesTake": true,
+        "combinedTop3": 31036.46,
+        "combinedAwayTop3": 16238.98,
+        "combinedHomeTop3": 14797.48,
+        "combinedRatio": 1.1,
+        "combinedHeavySide": "away",
+        "combinedOi": 3013149.93,
+        "liqAgreesTake": false,
         "goodFav": false,
-        "goodDog": true,
-        "fourcastersTop3": 3802.42,
-        "novigTop3": 1167.67,
-        "snappedAt": "2026-11-27T12:46:36.321372Z",
+        "goodDog": false,
+        "fourcastersTop3": 10684.59,
+        "novigTop3": 20351.87,
+        "snappedAt": "2026-11-27T22:06:37.729345Z",
         "frozen": false
       }
     },
@@ -15546,7 +15546,7 @@
         "fourcastersTop3": 1493.73,
         "novigTop3": 1075.35,
         "snappedAt": "2026-11-27T12:46:36.322338Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:49:55.139Z",
       "result": "L",
@@ -15594,7 +15594,7 @@
         "fourcastersTop3": 2903.43,
         "novigTop3": 1662.68,
         "snappedAt": "2026-11-27T12:46:36.323313Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:49:55.139Z",
       "result": "L",
@@ -15642,7 +15642,7 @@
         "fourcastersTop3": 2318.45,
         "novigTop3": 2916.34,
         "snappedAt": "2026-11-27T12:46:36.324174Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:47:24.032Z",
       "result": "W",
@@ -15690,7 +15690,7 @@
         "fourcastersTop3": 2318.45,
         "novigTop3": 2916.34,
         "snappedAt": "2026-11-27T12:46:36.325024Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T12:47:24.032Z",
       "result": "W",
@@ -15738,7 +15738,7 @@
         "fourcastersTop3": 4270.35,
         "novigTop3": 1917.92,
         "snappedAt": "2026-11-27T12:46:36.326051Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15776,7 +15776,7 @@
         "fourcastersTop3": 4270.35,
         "novigTop3": 1917.92,
         "snappedAt": "2026-11-27T12:46:36.327061Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15814,7 +15814,7 @@
         "fourcastersTop3": 3191.16,
         "novigTop3": 8979.37,
         "snappedAt": "2026-11-27T12:46:36.327948Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15852,7 +15852,7 @@
         "fourcastersTop3": 3191.16,
         "novigTop3": 8979.37,
         "snappedAt": "2026-11-27T12:46:36.328836Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15878,18 +15878,18 @@
       "monFav": 74,
       "reason": "Tix 70% + $ 74% on fav",
       "liqSnap": {
-        "combinedTop3": 14467.75,
-        "combinedAwayTop3": 7869.71,
-        "combinedHomeTop3": 6598.04,
-        "combinedRatio": 1.19,
-        "combinedHeavySide": "away",
-        "combinedOi": 4339502.33,
-        "liqAgreesTake": false,
+        "combinedTop3": 36684.5,
+        "combinedAwayTop3": 16806.62,
+        "combinedHomeTop3": 19877.88,
+        "combinedRatio": 1.18,
+        "combinedHeavySide": "home",
+        "combinedOi": 5900665.53,
+        "liqAgreesTake": true,
         "goodFav": false,
-        "goodDog": false,
-        "fourcastersTop3": 3751.86,
-        "novigTop3": 10715.89,
-        "snappedAt": "2026-11-27T12:47:09.069839Z",
+        "goodDog": true,
+        "fourcastersTop3": 22746.9,
+        "novigTop3": 13937.6,
+        "snappedAt": "2026-11-27T22:06:37.729575Z",
         "frozen": false
       }
     },
@@ -15916,18 +15916,18 @@
       "monFav": 74,
       "reason": "Tix 70% + $ 74% on fav",
       "liqSnap": {
-        "combinedTop3": 10955.84,
-        "combinedAwayTop3": 7266.31,
-        "combinedHomeTop3": 3689.53,
-        "combinedRatio": 1.97,
-        "combinedHeavySide": "away",
-        "combinedOi": 4339502.33,
-        "liqAgreesTake": false,
+        "combinedTop3": 19130.34,
+        "combinedAwayTop3": 6099.19,
+        "combinedHomeTop3": 13031.15,
+        "combinedRatio": 2.14,
+        "combinedHeavySide": "home",
+        "combinedOi": 5900665.53,
+        "liqAgreesTake": true,
         "goodFav": false,
-        "goodDog": false,
-        "fourcastersTop3": 4981.12,
-        "novigTop3": 5974.72,
-        "snappedAt": "2026-11-27T12:47:09.070118Z",
+        "goodDog": true,
+        "fourcastersTop3": 7900.9,
+        "novigTop3": 11229.44,
+        "snappedAt": "2026-11-27T22:06:37.729788Z",
         "frozen": false
       }
     },
@@ -15952,7 +15952,22 @@
       "price": -105,
       "tixFav": 20,
       "monFav": 29,
-      "reason": "Tix 20% + $ 29% on fav (<50)"
+      "reason": "Tix 20% + $ 29% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 37049.97,
+        "combinedAwayTop3": 11520.28,
+        "combinedHomeTop3": 25529.69,
+        "combinedRatio": 2.22,
+        "combinedHeavySide": "home",
+        "combinedOi": 5203697.86,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 10916.34,
+        "novigTop3": 26133.63,
+        "snappedAt": "2026-11-27T22:06:37.730089Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|537|dallas_at_phoenix|FAV|home|ml",
@@ -15975,7 +15990,22 @@
       "price": -145,
       "tixFav": 20,
       "monFav": 29,
-      "reason": "Tix 20% + $ 29% on fav (<50)"
+      "reason": "Tix 20% + $ 29% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 27849.79,
+        "combinedAwayTop3": 10995.63,
+        "combinedHomeTop3": 16854.16,
+        "combinedRatio": 1.53,
+        "combinedHeavySide": "home",
+        "combinedOi": 5203697.86,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 12160.26,
+        "novigTop3": 15689.53,
+        "snappedAt": "2026-11-27T22:06:37.730368Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|635|north_texas_at_north_dakota_state|DOG|home|spread",
@@ -15998,7 +16028,22 @@
       "price": -113,
       "tixFav": 70,
       "monFav": 98,
-      "reason": "Tix 70% + $ 98% on fav"
+      "reason": "Tix 70% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 7737.97,
+        "combinedAwayTop3": 3583.51,
+        "combinedHomeTop3": 4154.46,
+        "combinedRatio": 1.16,
+        "combinedHeavySide": "home",
+        "combinedOi": 280222.87,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 4722.31,
+        "novigTop3": 3015.66,
+        "snappedAt": "2026-11-27T22:06:37.731728Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|635|north_texas_at_north_dakota_state|DOG|home|ml",
@@ -16021,7 +16066,22 @@
       "price": 210,
       "tixFav": 70,
       "monFav": 98,
-      "reason": "Tix 70% + $ 98% on fav"
+      "reason": "Tix 70% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 8750.62,
+        "combinedAwayTop3": 6974.53,
+        "combinedHomeTop3": 1776.09,
+        "combinedRatio": 3.93,
+        "combinedHeavySide": "away",
+        "combinedOi": 280222.87,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 6384.85,
+        "novigTop3": 2365.77,
+        "snappedAt": "2026-11-27T22:06:37.733084Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|645|jacksonville_state_at_nebraska_omaha|DOG|home|spread",
@@ -16044,7 +16104,22 @@
       "price": -105,
       "tixFav": 71,
       "monFav": 99,
-      "reason": "Tix 71% + $ 99% on fav"
+      "reason": "Tix 71% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 11542.57,
+        "combinedAwayTop3": 6571.91,
+        "combinedHomeTop3": 4970.66,
+        "combinedRatio": 1.32,
+        "combinedHeavySide": "away",
+        "combinedOi": 2895951.58,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 6792.68,
+        "novigTop3": 4749.89,
+        "snappedAt": "2026-11-27T22:06:37.733968Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|645|jacksonville_state_at_nebraska_omaha|DOG|home|ml",
@@ -16067,7 +16142,22 @@
       "price": 183,
       "tixFav": 71,
       "monFav": 99,
-      "reason": "Tix 71% + $ 99% on fav"
+      "reason": "Tix 71% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 12815.03,
+        "combinedAwayTop3": 5744.52,
+        "combinedHomeTop3": 7070.51,
+        "combinedRatio": 1.23,
+        "combinedHeavySide": "home",
+        "combinedOi": 2895951.58,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7220.02,
+        "novigTop3": 5595.01,
+        "snappedAt": "2026-11-27T22:06:37.734855Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|651|tennessee_at_louisville|FAV|home|spread",
@@ -16090,7 +16180,22 @@
       "price": -102,
       "tixFav": 24,
       "monFav": 15,
-      "reason": "Tix 24% + $ 15% on fav (<50)"
+      "reason": "Tix 24% + $ 15% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 31821.66,
+        "combinedAwayTop3": 1189.97,
+        "combinedHomeTop3": 30631.69,
+        "combinedRatio": 25.74,
+        "combinedHeavySide": "home",
+        "combinedOi": 1626594.64,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7751.87,
+        "novigTop3": 24069.79,
+        "snappedAt": "2026-11-27T22:06:37.735729Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|651|tennessee_at_louisville|FAV|home|ml",
@@ -16113,7 +16218,22 @@
       "price": -169,
       "tixFav": 24,
       "monFav": 15,
-      "reason": "Tix 24% + $ 15% on fav (<50)"
+      "reason": "Tix 24% + $ 15% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 20508.24,
+        "combinedAwayTop3": 1948.39,
+        "combinedHomeTop3": 18559.85,
+        "combinedRatio": 9.53,
+        "combinedHeavySide": "home",
+        "combinedOi": 1626594.64,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7264.68,
+        "novigTop3": 13243.56,
+        "snappedAt": "2026-11-27T22:06:37.736589Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|657|michigan_at_kansas_state|FAV|away|spread",
@@ -16137,7 +16257,22 @@
       "tixFav": 42,
       "monFav": 26,
       "reason": "Tix 42% + $ 26% on fav (<50)",
-      "leanUpdatedAt": "2026-11-27T22:06:08.205Z"
+      "leanUpdatedAt": "2026-11-27T22:06:08.205Z",
+      "liqSnap": {
+        "combinedTop3": 4155.71,
+        "combinedAwayTop3": 2717.64,
+        "combinedHomeTop3": 1438.07,
+        "combinedRatio": 1.89,
+        "combinedHeavySide": "away",
+        "combinedOi": 1582064.88,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 2853.19,
+        "novigTop3": 1302.52,
+        "snappedAt": "2026-11-27T22:06:37.737388Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|657|michigan_at_kansas_state|FAV|away|ml",
@@ -16161,7 +16296,22 @@
       "tixFav": 42,
       "monFav": 26,
       "reason": "Tix 42% + $ 26% on fav (<50)",
-      "leanUpdatedAt": "2026-11-27T22:06:08.205Z"
+      "leanUpdatedAt": "2026-11-27T22:06:08.205Z",
+      "liqSnap": {
+        "combinedTop3": 15207.86,
+        "combinedAwayTop3": 14515.77,
+        "combinedHomeTop3": 692.09,
+        "combinedRatio": 20.97,
+        "combinedHeavySide": "away",
+        "combinedOi": 1582064.88,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 11796.68,
+        "novigTop3": 3411.18,
+        "snappedAt": "2026-11-27T22:06:37.738171Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|659|miami_florida_at_alabama|FAV|away|spread",
@@ -16185,7 +16335,22 @@
       "tixFav": 41,
       "monFav": 9,
       "reason": "Tix 41% + $ 9% on fav (<50)",
-      "leanUpdatedAt": "2026-11-27T22:06:16.252Z"
+      "leanUpdatedAt": "2026-11-27T22:06:16.252Z",
+      "liqSnap": {
+        "combinedTop3": 8823.22,
+        "combinedAwayTop3": 4520.19,
+        "combinedHomeTop3": 4303.03,
+        "combinedRatio": 1.05,
+        "combinedHeavySide": "away",
+        "combinedOi": 405025.77,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 5364.94,
+        "novigTop3": 3458.28,
+        "snappedAt": "2026-11-27T22:06:37.739422Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|659|miami_florida_at_alabama|FAV|away|ml",
@@ -16209,7 +16374,22 @@
       "tixFav": 41,
       "monFav": 9,
       "reason": "Tix 41% + $ 9% on fav (<50)",
-      "leanUpdatedAt": "2026-11-27T22:06:16.252Z"
+      "leanUpdatedAt": "2026-11-27T22:06:16.252Z",
+      "liqSnap": {
+        "combinedTop3": 28892.33,
+        "combinedAwayTop3": 9871.55,
+        "combinedHomeTop3": 19020.78,
+        "combinedRatio": 1.93,
+        "combinedHeavySide": "home",
+        "combinedOi": 405025.77,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 9566.04,
+        "novigTop3": 19326.29,
+        "snappedAt": "2026-11-27T22:06:37.740671Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|79|winnipeg_at_ny_islanders|FAV|home|spread",
@@ -16303,5 +16483,6 @@
       "monFav": 98,
       "reason": "Tix 85% + $ 98% on fav"
     }
-  ]
+  ],
+  "liqSnapUpdatedAt": "2026-11-27T22:06:37.746446Z"
 }
