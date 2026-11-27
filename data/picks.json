@@ -13361,13 +13361,13 @@
         "combinedHomeTop3": 15384.32,
         "combinedRatio": 1.86,
         "combinedHeavySide": "away",
-        "combinedOi": 3470832.78,
+        "combinedOi": 3475007.83,
         "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 20039.34,
         "novigTop3": 23910.36,
-        "snappedAt": "2026-11-27T02:34:18.467296Z",
+        "snappedAt": "2026-11-27T02:35:26.101983Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T00:02:27.668Z"
@@ -13395,18 +13395,18 @@
       "monFav": 95,
       "reason": "Tix 83% + $ 95% on fav",
       "liqSnap": {
-        "combinedTop3": 59020.38,
-        "combinedAwayTop3": 39199.52,
+        "combinedTop3": 59000.48,
+        "combinedAwayTop3": 39179.62,
         "combinedHomeTop3": 19820.86,
         "combinedRatio": 1.98,
         "combinedHeavySide": "away",
-        "combinedOi": 3470832.78,
+        "combinedOi": 3475007.83,
         "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": false,
-        "fourcastersTop3": 13503.54,
+        "fourcastersTop3": 13483.64,
         "novigTop3": 45516.84,
-        "snappedAt": "2026-11-27T02:34:18.467846Z",
+        "snappedAt": "2026-11-27T02:35:26.102529Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-27T00:02:27.668Z"
@@ -13924,5 +13924,5 @@
       "espnHome": "Michigan Wolverines"
     }
   ],
-  "liqSnapUpdatedAt": "2026-11-27T02:34:18.467864Z"
+  "liqSnapUpdatedAt": "2026-11-27T02:35:26.102545Z"
 }
