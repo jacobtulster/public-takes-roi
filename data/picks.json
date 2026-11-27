@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T22:05:54.090Z",
+  "updatedAt": "2026-11-27T22:06:07.272Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -14131,7 +14131,16 @@
         "novigTop3": 65874.42,
         "snappedAt": "2026-11-27T12:46:36.300528Z",
         "frozen": false
-      }
+      },
+      "result": "P",
+      "profit": 0,
+      "awayScore": 34,
+      "homeScore": 31,
+      "gradedAt": "2026-11-27T22:05:54.638Z",
+      "gradeSource": "espn",
+      "espnEventId": "401866473",
+      "espnAway": "Toledo Rockets",
+      "espnHome": "Ohio Bobcats"
     },
     {
       "pickKey": "m|123|toledo_at_ohio|FAV|away|ml",
@@ -14169,7 +14178,16 @@
         "novigTop3": 6773.53,
         "snappedAt": "2026-11-27T12:46:36.300799Z",
         "frozen": false
-      }
+      },
+      "result": "W",
+      "profit": 0.6494,
+      "awayScore": 34,
+      "homeScore": 31,
+      "gradedAt": "2026-11-27T22:05:54.639Z",
+      "gradeSource": "espn",
+      "espnEventId": "401866473",
+      "espnAway": "Toledo Rockets",
+      "espnHome": "Ohio Bobcats"
     },
     {
       "pickKey": "m|125|mississippi_state_at_mississippi|DOG|away|spread",
@@ -14207,7 +14225,16 @@
         "novigTop3": 20431.37,
         "snappedAt": "2026-11-27T12:46:36.301007Z",
         "frozen": false
-      }
+      },
+      "result": "L",
+      "profit": -1,
+      "awayScore": 17,
+      "homeScore": 41,
+      "gradedAt": "2026-11-27T22:05:54.639Z",
+      "gradeSource": "espn",
+      "espnEventId": "401856762",
+      "espnAway": "Mississippi State Bulldogs",
+      "espnHome": "Ole Miss Rebels"
     },
     {
       "pickKey": "m|125|mississippi_state_at_mississippi|DOG|away|ml",
@@ -14245,7 +14272,16 @@
         "novigTop3": 12235.82,
         "snappedAt": "2026-11-27T12:46:36.301210Z",
         "frozen": false
-      }
+      },
+      "result": "L",
+      "profit": -1,
+      "awayScore": 17,
+      "homeScore": 41,
+      "gradedAt": "2026-11-27T22:05:54.640Z",
+      "gradeSource": "espn",
+      "espnEventId": "401856762",
+      "espnAway": "Mississippi State Bulldogs",
+      "espnHome": "Ole Miss Rebels"
     },
     {
       "pickKey": "m|127|nebraska_at_iowa|DOG|away|spread",
@@ -14284,7 +14320,16 @@
         "snappedAt": "2026-11-27T12:46:36.301369Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:48:20.719Z"
+      "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 7,
+      "homeScore": 31,
+      "gradedAt": "2026-11-27T22:05:54.640Z",
+      "gradeSource": "espn",
+      "espnEventId": "401858536",
+      "espnAway": "Nebraska Cornhuskers",
+      "espnHome": "Iowa Hawkeyes"
     },
     {
       "pickKey": "m|127|nebraska_at_iowa|DOG|away|ml",
@@ -14323,7 +14368,16 @@
         "snappedAt": "2026-11-27T12:46:36.301523Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:48:20.719Z"
+      "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 7,
+      "homeScore": 31,
+      "gradedAt": "2026-11-27T22:05:54.640Z",
+      "gradeSource": "espn",
+      "espnEventId": "401858536",
+      "espnAway": "Nebraska Cornhuskers",
+      "espnHome": "Iowa Hawkeyes"
     },
     {
       "pickKey": "m|129|temple_at_memphis|DOG|away|spread",
@@ -14438,7 +14492,16 @@
         "snappedAt": "2026-11-27T12:46:36.302663Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:48:20.719Z"
+      "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 22,
+      "homeScore": 28,
+      "gradedAt": "2026-11-27T22:05:59.756Z",
+      "gradeSource": "espn",
+      "espnEventId": "401862840",
+      "espnAway": "Tulsa Golden Hurricane",
+      "espnHome": "UTSA Roadrunners"
     },
     {
       "pickKey": "m|131|tulsa_at_utsa|FAV|away|ml",
@@ -14477,7 +14540,16 @@
         "snappedAt": "2026-11-27T12:46:36.302895Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:48:20.719Z"
+      "leanUpdatedAt": "2026-11-27T12:48:20.719Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 22,
+      "homeScore": 28,
+      "gradedAt": "2026-11-27T22:05:59.756Z",
+      "gradeSource": "espn",
+      "espnEventId": "401862840",
+      "espnAway": "Tulsa Golden Hurricane",
+      "espnHome": "UTSA Roadrunners"
     },
     {
       "pickKey": "m|141|texas_at_texas_a_m|DOG|home|spread",
@@ -15476,7 +15548,16 @@
         "snappedAt": "2026-11-27T12:46:36.322338Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:49:55.139Z"
+      "leanUpdatedAt": "2026-11-27T12:49:55.139Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 88,
+      "homeScore": 85,
+      "gradedAt": "2026-11-27T22:06:01.268Z",
+      "gradeSource": "espn",
+      "espnEventId": "401929288",
+      "espnAway": "Memphis Tigers",
+      "espnHome": "Wake Forest Demon Deacons"
     },
     {
       "pickKey": "m|663|memphis_at_wake_forest|DOG|home|ml",
@@ -15515,7 +15596,16 @@
         "snappedAt": "2026-11-27T12:46:36.323313Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:49:55.139Z"
+      "leanUpdatedAt": "2026-11-27T12:49:55.139Z",
+      "result": "L",
+      "profit": -1,
+      "awayScore": 88,
+      "homeScore": 85,
+      "gradedAt": "2026-11-27T22:06:01.269Z",
+      "gradeSource": "espn",
+      "espnEventId": "401929288",
+      "espnAway": "Memphis Tigers",
+      "espnHome": "Wake Forest Demon Deacons"
     },
     {
       "pickKey": "m|55|toronto_at_boston|DOG|away|spread",
@@ -15554,7 +15644,16 @@
         "snappedAt": "2026-11-27T12:46:36.324174Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:47:24.032Z"
+      "leanUpdatedAt": "2026-11-27T12:47:24.032Z",
+      "result": "W",
+      "profit": 0.5525,
+      "awayScore": 3,
+      "homeScore": 1,
+      "gradedAt": "2026-11-27T22:06:01.617Z",
+      "gradeSource": "espn",
+      "espnEventId": "401892795",
+      "espnAway": "Toronto Maple Leafs",
+      "espnHome": "Boston Bruins"
     },
     {
       "pickKey": "m|55|toronto_at_boston|DOG|away|ml",
@@ -15593,7 +15692,16 @@
         "snappedAt": "2026-11-27T12:46:36.325024Z",
         "frozen": false
       },
-      "leanUpdatedAt": "2026-11-27T12:47:24.032Z"
+      "leanUpdatedAt": "2026-11-27T12:47:24.032Z",
+      "result": "W",
+      "profit": 1.36,
+      "awayScore": 3,
+      "homeScore": 1,
+      "gradedAt": "2026-11-27T22:06:01.618Z",
+      "gradeSource": "espn",
+      "espnEventId": "401892795",
+      "espnAway": "Toronto Maple Leafs",
+      "espnHome": "Boston Bruins"
     },
     {
       "pickKey": "m|67|ottawa_at_tampa_bay|FAV|home|spread",
