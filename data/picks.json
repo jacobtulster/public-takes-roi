@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:17:05.646Z",
+  "updatedAt": "2026-11-28T14:17:11.651Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -19014,6 +19014,29 @@
       "tixFav": 44,
       "monFav": 48,
       "reason": "Tix 44% + $ 48% on fav (<50)"
+    },
+    {
+      "pickKey": "m|21|anaheim_at_los_angeles|FAV|home|ml",
+      "matchupId": "21|anaheim_at_los_angeles|FAV|home|ml",
+      "loggedAt": "2026-11-28T14:17:08.405Z",
+      "sport": "NHL",
+      "league": "NHL - Saturday, November 28th",
+      "away": "Anaheim",
+      "home": "Los Angeles",
+      "kick": "21:07",
+      "startAt": "2026-11-29T02:07:00.000Z",
+      "gameNumber": 21,
+      "takeRole": "FAV",
+      "takeTeam": "Los Angeles",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -140,
+      "price": -140,
+      "tixFav": 15,
+      "monFav": 40,
+      "reason": "Tix 15% + $ 40% on fav (<50)"
     }
   ]
 }
