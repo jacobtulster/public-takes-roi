@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:46:49.952Z",
+  "updatedAt": "2026-11-28T13:46:55.574Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16948,9 +16948,9 @@
       "market": "spread",
       "line": 5,
       "price": -108,
-      "tixFav": 76,
+      "tixFav": 77,
       "monFav": 95,
-      "reason": "Tix 76% + $ 95% on fav",
+      "reason": "Tix 77% + $ 95% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.382Z",
       "liqSnap": {
         "combinedTop3": 30565.75,
@@ -16987,9 +16987,9 @@
       "market": "ml",
       "line": 178,
       "price": 178,
-      "tixFav": 76,
+      "tixFav": 77,
       "monFav": 95,
-      "reason": "Tix 76% + $ 95% on fav",
+      "reason": "Tix 77% + $ 95% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.382Z"
     },
     {
@@ -17011,9 +17011,9 @@
       "market": "spread",
       "line": 18.5,
       "price": -106,
-      "tixFav": 73,
+      "tixFav": 74,
       "monFav": 99,
-      "reason": "Tix 73% + $ 99% on fav",
+      "reason": "Tix 74% + $ 99% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.383Z",
       "liqSnap": {
         "combinedTop3": 29699.43,
@@ -17050,9 +17050,9 @@
       "market": "ml",
       "line": 663,
       "price": 663,
-      "tixFav": 73,
+      "tixFav": 74,
       "monFav": 99,
-      "reason": "Tix 73% + $ 99% on fav",
+      "reason": "Tix 74% + $ 99% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.383Z"
     },
     {
