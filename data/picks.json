@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:40:55.591Z",
+  "updatedAt": "2026-11-28T13:40:59.521Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -17829,9 +17829,10 @@
       "market": "spread",
       "line": -20.5,
       "price": -107,
-      "tixFav": 36,
-      "monFav": 11,
-      "reason": "Tix 36% + $ 11% on fav (<50)"
+      "tixFav": 40,
+      "monFav": 17,
+      "reason": "Tix 40% + $ 17% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:40:56.431Z"
     },
     {
       "pickKey": "m|699|western_illinois_at_coastal_carolina|DOG|away|spread",
