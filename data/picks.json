@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:03:09.428Z",
+  "updatedAt": "2026-11-28T14:03:13.467Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -17942,7 +17942,7 @@
       "takeRole": "DOG",
       "takeTeam": "Liberty",
       "takeSide": "away",
-      "ocLean": "favorable",
+      "ocLean": "none",
       "bucket": "dog_favorable",
       "market": "spread",
       "line": 5.5,
@@ -17964,7 +17964,8 @@
         "novigTop3": 371.91,
         "snappedAt": "2026-11-28T13:48:12.024166Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:03:10.410Z"
     },
     {
       "pickKey": "m|703|liberty_at_nc_wilmington|DOG|away|ml",
@@ -17980,7 +17981,7 @@
       "takeRole": "DOG",
       "takeTeam": "Liberty",
       "takeSide": "away",
-      "ocLean": "favorable",
+      "ocLean": "none",
       "bucket": "dog_favorable",
       "market": "ml",
       "line": 190,
@@ -18002,7 +18003,8 @@
         "novigTop3": 6018.31,
         "snappedAt": "2026-11-28T13:48:12.026114Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:03:10.411Z"
     },
     {
       "pickKey": "m|707|northern_illinois_at_eastern_illinois|DOG|home|spread",
