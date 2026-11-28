@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:14:47.388Z",
+  "updatedAt": "2026-11-28T14:14:51.919Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -18254,7 +18254,7 @@
       "takeRole": "DOG",
       "takeTeam": "San Jose State",
       "takeSide": "away",
-      "ocLean": "favorable",
+      "ocLean": "none",
       "bucket": "dog_favorable",
       "market": "spread",
       "line": 5.5,
@@ -18276,7 +18276,8 @@
         "novigTop3": 1266.8,
         "snappedAt": "2026-11-28T13:48:12.036204Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:14:48.425Z"
     },
     {
       "pickKey": "m|723|san_jose_state_at_utah_valley|DOG|away|ml",
@@ -18292,7 +18293,7 @@
       "takeRole": "DOG",
       "takeTeam": "San Jose State",
       "takeSide": "away",
-      "ocLean": "favorable",
+      "ocLean": "none",
       "bucket": "dog_favorable",
       "market": "ml",
       "line": 191,
@@ -18314,7 +18315,8 @@
         "novigTop3": 2850.86,
         "snappedAt": "2026-11-28T13:48:12.037571Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:14:48.426Z"
     },
     {
       "pickKey": "m|725|austin_peay_at_furman|DOG|away|spread",
