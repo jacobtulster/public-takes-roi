@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:54:09.591Z",
+  "updatedAt": "2026-11-28T13:54:15.601Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16389,9 +16389,9 @@
       "market": "spread",
       "line": 23.5,
       "price": -103,
-      "tixFav": 84,
+      "tixFav": 83,
       "monFav": 94,
-      "reason": "Tix 84% + $ 94% on fav",
+      "reason": "Tix 83% + $ 94% on fav",
       "liqSnap": {
         "combinedTop3": 21756.33,
         "combinedAwayTop3": 12322.99,
@@ -16406,7 +16406,8 @@
         "novigTop3": 14663.2,
         "snappedAt": "2026-11-28T13:48:11.974505Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:54:12.375Z"
     },
     {
       "pickKey": "m|159|purdue_at_indiana|DOG|away|ml",
@@ -16427,9 +16428,10 @@
       "market": "ml",
       "line": 1201,
       "price": 1201,
-      "tixFav": 84,
+      "tixFav": 83,
       "monFav": 94,
-      "reason": "Tix 84% + $ 94% on fav"
+      "reason": "Tix 83% + $ 94% on fav",
+      "leanUpdatedAt": "2026-11-28T13:54:12.375Z"
     },
     {
       "pickKey": "m|161|duke_at_wake_forest|DOG|away|spread",
@@ -17329,8 +17331,8 @@
       "line": -14.5,
       "price": -101,
       "tixFav": 35,
-      "monFav": 39,
-      "reason": "Tix 35% + $ 39% on fav (<50)",
+      "monFav": 40,
+      "reason": "Tix 35% + $ 40% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 24971.85,
         "combinedAwayTop3": 15122.77,
@@ -17368,8 +17370,8 @@
       "line": -693,
       "price": -693,
       "tixFav": 35,
-      "monFav": 39,
-      "reason": "Tix 35% + $ 39% on fav (<50)",
+      "monFav": 40,
+      "reason": "Tix 35% + $ 40% on fav (<50)",
       "leanUpdatedAt": "2026-11-28T13:34:56.603Z"
     },
     {
@@ -17515,9 +17517,9 @@
       "market": "spread",
       "line": 13.5,
       "price": -106,
-      "tixFav": 82,
+      "tixFav": 83,
       "monFav": 88,
-      "reason": "Tix 82% + $ 88% on fav",
+      "reason": "Tix 83% + $ 88% on fav",
       "liqSnap": {
         "combinedTop3": 8241.85,
         "combinedAwayTop3": 4566.42,
@@ -17532,7 +17534,8 @@
         "novigTop3": 2880.69,
         "snappedAt": "2026-11-28T13:48:12.005622Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:54:12.390Z"
     },
     {
       "pickKey": "m|235|tennessee_at_vanderbilt|DOG|home|ml",
@@ -17553,9 +17556,10 @@
       "market": "ml",
       "line": 418,
       "price": 418,
-      "tixFav": 82,
+      "tixFav": 83,
       "monFav": 88,
-      "reason": "Tix 82% + $ 88% on fav"
+      "reason": "Tix 83% + $ 88% on fav",
+      "leanUpdatedAt": "2026-11-28T13:54:12.390Z"
     },
     {
       "pickKey": "m|239|sacramento_st_at_hawaii|DOG|away|spread",
@@ -17576,9 +17580,9 @@
       "market": "spread",
       "line": 13.5,
       "price": -104,
-      "tixFav": 93,
-      "monFav": 87,
-      "reason": "Tix 93% + $ 87% on fav",
+      "tixFav": 94,
+      "monFav": 88,
+      "reason": "Tix 94% + $ 88% on fav",
       "liqSnap": {
         "combinedTop3": 14433.62,
         "combinedAwayTop3": 6042.85,
@@ -17593,7 +17597,8 @@
         "novigTop3": 10439.1,
         "snappedAt": "2026-11-28T13:48:12.007751Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:54:12.390Z"
     },
     {
       "pickKey": "m|239|sacramento_st_at_hawaii|DOG|away|ml",
@@ -17614,9 +17619,10 @@
       "market": "ml",
       "line": 432,
       "price": 432,
-      "tixFav": 93,
-      "monFav": 87,
-      "reason": "Tix 93% + $ 87% on fav"
+      "tixFav": 94,
+      "monFav": 88,
+      "reason": "Tix 94% + $ 88% on fav",
+      "leanUpdatedAt": "2026-11-28T13:54:12.391Z"
     },
     {
       "pickKey": "m|243|san_diego_state_at_washington_state|DOG|away|spread",
