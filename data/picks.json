@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:53:52.075Z",
+  "updatedAt": "2026-11-28T13:53:57.612Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16822,9 +16822,9 @@
       "market": "spread",
       "line": 17,
       "price": -101,
-      "tixFav": 77,
+      "tixFav": 78,
       "monFav": 86,
-      "reason": "Tix 77% + $ 86% on fav",
+      "reason": "Tix 78% + $ 86% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.381Z",
       "liqSnap": {
         "combinedTop3": 27841.95,
@@ -16861,9 +16861,9 @@
       "market": "ml",
       "line": 617,
       "price": 617,
-      "tixFav": 77,
+      "tixFav": 78,
       "monFav": 86,
-      "reason": "Tix 77% + $ 86% on fav",
+      "reason": "Tix 78% + $ 86% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.381Z"
     },
     {
@@ -17011,9 +17011,9 @@
       "market": "spread",
       "line": 18.5,
       "price": -106,
-      "tixFav": 74,
+      "tixFav": 73,
       "monFav": 99,
-      "reason": "Tix 74% + $ 99% on fav",
+      "reason": "Tix 73% + $ 99% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.383Z",
       "liqSnap": {
         "combinedTop3": 29699.43,
@@ -17050,9 +17050,9 @@
       "market": "ml",
       "line": 663,
       "price": 663,
-      "tixFav": 74,
+      "tixFav": 73,
       "monFav": 99,
-      "reason": "Tix 74% + $ 99% on fav",
+      "reason": "Tix 73% + $ 99% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.383Z"
     },
     {
@@ -18870,6 +18870,52 @@
         "snappedAt": "2026-11-28T13:48:12.068500Z",
         "frozen": false
       }
+    },
+    {
+      "pickKey": "m|197|lsu_at_arkansas|FAV|away|spread",
+      "matchupId": "197|lsu_at_arkansas|FAV|away|spread",
+      "loggedAt": "2026-11-28T13:53:54.389Z",
+      "sport": "NCAAF",
+      "league": "COLLEGE FOOTBALL - Saturday, November 28th",
+      "away": "LSU",
+      "home": "Arkansas",
+      "kick": "12:45",
+      "startAt": "2026-11-28T17:45:00.000Z",
+      "gameNumber": 197,
+      "takeRole": "FAV",
+      "takeTeam": "LSU",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -14.5,
+      "price": -104,
+      "tixFav": 43,
+      "monFav": 30,
+      "reason": "Tix 43% + $ 30% on fav (<50)"
+    },
+    {
+      "pickKey": "m|197|lsu_at_arkansas|FAV|away|ml",
+      "matchupId": "197|lsu_at_arkansas|FAV|away|ml",
+      "loggedAt": "2026-11-28T13:53:54.390Z",
+      "sport": "NCAAF",
+      "league": "COLLEGE FOOTBALL - Saturday, November 28th",
+      "away": "LSU",
+      "home": "Arkansas",
+      "kick": "12:45",
+      "startAt": "2026-11-28T17:45:00.000Z",
+      "gameNumber": 197,
+      "takeRole": "FAV",
+      "takeTeam": "LSU",
+      "takeSide": "away",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -630,
+      "price": -630,
+      "tixFav": 43,
+      "monFav": 30,
+      "reason": "Tix 43% + $ 30% on fav (<50)"
     }
   ]
 }
