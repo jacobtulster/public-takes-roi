@@ -16266,7 +16266,7 @@
         "fourcastersTop3": 5270.54,
         "novigTop3": 7176.99,
         "snappedAt": "2026-11-28T02:43:36.227345Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -16304,7 +16304,7 @@
         "fourcastersTop3": 8958.86,
         "novigTop3": 1659.0,
         "snappedAt": "2026-11-28T02:43:36.227913Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -16782,5 +16782,5 @@
       "leanUpdatedAt": "2026-11-27T23:59:08.865Z"
     }
   ],
-  "liqSnapUpdatedAt": "2026-11-28T02:43:36.227930Z"
+  "liqSnapUpdatedAt": "2026-11-28T04:28:28.174277Z"
 }
