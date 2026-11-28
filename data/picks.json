@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:00:32.820Z",
+  "updatedAt": "2026-11-28T14:00:37.465Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -18930,6 +18930,29 @@
       "monFav": 49,
       "reason": "Tix 43% + $ 49% on fav (<50)",
       "leanUpdatedAt": "2026-11-28T13:54:22.390Z"
+    },
+    {
+      "pickKey": "m|5|calgary_at_ny_rangers|FAV|home|ml",
+      "matchupId": "5|calgary_at_ny_rangers|FAV|home|ml",
+      "loggedAt": "2026-11-28T14:00:34.403Z",
+      "sport": "NHL",
+      "league": "NHL - Saturday, November 28th",
+      "away": "Calgary",
+      "home": "NY Rangers",
+      "kick": "19:07",
+      "startAt": "2026-11-29T00:07:00.000Z",
+      "gameNumber": 5,
+      "takeRole": "FAV",
+      "takeTeam": "NY Rangers",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -172,
+      "price": -172,
+      "tixFav": 15,
+      "monFav": 45,
+      "reason": "Tix 15% + $ 45% on fav (<50)"
     }
   ]
 }
