@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T02:14:02.868322Z",
+  "updatedAt": "2026-11-28T10:37:19.087318Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -14627,7 +14627,17 @@
         "novigTop3": 52484.04,
         "snappedAt": "2026-11-27T12:46:36.303105Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9804,
+      "awayScore": 16.0,
+      "homeScore": 6.0,
+      "gradedAt": "2026-11-28T10:37:17.105987Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401856756",
+      "espnAway": "Texas Longhorns",
+      "espnHome": "Texas A&M Aggies"
     },
     {
       "pickKey": "m|141|texas_at_texas_a_m|DOG|home|ml",
@@ -14665,7 +14675,17 @@
         "novigTop3": 35133.48,
         "snappedAt": "2026-11-27T12:46:36.303309Z",
         "frozen": true
-      }
+      },
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 16.0,
+      "homeScore": 6.0,
+      "gradedAt": "2026-11-28T10:37:17.106529Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401856756",
+      "espnAway": "Texas Longhorns",
+      "espnHome": "Texas A&M Aggies"
     },
     {
       "pickKey": "m|143|minnesota_at_wisconsin|FAV|home|spread",
@@ -14703,7 +14723,17 @@
         "novigTop3": 31829.65,
         "snappedAt": "2026-11-27T12:46:36.303442Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9901,
+      "awayScore": 5.0,
+      "homeScore": 28.0,
+      "gradedAt": "2026-11-28T10:37:17.107253Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401858544",
+      "espnAway": "Minnesota Golden Gophers",
+      "espnHome": "Wisconsin Badgers"
     },
     {
       "pickKey": "m|143|minnesota_at_wisconsin|FAV|home|ml",
@@ -14741,7 +14771,17 @@
         "novigTop3": 4263.14,
         "snappedAt": "2026-11-27T12:46:36.303570Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.3125,
+      "awayScore": 5.0,
+      "homeScore": 28.0,
+      "gradedAt": "2026-11-28T10:37:17.107964Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401858544",
+      "espnAway": "Minnesota Golden Gophers",
+      "espnHome": "Wisconsin Badgers"
     },
     {
       "pickKey": "m|527|brooklyn_at_toronto|FAV|home|spread",
@@ -14780,7 +14820,17 @@
         "snappedAt": "2026-11-27T12:46:36.304061Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T22:05:49.317Z"
+      "leanUpdatedAt": "2026-11-27T22:05:49.317Z",
+      "result": "W",
+      "profit": 0.9615,
+      "awayScore": 100.0,
+      "homeScore": 124.0,
+      "gradedAt": "2026-11-28T10:37:17.406992Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909329",
+      "espnAway": "Brooklyn Nets",
+      "espnHome": "Toronto Raptors"
     },
     {
       "pickKey": "m|527|brooklyn_at_toronto|FAV|home|ml",
@@ -14819,7 +14869,17 @@
         "snappedAt": "2026-11-27T12:46:36.304538Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T22:05:49.317Z"
+      "leanUpdatedAt": "2026-11-27T22:05:49.317Z",
+      "result": "W",
+      "profit": 0.3322,
+      "awayScore": 100.0,
+      "homeScore": 124.0,
+      "gradedAt": "2026-11-28T10:37:17.407287Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909329",
+      "espnAway": "Brooklyn Nets",
+      "espnHome": "Toronto Raptors"
     },
     {
       "pickKey": "m|531|philadelphia_at_indiana|DOG|home|spread",
@@ -14858,7 +14918,17 @@
         "snappedAt": "2026-11-27T12:46:36.304904Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.001Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.001Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 111.0,
+      "homeScore": 87.0,
+      "gradedAt": "2026-11-28T10:37:17.407479Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909328",
+      "espnAway": "Philadelphia 76ers",
+      "espnHome": "Indiana Pacers"
     },
     {
       "pickKey": "m|531|philadelphia_at_indiana|DOG|home|ml",
@@ -14897,7 +14967,17 @@
         "snappedAt": "2026-11-27T12:46:36.305257Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.001Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.001Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 111.0,
+      "homeScore": 87.0,
+      "gradedAt": "2026-11-28T10:37:17.407655Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909328",
+      "espnAway": "Philadelphia 76ers",
+      "espnHome": "Indiana Pacers"
     },
     {
       "pickKey": "m|535|memphis_at_minnesota|DOG|away|spread",
@@ -14935,7 +15015,17 @@
         "novigTop3": 38851.82,
         "snappedAt": "2026-11-28T00:40:45.378064Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 1.02,
+      "awayScore": 114.0,
+      "homeScore": 109.0,
+      "gradedAt": "2026-11-28T10:37:17.407992Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909331",
+      "espnAway": "Memphis Grizzlies",
+      "espnHome": "Minnesota Timberwolves"
     },
     {
       "pickKey": "m|535|memphis_at_minnesota|DOG|away|ml",
@@ -14973,7 +15063,17 @@
         "novigTop3": 5606.17,
         "snappedAt": "2026-11-28T00:40:45.378322Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 1.55,
+      "awayScore": 114.0,
+      "homeScore": 109.0,
+      "gradedAt": "2026-11-28T10:37:17.408337Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909331",
+      "espnAway": "Memphis Grizzlies",
+      "espnHome": "Minnesota Timberwolves"
     },
     {
       "pickKey": "m|543|golden_state_at_portland|FAV|home|spread",
@@ -15011,7 +15111,17 @@
         "novigTop3": 14128.06,
         "snappedAt": "2026-11-28T02:39:05.734919Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9901,
+      "awayScore": 94.0,
+      "homeScore": 116.0,
+      "gradedAt": "2026-11-28T10:37:17.408978Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909336",
+      "espnAway": "Golden State Warriors",
+      "espnHome": "Portland Trail Blazers"
     },
     {
       "pickKey": "m|543|golden_state_at_portland|FAV|home|ml",
@@ -15049,7 +15159,17 @@
         "novigTop3": 26716.71,
         "snappedAt": "2026-11-28T02:39:05.735128Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.2513,
+      "awayScore": 94.0,
+      "homeScore": 116.0,
+      "gradedAt": "2026-11-28T10:37:17.409598Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909336",
+      "espnAway": "Golden State Warriors",
+      "espnHome": "Portland Trail Blazers"
     },
     {
       "pickKey": "m|545|l_a_lakers_at_san_antonio|FAV|home|spread",
@@ -15088,7 +15208,17 @@
         "snappedAt": "2026-11-28T02:39:05.735217Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 96.0,
+      "homeScore": 99.0,
+      "gradedAt": "2026-11-28T10:37:17.410061Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909333",
+      "espnAway": "Los Angeles Lakers",
+      "espnHome": "San Antonio Spurs"
     },
     {
       "pickKey": "m|545|l_a_lakers_at_san_antonio|FAV|home|ml",
@@ -15127,7 +15257,17 @@
         "snappedAt": "2026-11-28T02:39:05.735303Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "W",
+      "profit": 0.4717,
+      "awayScore": 96.0,
+      "homeScore": 99.0,
+      "gradedAt": "2026-11-28T10:37:17.410512Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909333",
+      "espnAway": "Los Angeles Lakers",
+      "espnHome": "San Antonio Spurs"
     },
     {
       "pickKey": "m|613|villanova_at_kansas|FAV|home|spread",
@@ -15500,7 +15640,17 @@
         "snappedAt": "2026-11-28T00:40:45.379976Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "W",
+      "profit": 0.9615,
+      "awayScore": 66.0,
+      "homeScore": 72.0,
+      "gradedAt": "2026-11-28T10:37:17.762156Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401928624",
+      "espnAway": "Missouri State Bears",
+      "espnHome": "Oral Roberts Golden Eagles"
     },
     {
       "pickKey": "m|639|missouri_state_at_oral_roberts|FAV|home|ml",
@@ -15539,7 +15689,17 @@
         "snappedAt": "2026-11-28T00:40:45.380662Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "W",
+      "profit": 0.6289,
+      "awayScore": 66.0,
+      "homeScore": 72.0,
+      "gradedAt": "2026-11-28T10:37:17.764943Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401928624",
+      "espnAway": "Missouri State Bears",
+      "espnHome": "Oral Roberts Golden Eagles"
     },
     {
       "pickKey": "m|643|wichita_state_at_kentucky|DOG|away|spread",
@@ -15577,7 +15737,17 @@
         "novigTop3": 16740.47,
         "snappedAt": "2026-11-28T00:40:45.381271Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9804,
+      "awayScore": 73.0,
+      "homeScore": 71.0,
+      "gradedAt": "2026-11-28T10:37:17.767862Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final/OT",
+      "espnEventId": "401919033",
+      "espnAway": "Wichita State Shockers",
+      "espnHome": "Kentucky Wildcats"
     },
     {
       "pickKey": "m|643|wichita_state_at_kentucky|DOG|away|ml",
@@ -15615,7 +15785,17 @@
         "novigTop3": 29440.61,
         "snappedAt": "2026-11-28T00:40:45.381883Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 1.44,
+      "awayScore": 73.0,
+      "homeScore": 71.0,
+      "gradedAt": "2026-11-28T10:37:17.770753Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final/OT",
+      "espnEventId": "401919033",
+      "espnAway": "Wichita State Shockers",
+      "espnHome": "Kentucky Wildcats"
     },
     {
       "pickKey": "m|663|memphis_at_wake_forest|DOG|home|spread",
@@ -16034,7 +16214,17 @@
         "snappedAt": "2026-11-28T00:40:45.381995Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T22:47:09.605Z"
+      "leanUpdatedAt": "2026-11-27T22:47:09.605Z",
+      "result": "W",
+      "profit": 0.9259,
+      "awayScore": 87.0,
+      "homeScore": 86.0,
+      "gradedAt": "2026-11-28T10:37:17.771020Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909330",
+      "espnAway": "Atlanta Hawks",
+      "espnHome": "Boston Celtics"
     },
     {
       "pickKey": "m|533|atlanta_at_boston|DOG|away|ml",
@@ -16073,7 +16263,17 @@
         "snappedAt": "2026-11-28T00:40:45.382098Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T22:47:09.605Z"
+      "leanUpdatedAt": "2026-11-27T22:47:09.605Z",
+      "result": "W",
+      "profit": 3.08,
+      "awayScore": 87.0,
+      "homeScore": 86.0,
+      "gradedAt": "2026-11-28T10:37:17.771272Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909330",
+      "espnAway": "Atlanta Hawks",
+      "espnHome": "Boston Celtics"
     },
     {
       "pickKey": "m|537|dallas_at_phoenix|FAV|home|spread",
@@ -16112,7 +16312,17 @@
         "snappedAt": "2026-11-28T00:40:45.382238Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.001Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.001Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 113.0,
+      "homeScore": 109.0,
+      "gradedAt": "2026-11-28T10:37:17.771621Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909332",
+      "espnAway": "Dallas Mavericks",
+      "espnHome": "Phoenix Suns"
     },
     {
       "pickKey": "m|537|dallas_at_phoenix|FAV|home|ml",
@@ -16151,7 +16361,17 @@
         "snappedAt": "2026-11-28T00:40:45.382375Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 113.0,
+      "homeScore": 109.0,
+      "gradedAt": "2026-11-28T10:37:17.771960Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909332",
+      "espnAway": "Dallas Mavericks",
+      "espnHome": "Phoenix Suns"
     },
     {
       "pickKey": "m|635|north_texas_at_north_dakota_state|DOG|home|spread",
@@ -16190,7 +16410,17 @@
         "snappedAt": "2026-11-28T00:40:45.383489Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T23:59:08.865Z"
+      "leanUpdatedAt": "2026-11-27T23:59:08.865Z",
+      "result": "W",
+      "profit": 0.885,
+      "awayScore": 75.0,
+      "homeScore": 73.0,
+      "gradedAt": "2026-11-28T10:37:17.774694Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401925829",
+      "espnAway": "North Texas Mean Green",
+      "espnHome": "North Dakota State Bison"
     },
     {
       "pickKey": "m|635|north_texas_at_north_dakota_state|DOG|home|ml",
@@ -16229,7 +16459,17 @@
         "snappedAt": "2026-11-28T00:40:45.384588Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T23:59:08.865Z"
+      "leanUpdatedAt": "2026-11-27T23:59:08.865Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 75.0,
+      "homeScore": 73.0,
+      "gradedAt": "2026-11-28T10:37:17.777448Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401925829",
+      "espnAway": "North Texas Mean Green",
+      "espnHome": "North Dakota State Bison"
     },
     {
       "pickKey": "m|645|jacksonville_state_at_nebraska_omaha|DOG|home|spread",
@@ -16267,7 +16507,17 @@
         "novigTop3": 7176.99,
         "snappedAt": "2026-11-28T02:43:36.227345Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9524,
+      "awayScore": 69.0,
+      "homeScore": 78.0,
+      "gradedAt": "2026-11-28T10:37:17.780523Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401926783",
+      "espnAway": "Jacksonville State Gamecocks",
+      "espnHome": "Omaha Mavericks"
     },
     {
       "pickKey": "m|645|jacksonville_state_at_nebraska_omaha|DOG|home|ml",
@@ -16305,7 +16555,17 @@
         "novigTop3": 1659.0,
         "snappedAt": "2026-11-28T02:43:36.227913Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 1.83,
+      "awayScore": 69.0,
+      "homeScore": 78.0,
+      "gradedAt": "2026-11-28T10:37:17.783562Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401926783",
+      "espnAway": "Jacksonville State Gamecocks",
+      "espnHome": "Omaha Mavericks"
     },
     {
       "pickKey": "m|651|tennessee_at_louisville|FAV|home|spread",
@@ -16344,7 +16604,17 @@
         "snappedAt": "2026-11-28T00:40:45.386318Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "W",
+      "profit": 0.9804,
+      "awayScore": 64.0,
+      "homeScore": 84.0,
+      "gradedAt": "2026-11-28T10:37:17.783930Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920534",
+      "espnAway": "Tennessee Volunteers",
+      "espnHome": "Louisville Cardinals"
     },
     {
       "pickKey": "m|651|tennessee_at_louisville|FAV|home|ml",
@@ -16383,7 +16653,17 @@
         "snappedAt": "2026-11-28T00:40:45.386760Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "W",
+      "profit": 0.5917,
+      "awayScore": 64.0,
+      "homeScore": 84.0,
+      "gradedAt": "2026-11-28T10:37:17.784285Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920534",
+      "espnAway": "Tennessee Volunteers",
+      "espnHome": "Louisville Cardinals"
     },
     {
       "pickKey": "m|657|michigan_at_kansas_state|FAV|away|spread",
@@ -16518,7 +16798,17 @@
         "novigTop3": 12290.21,
         "snappedAt": "2026-11-28T00:40:45.387376Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.9901,
+      "awayScore": 87.0,
+      "homeScore": 81.0,
+      "gradedAt": "2026-11-28T10:37:17.784896Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920543",
+      "espnAway": "Miami Hurricanes",
+      "espnHome": "Alabama Crimson Tide"
     },
     {
       "pickKey": "m|659|miami_florida_at_alabama|FAV|away|ml",
@@ -16557,7 +16847,17 @@
         "novigTop3": 47423.6,
         "snappedAt": "2026-11-28T00:40:45.387988Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.7576,
+      "awayScore": 87.0,
+      "homeScore": 81.0,
+      "gradedAt": "2026-11-28T10:37:17.785503Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401920543",
+      "espnAway": "Miami Hurricanes",
+      "espnHome": "Alabama Crimson Tide"
     },
     {
       "pickKey": "m|79|winnipeg_at_ny_islanders|FAV|home|spread",
@@ -16581,7 +16881,17 @@
       "tixFav": 6,
       "monFav": 38,
       "reason": "Tix 6% + $ 38% on fav (<50)",
-      "leanUpdatedAt": "2026-11-27T23:47:09.414Z"
+      "leanUpdatedAt": "2026-11-27T23:47:09.414Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 3.0,
+      "homeScore": 1.0,
+      "gradedAt": "2026-11-28T10:37:18.071493Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892807",
+      "espnAway": "Winnipeg Jets",
+      "espnHome": "New York Islanders"
     },
     {
       "pickKey": "m|79|winnipeg_at_ny_islanders|FAV|home|ml",
@@ -16605,7 +16915,17 @@
       "tixFav": 6,
       "monFav": 38,
       "reason": "Tix 6% + $ 38% on fav (<50)",
-      "leanUpdatedAt": "2026-11-27T23:47:09.414Z"
+      "leanUpdatedAt": "2026-11-27T23:47:09.414Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 3.0,
+      "homeScore": 1.0,
+      "gradedAt": "2026-11-28T10:37:18.072205Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892807",
+      "espnAway": "Winnipeg Jets",
+      "espnHome": "New York Islanders"
     },
     {
       "pickKey": "m|83|seattle_at_edmonton|DOG|away|spread",
@@ -16629,7 +16949,17 @@
       "tixFav": 89,
       "monFav": 98,
       "reason": "Tix 89% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "W",
+      "profit": 0.7463,
+      "awayScore": 4.0,
+      "homeScore": 2.0,
+      "gradedAt": "2026-11-28T10:37:18.072948Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892809",
+      "espnAway": "Seattle Kraken",
+      "espnHome": "Edmonton Oilers"
     },
     {
       "pickKey": "m|83|seattle_at_edmonton|DOG|away|ml",
@@ -16653,7 +16983,17 @@
       "tixFav": 89,
       "monFav": 98,
       "reason": "Tix 89% + $ 98% on fav",
-      "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
+      "leanUpdatedAt": "2026-11-28T00:39:38.002Z",
+      "result": "W",
+      "profit": 1.84,
+      "awayScore": 4.0,
+      "homeScore": 2.0,
+      "gradedAt": "2026-11-28T10:37:18.073681Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401892809",
+      "espnAway": "Seattle Kraken",
+      "espnHome": "Edmonton Oilers"
     },
     {
       "pickKey": "m|543|golden_state_at_portland|DOG|away|spread",
@@ -16692,7 +17032,17 @@
         "snappedAt": "2026-11-28T02:39:05.736635Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T23:59:08.864Z"
+      "leanUpdatedAt": "2026-11-27T23:59:08.864Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 94.0,
+      "homeScore": 116.0,
+      "gradedAt": "2026-11-28T10:37:18.074295Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909336",
+      "espnAway": "Golden State Warriors",
+      "espnHome": "Portland Trail Blazers"
     },
     {
       "pickKey": "m|543|golden_state_at_portland|DOG|away|ml",
@@ -16731,7 +17081,17 @@
         "snappedAt": "2026-11-28T02:39:05.736840Z",
         "frozen": true
       },
-      "leanUpdatedAt": "2026-11-27T23:59:08.864Z"
+      "leanUpdatedAt": "2026-11-27T23:59:08.864Z",
+      "result": "L",
+      "profit": -1.0,
+      "awayScore": 94.0,
+      "homeScore": 116.0,
+      "gradedAt": "2026-11-28T10:37:18.074906Z",
+      "gradeSource": "espn",
+      "gradeDetail": "Final",
+      "espnEventId": "401909336",
+      "espnAway": "Golden State Warriors",
+      "espnHome": "Portland Trail Blazers"
     },
     {
       "pickKey": "m|629|central_florida_at_georgia|DOG|away|spread",
@@ -16782,5 +17142,5 @@
       "leanUpdatedAt": "2026-11-27T23:59:08.865Z"
     }
   ],
-  "liqSnapUpdatedAt": "2026-11-28T04:28:28.174277Z"
+  "liqSnapUpdatedAt": "2026-11-28T10:37:21.998315Z"
 }
