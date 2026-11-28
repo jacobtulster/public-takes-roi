@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:25:13.443Z",
+  "updatedAt": "2026-11-28T14:25:17.478Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -19043,6 +19043,52 @@
       "tixFav": 15,
       "monFav": 40,
       "reason": "Tix 15% + $ 40% on fav (<50)"
+    },
+    {
+      "pickKey": "m|547|orlando_at_washington|FAV|away|spread",
+      "matchupId": "547|orlando_at_washington|FAV|away|spread",
+      "loggedAt": "2026-11-28T14:25:14.402Z",
+      "sport": "NBA",
+      "league": "NBA - Saturday, November 28th",
+      "away": "Orlando",
+      "home": "Washington",
+      "kick": "17:10",
+      "startAt": "2026-11-28T22:10:00.000Z",
+      "gameNumber": 547,
+      "takeRole": "FAV",
+      "takeTeam": "Orlando",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "spread",
+      "line": -4,
+      "price": -100,
+      "tixFav": 47,
+      "monFav": 25,
+      "reason": "Tix 47% + $ 25% on fav (<50)"
+    },
+    {
+      "pickKey": "m|547|orlando_at_washington|FAV|away|ml",
+      "matchupId": "547|orlando_at_washington|FAV|away|ml",
+      "loggedAt": "2026-11-28T14:25:14.403Z",
+      "sport": "NBA",
+      "league": "NBA - Saturday, November 28th",
+      "away": "Orlando",
+      "home": "Washington",
+      "kick": "17:10",
+      "startAt": "2026-11-28T22:10:00.000Z",
+      "gameNumber": 547,
+      "takeRole": "FAV",
+      "takeTeam": "Orlando",
+      "takeSide": "away",
+      "ocLean": "none",
+      "bucket": "fav_not_favorable",
+      "market": "ml",
+      "line": -160,
+      "price": -160,
+      "tixFav": 47,
+      "monFav": 25,
+      "reason": "Tix 47% + $ 25% on fav (<50)"
     }
   ]
 }
