@@ -2036,7 +2036,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2069,7 +2069,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4836,7 +4836,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -4868,7 +4868,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -15830,7 +15830,9 @@
         "fourcastersTop3": 18642.66,
         "novigTop3": 10091.16,
         "snappedAt": "2026-11-25T00:31:54.787403Z",
-        "frozen": false
+        "frozen": true,
+        "goodFav": true,
+        "goodDog": false
       },
       "result": "W",
       "profit": 2.17,
@@ -15878,7 +15880,7 @@
         "fourcastersTop3": 7092.87,
         "novigTop3": 2705.73,
         "snappedAt": "2026-11-25T23:14:21.101692Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-25T23:48:48.458Z",
       "result": "W",
@@ -15959,7 +15961,7 @@
         "fourcastersTop3": 14789.71,
         "novigTop3": 13296.33,
         "snappedAt": "2026-11-25T23:14:21.141499Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-25T23:54:44.512Z",
       "result": "L",
@@ -16026,7 +16028,22 @@
       "price": -106,
       "tixFav": 89,
       "monFav": 99,
-      "reason": "Tix 89% + $ 99% on fav"
+      "reason": "Tix 89% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 36667.12,
+        "combinedAwayTop3": 17120.32,
+        "combinedHomeTop3": 19546.8,
+        "combinedRatio": 1.14,
+        "combinedHeavySide": "home",
+        "combinedOi": 11346309.18,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 4185.14,
+        "novigTop3": 32481.98,
+        "snappedAt": "2026-11-28T13:31:25.514234Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|119|tulane_at_south_florida|DOG|away|ml",
@@ -16072,7 +16089,22 @@
       "price": -103,
       "tixFav": 81,
       "monFav": 81,
-      "reason": "Tix 81% + $ 81% on fav"
+      "reason": "Tix 81% + $ 81% on fav",
+      "liqSnap": {
+        "combinedTop3": 28244.89,
+        "combinedAwayTop3": 12217.22,
+        "combinedHomeTop3": 16027.67,
+        "combinedRatio": 1.31,
+        "combinedHeavySide": "home",
+        "combinedOi": 1189706.44,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 7686.07,
+        "novigTop3": 20558.82,
+        "snappedAt": "2026-11-28T13:31:25.515448Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|121|florida_atlantic_at_east_carolina|DOG|away|ml",
@@ -16118,7 +16150,22 @@
       "price": -107,
       "tixFav": 71,
       "monFav": 94,
-      "reason": "Tix 71% + $ 94% on fav"
+      "reason": "Tix 71% + $ 94% on fav",
+      "liqSnap": {
+        "combinedTop3": 81857.05,
+        "combinedAwayTop3": 57016.45,
+        "combinedHomeTop3": 24840.6,
+        "combinedRatio": 2.3,
+        "combinedHeavySide": "away",
+        "combinedOi": 2964773.66,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 19819.78,
+        "novigTop3": 62037.27,
+        "snappedAt": "2026-11-28T13:31:25.516819Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|149|navy_at_charlotte|DOG|home|ml",
@@ -16164,7 +16211,22 @@
       "price": -112,
       "tixFav": 90,
       "monFav": 94,
-      "reason": "Tix 90% + $ 94% on fav"
+      "reason": "Tix 90% + $ 94% on fav",
+      "liqSnap": {
+        "combinedTop3": 3911.76,
+        "combinedAwayTop3": 711.84,
+        "combinedHomeTop3": 3199.92,
+        "combinedRatio": 4.5,
+        "combinedHeavySide": "home",
+        "combinedOi": 524222.99,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 2300.8,
+        "novigTop3": 1610.96,
+        "snappedAt": "2026-11-28T13:31:25.518521Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|151|ul_lafayette_at_georgia_state|DOG|home|ml",
@@ -16210,7 +16272,22 @@
       "price": -102,
       "tixFav": 76,
       "monFav": 93,
-      "reason": "Tix 76% + $ 93% on fav"
+      "reason": "Tix 76% + $ 93% on fav",
+      "liqSnap": {
+        "combinedTop3": 25288.16,
+        "combinedAwayTop3": 7904.64,
+        "combinedHomeTop3": 17383.52,
+        "combinedRatio": 2.2,
+        "combinedHeavySide": "home",
+        "combinedOi": 1959576.85,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7795.25,
+        "novigTop3": 17492.91,
+        "snappedAt": "2026-11-28T13:31:25.520508Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|153|central_michigan_at_ball_state|DOG|home|ml",
@@ -16302,7 +16379,22 @@
       "price": -103,
       "tixFav": 84,
       "monFav": 94,
-      "reason": "Tix 84% + $ 94% on fav"
+      "reason": "Tix 84% + $ 94% on fav",
+      "liqSnap": {
+        "combinedTop3": 21756.33,
+        "combinedAwayTop3": 12322.99,
+        "combinedHomeTop3": 9433.34,
+        "combinedRatio": 1.31,
+        "combinedHeavySide": "away",
+        "combinedOi": 902074.41,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7093.13,
+        "novigTop3": 14663.2,
+        "snappedAt": "2026-11-28T13:31:25.525735Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|159|purdue_at_indiana|DOG|away|ml",
@@ -16348,7 +16440,22 @@
       "price": -108,
       "tixFav": 75,
       "monFav": 91,
-      "reason": "Tix 75% + $ 91% on fav"
+      "reason": "Tix 75% + $ 91% on fav",
+      "liqSnap": {
+        "combinedTop3": 14158.25,
+        "combinedAwayTop3": 7405.01,
+        "combinedHomeTop3": 6753.24,
+        "combinedRatio": 1.1,
+        "combinedHeavySide": "away",
+        "combinedOi": 563564.83,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 11512.11,
+        "novigTop3": 2646.14,
+        "snappedAt": "2026-11-28T13:31:25.527984Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|161|duke_at_wake_forest|DOG|away|ml",
@@ -16394,7 +16501,22 @@
       "price": -100,
       "tixFav": 29,
       "monFav": 26,
-      "reason": "Tix 29% + $ 26% on fav (<50)"
+      "reason": "Tix 29% + $ 26% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 8992.61,
+        "combinedAwayTop3": 7017.69,
+        "combinedHomeTop3": 1974.92,
+        "combinedRatio": 3.55,
+        "combinedHeavySide": "away",
+        "combinedOi": 523873.09,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7293.47,
+        "novigTop3": 1699.14,
+        "snappedAt": "2026-11-28T13:31:25.530429Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|165|louisville_at_kentucky|FAV|away|ml",
@@ -16440,7 +16562,22 @@
       "price": 100,
       "tixFav": 7,
       "monFav": 5,
-      "reason": "Tix 7% + $ 5% on fav (<50)"
+      "reason": "Tix 7% + $ 5% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 18377.79,
+        "combinedAwayTop3": 6785.43,
+        "combinedHomeTop3": 11592.36,
+        "combinedRatio": 1.71,
+        "combinedHeavySide": "home",
+        "combinedOi": 1400768.86,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 5072.17,
+        "novigTop3": 13305.62,
+        "snappedAt": "2026-11-28T13:31:25.532515Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|167|massachusetts_at_bowling_green|FAV|home|ml",
@@ -16486,7 +16623,22 @@
       "price": -105,
       "tixFav": 33,
       "monFav": 26,
-      "reason": "Tix 33% + $ 26% on fav (<50)"
+      "reason": "Tix 33% + $ 26% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 19007.89,
+        "combinedAwayTop3": 7222.39,
+        "combinedHomeTop3": 11785.5,
+        "combinedRatio": 1.63,
+        "combinedHeavySide": "home",
+        "combinedOi": 721595.44,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 17487.8,
+        "novigTop3": 1520.09,
+        "snappedAt": "2026-11-28T13:31:25.534556Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|171|michigan_at_ohio_state|FAV|home|ml",
@@ -16532,7 +16684,22 @@
       "price": 102,
       "tixFav": 90,
       "monFav": 97,
-      "reason": "Tix 90% + $ 97% on fav"
+      "reason": "Tix 90% + $ 97% on fav",
+      "liqSnap": {
+        "combinedTop3": 15930.36,
+        "combinedAwayTop3": 4626.32,
+        "combinedHomeTop3": 11304.04,
+        "combinedRatio": 2.44,
+        "combinedHeavySide": "home",
+        "combinedOi": 673116.93,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 12441.67,
+        "novigTop3": 3488.69,
+        "snappedAt": "2026-11-28T13:31:25.536935Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|173|virginia_at_virginia_tech|DOG|away|ml",
@@ -16578,7 +16745,22 @@
       "price": -113,
       "tixFav": 83,
       "monFav": 99,
-      "reason": "Tix 83% + $ 99% on fav"
+      "reason": "Tix 83% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 89488.39,
+        "combinedAwayTop3": 42885.79,
+        "combinedHomeTop3": 46602.6,
+        "combinedRatio": 1.09,
+        "combinedHeavySide": "home",
+        "combinedOi": 3876749.06,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 27513.66,
+        "novigTop3": 61974.73,
+        "snappedAt": "2026-11-28T13:31:25.538506Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|177|southern_miss_at_old_dominion|DOG|away|ml",
@@ -16624,7 +16806,22 @@
       "price": -101,
       "tixFav": 80,
       "monFav": 86,
-      "reason": "Tix 80% + $ 86% on fav"
+      "reason": "Tix 80% + $ 86% on fav",
+      "liqSnap": {
+        "combinedTop3": 27841.95,
+        "combinedAwayTop3": 21619.24,
+        "combinedHomeTop3": 6222.71,
+        "combinedRatio": 3.47,
+        "combinedHeavySide": "away",
+        "combinedOi": 1719712.06,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7729.77,
+        "novigTop3": 20112.18,
+        "snappedAt": "2026-11-28T13:31:25.539533Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|181|coastal_carolina_at_james_madison|DOG|away|ml",
@@ -16670,7 +16867,22 @@
       "price": -105,
       "tixFav": 78,
       "monFav": 89,
-      "reason": "Tix 78% + $ 89% on fav"
+      "reason": "Tix 78% + $ 89% on fav",
+      "liqSnap": {
+        "combinedTop3": 61564.1,
+        "combinedAwayTop3": 51533.85,
+        "combinedHomeTop3": 10030.25,
+        "combinedRatio": 5.14,
+        "combinedHeavySide": "away",
+        "combinedOi": 1484205.9,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 46392.81,
+        "novigTop3": 15171.29,
+        "snappedAt": "2026-11-28T13:31:25.540624Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|189|kansas_at_oklahoma_state|DOG|away|ml",
@@ -16716,7 +16928,22 @@
       "price": -108,
       "tixFav": 79,
       "monFav": 99,
-      "reason": "Tix 79% + $ 99% on fav"
+      "reason": "Tix 79% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 30565.75,
+        "combinedAwayTop3": 10636.07,
+        "combinedHomeTop3": 19929.68,
+        "combinedRatio": 1.87,
+        "combinedHeavySide": "home",
+        "combinedOi": 2500608.21,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 8287.47,
+        "novigTop3": 22278.28,
+        "snappedAt": "2026-11-28T13:31:25.541912Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|193|kansas_state_at_iowa_state|DOG|away|ml",
@@ -16762,7 +16989,22 @@
       "price": -106,
       "tixFav": 75,
       "monFav": 99,
-      "reason": "Tix 75% + $ 99% on fav"
+      "reason": "Tix 75% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 29699.43,
+        "combinedAwayTop3": 21392.53,
+        "combinedHomeTop3": 8306.9,
+        "combinedRatio": 2.58,
+        "combinedHeavySide": "away",
+        "combinedOi": 525541.51,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 20125.8,
+        "novigTop3": 9573.63,
+        "snappedAt": "2026-11-28T13:31:25.543881Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|199|liberty_at_missouri_state|DOG|home|ml",
@@ -16808,7 +17050,22 @@
       "price": 102,
       "tixFav": 33,
       "monFav": 25,
-      "reason": "Tix 33% + $ 25% on fav (<50)"
+      "reason": "Tix 33% + $ 25% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 52577.81,
+        "combinedAwayTop3": 4373.62,
+        "combinedHomeTop3": 48204.19,
+        "combinedRatio": 11.02,
+        "combinedHeavySide": "home",
+        "combinedOi": 7553974.0,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 4484.51,
+        "novigTop3": 48093.3,
+        "snappedAt": "2026-11-28T13:31:25.545361Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|205|connecticut_at_wyoming|FAV|away|ml",
@@ -16854,7 +17111,22 @@
       "price": -114,
       "tixFav": 20,
       "monFav": 33,
-      "reason": "Tix 20% + $ 33% on fav (<50)"
+      "reason": "Tix 20% + $ 33% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 65438.81,
+        "combinedAwayTop3": 12900.71,
+        "combinedHomeTop3": 52538.1,
+        "combinedRatio": 4.07,
+        "combinedHeavySide": "home",
+        "combinedOi": 1976779.93,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 37655.61,
+        "novigTop3": 27783.2,
+        "snappedAt": "2026-11-28T13:31:25.545989Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|207|cincinnati_at_byu|FAV|home|ml",
@@ -16900,7 +17172,22 @@
       "price": -103,
       "tixFav": 9,
       "monFav": 22,
-      "reason": "Tix 9% + $ 22% on fav (<50)"
+      "reason": "Tix 9% + $ 22% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 17466.81,
+        "combinedAwayTop3": 12214.76,
+        "combinedHomeTop3": 5252.05,
+        "combinedRatio": 2.33,
+        "combinedHeavySide": "away",
+        "combinedOi": 430291.33,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 11972.5,
+        "novigTop3": 5494.31,
+        "snappedAt": "2026-11-28T13:31:25.547579Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|215|smu_at_stanford|FAV|away|ml",
@@ -16946,7 +17233,22 @@
       "price": -109,
       "tixFav": 15,
       "monFav": 29,
-      "reason": "Tix 15% + $ 29% on fav (<50)"
+      "reason": "Tix 15% + $ 29% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 8765.61,
+        "combinedAwayTop3": 3773.61,
+        "combinedHomeTop3": 4992.0,
+        "combinedRatio": 1.32,
+        "combinedHeavySide": "home",
+        "combinedOi": 731176.52,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 7678.84,
+        "novigTop3": 1086.77,
+        "snappedAt": "2026-11-28T13:31:25.549818Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|223|oklahoma_at_missouri|FAV|home|ml",
@@ -16992,7 +17294,22 @@
       "price": -101,
       "tixFav": 35,
       "monFav": 38,
-      "reason": "Tix 35% + $ 38% on fav (<50)"
+      "reason": "Tix 35% + $ 38% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 24971.85,
+        "combinedAwayTop3": 15122.77,
+        "combinedHomeTop3": 9849.08,
+        "combinedRatio": 1.54,
+        "combinedHeavySide": "away",
+        "combinedOi": 666713.71,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 23971.85,
+        "novigTop3": 1000.0,
+        "snappedAt": "2026-11-28T13:31:25.552062Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|225|auburn_at_alabama|FAV|home|ml",
@@ -17038,7 +17355,22 @@
       "price": 101,
       "tixFav": 77,
       "monFav": 87,
-      "reason": "Tix 77% + $ 87% on fav"
+      "reason": "Tix 77% + $ 87% on fav",
+      "liqSnap": {
+        "combinedTop3": 35454.3,
+        "combinedAwayTop3": 26666.69,
+        "combinedHomeTop3": 8787.61,
+        "combinedRatio": 3.03,
+        "combinedHeavySide": "away",
+        "combinedOi": 2716888.96,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 3847.12,
+        "novigTop3": 31607.18,
+        "snappedAt": "2026-11-28T13:31:25.553922Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|231|jacksonville_state_at_delaware|DOG|away|ml",
@@ -17084,7 +17416,22 @@
       "price": -115,
       "tixFav": 91,
       "monFav": 96,
-      "reason": "Tix 91% + $ 96% on fav"
+      "reason": "Tix 91% + $ 96% on fav",
+      "liqSnap": {
+        "combinedTop3": 24419.5,
+        "combinedAwayTop3": 14539.6,
+        "combinedHomeTop3": 9879.9,
+        "combinedRatio": 1.47,
+        "combinedHeavySide": "away",
+        "combinedOi": 2987960.76,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 5621.24,
+        "novigTop3": 18798.26,
+        "snappedAt": "2026-11-28T13:31:25.555011Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|233|utep_at_northern_illinois|DOG|away|ml",
@@ -17130,7 +17477,22 @@
       "price": -106,
       "tixFav": 82,
       "monFav": 88,
-      "reason": "Tix 82% + $ 88% on fav"
+      "reason": "Tix 82% + $ 88% on fav",
+      "liqSnap": {
+        "combinedTop3": 8241.85,
+        "combinedAwayTop3": 4566.42,
+        "combinedHomeTop3": 3675.43,
+        "combinedRatio": 1.24,
+        "combinedHeavySide": "away",
+        "combinedOi": 551510.1,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 5361.16,
+        "novigTop3": 2880.69,
+        "snappedAt": "2026-11-28T13:31:25.556640Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|235|tennessee_at_vanderbilt|DOG|home|ml",
@@ -17176,7 +17538,22 @@
       "price": -104,
       "tixFav": 93,
       "monFav": 87,
-      "reason": "Tix 93% + $ 87% on fav"
+      "reason": "Tix 93% + $ 87% on fav",
+      "liqSnap": {
+        "combinedTop3": 14433.62,
+        "combinedAwayTop3": 6042.85,
+        "combinedHomeTop3": 8390.77,
+        "combinedRatio": 1.39,
+        "combinedHeavySide": "home",
+        "combinedOi": 1220356.11,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 3994.52,
+        "novigTop3": 10439.1,
+        "snappedAt": "2026-11-28T13:31:25.558672Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|239|sacramento_st_at_hawaii|DOG|away|ml",
@@ -17222,7 +17599,22 @@
       "price": -105,
       "tixFav": 83,
       "monFav": 88,
-      "reason": "Tix 83% + $ 88% on fav"
+      "reason": "Tix 83% + $ 88% on fav",
+      "liqSnap": {
+        "combinedTop3": 40306.05,
+        "combinedAwayTop3": 13226.59,
+        "combinedHomeTop3": 27079.46,
+        "combinedRatio": 2.05,
+        "combinedHeavySide": "home",
+        "combinedOi": 5612951.31,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 23456.21,
+        "novigTop3": 16849.84,
+        "snappedAt": "2026-11-28T13:31:25.560116Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|243|san_diego_state_at_washington_state|DOG|away|ml",
@@ -17245,7 +17637,22 @@
       "price": 132,
       "tixFav": 83,
       "monFav": 88,
-      "reason": "Tix 83% + $ 88% on fav"
+      "reason": "Tix 83% + $ 88% on fav",
+      "liqSnap": {
+        "combinedTop3": 25538.49,
+        "combinedAwayTop3": 3909.66,
+        "combinedHomeTop3": 21628.83,
+        "combinedRatio": 5.53,
+        "combinedHeavySide": "home",
+        "combinedOi": 5612951.31,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 16777.69,
+        "novigTop3": 8760.8,
+        "snappedAt": "2026-11-28T13:31:25.560640Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|245|texas_state_at_utah_state|FAV|away|spread",
@@ -17268,7 +17675,22 @@
       "price": -112,
       "tixFav": 14,
       "monFav": 2,
-      "reason": "Tix 14% + $ 2% on fav (<50)"
+      "reason": "Tix 14% + $ 2% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 62262.92,
+        "combinedAwayTop3": 27095.55,
+        "combinedHomeTop3": 35167.37,
+        "combinedRatio": 1.3,
+        "combinedHeavySide": "home",
+        "combinedOi": 9208392.85,
+        "liqAgreesTake": true,
+        "goodFav": true,
+        "goodDog": false,
+        "fourcastersTop3": 8858.63,
+        "novigTop3": 53404.29,
+        "snappedAt": "2026-11-28T13:31:25.561058Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|245|texas_state_at_utah_state|FAV|away|ml",
@@ -17291,7 +17713,22 @@
       "price": -278,
       "tixFav": 14,
       "monFav": 2,
-      "reason": "Tix 14% + $ 2% on fav (<50)"
+      "reason": "Tix 14% + $ 2% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 9568.72,
+        "combinedAwayTop3": 3002.99,
+        "combinedHomeTop3": 6565.73,
+        "combinedRatio": 2.19,
+        "combinedHeavySide": "home",
+        "combinedOi": 9208392.85,
+        "liqAgreesTake": true,
+        "goodFav": true,
+        "goodDog": false,
+        "fourcastersTop3": 3399.69,
+        "novigTop3": 6169.03,
+        "snappedAt": "2026-11-28T13:31:25.561446Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|677|st_thomas_mn_at_princeton|FAV|away|spread",
@@ -17383,7 +17820,22 @@
       "price": -114,
       "tixFav": 95,
       "monFav": 99,
-      "reason": "Tix 95% + $ 99% on fav"
+      "reason": "Tix 95% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 3502.23,
+        "combinedAwayTop3": 1977.18,
+        "combinedHomeTop3": 1525.05,
+        "combinedRatio": 1.3,
+        "combinedHeavySide": "away",
+        "combinedOi": 778574.97,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 746.32,
+        "novigTop3": 2755.91,
+        "snappedAt": "2026-11-28T13:31:25.570907Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|699|western_illinois_at_coastal_carolina|DOG|away|ml",
@@ -17406,7 +17858,22 @@
       "price": 516,
       "tixFav": 95,
       "monFav": 99,
-      "reason": "Tix 95% + $ 99% on fav"
+      "reason": "Tix 95% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 2944.78,
+        "combinedAwayTop3": 848.63,
+        "combinedHomeTop3": 2096.15,
+        "combinedRatio": 2.47,
+        "combinedHeavySide": "home",
+        "combinedOi": 778574.97,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 2317.51,
+        "novigTop3": 627.27,
+        "snappedAt": "2026-11-28T13:31:25.572344Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|703|liberty_at_nc_wilmington|DOG|away|spread",
@@ -17429,7 +17896,22 @@
       "price": -109,
       "tixFav": 75,
       "monFav": 94,
-      "reason": "Tix 75% + $ 94% on fav"
+      "reason": "Tix 75% + $ 94% on fav",
+      "liqSnap": {
+        "combinedTop3": 1520.78,
+        "combinedAwayTop3": 706.6,
+        "combinedHomeTop3": 814.18,
+        "combinedRatio": 1.15,
+        "combinedHeavySide": "home",
+        "combinedOi": 105735.02,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 1148.87,
+        "novigTop3": 371.91,
+        "snappedAt": "2026-11-28T13:31:25.574219Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|703|liberty_at_nc_wilmington|DOG|away|ml",
@@ -17452,7 +17934,22 @@
       "price": 190,
       "tixFav": 75,
       "monFav": 94,
-      "reason": "Tix 75% + $ 94% on fav"
+      "reason": "Tix 75% + $ 94% on fav",
+      "liqSnap": {
+        "combinedTop3": 7354.15,
+        "combinedAwayTop3": 3910.56,
+        "combinedHomeTop3": 3443.59,
+        "combinedRatio": 1.14,
+        "combinedHeavySide": "away",
+        "combinedOi": 105735.02,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 1335.84,
+        "novigTop3": 6018.31,
+        "snappedAt": "2026-11-28T13:31:25.576079Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|707|northern_illinois_at_eastern_illinois|DOG|home|spread",
@@ -17475,7 +17972,22 @@
       "price": -110,
       "tixFav": 94,
       "monFav": 98,
-      "reason": "Tix 94% + $ 98% on fav"
+      "reason": "Tix 94% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 6489.94,
+        "combinedAwayTop3": 3886.17,
+        "combinedHomeTop3": 2603.77,
+        "combinedRatio": 1.49,
+        "combinedHeavySide": "away",
+        "combinedOi": 463834.2,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 1240.45,
+        "novigTop3": 5249.49,
+        "snappedAt": "2026-11-28T13:31:25.577815Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|707|northern_illinois_at_eastern_illinois|DOG|home|ml",
@@ -17498,7 +18010,22 @@
       "price": 487,
       "tixFav": 94,
       "monFav": 98,
-      "reason": "Tix 94% + $ 98% on fav"
+      "reason": "Tix 94% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 6548.97,
+        "combinedAwayTop3": 5500.48,
+        "combinedHomeTop3": 1048.49,
+        "combinedRatio": 5.25,
+        "combinedHeavySide": "away",
+        "combinedOi": 463834.2,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 1397.8,
+        "novigTop3": 5151.17,
+        "snappedAt": "2026-11-28T13:31:25.579533Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|711|buffalo_at_towson|DOG|away|spread",
@@ -17521,7 +18048,22 @@
       "price": -110,
       "tixFav": 75,
       "monFav": 99,
-      "reason": "Tix 75% + $ 99% on fav"
+      "reason": "Tix 75% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 3507.86,
+        "combinedAwayTop3": 2235.71,
+        "combinedHomeTop3": 1272.15,
+        "combinedRatio": 1.76,
+        "combinedHeavySide": "away",
+        "combinedOi": 577526.23,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 1427.8,
+        "novigTop3": 2080.06,
+        "snappedAt": "2026-11-28T13:31:25.580800Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|711|buffalo_at_towson|DOG|away|ml",
@@ -17544,7 +18086,22 @@
       "price": 140,
       "tixFav": 75,
       "monFav": 99,
-      "reason": "Tix 75% + $ 99% on fav"
+      "reason": "Tix 75% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 4047.71,
+        "combinedAwayTop3": 2467.29,
+        "combinedHomeTop3": 1580.42,
+        "combinedRatio": 1.56,
+        "combinedHeavySide": "away",
+        "combinedOi": 577526.23,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 2980.69,
+        "novigTop3": 1067.02,
+        "snappedAt": "2026-11-28T13:31:25.582055Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|713|merrimack_at_hofstra|FAV|home|spread",
@@ -17567,7 +18124,22 @@
       "price": -112,
       "tixFav": 33,
       "monFav": 40,
-      "reason": "Tix 33% + $ 40% on fav (<50)"
+      "reason": "Tix 33% + $ 40% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 5150.14,
+        "combinedAwayTop3": 2813.43,
+        "combinedHomeTop3": 2336.71,
+        "combinedRatio": 1.2,
+        "combinedHeavySide": "away",
+        "combinedOi": 1237079.7,
+        "liqAgreesTake": true,
+        "goodFav": true,
+        "goodDog": false,
+        "fourcastersTop3": 1413.63,
+        "novigTop3": 3736.51,
+        "snappedAt": "2026-11-28T13:31:25.583209Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|713|merrimack_at_hofstra|FAV|home|ml",
@@ -17590,7 +18162,22 @@
       "price": -123,
       "tixFav": 33,
       "monFav": 40,
-      "reason": "Tix 33% + $ 40% on fav (<50)"
+      "reason": "Tix 33% + $ 40% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 6826.26,
+        "combinedAwayTop3": 1139.89,
+        "combinedHomeTop3": 5686.37,
+        "combinedRatio": 4.99,
+        "combinedHeavySide": "home",
+        "combinedOi": 1237079.7,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 1658.44,
+        "novigTop3": 5167.82,
+        "snappedAt": "2026-11-28T13:31:25.584351Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|723|san_jose_state_at_utah_valley|DOG|away|spread",
@@ -17613,7 +18200,22 @@
       "price": -110,
       "tixFav": 75,
       "monFav": 98,
-      "reason": "Tix 75% + $ 98% on fav"
+      "reason": "Tix 75% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 2409.95,
+        "combinedAwayTop3": 997.17,
+        "combinedHomeTop3": 1412.78,
+        "combinedRatio": 1.42,
+        "combinedHeavySide": "home",
+        "combinedOi": 1059408.58,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 1143.15,
+        "novigTop3": 1266.8,
+        "snappedAt": "2026-11-28T13:31:25.585668Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|723|san_jose_state_at_utah_valley|DOG|away|ml",
@@ -17636,7 +18238,22 @@
       "price": 191,
       "tixFav": 75,
       "monFav": 98,
-      "reason": "Tix 75% + $ 98% on fav"
+      "reason": "Tix 75% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 4950.13,
+        "combinedAwayTop3": 848.09,
+        "combinedHomeTop3": 4102.04,
+        "combinedRatio": 4.84,
+        "combinedHeavySide": "home",
+        "combinedOi": 1059408.58,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 2099.27,
+        "novigTop3": 2850.86,
+        "snappedAt": "2026-11-28T13:31:25.586989Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|725|austin_peay_at_furman|DOG|away|spread",
@@ -17659,7 +18276,22 @@
       "price": -104,
       "tixFav": 80,
       "monFav": 83,
-      "reason": "Tix 80% + $ 83% on fav"
+      "reason": "Tix 80% + $ 83% on fav",
+      "liqSnap": {
+        "combinedTop3": 5077.47,
+        "combinedAwayTop3": 2430.91,
+        "combinedHomeTop3": 2646.56,
+        "combinedRatio": 1.09,
+        "combinedHeavySide": "home",
+        "combinedOi": 512178.67,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 1331.2,
+        "novigTop3": 3746.27,
+        "snappedAt": "2026-11-28T13:31:25.588375Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|725|austin_peay_at_furman|DOG|away|ml",
@@ -17682,7 +18314,22 @@
       "price": 221,
       "tixFav": 80,
       "monFav": 83,
-      "reason": "Tix 80% + $ 83% on fav"
+      "reason": "Tix 80% + $ 83% on fav",
+      "liqSnap": {
+        "combinedTop3": 3623.47,
+        "combinedAwayTop3": 551.91,
+        "combinedHomeTop3": 3071.56,
+        "combinedRatio": 5.57,
+        "combinedHeavySide": "home",
+        "combinedOi": 512178.67,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 3006.58,
+        "novigTop3": 616.89,
+        "snappedAt": "2026-11-28T13:31:25.589796Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|733|north_dakota_state_at_drake|FAV|home|spread",
@@ -17705,7 +18352,22 @@
       "price": -105,
       "tixFav": 25,
       "monFav": 17,
-      "reason": "Tix 25% + $ 17% on fav (<50)"
+      "reason": "Tix 25% + $ 17% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 1713.8,
+        "combinedAwayTop3": 752.55,
+        "combinedHomeTop3": 961.25,
+        "combinedRatio": 1.28,
+        "combinedHeavySide": "home",
+        "combinedOi": 99680.59,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 1340.99,
+        "novigTop3": 372.81,
+        "snappedAt": "2026-11-28T13:31:25.592142Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|733|north_dakota_state_at_drake|FAV|home|ml",
@@ -17728,7 +18390,22 @@
       "price": -213,
       "tixFav": 25,
       "monFav": 17,
-      "reason": "Tix 25% + $ 17% on fav (<50)"
+      "reason": "Tix 25% + $ 17% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 7866.67,
+        "combinedAwayTop3": 2477.38,
+        "combinedHomeTop3": 5389.29,
+        "combinedRatio": 2.18,
+        "combinedHeavySide": "home",
+        "combinedOi": 99680.59,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 1204.87,
+        "novigTop3": 6661.8,
+        "snappedAt": "2026-11-28T13:31:25.594463Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|735|south_alabama_at_south_dakota_state|FAV|home|spread",
@@ -17751,7 +18428,22 @@
       "price": -111,
       "tixFav": 25,
       "monFav": 6,
-      "reason": "Tix 25% + $ 6% on fav (<50)"
+      "reason": "Tix 25% + $ 6% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 4283.04,
+        "combinedAwayTop3": 978.43,
+        "combinedHomeTop3": 3304.61,
+        "combinedRatio": 3.38,
+        "combinedHeavySide": "home",
+        "combinedOi": 774425.0,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 1310.26,
+        "novigTop3": 2972.78,
+        "snappedAt": "2026-11-28T13:31:25.595752Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|735|south_alabama_at_south_dakota_state|FAV|home|ml",
@@ -17774,7 +18466,22 @@
       "price": -117,
       "tixFav": 25,
       "monFav": 6,
-      "reason": "Tix 25% + $ 6% on fav (<50)"
+      "reason": "Tix 25% + $ 6% on fav (<50)",
+      "liqSnap": {
+        "combinedTop3": 6395.79,
+        "combinedAwayTop3": 2295.33,
+        "combinedHomeTop3": 4100.46,
+        "combinedRatio": 1.79,
+        "combinedHeavySide": "home",
+        "combinedOi": 774425.0,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 1621.49,
+        "novigTop3": 4774.3,
+        "snappedAt": "2026-11-28T13:31:25.597049Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|741|portland_state_at_southern_illinois|DOG|away|spread",
@@ -17797,7 +18504,22 @@
       "price": -109,
       "tixFav": 71,
       "monFav": 98,
-      "reason": "Tix 71% + $ 98% on fav"
+      "reason": "Tix 71% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 1723.67,
+        "combinedAwayTop3": 638.38,
+        "combinedHomeTop3": 1085.29,
+        "combinedRatio": 1.7,
+        "combinedHeavySide": "home",
+        "combinedOi": 120267.89,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 1240.08,
+        "novigTop3": 483.59,
+        "snappedAt": "2026-11-28T13:31:25.599035Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|741|portland_state_at_southern_illinois|DOG|away|ml",
@@ -17820,7 +18542,22 @@
       "price": 246,
       "tixFav": 71,
       "monFav": 98,
-      "reason": "Tix 71% + $ 98% on fav"
+      "reason": "Tix 71% + $ 98% on fav",
+      "liqSnap": {
+        "combinedTop3": 6332.38,
+        "combinedAwayTop3": 777.59,
+        "combinedHomeTop3": 5554.79,
+        "combinedRatio": 7.14,
+        "combinedHeavySide": "home",
+        "combinedOi": 120267.89,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": true,
+        "fourcastersTop3": 2279.94,
+        "novigTop3": 4052.44,
+        "snappedAt": "2026-11-28T13:31:25.601028Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|745|california_at_minnesota|DOG|away|spread",
@@ -17843,7 +18580,22 @@
       "price": -103,
       "tixFav": 71,
       "monFav": 82,
-      "reason": "Tix 71% + $ 82% on fav"
+      "reason": "Tix 71% + $ 82% on fav",
+      "liqSnap": {
+        "combinedTop3": 2519.16,
+        "combinedAwayTop3": 803.73,
+        "combinedHomeTop3": 1715.43,
+        "combinedRatio": 2.13,
+        "combinedHeavySide": "home",
+        "combinedOi": 303510.17,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 2171.64,
+        "novigTop3": 347.52,
+        "snappedAt": "2026-11-28T13:31:25.602591Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|745|california_at_minnesota|DOG|away|ml",
@@ -17866,7 +18618,22 @@
       "price": 251,
       "tixFav": 71,
       "monFav": 82,
-      "reason": "Tix 71% + $ 82% on fav"
+      "reason": "Tix 71% + $ 82% on fav",
+      "liqSnap": {
+        "combinedTop3": 5807.44,
+        "combinedAwayTop3": 3019.8,
+        "combinedHomeTop3": 2787.64,
+        "combinedRatio": 1.08,
+        "combinedHeavySide": "away",
+        "combinedOi": 303510.17,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 3305.81,
+        "novigTop3": 2501.63,
+        "snappedAt": "2026-11-28T13:31:25.604405Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|749|louisville_at_creighton|FAV|away|spread",
@@ -17983,5 +18750,6 @@
       "monFav": 7,
       "reason": "Tix 20% + $ 7% on fav (<50)"
     }
-  ]
+  ],
+  "liqSnapUpdatedAt": "2026-11-28T13:31:25.614325Z"
 }
