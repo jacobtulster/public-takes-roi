@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:34:53.717Z",
+  "updatedAt": "2026-11-28T13:38:01.897Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -2036,7 +2036,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2069,7 +2069,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4836,7 +4836,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -4868,7 +4868,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -17071,7 +17071,7 @@
         "combinedHomeTop3": 48204.19,
         "combinedRatio": 11.02,
         "combinedHeavySide": "home",
-        "combinedOi": 7553974.0,
+        "combinedOi": 7553974,
         "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": false,
@@ -17253,7 +17253,7 @@
       "liqSnap": {
         "combinedTop3": 8765.61,
         "combinedAwayTop3": 3773.61,
-        "combinedHomeTop3": 4992.0,
+        "combinedHomeTop3": 4992,
         "combinedRatio": 1.32,
         "combinedHeavySide": "home",
         "combinedOi": 731176.52,
@@ -17311,8 +17311,8 @@
       "line": -14.5,
       "price": -101,
       "tixFav": 35,
-      "monFav": 38,
-      "reason": "Tix 35% + $ 38% on fav (<50)",
+      "monFav": 39,
+      "reason": "Tix 35% + $ 39% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 24971.85,
         "combinedAwayTop3": 15122.77,
@@ -17324,10 +17324,11 @@
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 23971.85,
-        "novigTop3": 1000.0,
+        "novigTop3": 1000,
         "snappedAt": "2026-11-28T13:35:23.890169Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:34:56.603Z"
     },
     {
       "pickKey": "m|225|auburn_at_alabama|FAV|home|ml",
@@ -17349,8 +17350,9 @@
       "line": -693,
       "price": -693,
       "tixFav": 35,
-      "monFav": 38,
-      "reason": "Tix 35% + $ 38% on fav (<50)"
+      "monFav": 39,
+      "reason": "Tix 35% + $ 39% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:34:56.603Z"
     },
     {
       "pickKey": "m|231|jacksonville_state_at_delaware|DOG|away|spread",
@@ -18135,7 +18137,7 @@
       "takeRole": "FAV",
       "takeTeam": "Hofstra",
       "takeSide": "home",
-      "ocLean": "favorable",
+      "ocLean": "flat",
       "bucket": "fav_favorable",
       "market": "spread",
       "line": -1.5,
@@ -18157,7 +18159,8 @@
         "novigTop3": 3736.51,
         "snappedAt": "2026-11-28T13:35:23.922932Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:37:58.407Z"
     },
     {
       "pickKey": "m|713|merrimack_at_hofstra|FAV|home|ml",
@@ -18173,7 +18176,7 @@
       "takeRole": "FAV",
       "takeTeam": "Hofstra",
       "takeSide": "home",
-      "ocLean": "favorable",
+      "ocLean": "flat",
       "bucket": "fav_favorable",
       "market": "ml",
       "line": -123,
@@ -18195,7 +18198,8 @@
         "novigTop3": 5167.82,
         "snappedAt": "2026-11-28T13:35:23.924242Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:37:58.408Z"
     },
     {
       "pickKey": "m|723|san_jose_state_at_utah_valley|DOG|away|spread",
@@ -18368,9 +18372,9 @@
       "market": "spread",
       "line": -5,
       "price": -105,
-      "tixFav": 25,
+      "tixFav": 20,
       "monFav": 17,
-      "reason": "Tix 25% + $ 17% on fav (<50)",
+      "reason": "Tix 20% + $ 17% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 1713.8,
         "combinedAwayTop3": 752.55,
@@ -18385,7 +18389,8 @@
         "novigTop3": 372.81,
         "snappedAt": "2026-11-28T13:35:23.932392Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:35:56.404Z"
     },
     {
       "pickKey": "m|733|north_dakota_state_at_drake|FAV|home|ml",
@@ -18406,9 +18411,9 @@
       "market": "ml",
       "line": -213,
       "price": -213,
-      "tixFav": 25,
+      "tixFav": 20,
       "monFav": 17,
-      "reason": "Tix 25% + $ 17% on fav (<50)",
+      "reason": "Tix 20% + $ 17% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 7866.67,
         "combinedAwayTop3": 2477.38,
@@ -18423,7 +18428,8 @@
         "novigTop3": 6661.8,
         "snappedAt": "2026-11-28T13:35:23.934848Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:35:56.405Z"
     },
     {
       "pickKey": "m|735|south_alabama_at_south_dakota_state|FAV|home|spread",
@@ -18453,7 +18459,7 @@
         "combinedHomeTop3": 3304.61,
         "combinedRatio": 3.38,
         "combinedHeavySide": "home",
-        "combinedOi": 774425.0,
+        "combinedOi": 774425,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
@@ -18491,7 +18497,7 @@
         "combinedHomeTop3": 4100.46,
         "combinedRatio": 1.79,
         "combinedHeavySide": "home",
-        "combinedOi": 774425.0,
+        "combinedOi": 774425,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
@@ -18767,7 +18773,52 @@
       "tixFav": 20,
       "monFav": 7,
       "reason": "Tix 20% + $ 7% on fav (<50)"
+    },
+    {
+      "pickKey": "m|739|st_joseph_s_at_monmouth|DOG|home|spread",
+      "matchupId": "739|st_joseph_s_at_monmouth|DOG|home|spread",
+      "loggedAt": "2026-11-28T13:35:56.405Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Saturday, November 28th",
+      "away": "St. Joseph's",
+      "home": "Monmouth",
+      "kick": "19:00",
+      "startAt": "2026-11-29T00:00:00.000Z",
+      "gameNumber": 739,
+      "takeRole": "DOG",
+      "takeTeam": "Monmouth",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "spread",
+      "line": 3.5,
+      "price": -104,
+      "tixFav": 75,
+      "monFav": 99,
+      "reason": "Tix 75% + $ 99% on fav"
+    },
+    {
+      "pickKey": "m|739|st_joseph_s_at_monmouth|DOG|home|ml",
+      "matchupId": "739|st_joseph_s_at_monmouth|DOG|home|ml",
+      "loggedAt": "2026-11-28T13:35:56.406Z",
+      "sport": "NCAAB",
+      "league": "COLLEGE BASKETBALL - Saturday, November 28th",
+      "away": "St. Joseph's",
+      "home": "Monmouth",
+      "kick": "19:00",
+      "startAt": "2026-11-29T00:00:00.000Z",
+      "gameNumber": 739,
+      "takeRole": "DOG",
+      "takeTeam": "Monmouth",
+      "takeSide": "home",
+      "ocLean": "none",
+      "bucket": "dog_not_favorable",
+      "market": "ml",
+      "line": 150,
+      "price": 150,
+      "tixFav": 75,
+      "monFav": 99,
+      "reason": "Tix 75% + $ 99% on fav"
     }
-  ],
-  "liqSnapUpdatedAt": "2026-11-28T13:35:23.955060Z"
+  ]
 }
