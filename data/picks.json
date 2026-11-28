@@ -15010,7 +15010,7 @@
         "fourcastersTop3": 33216.1,
         "novigTop3": 14128.06,
         "snappedAt": "2026-11-28T02:39:05.734919Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15048,7 +15048,7 @@
         "fourcastersTop3": 36655.37,
         "novigTop3": 26716.71,
         "snappedAt": "2026-11-28T02:39:05.735128Z",
-        "frozen": false
+        "frozen": true
       }
     },
     {
@@ -15086,7 +15086,7 @@
         "fourcastersTop3": 65722.34,
         "novigTop3": 26282.47,
         "snappedAt": "2026-11-28T02:39:05.735217Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
     },
@@ -15125,7 +15125,7 @@
         "fourcastersTop3": 24166.06,
         "novigTop3": 11864.36,
         "snappedAt": "2026-11-28T02:39:05.735303Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-28T00:39:38.002Z"
     },
@@ -16259,13 +16259,13 @@
         "combinedHomeTop3": 8448.18,
         "combinedRatio": 2.11,
         "combinedHeavySide": "home",
-        "combinedOi": 6745867.01,
+        "combinedOi": 6743542.92,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 5270.54,
         "novigTop3": 7176.99,
-        "snappedAt": "2026-11-28T02:39:05.735880Z",
+        "snappedAt": "2026-11-28T02:40:13.119982Z",
         "frozen": false
       }
     },
@@ -16297,13 +16297,13 @@
         "combinedHomeTop3": 6666.86,
         "combinedRatio": 1.69,
         "combinedHeavySide": "home",
-        "combinedOi": 6745867.01,
+        "combinedOi": 6743542.92,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 8958.86,
         "novigTop3": 1659.0,
-        "snappedAt": "2026-11-28T02:39:05.736436Z",
+        "snappedAt": "2026-11-28T02:40:13.120551Z",
         "frozen": false
       }
     },
@@ -16690,7 +16690,7 @@
         "fourcastersTop3": 33216.1,
         "novigTop3": 14128.06,
         "snappedAt": "2026-11-28T02:39:05.736635Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T23:59:08.864Z"
     },
@@ -16729,7 +16729,7 @@
         "fourcastersTop3": 36655.37,
         "novigTop3": 26716.71,
         "snappedAt": "2026-11-28T02:39:05.736840Z",
-        "frozen": false
+        "frozen": true
       },
       "leanUpdatedAt": "2026-11-27T23:59:08.864Z"
     },
@@ -16782,5 +16782,5 @@
       "leanUpdatedAt": "2026-11-27T23:59:08.865Z"
     }
   ],
-  "liqSnapUpdatedAt": "2026-11-28T02:39:05.736843Z"
+  "liqSnapUpdatedAt": "2026-11-28T02:40:13.120561Z"
 }
