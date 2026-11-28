@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:53:47.864Z",
+  "updatedAt": "2026-11-28T13:53:52.075Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16153,8 +16153,8 @@
       "line": 16.5,
       "price": -107,
       "tixFav": 70,
-      "monFav": 88,
-      "reason": "Tix 70% + $ 88% on fav",
+      "monFav": 89,
+      "reason": "Tix 70% + $ 89% on fav",
       "liqSnap": {
         "combinedTop3": 81857.05,
         "combinedAwayTop3": 57016.45,
@@ -16192,8 +16192,8 @@
       "line": 577,
       "price": 577,
       "tixFav": 70,
-      "monFav": 88,
-      "reason": "Tix 70% + $ 88% on fav",
+      "monFav": 89,
+      "reason": "Tix 70% + $ 89% on fav",
       "leanUpdatedAt": "2026-11-28T13:46:46.387Z"
     },
     {
@@ -16339,9 +16339,9 @@
       "market": "spread",
       "line": 25,
       "price": -101,
-      "tixFav": 77,
-      "monFav": 89,
-      "reason": "Tix 77% + $ 89% on fav",
+      "tixFav": 78,
+      "monFav": 90,
+      "reason": "Tix 78% + $ 90% on fav",
       "leanUpdatedAt": "2026-11-28T13:39:40.390Z"
     },
     {
@@ -16363,9 +16363,9 @@
       "market": "ml",
       "line": 1523,
       "price": 1523,
-      "tixFav": 77,
-      "monFav": 89,
-      "reason": "Tix 77% + $ 89% on fav",
+      "tixFav": 78,
+      "monFav": 90,
+      "reason": "Tix 78% + $ 90% on fav",
       "leanUpdatedAt": "2026-11-28T13:39:40.390Z"
     },
     {
@@ -16636,8 +16636,8 @@
       "line": -10,
       "price": -105,
       "tixFav": 32,
-      "monFav": 23,
-      "reason": "Tix 32% + $ 23% on fav (<50)",
+      "monFav": 24,
+      "reason": "Tix 32% + $ 24% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 19007.89,
         "combinedAwayTop3": 7222.39,
@@ -16675,8 +16675,8 @@
       "line": -389,
       "price": -389,
       "tixFav": 32,
-      "monFav": 23,
-      "reason": "Tix 32% + $ 23% on fav (<50)",
+      "monFav": 24,
+      "reason": "Tix 32% + $ 24% on fav (<50)",
       "leanUpdatedAt": "2026-11-28T13:39:40.394Z"
     },
     {
