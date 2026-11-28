@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:17:52.179Z",
+  "updatedAt": "2026-11-28T14:17:57.110Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -18640,7 +18640,7 @@
       "takeRole": "DOG",
       "takeTeam": "California",
       "takeSide": "away",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "dog_not_favorable",
       "market": "spread",
       "line": 7,
@@ -18662,7 +18662,8 @@
         "novigTop3": 347.52,
         "snappedAt": "2026-11-28T13:48:12.053978Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:17:52.733Z"
     },
     {
       "pickKey": "m|745|california_at_minnesota|DOG|away|ml",
@@ -18678,7 +18679,7 @@
       "takeRole": "DOG",
       "takeTeam": "California",
       "takeSide": "away",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "dog_not_favorable",
       "market": "ml",
       "line": 251,
@@ -18700,7 +18701,8 @@
         "novigTop3": 2501.63,
         "snappedAt": "2026-11-28T13:48:12.055559Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:17:52.733Z"
     },
     {
       "pickKey": "m|749|louisville_at_creighton|FAV|away|spread",
