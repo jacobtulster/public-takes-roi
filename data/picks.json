@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:53:57.612Z",
+  "updatedAt": "2026-11-28T13:54:03.797Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16215,9 +16215,9 @@
       "market": "spread",
       "line": 5.5,
       "price": -112,
-      "tixFav": 90,
+      "tixFav": 91,
       "monFav": 94,
-      "reason": "Tix 90% + $ 94% on fav",
+      "reason": "Tix 91% + $ 94% on fav",
       "liqSnap": {
         "combinedTop3": 3911.76,
         "combinedAwayTop3": 711.84,
@@ -16232,7 +16232,8 @@
         "novigTop3": 1610.96,
         "snappedAt": "2026-11-28T13:48:11.967475Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:54:00.383Z"
     },
     {
       "pickKey": "m|151|ul_lafayette_at_georgia_state|DOG|home|ml",
@@ -16253,9 +16254,10 @@
       "market": "ml",
       "line": 173,
       "price": 173,
-      "tixFav": 90,
+      "tixFav": 91,
       "monFav": 94,
-      "reason": "Tix 90% + $ 94% on fav"
+      "reason": "Tix 91% + $ 94% on fav",
+      "leanUpdatedAt": "2026-11-28T13:54:00.383Z"
     },
     {
       "pickKey": "m|153|central_michigan_at_ball_state|DOG|home|spread",
@@ -16449,8 +16451,8 @@
       "line": 14.5,
       "price": -108,
       "tixFav": 74,
-      "monFav": 92,
-      "reason": "Tix 74% + $ 92% on fav",
+      "monFav": 75,
+      "reason": "Tix 74% + $ 75% on fav",
       "liqSnap": {
         "combinedTop3": 14158.25,
         "combinedAwayTop3": 7405.01,
@@ -16488,8 +16490,8 @@
       "line": 502,
       "price": 502,
       "tixFav": 74,
-      "monFav": 92,
-      "reason": "Tix 74% + $ 92% on fav",
+      "monFav": 75,
+      "reason": "Tix 74% + $ 75% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:44.376Z"
     },
     {
@@ -17201,8 +17203,8 @@
       "line": -7.5,
       "price": -103,
       "tixFav": 9,
-      "monFav": 21,
-      "reason": "Tix 9% + $ 21% on fav (<50)",
+      "monFav": 18,
+      "reason": "Tix 9% + $ 18% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 17466.81,
         "combinedAwayTop3": 12214.76,
@@ -17240,8 +17242,8 @@
       "line": -303,
       "price": -303,
       "tixFav": 9,
-      "monFav": 21,
-      "reason": "Tix 9% + $ 21% on fav (<50)",
+      "monFav": 18,
+      "reason": "Tix 9% + $ 18% on fav (<50)",
       "leanUpdatedAt": "2026-11-28T13:39:52.389Z"
     },
     {
