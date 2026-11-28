@@ -5,20 +5,13 @@ on:
     # Every 5 minutes — settle ESPN finals ASAP after tip ends
     - cron: "*/5 * * * *"
   workflow_dispatch:
-  push:
-    paths:
-      - "data/picks.json"
-      - "scripts/grade_picks.py"
-      - "scripts/liq_trust.py"
-      - ".github/workflows/grade.yml"
 
 permissions:
   contents: write
 
 concurrency:
   group: grade-public-takes
-  # Don't cancel mid-grade when OddsLogic sync pushes picks.json
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   grade:
@@ -36,25 +29,19 @@ jobs:
       - name: Grade open picks via ESPN scoreboards
         run: python scripts/grade_picks.py
 
-      - name: Upsert + grade fade-disparity trust ledger
-        run: python scripts/liq_trust.py
-
-      - name: Stamp / freeze pick combined liquidity
-        run: python scripts/attach_pick_liquidity.py
-
-      - name: Commit graded picks + trust
+      - name: Commit graded picks
         run: |
           set -euo pipefail
           git config user.name "public-takes-bot"
           git config user.email "public-takes-bot@users.noreply.github.com"
 
           try_commit_push() {
-            git add data/picks.json data/liq_trust.json
+            git add data/picks.json
             if git diff --staged --quiet; then
               echo "No grading changes."
               return 0
             fi
-            git commit -m "chore: grade settled public % takes + fade trust (ESPN)"
+            git commit -m "chore: grade settled public % takes (ESPN)"
             git push origin HEAD:main
           }
 
@@ -62,15 +49,12 @@ jobs:
             exit 0
           fi
 
-          # Race with OddsLogic sync / liquidity bots that also push main.
-          # Re-run grading from latest tip and retry the push.
+          # Race with OddsLogic sync pushes — re-grade from tip and retry.
           for attempt in 1 2 3 4 5; do
             echo "Push rejected (attempt ${attempt}/5); re-grading from origin/main..."
             git fetch origin main
             git reset --hard origin/main
             python scripts/grade_picks.py
-            python scripts/liq_trust.py
-            python scripts/attach_pick_liquidity.py
             if try_commit_push; then
               exit 0
             fi
