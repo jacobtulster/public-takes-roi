@@ -2036,7 +2036,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2069,7 +2069,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4836,7 +4836,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -4868,7 +4868,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San José State Spartans",
+      "espnAway": "San Jos\u00e9 State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -16041,7 +16041,7 @@
         "goodDog": false,
         "fourcastersTop3": 4185.14,
         "novigTop3": 32481.98,
-        "snappedAt": "2026-11-28T13:35:23.852514Z",
+        "snappedAt": "2026-11-28T13:45:44.538078Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:34:50.383Z"
@@ -16104,7 +16104,7 @@
         "goodDog": true,
         "fourcastersTop3": 7686.07,
         "novigTop3": 20558.82,
-        "snappedAt": "2026-11-28T13:35:23.853729Z",
+        "snappedAt": "2026-11-28T13:45:44.539318Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:39:46.375Z"
@@ -16167,7 +16167,7 @@
         "goodDog": false,
         "fourcastersTop3": 19819.78,
         "novigTop3": 62037.27,
-        "snappedAt": "2026-11-28T13:35:23.855121Z",
+        "snappedAt": "2026-11-28T13:45:44.540728Z",
         "frozen": false
       }
     },
@@ -16228,7 +16228,7 @@
         "goodDog": false,
         "fourcastersTop3": 2300.8,
         "novigTop3": 1610.96,
-        "snappedAt": "2026-11-28T13:35:23.856859Z",
+        "snappedAt": "2026-11-28T13:45:44.542510Z",
         "frozen": false
       }
     },
@@ -16289,7 +16289,7 @@
         "goodDog": false,
         "fourcastersTop3": 7795.25,
         "novigTop3": 17492.91,
-        "snappedAt": "2026-11-28T13:35:23.858929Z",
+        "snappedAt": "2026-11-28T13:45:44.544545Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:39:42.370Z"
@@ -16400,7 +16400,7 @@
         "goodDog": false,
         "fourcastersTop3": 7093.13,
         "novigTop3": 14663.2,
-        "snappedAt": "2026-11-28T13:35:23.863952Z",
+        "snappedAt": "2026-11-28T13:45:44.549678Z",
         "frozen": false
       }
     },
@@ -16461,7 +16461,7 @@
         "goodDog": false,
         "fourcastersTop3": 11512.11,
         "novigTop3": 2646.14,
-        "snappedAt": "2026-11-28T13:35:23.865962Z",
+        "snappedAt": "2026-11-28T13:45:44.551764Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:34:44.376Z"
@@ -16524,7 +16524,7 @@
         "goodDog": false,
         "fourcastersTop3": 7293.47,
         "novigTop3": 1699.14,
-        "snappedAt": "2026-11-28T13:35:23.868395Z",
+        "snappedAt": "2026-11-28T13:45:44.554278Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:39:40.392Z"
@@ -16587,7 +16587,7 @@
         "goodDog": false,
         "fourcastersTop3": 5072.17,
         "novigTop3": 13305.62,
-        "snappedAt": "2026-11-28T13:35:23.870431Z",
+        "snappedAt": "2026-11-28T13:45:44.556366Z",
         "frozen": false
       }
     },
@@ -16648,7 +16648,7 @@
         "goodDog": false,
         "fourcastersTop3": 17487.8,
         "novigTop3": 1520.09,
-        "snappedAt": "2026-11-28T13:35:23.872487Z",
+        "snappedAt": "2026-11-28T13:45:44.558448Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:39:40.394Z"
@@ -16711,7 +16711,7 @@
         "goodDog": true,
         "fourcastersTop3": 12441.67,
         "novigTop3": 3488.69,
-        "snappedAt": "2026-11-28T13:35:23.874823Z",
+        "snappedAt": "2026-11-28T13:45:44.560827Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:34:44.379Z"
@@ -16774,7 +16774,7 @@
         "goodDog": false,
         "fourcastersTop3": 27513.66,
         "novigTop3": 61974.73,
-        "snappedAt": "2026-11-28T13:35:23.876356Z",
+        "snappedAt": "2026-11-28T13:45:44.562377Z",
         "frozen": false
       }
     },
@@ -16836,7 +16836,7 @@
         "goodDog": false,
         "fourcastersTop3": 7729.77,
         "novigTop3": 20112.18,
-        "snappedAt": "2026-11-28T13:35:23.877371Z",
+        "snappedAt": "2026-11-28T13:45:44.563411Z",
         "frozen": false
       }
     },
@@ -16898,7 +16898,7 @@
         "goodDog": false,
         "fourcastersTop3": 46392.81,
         "novigTop3": 15171.29,
-        "snappedAt": "2026-11-28T13:35:23.878471Z",
+        "snappedAt": "2026-11-28T13:45:44.564535Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:34:50.395Z"
@@ -16962,7 +16962,7 @@
         "goodDog": false,
         "fourcastersTop3": 8287.47,
         "novigTop3": 22278.28,
-        "snappedAt": "2026-11-28T13:35:23.879745Z",
+        "snappedAt": "2026-11-28T13:45:44.565843Z",
         "frozen": false
       }
     },
@@ -17025,7 +17025,7 @@
         "goodDog": false,
         "fourcastersTop3": 20125.8,
         "novigTop3": 9573.63,
-        "snappedAt": "2026-11-28T13:35:23.881683Z",
+        "snappedAt": "2026-11-28T13:45:44.567831Z",
         "frozen": false
       }
     },
@@ -17081,13 +17081,13 @@
         "combinedHomeTop3": 48204.19,
         "combinedRatio": 11.02,
         "combinedHeavySide": "home",
-        "combinedOi": 7553974,
+        "combinedOi": 7553974.0,
         "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 4484.51,
         "novigTop3": 48093.3,
-        "snappedAt": "2026-11-28T13:35:23.883173Z",
+        "snappedAt": "2026-11-28T13:45:44.569353Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:39:42.381Z"
@@ -17150,7 +17150,7 @@
         "goodDog": false,
         "fourcastersTop3": 37655.61,
         "novigTop3": 27783.2,
-        "snappedAt": "2026-11-28T13:35:23.883819Z",
+        "snappedAt": "2026-11-28T13:45:44.570015Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:34:44.384Z"
@@ -17213,7 +17213,7 @@
         "goodDog": false,
         "fourcastersTop3": 11972.5,
         "novigTop3": 5494.31,
-        "snappedAt": "2026-11-28T13:35:23.885489Z",
+        "snappedAt": "2026-11-28T13:45:44.571732Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:39:52.389Z"
@@ -17267,7 +17267,7 @@
       "liqSnap": {
         "combinedTop3": 8765.61,
         "combinedAwayTop3": 3773.61,
-        "combinedHomeTop3": 4992,
+        "combinedHomeTop3": 4992.0,
         "combinedRatio": 1.32,
         "combinedHeavySide": "home",
         "combinedOi": 731176.52,
@@ -17276,7 +17276,7 @@
         "goodDog": false,
         "fourcastersTop3": 7678.84,
         "novigTop3": 1086.77,
-        "snappedAt": "2026-11-28T13:35:23.887821Z",
+        "snappedAt": "2026-11-28T13:45:44.574154Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:34:50.402Z"
@@ -17338,8 +17338,8 @@
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 23971.85,
-        "novigTop3": 1000,
-        "snappedAt": "2026-11-28T13:35:23.890169Z",
+        "novigTop3": 1000.0,
+        "snappedAt": "2026-11-28T13:45:44.576665Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:34:56.603Z"
@@ -17402,7 +17402,7 @@
         "goodDog": false,
         "fourcastersTop3": 3847.12,
         "novigTop3": 31607.18,
-        "snappedAt": "2026-11-28T13:35:23.892127Z",
+        "snappedAt": "2026-11-28T13:45:44.578668Z",
         "frozen": false
       }
     },
@@ -17463,7 +17463,7 @@
         "goodDog": false,
         "fourcastersTop3": 5621.24,
         "novigTop3": 18798.26,
-        "snappedAt": "2026-11-28T13:35:23.893266Z",
+        "snappedAt": "2026-11-28T13:45:44.579808Z",
         "frozen": false
       }
     },
@@ -17524,7 +17524,7 @@
         "goodDog": false,
         "fourcastersTop3": 5361.16,
         "novigTop3": 2880.69,
-        "snappedAt": "2026-11-28T13:35:23.894962Z",
+        "snappedAt": "2026-11-28T13:45:44.581539Z",
         "frozen": false
       }
     },
@@ -17585,7 +17585,7 @@
         "goodDog": false,
         "fourcastersTop3": 3994.52,
         "novigTop3": 10439.1,
-        "snappedAt": "2026-11-28T13:35:23.897082Z",
+        "snappedAt": "2026-11-28T13:45:44.583699Z",
         "frozen": false
       }
     },
@@ -17646,7 +17646,7 @@
         "goodDog": false,
         "fourcastersTop3": 23456.21,
         "novigTop3": 16849.84,
-        "snappedAt": "2026-11-28T13:35:23.898609Z",
+        "snappedAt": "2026-11-28T13:45:44.585252Z",
         "frozen": false
       }
     },
@@ -17684,7 +17684,7 @@
         "goodDog": false,
         "fourcastersTop3": 16777.69,
         "novigTop3": 8760.8,
-        "snappedAt": "2026-11-28T13:35:23.899168Z",
+        "snappedAt": "2026-11-28T13:45:44.585822Z",
         "frozen": false
       }
     },
@@ -17722,7 +17722,7 @@
         "goodDog": false,
         "fourcastersTop3": 8858.63,
         "novigTop3": 53404.29,
-        "snappedAt": "2026-11-28T13:35:23.899592Z",
+        "snappedAt": "2026-11-28T13:45:44.586257Z",
         "frozen": false
       }
     },
@@ -17760,7 +17760,7 @@
         "goodDog": false,
         "fourcastersTop3": 3399.69,
         "novigTop3": 6169.03,
-        "snappedAt": "2026-11-28T13:35:23.900002Z",
+        "snappedAt": "2026-11-28T13:45:44.586672Z",
         "frozen": false
       }
     },
@@ -17868,7 +17868,7 @@
         "goodDog": false,
         "fourcastersTop3": 746.32,
         "novigTop3": 2755.91,
-        "snappedAt": "2026-11-28T13:35:23.909824Z",
+        "snappedAt": "2026-11-28T13:45:44.596685Z",
         "frozen": false
       }
     },
@@ -17906,7 +17906,7 @@
         "goodDog": true,
         "fourcastersTop3": 2317.51,
         "novigTop3": 627.27,
-        "snappedAt": "2026-11-28T13:35:23.911337Z",
+        "snappedAt": "2026-11-28T13:45:44.598237Z",
         "frozen": false
       }
     },
@@ -17944,7 +17944,7 @@
         "goodDog": true,
         "fourcastersTop3": 1148.87,
         "novigTop3": 371.91,
-        "snappedAt": "2026-11-28T13:35:23.913313Z",
+        "snappedAt": "2026-11-28T13:45:44.600241Z",
         "frozen": false
       }
     },
@@ -17982,7 +17982,7 @@
         "goodDog": false,
         "fourcastersTop3": 1335.84,
         "novigTop3": 6018.31,
-        "snappedAt": "2026-11-28T13:35:23.915247Z",
+        "snappedAt": "2026-11-28T13:45:44.602223Z",
         "frozen": false
       }
     },
@@ -18020,7 +18020,7 @@
         "goodDog": true,
         "fourcastersTop3": 1240.45,
         "novigTop3": 5249.49,
-        "snappedAt": "2026-11-28T13:35:23.917070Z",
+        "snappedAt": "2026-11-28T13:45:44.604074Z",
         "frozen": false
       }
     },
@@ -18058,7 +18058,7 @@
         "goodDog": true,
         "fourcastersTop3": 1397.8,
         "novigTop3": 5151.17,
-        "snappedAt": "2026-11-28T13:35:23.918906Z",
+        "snappedAt": "2026-11-28T13:45:44.605927Z",
         "frozen": false
       }
     },
@@ -18096,7 +18096,7 @@
         "goodDog": false,
         "fourcastersTop3": 1427.8,
         "novigTop3": 2080.06,
-        "snappedAt": "2026-11-28T13:35:23.920230Z",
+        "snappedAt": "2026-11-28T13:45:44.607294Z",
         "frozen": false
       }
     },
@@ -18134,7 +18134,7 @@
         "goodDog": false,
         "fourcastersTop3": 2980.69,
         "novigTop3": 1067.02,
-        "snappedAt": "2026-11-28T13:35:23.921537Z",
+        "snappedAt": "2026-11-28T13:45:44.608647Z",
         "frozen": false
       }
     },
@@ -18172,7 +18172,7 @@
         "goodDog": false,
         "fourcastersTop3": 1413.63,
         "novigTop3": 3736.51,
-        "snappedAt": "2026-11-28T13:35:23.922932Z",
+        "snappedAt": "2026-11-28T13:45:44.609884Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:37:58.407Z"
@@ -18211,7 +18211,7 @@
         "goodDog": false,
         "fourcastersTop3": 1658.44,
         "novigTop3": 5167.82,
-        "snappedAt": "2026-11-28T13:35:23.924242Z",
+        "snappedAt": "2026-11-28T13:45:44.611107Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:37:58.408Z"
@@ -18250,7 +18250,7 @@
         "goodDog": true,
         "fourcastersTop3": 1143.15,
         "novigTop3": 1266.8,
-        "snappedAt": "2026-11-28T13:35:23.925635Z",
+        "snappedAt": "2026-11-28T13:45:44.612525Z",
         "frozen": false
       }
     },
@@ -18288,7 +18288,7 @@
         "goodDog": true,
         "fourcastersTop3": 2099.27,
         "novigTop3": 2850.86,
-        "snappedAt": "2026-11-28T13:35:23.926992Z",
+        "snappedAt": "2026-11-28T13:45:44.614178Z",
         "frozen": false
       }
     },
@@ -18326,7 +18326,7 @@
         "goodDog": true,
         "fourcastersTop3": 1331.2,
         "novigTop3": 3746.27,
-        "snappedAt": "2026-11-28T13:35:23.928463Z",
+        "snappedAt": "2026-11-28T13:45:44.616005Z",
         "frozen": false
       }
     },
@@ -18364,7 +18364,7 @@
         "goodDog": true,
         "fourcastersTop3": 3006.58,
         "novigTop3": 616.89,
-        "snappedAt": "2026-11-28T13:35:23.929906Z",
+        "snappedAt": "2026-11-28T13:45:44.617509Z",
         "frozen": false
       }
     },
@@ -18402,7 +18402,7 @@
         "goodDog": false,
         "fourcastersTop3": 1340.99,
         "novigTop3": 372.81,
-        "snappedAt": "2026-11-28T13:35:23.932392Z",
+        "snappedAt": "2026-11-28T13:45:44.620054Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:35:56.404Z"
@@ -18441,7 +18441,7 @@
         "goodDog": false,
         "fourcastersTop3": 1204.87,
         "novigTop3": 6661.8,
-        "snappedAt": "2026-11-28T13:35:23.934848Z",
+        "snappedAt": "2026-11-28T13:45:44.622574Z",
         "frozen": false
       },
       "leanUpdatedAt": "2026-11-28T13:35:56.405Z"
@@ -18474,13 +18474,13 @@
         "combinedHomeTop3": 3304.61,
         "combinedRatio": 3.38,
         "combinedHeavySide": "home",
-        "combinedOi": 774425,
+        "combinedOi": 774425.0,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 1310.26,
         "novigTop3": 2972.78,
-        "snappedAt": "2026-11-28T13:35:23.936196Z",
+        "snappedAt": "2026-11-28T13:45:44.623949Z",
         "frozen": false
       }
     },
@@ -18512,13 +18512,13 @@
         "combinedHomeTop3": 4100.46,
         "combinedRatio": 1.79,
         "combinedHeavySide": "home",
-        "combinedOi": 774425,
+        "combinedOi": 774425.0,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 1621.49,
         "novigTop3": 4774.3,
-        "snappedAt": "2026-11-28T13:35:23.937518Z",
+        "snappedAt": "2026-11-28T13:45:44.625380Z",
         "frozen": false
       }
     },
@@ -18556,7 +18556,7 @@
         "goodDog": true,
         "fourcastersTop3": 1240.08,
         "novigTop3": 483.59,
-        "snappedAt": "2026-11-28T13:35:23.939592Z",
+        "snappedAt": "2026-11-28T13:45:44.627531Z",
         "frozen": false
       }
     },
@@ -18594,7 +18594,7 @@
         "goodDog": true,
         "fourcastersTop3": 2279.94,
         "novigTop3": 4052.44,
-        "snappedAt": "2026-11-28T13:35:23.941649Z",
+        "snappedAt": "2026-11-28T13:45:44.629674Z",
         "frozen": false
       }
     },
@@ -18632,7 +18632,7 @@
         "goodDog": false,
         "fourcastersTop3": 2171.64,
         "novigTop3": 347.52,
-        "snappedAt": "2026-11-28T13:35:23.943220Z",
+        "snappedAt": "2026-11-28T13:45:44.631316Z",
         "frozen": false
       }
     },
@@ -18670,7 +18670,7 @@
         "goodDog": false,
         "fourcastersTop3": 3305.81,
         "novigTop3": 2501.63,
-        "snappedAt": "2026-11-28T13:35:23.944780Z",
+        "snappedAt": "2026-11-28T13:45:44.632932Z",
         "frozen": false
       }
     },
@@ -18810,7 +18810,22 @@
       "price": -104,
       "tixFav": 75,
       "monFav": 99,
-      "reason": "Tix 75% + $ 99% on fav"
+      "reason": "Tix 75% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 4606.59,
+        "combinedAwayTop3": 2197.3,
+        "combinedHomeTop3": 2409.29,
+        "combinedRatio": 1.1,
+        "combinedHeavySide": "home",
+        "combinedOi": 1019599.15,
+        "liqAgreesTake": false,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 2461.72,
+        "novigTop3": 2144.87,
+        "snappedAt": "2026-11-28T13:45:44.644769Z",
+        "frozen": false
+      }
     },
     {
       "pickKey": "m|739|st_joseph_s_at_monmouth|DOG|home|ml",
@@ -18833,7 +18848,23 @@
       "price": 150,
       "tixFav": 75,
       "monFav": 99,
-      "reason": "Tix 75% + $ 99% on fav"
+      "reason": "Tix 75% + $ 99% on fav",
+      "liqSnap": {
+        "combinedTop3": 3338.69,
+        "combinedAwayTop3": 1703.59,
+        "combinedHomeTop3": 1635.1,
+        "combinedRatio": 1.04,
+        "combinedHeavySide": "away",
+        "combinedOi": 1019599.15,
+        "liqAgreesTake": true,
+        "goodFav": false,
+        "goodDog": false,
+        "fourcastersTop3": 2461.72,
+        "novigTop3": 876.97,
+        "snappedAt": "2026-11-28T13:45:44.646335Z",
+        "frozen": false
+      }
     }
-  ]
+  ],
+  "liqSnapUpdatedAt": "2026-11-28T13:45:44.646342Z"
 }
