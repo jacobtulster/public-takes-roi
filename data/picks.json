@@ -16259,13 +16259,13 @@
         "combinedHomeTop3": 8448.18,
         "combinedRatio": 2.11,
         "combinedHeavySide": "home",
-        "combinedOi": 6743542.92,
+        "combinedOi": 6744245.79,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 5270.54,
         "novigTop3": 7176.99,
-        "snappedAt": "2026-11-28T02:40:13.119982Z",
+        "snappedAt": "2026-11-28T02:41:20.869229Z",
         "frozen": false
       }
     },
@@ -16297,13 +16297,13 @@
         "combinedHomeTop3": 6666.86,
         "combinedRatio": 1.69,
         "combinedHeavySide": "home",
-        "combinedOi": 6743542.92,
+        "combinedOi": 6744245.79,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 8958.86,
         "novigTop3": 1659.0,
-        "snappedAt": "2026-11-28T02:40:13.120551Z",
+        "snappedAt": "2026-11-28T02:41:20.869785Z",
         "frozen": false
       }
     },
@@ -16782,5 +16782,5 @@
       "leanUpdatedAt": "2026-11-27T23:59:08.865Z"
     }
   ],
-  "liqSnapUpdatedAt": "2026-11-28T02:40:13.120561Z"
+  "liqSnapUpdatedAt": "2026-11-28T02:41:20.869794Z"
 }
