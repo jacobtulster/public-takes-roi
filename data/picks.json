@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:25:53.872Z",
+  "updatedAt": "2026-11-28T14:25:59.792Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -19091,6 +19091,29 @@
       "tixFav": 47,
       "monFav": 25,
       "reason": "Tix 47% + $ 25% on fav (<50)"
+    },
+    {
+      "pickKey": "m|13|nashville_at_detroit|FAV|home|ml",
+      "matchupId": "13|nashville_at_detroit|FAV|home|ml",
+      "loggedAt": "2026-11-28T14:25:56.413Z",
+      "sport": "NHL",
+      "league": "NHL - Saturday, November 28th",
+      "away": "Nashville",
+      "home": "Detroit",
+      "kick": "19:07",
+      "startAt": "2026-11-29T00:07:00.000Z",
+      "gameNumber": 13,
+      "takeRole": "FAV",
+      "takeTeam": "Detroit",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -110,
+      "price": -110,
+      "tixFav": 6,
+      "monFav": 37,
+      "reason": "Tix 6% + $ 37% on fav (<50)"
     }
   ]
 }
