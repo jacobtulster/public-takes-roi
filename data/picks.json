@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:45:31.980Z",
+  "updatedAt": "2026-11-28T13:46:39.812Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -2036,7 +2036,7 @@
       "gradedAt": "2026-11-23T12:48:01.856Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -2069,7 +2069,7 @@
       "gradedAt": "2026-11-23T12:48:01.858Z",
       "gradeSource": "espn",
       "espnEventId": "401911233",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "Loyola Chicago Ramblers"
     },
     {
@@ -4836,7 +4836,7 @@
       "gradedAt": "2026-11-24T08:00:39.162Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -4868,7 +4868,7 @@
       "gradedAt": "2026-11-24T08:00:39.163Z",
       "gradeSource": "espn",
       "espnEventId": "401921664",
-      "espnAway": "San Jos\u00e9 State Spartans",
+      "espnAway": "San José State Spartans",
       "espnHome": "UC San Diego Tritons"
     },
     {
@@ -17081,7 +17081,7 @@
         "combinedHomeTop3": 48204.19,
         "combinedRatio": 11.02,
         "combinedHeavySide": "home",
-        "combinedOi": 7553974.0,
+        "combinedOi": 7553974,
         "liqAgreesTake": true,
         "goodFav": false,
         "goodDog": false,
@@ -17267,7 +17267,7 @@
       "liqSnap": {
         "combinedTop3": 8765.61,
         "combinedAwayTop3": 3773.61,
-        "combinedHomeTop3": 4992.0,
+        "combinedHomeTop3": 4992,
         "combinedRatio": 1.32,
         "combinedHeavySide": "home",
         "combinedOi": 731176.52,
@@ -17338,7 +17338,7 @@
         "goodFav": false,
         "goodDog": false,
         "fourcastersTop3": 23971.85,
-        "novigTop3": 1000.0,
+        "novigTop3": 1000,
         "snappedAt": "2026-11-28T13:46:01.902892Z",
         "frozen": false
       },
@@ -18474,7 +18474,7 @@
         "combinedHomeTop3": 3304.61,
         "combinedRatio": 3.38,
         "combinedHeavySide": "home",
-        "combinedOi": 774425.0,
+        "combinedOi": 774425,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
@@ -18512,7 +18512,7 @@
         "combinedHomeTop3": 4100.46,
         "combinedRatio": 1.79,
         "combinedHeavySide": "home",
-        "combinedOi": 774425.0,
+        "combinedOi": 774425,
         "liqAgreesTake": false,
         "goodFav": false,
         "goodDog": false,
@@ -18865,6 +18865,5 @@
         "frozen": false
       }
     }
-  ],
-  "liqSnapUpdatedAt": "2026-11-28T13:46:01.996783Z"
+  ]
 }
