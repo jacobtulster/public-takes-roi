@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:39:38.254Z",
+  "updatedAt": "2026-11-28T13:39:45.761Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16272,9 +16272,9 @@
       "market": "spread",
       "line": 3.5,
       "price": -102,
-      "tixFav": 76,
+      "tixFav": 78,
       "monFav": 93,
-      "reason": "Tix 76% + $ 93% on fav",
+      "reason": "Tix 78% + $ 93% on fav",
       "liqSnap": {
         "combinedTop3": 25288.16,
         "combinedAwayTop3": 7904.64,
@@ -16289,7 +16289,8 @@
         "novigTop3": 17492.91,
         "snappedAt": "2026-11-28T13:35:23.858929Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:39:42.370Z"
     },
     {
       "pickKey": "m|153|central_michigan_at_ball_state|DOG|home|ml",
@@ -16310,9 +16311,10 @@
       "market": "ml",
       "line": 160,
       "price": 160,
-      "tixFav": 76,
+      "tixFav": 78,
       "monFav": 93,
-      "reason": "Tix 76% + $ 93% on fav"
+      "reason": "Tix 78% + $ 93% on fav",
+      "leanUpdatedAt": "2026-11-28T13:39:42.371Z"
     },
     {
       "pickKey": "m|155|notre_dame_at_syracuse|DOG|home|spread",
@@ -16333,9 +16335,10 @@
       "market": "spread",
       "line": 25,
       "price": -101,
-      "tixFav": 78,
+      "tixFav": 77,
       "monFav": 88,
-      "reason": "Tix 78% + $ 88% on fav"
+      "reason": "Tix 77% + $ 88% on fav",
+      "leanUpdatedAt": "2026-11-28T13:39:40.390Z"
     },
     {
       "pickKey": "m|155|notre_dame_at_syracuse|DOG|home|ml",
@@ -16356,9 +16359,10 @@
       "market": "ml",
       "line": 1523,
       "price": 1523,
-      "tixFav": 78,
+      "tixFav": 77,
       "monFav": 88,
-      "reason": "Tix 78% + $ 88% on fav"
+      "reason": "Tix 77% + $ 88% on fav",
+      "leanUpdatedAt": "2026-11-28T13:39:40.390Z"
     },
     {
       "pickKey": "m|159|purdue_at_indiana|DOG|away|spread",
@@ -16503,9 +16507,9 @@
       "market": "spread",
       "line": -3,
       "price": -100,
-      "tixFav": 29,
-      "monFav": 26,
-      "reason": "Tix 29% + $ 26% on fav (<50)",
+      "tixFav": 30,
+      "monFav": 28,
+      "reason": "Tix 30% + $ 28% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 8992.61,
         "combinedAwayTop3": 7017.69,
@@ -16520,7 +16524,8 @@
         "novigTop3": 1699.14,
         "snappedAt": "2026-11-28T13:35:23.868395Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:39:40.392Z"
     },
     {
       "pickKey": "m|165|louisville_at_kentucky|FAV|away|ml",
@@ -16541,9 +16546,10 @@
       "market": "ml",
       "line": -140,
       "price": -140,
-      "tixFav": 29,
-      "monFav": 26,
-      "reason": "Tix 29% + $ 26% on fav (<50)"
+      "tixFav": 30,
+      "monFav": 28,
+      "reason": "Tix 30% + $ 28% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:39:40.392Z"
     },
     {
       "pickKey": "m|167|massachusetts_at_bowling_green|FAV|home|spread",
@@ -16625,9 +16631,9 @@
       "market": "spread",
       "line": -10,
       "price": -105,
-      "tixFav": 33,
-      "monFav": 26,
-      "reason": "Tix 33% + $ 26% on fav (<50)",
+      "tixFav": 32,
+      "monFav": 25,
+      "reason": "Tix 32% + $ 25% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 19007.89,
         "combinedAwayTop3": 7222.39,
@@ -16642,7 +16648,8 @@
         "novigTop3": 1520.09,
         "snappedAt": "2026-11-28T13:35:23.872487Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:39:40.394Z"
     },
     {
       "pickKey": "m|171|michigan_at_ohio_state|FAV|home|ml",
@@ -16663,9 +16670,10 @@
       "market": "ml",
       "line": -389,
       "price": -389,
-      "tixFav": 33,
-      "monFav": 26,
-      "reason": "Tix 33% + $ 26% on fav (<50)"
+      "tixFav": 32,
+      "monFav": 25,
+      "reason": "Tix 32% + $ 25% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:39:40.394Z"
     },
     {
       "pickKey": "m|173|virginia_at_virginia_tech|DOG|away|spread",
@@ -17062,9 +17070,9 @@
       "market": "spread",
       "line": -3.5,
       "price": 102,
-      "tixFav": 33,
+      "tixFav": 35,
       "monFav": 25,
-      "reason": "Tix 33% + $ 25% on fav (<50)",
+      "reason": "Tix 35% + $ 25% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 52577.81,
         "combinedAwayTop3": 4373.62,
@@ -17079,7 +17087,8 @@
         "novigTop3": 48093.3,
         "snappedAt": "2026-11-28T13:35:23.883173Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:39:42.381Z"
     },
     {
       "pickKey": "m|205|connecticut_at_wyoming|FAV|away|ml",
@@ -17100,9 +17109,10 @@
       "market": "ml",
       "line": -158,
       "price": -158,
-      "tixFav": 33,
+      "tixFav": 35,
       "monFav": 25,
-      "reason": "Tix 33% + $ 25% on fav (<50)"
+      "reason": "Tix 35% + $ 25% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:39:42.381Z"
     },
     {
       "pickKey": "m|207|cincinnati_at_byu|FAV|home|spread",
