@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:39:45.761Z",
+  "updatedAt": "2026-11-28T13:39:50.083Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16089,9 +16089,9 @@
       "market": "spread",
       "line": 1,
       "price": -103,
-      "tixFav": 81,
-      "monFav": 81,
-      "reason": "Tix 81% + $ 81% on fav",
+      "tixFav": 83,
+      "monFav": 88,
+      "reason": "Tix 83% + $ 88% on fav",
       "liqSnap": {
         "combinedTop3": 28244.89,
         "combinedAwayTop3": 12217.22,
@@ -16106,7 +16106,8 @@
         "novigTop3": 20558.82,
         "snappedAt": "2026-11-28T13:35:23.853729Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:39:46.375Z"
     },
     {
       "pickKey": "m|121|florida_atlantic_at_east_carolina|DOG|away|ml",
@@ -16127,9 +16128,10 @@
       "market": "ml",
       "line": 104,
       "price": 104,
-      "tixFav": 81,
-      "monFav": 81,
-      "reason": "Tix 81% + $ 81% on fav"
+      "tixFav": 83,
+      "monFav": 88,
+      "reason": "Tix 83% + $ 88% on fav",
+      "leanUpdatedAt": "2026-11-28T13:39:46.375Z"
     },
     {
       "pickKey": "m|149|navy_at_charlotte|DOG|home|spread",
@@ -16818,9 +16820,9 @@
       "market": "spread",
       "line": 17,
       "price": -101,
-      "tixFav": 78,
+      "tixFav": 77,
       "monFav": 86,
-      "reason": "Tix 78% + $ 86% on fav",
+      "reason": "Tix 77% + $ 86% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.381Z",
       "liqSnap": {
         "combinedTop3": 27841.95,
@@ -16857,9 +16859,9 @@
       "market": "ml",
       "line": 617,
       "price": 617,
-      "tixFav": 78,
+      "tixFav": 77,
       "monFav": 86,
-      "reason": "Tix 78% + $ 86% on fav",
+      "reason": "Tix 77% + $ 86% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.381Z"
     },
     {
