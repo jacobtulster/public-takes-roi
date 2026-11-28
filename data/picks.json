@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:39:50.083Z",
+  "updatedAt": "2026-11-28T13:39:55.598Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -17199,8 +17199,8 @@
       "line": -7.5,
       "price": -103,
       "tixFav": 9,
-      "monFav": 22,
-      "reason": "Tix 9% + $ 22% on fav (<50)",
+      "monFav": 21,
+      "reason": "Tix 9% + $ 21% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 17466.81,
         "combinedAwayTop3": 12214.76,
@@ -17215,7 +17215,8 @@
         "novigTop3": 5494.31,
         "snappedAt": "2026-11-28T13:35:23.885489Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:39:52.389Z"
     },
     {
       "pickKey": "m|215|smu_at_stanford|FAV|away|ml",
@@ -17237,8 +17238,9 @@
       "line": -303,
       "price": -303,
       "tixFav": 9,
-      "monFav": 22,
-      "reason": "Tix 9% + $ 22% on fav (<50)"
+      "monFav": 21,
+      "reason": "Tix 9% + $ 21% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:39:52.389Z"
     },
     {
       "pickKey": "m|223|oklahoma_at_missouri|FAV|home|spread",
