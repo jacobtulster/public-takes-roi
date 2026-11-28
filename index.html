@@ -74,70 +74,6 @@
                   <span class="day-dollars" id="day-week-dollars">$0</span>
                 </span>
               </div>
-              <div class="trust-stats" id="trust-stats" aria-label="Fade disparity trust records" title="Fade heavy top-3 $ (≥2×) → bet light side @ $100/u">
-                <span class="day-stat trust-stat" title="4casters: fade big money (heavy top-3 $) → take light side">
-                  <span class="day-label">4C fade</span>
-                  <span class="day-record" id="trust-4c-record">0-0-0</span>
-                  <span class="day-sep">·</span>
-                  <span class="day-dollars" id="trust-4c-dollars">$0</span>
-                  <span class="day-sep trust-open-sep">·</span>
-                  <span class="day-open" id="trust-4c-open">0 open</span>
-                </span>
-                <span class="day-stat trust-stat" title="Novig: fade big money (heavy top-3 $) → take light side">
-                  <span class="day-label">NV fade</span>
-                  <span class="day-record" id="trust-nv-record">0-0-0</span>
-                  <span class="day-sep">·</span>
-                  <span class="day-dollars" id="trust-nv-dollars">$0</span>
-                  <span class="day-sep trust-open-sep">·</span>
-                  <span class="day-open" id="trust-nv-open">0 open</span>
-                </span>
-              </div>
-              <div
-                class="trust-stats good-signal-stats"
-                id="good-signal-stats"
-                aria-label="Good fav / good dog ROI"
-                title="Favorable pick + combined ratio heavy on the other side (needs both 4C+NV)"
-              >
-                <span class="day-stat trust-stat" title="Fav favorable + combined heavy on dog">
-                  <span class="day-label">Good fav</span>
-                  <span class="day-record" id="good-fav-record">0-0-0</span>
-                  <span class="day-sep">·</span>
-                  <span class="day-dollars" id="good-fav-dollars">$0</span>
-                  <span class="day-sep trust-open-sep">·</span>
-                  <span class="day-open" id="good-fav-open">0 open</span>
-                </span>
-                <span class="day-stat trust-stat" title="Dog favorable + combined heavy on fav">
-                  <span class="day-label">Good dog</span>
-                  <span class="day-record" id="good-dog-record">0-0-0</span>
-                  <span class="day-sep">·</span>
-                  <span class="day-dollars" id="good-dog-dollars">$0</span>
-                  <span class="day-sep trust-open-sep">·</span>
-                  <span class="day-open" id="good-dog-open">0 open</span>
-                </span>
-              </div>
-              <div
-                class="trust-stats dog-liq-stats"
-                id="dog-liq-stats"
-                aria-label="Dog takes by combined liquidity"
-                title="ATS dogs where book also leans dog (heavy $ on fav). Split by median combined top-3 $."
-              >
-                <span class="day-stat trust-stat" title="Public dog + book leans dog · high combined top-3 $">
-                  <span class="day-label">Dog hi</span>
-                  <span class="day-record" id="dog-hi-liq-record">0-0-0</span>
-                  <span class="day-sep">·</span>
-                  <span class="day-dollars" id="dog-hi-liq-dollars">$0</span>
-                  <span class="day-sep trust-open-sep">·</span>
-                  <span class="day-open" id="dog-hi-liq-n">n=0</span>
-                </span>
-                <span class="day-stat trust-stat" title="Public dog + book leans dog · low combined top-3 $">
-                  <span class="day-label">Dog lo</span>
-                  <span class="day-record" id="dog-lo-liq-record">0-0-0</span>
-                  <span class="day-sep">·</span>
-                  <span class="day-dollars" id="dog-lo-liq-dollars">$0</span>
-                  <span class="day-sep trust-open-sep">·</span>
-                  <span class="day-open" id="dog-lo-liq-n">n=0</span>
-                </span>
-              </div>
             </div>
             <div class="toolbar-row toolbar-row-filters">
               <select id="filter-bucket">
@@ -156,50 +92,16 @@
                 <option value="L">Losses</option>
                 <option value="P">Pushes</option>
               </select>
-              <div class="liq-venue-tabs" id="liq-venue-tabs" role="tablist" aria-label="Liquidity venue">
-                <button type="button" class="liq-venue-tab is-active" data-venue="both">Both</button>
-                <button type="button" class="liq-venue-tab" data-venue="4c">4C</button>
-                <button type="button" class="liq-venue-tab" data-venue="novig">NV</button>
-              </div>
-              <div class="liq-venue-tabs signal-filter-tabs" id="signal-filter-tabs" role="tablist" aria-label="Good pick filters">
-                <button
-                  type="button"
-                  class="liq-venue-tab is-active"
-                  data-signal=""
-                  title="No signal filter"
-                >
-                  All
-                </button>
-                <button
-                  type="button"
-                  class="liq-venue-tab signal-pill signal-pill-fav"
-                  data-signal="good_fav"
-                  title="Fav favorable + combined ratio heavy on the dog"
-                >
-                  Good fav
-                </button>
-                <button
-                  type="button"
-                  class="liq-venue-tab signal-pill signal-pill-dog"
-                  data-signal="good_dog"
-                  title="Dog favorable + combined ratio heavy on the fav"
-                >
-                  Good dog
-                </button>
-              </div>
             </div>
           </div>
           <div class="table-wrap">
-            <table class="picks-table liq-venue-both">
+            <table class="picks-table">
               <thead>
                 <tr>
                   <th class="col-start th-sort is-sorted is-asc" data-sort="start" title="Sort by start time" aria-sort="ascending">Start</th>
                   <th class="col-matchup">Matchup</th>
                   <th class="col-pick">Pick</th>
                   <th class="col-line">Line</th>
-                  <th class="col-liq col-4c th-sort" data-sort="rank" title="Sort by 4casters top-3 $ ratio (highest first)" aria-sort="none">4C</th>
-                  <th class="col-liq col-nv th-sort" data-sort="novigRank" title="Sort by Novig top-3 $ ratio (highest first)" aria-sort="none">NV</th>
-                  <th class="col-liq col-combined th-sort" data-sort="combinedRank" title="Sort by combined 4C+NV top-3 $ ratio (needs both venues; one-sided last)" aria-sort="none">Combined ratio</th>
                   <th class="col-result">Result</th>
                 </tr>
               </thead>

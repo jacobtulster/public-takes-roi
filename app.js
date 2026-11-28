@@ -708,7 +708,6 @@
     const r = String(pick.result || '').toUpperCase();
     if (result === 'open' && (r === 'W' || r === 'L' || r === 'P')) return false;
     if (result && result !== 'open' && r !== result) return false;
-    if (!matchesSignalFilter(pick)) return false;
     return true;
   }
 
@@ -804,25 +803,6 @@
   }
 
   function comparePicksForTable(a, b, now) {
-    if (tableSort.key === 'rank' || tableSort.key === 'novigRank' || tableSort.key === 'combinedRank') {
-      const venue =
-        tableSort.key === 'novigRank' ? 'novig' : tableSort.key === 'combinedRank' ? 'combined' : '4c';
-      const ra = pickLiqRatio(a, venue);
-      const rb = pickLiqRatio(b, venue);
-      const aMiss = ra == null;
-      const bMiss = rb == null;
-      if (aMiss !== bMiss) return aMiss ? 1 : -1;
-      if (!aMiss && ra !== rb) {
-        // desc = highest ratio first (default); asc = lowest first
-        return tableSort.dir === 'asc' ? ra - rb : rb - ra;
-      }
-      // Tie-break by OI rank (#1 first) — skip for combined
-      if (venue !== 'combined') {
-        const oa = pickLiqRank(a, venue);
-        const ob = pickLiqRank(b, venue);
-        if (oa != null && ob != null && oa !== ob) return oa - ob;
-      }
-    }
     return comparePicksByStart(a, b, now);
   }
 
@@ -895,7 +875,6 @@
       .filter(matchesFilter)
       .sort((a, b) => comparePicksForTable(a, b, now));
     syncSortHeaders();
-    syncLiqVenue();
     $('#picks-empty').hidden = rows.length > 0;
     const empty = $('#picks-empty');
     if (empty) {
@@ -928,20 +907,13 @@
               : 'ESPN'
             : p.lineSource || p.lineBook || '';
         const lean = fmtLeanMeta(p);
-        const liq4c = renderPickLiquidityCells(p, liqStore, 'col-4c');
-        const liqNv = renderPickLiquidityCells(p, novigStore, 'col-nv');
-        const liqComb = renderCombinedRatioCell(p);
-        const rowSkew = liq4c.rowClass || liqNv.rowClass || liqComb.rowClass || '';
         return (
-          `<tr class="${rowSkew}">` +
+          `<tr>` +
           `<td class="col-start">${escapeHtml(start.main)}${start.sub ? `<div class="meta">${escapeHtml(start.sub)}</div>` : ''}</td>` +
           `<td class="col-matchup">${escapeHtml(p.away || '?')} @ ${escapeHtml(p.home || '?')}<div class="meta">${escapeHtml(p.league || p.sport || '')}</div></td>` +
           `<td class="col-pick"><span class="pill ${rolePill}">${escapeHtml(role || '—')}</span> ${escapeHtml(p.takeTeam || p.takeSide || '')}` +
           `<div class="meta pick-sub"><span class="pill ${mktPill}">${marketLabel(mkt)}</span> · ${lean}</div></td>` +
           `<td class="col-line">${escapeHtml(line)}${src ? `<div class="meta">${escapeHtml(src)}</div>` : ''}</td>` +
-          liq4c.cells +
-          liqNv.cells +
-          liqComb.cells +
           `<td class="col-result"><span class="pill ${resPill}">${r || 'OPEN'}</span>` +
           `<div class="meta profit-inline">${profit}</div>` +
           `${p.gradeSource ? `<div class="meta grade-src">${escapeHtml(p.gradeSource)}</div>` : ''}</td>` +
@@ -1336,19 +1308,11 @@
   function renderAll() {
     const marketPicks = picksForMarket(activeMarket);
     const aggs = summarize(marketPicks);
-    let updated = store.updatedAt
+    const updated = store.updatedAt
       ? 'Updated ' + new Date(store.updatedAt).toLocaleString()
       : marketPicks.length
         ? `${marketPicks.length} ${marketLabel(activeMarket)} picks`
         : 'No data yet';
-    if (liqStore.updatedAt) {
-      updated +=
-        ' · 4C ' + new Date(liqStore.updatedAt).toLocaleString();
-    }
-    if (novigStore.updatedAt) {
-      updated +=
-        ' · NV ' + new Date(novigStore.updatedAt).toLocaleString();
-    }
     $('#updated-at').textContent = updated;
     const bookHint = $('#book-hint');
     if (bookHint) {
@@ -1360,9 +1324,6 @@
     if (picksTitle) picksTitle.textContent = `${marketLabel(activeMarket)} picks`;
     renderMarketTabs();
     renderDayStats();
-    renderTrustStats();
-    renderGoodSignalStats();
-    renderDogLiqStats();
     renderCards(aggs);
     renderChart();
     renderTable();
@@ -1794,8 +1755,6 @@
     renderAll();
     // Grade finals immediately from ESPN (do not wait for OddsLogic / GH Action).
     gradeOpenPicksFromEspn().catch(() => {});
-    loadLiquidityRemote().catch(() => {});
-    loadTrustRemote().catch(() => {});
   }
 
   function exportJson() {
@@ -1842,16 +1801,6 @@
     });
   });
 
-  document.querySelectorAll('#signal-filter-tabs [data-signal]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const v = btn.getAttribute('data-signal') || '';
-      signalFilter = v;
-      syncSignalFilterTabs();
-      renderTable();
-    });
-  });
-  syncSignalFilterTabs();
-
   document.querySelectorAll('th.th-sort').forEach((th) => {
     th.addEventListener('click', () => {
       const key = th.getAttribute('data-sort');
@@ -1867,14 +1816,6 @@
     });
   });
 
-  document.querySelectorAll('#liq-venue-tabs .liq-venue-tab').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const v = btn.getAttribute('data-venue');
-      if (!v || v === liqVenue) return;
-      liqVenue = v;
-      syncLiqVenue();
-    });
-  });
   loadRemote().catch(() => {
     store = { updatedAt: null, picks: [] };
     renderAll();
@@ -1887,10 +1828,6 @@
   setInterval(() => {
     gradeOpenPicksFromEspn().catch(() => {});
   }, 20000);
-  setInterval(() => {
-    loadLiquidityRemote().catch(() => {});
-    loadTrustRemote().catch(() => {});
-  }, 60000);
 
   let _chartMqTimer = 0;
   if (window.matchMedia) {
