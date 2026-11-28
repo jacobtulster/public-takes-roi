@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:34:47.604Z",
+  "updatedAt": "2026-11-28T13:34:53.717Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16026,9 +16026,9 @@
       "market": "spread",
       "line": 7,
       "price": -106,
-      "tixFav": 89,
+      "tixFav": 90,
       "monFav": 99,
-      "reason": "Tix 89% + $ 99% on fav",
+      "reason": "Tix 90% + $ 99% on fav",
       "liqSnap": {
         "combinedTop3": 36667.12,
         "combinedAwayTop3": 17120.32,
@@ -16043,7 +16043,8 @@
         "novigTop3": 32481.98,
         "snappedAt": "2026-11-28T13:31:25.514234Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:34:50.383Z"
     },
     {
       "pickKey": "m|119|tulane_at_south_florida|DOG|away|ml",
@@ -16064,9 +16065,10 @@
       "market": "ml",
       "line": 237,
       "price": 237,
-      "tixFav": 89,
+      "tixFav": 90,
       "monFav": 99,
-      "reason": "Tix 89% + $ 99% on fav"
+      "reason": "Tix 90% + $ 99% on fav",
+      "leanUpdatedAt": "2026-11-28T13:34:50.383Z"
     },
     {
       "pickKey": "m|121|florida_atlantic_at_east_carolina|DOG|away|spread",
@@ -16871,9 +16873,9 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 78,
-      "monFav": 89,
-      "reason": "Tix 78% + $ 89% on fav",
+      "tixFav": 77,
+      "monFav": 90,
+      "reason": "Tix 77% + $ 90% on fav",
       "liqSnap": {
         "combinedTop3": 61564.1,
         "combinedAwayTop3": 51533.85,
@@ -16888,7 +16890,8 @@
         "novigTop3": 15171.29,
         "snappedAt": "2026-11-28T13:31:25.540624Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:34:50.395Z"
     },
     {
       "pickKey": "m|189|kansas_at_oklahoma_state|DOG|away|ml",
@@ -16909,9 +16912,10 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 78,
-      "monFav": 89,
-      "reason": "Tix 78% + $ 89% on fav"
+      "tixFav": 77,
+      "monFav": 90,
+      "reason": "Tix 77% + $ 90% on fav",
+      "leanUpdatedAt": "2026-11-28T13:34:50.396Z"
     },
     {
       "pickKey": "m|193|kansas_state_at_iowa_state|DOG|away|spread",
@@ -17244,8 +17248,8 @@
       "line": -1.5,
       "price": -109,
       "tixFav": 15,
-      "monFav": 29,
-      "reason": "Tix 15% + $ 29% on fav (<50)",
+      "monFav": 28,
+      "reason": "Tix 15% + $ 28% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 8765.61,
         "combinedAwayTop3": 3773.61,
@@ -17260,7 +17264,8 @@
         "novigTop3": 1086.77,
         "snappedAt": "2026-11-28T13:31:25.549818Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:34:50.402Z"
     },
     {
       "pickKey": "m|223|oklahoma_at_missouri|FAV|home|ml",
@@ -17282,8 +17287,9 @@
       "line": -119,
       "price": -119,
       "tixFav": 15,
-      "monFav": 29,
-      "reason": "Tix 15% + $ 29% on fav (<50)"
+      "monFav": 28,
+      "reason": "Tix 15% + $ 28% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:34:50.402Z"
     },
     {
       "pickKey": "m|225|auburn_at_alabama|FAV|home|spread",
