@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:18:31.759Z",
+  "updatedAt": "2026-11-28T14:18:37.829Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16578,9 +16578,9 @@
       "market": "spread",
       "line": -3.5,
       "price": 100,
-      "tixFav": 7,
+      "tixFav": 6,
       "monFav": 5,
-      "reason": "Tix 7% + $ 5% on fav (<50)",
+      "reason": "Tix 6% + $ 5% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 18377.79,
         "combinedAwayTop3": 6785.43,
@@ -16595,7 +16595,8 @@
         "novigTop3": 13305.62,
         "snappedAt": "2026-11-28T13:48:11.981029Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:18:34.393Z"
     },
     {
       "pickKey": "m|167|massachusetts_at_bowling_green|FAV|home|ml",
@@ -16616,9 +16617,10 @@
       "market": "ml",
       "line": -162,
       "price": -162,
-      "tixFav": 7,
+      "tixFav": 6,
       "monFav": 5,
-      "reason": "Tix 7% + $ 5% on fav (<50)"
+      "reason": "Tix 6% + $ 5% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T14:18:34.393Z"
     },
     {
       "pickKey": "m|171|michigan_at_ohio_state|FAV|home|spread",
@@ -16891,9 +16893,9 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 75,
+      "tixFav": 76,
       "monFav": 89,
-      "reason": "Tix 75% + $ 89% on fav",
+      "reason": "Tix 76% + $ 89% on fav",
       "liqSnap": {
         "combinedTop3": 61564.1,
         "combinedAwayTop3": 51533.85,
@@ -16930,9 +16932,9 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 75,
+      "tixFav": 76,
       "monFav": 89,
-      "reason": "Tix 75% + $ 89% on fav",
+      "reason": "Tix 76% + $ 89% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:50.396Z"
     },
     {
@@ -18486,14 +18488,14 @@
       "takeRole": "FAV",
       "takeTeam": "South Dakota State",
       "takeSide": "home",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "fav_favorable",
       "market": "spread",
       "line": -1,
       "price": -111,
-      "tixFav": 75,
-      "monFav": 94,
-      "reason": "Tix 75% + $ 94% on fav",
+      "tixFav": 25,
+      "monFav": 6,
+      "reason": "Tix 25% + $ 6% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 4283.04,
         "combinedAwayTop3": 978.43,
@@ -18525,14 +18527,14 @@
       "takeRole": "FAV",
       "takeTeam": "South Dakota State",
       "takeSide": "home",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "fav_favorable",
       "market": "ml",
       "line": -117,
       "price": -117,
-      "tixFav": 75,
-      "monFav": 94,
-      "reason": "Tix 75% + $ 94% on fav",
+      "tixFav": 25,
+      "monFav": 6,
+      "reason": "Tix 25% + $ 6% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 6395.79,
         "combinedAwayTop3": 2295.33,
