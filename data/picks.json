@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:46:59.572Z",
+  "updatedAt": "2026-11-28T13:47:05.790Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -17450,9 +17450,9 @@
       "market": "spread",
       "line": 5,
       "price": -115,
-      "tixFav": 91,
+      "tixFav": 92,
       "monFav": 96,
-      "reason": "Tix 91% + $ 96% on fav",
+      "reason": "Tix 92% + $ 96% on fav",
       "liqSnap": {
         "combinedTop3": 24419.5,
         "combinedAwayTop3": 14539.6,
@@ -17467,7 +17467,8 @@
         "novigTop3": 18798.26,
         "snappedAt": "2026-11-28T13:46:01.907184Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T13:47:02.396Z"
     },
     {
       "pickKey": "m|233|utep_at_northern_illinois|DOG|away|ml",
@@ -17488,9 +17489,10 @@
       "market": "ml",
       "line": 166,
       "price": 166,
-      "tixFav": 91,
+      "tixFav": 92,
       "monFav": 96,
-      "reason": "Tix 91% + $ 96% on fav"
+      "reason": "Tix 92% + $ 96% on fav",
+      "leanUpdatedAt": "2026-11-28T13:47:02.397Z"
     },
     {
       "pickKey": "m|235|tennessee_at_vanderbilt|DOG|home|spread",
