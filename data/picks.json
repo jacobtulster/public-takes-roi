@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T13:54:19.622Z",
+  "updatedAt": "2026-11-28T13:54:25.648Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -18899,8 +18899,9 @@
       "line": -14.5,
       "price": -104,
       "tixFav": 43,
-      "monFav": 30,
-      "reason": "Tix 43% + $ 30% on fav (<50)"
+      "monFav": 49,
+      "reason": "Tix 43% + $ 49% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:54:22.389Z"
     },
     {
       "pickKey": "m|197|lsu_at_arkansas|FAV|away|ml",
@@ -18922,8 +18923,9 @@
       "line": -630,
       "price": -630,
       "tixFav": 43,
-      "monFav": 30,
-      "reason": "Tix 43% + $ 30% on fav (<50)"
+      "monFav": 49,
+      "reason": "Tix 43% + $ 49% on fav (<50)",
+      "leanUpdatedAt": "2026-11-28T13:54:22.390Z"
     }
   ]
 }
