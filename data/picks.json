@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:02:45.922Z",
+  "updatedAt": "2026-11-28T14:02:51.819Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -17869,9 +17869,9 @@
       "market": "spread",
       "line": 11.5,
       "price": -114,
-      "tixFav": 95,
+      "tixFav": 96,
       "monFav": 99,
-      "reason": "Tix 95% + $ 99% on fav",
+      "reason": "Tix 96% + $ 99% on fav",
       "liqSnap": {
         "combinedTop3": 3502.23,
         "combinedAwayTop3": 1977.18,
@@ -17908,9 +17908,9 @@
       "market": "ml",
       "line": 516,
       "price": 516,
-      "tixFav": 95,
+      "tixFav": 96,
       "monFav": 99,
-      "reason": "Tix 95% + $ 99% on fav",
+      "reason": "Tix 96% + $ 99% on fav",
       "liqSnap": {
         "combinedTop3": 2944.78,
         "combinedAwayTop3": 848.63,
