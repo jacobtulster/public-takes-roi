@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:23:50.548Z",
+  "updatedAt": "2026-11-28T14:23:56.118Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -17796,7 +17796,7 @@
       "takeRole": "FAV",
       "takeTeam": "St. Thomas (MN)",
       "takeSide": "away",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "fav_not_favorable",
       "market": "spread",
       "line": -2,
@@ -17820,7 +17820,7 @@
       "takeRole": "FAV",
       "takeTeam": "St. Thomas (MN)",
       "takeSide": "away",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "fav_not_favorable",
       "market": "ml",
       "line": -122,
