@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:25:41.497Z",
+  "updatedAt": "2026-11-28T14:25:45.580Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -17720,7 +17720,7 @@
       "takeRole": "FAV",
       "takeTeam": "Texas State",
       "takeSide": "away",
-      "ocLean": "favorable",
+      "ocLean": "none",
       "bucket": "fav_favorable",
       "market": "spread",
       "line": -7,
@@ -17742,7 +17742,8 @@
         "novigTop3": 53404.29,
         "snappedAt": "2026-11-28T13:48:12.010244Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:25:42.398Z"
     },
     {
       "pickKey": "m|245|texas_state_at_utah_state|FAV|away|ml",
@@ -17758,7 +17759,7 @@
       "takeRole": "FAV",
       "takeTeam": "Texas State",
       "takeSide": "away",
-      "ocLean": "favorable",
+      "ocLean": "none",
       "bucket": "fav_favorable",
       "market": "ml",
       "line": -278,
@@ -17780,7 +17781,8 @@
         "novigTop3": 6169.03,
         "snappedAt": "2026-11-28T13:48:12.010662Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:25:42.398Z"
     },
     {
       "pickKey": "m|677|st_thomas_mn_at_princeton|FAV|away|spread",
