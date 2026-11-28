@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:09:45.497Z",
+  "updatedAt": "2026-11-28T14:09:49.522Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16089,9 +16089,9 @@
       "market": "spread",
       "line": 1,
       "price": -103,
-      "tixFav": 80,
+      "tixFav": 75,
       "monFav": 88,
-      "reason": "Tix 80% + $ 88% on fav",
+      "reason": "Tix 75% + $ 88% on fav",
       "liqSnap": {
         "combinedTop3": 28244.89,
         "combinedAwayTop3": 12217.22,
@@ -16128,9 +16128,9 @@
       "market": "ml",
       "line": 104,
       "price": 104,
-      "tixFav": 80,
+      "tixFav": 75,
       "monFav": 88,
-      "reason": "Tix 80% + $ 88% on fav",
+      "reason": "Tix 75% + $ 88% on fav",
       "leanUpdatedAt": "2026-11-28T13:39:46.375Z"
     },
     {
@@ -16765,9 +16765,9 @@
       "market": "spread",
       "line": 6,
       "price": -113,
-      "tixFav": 84,
+      "tixFav": 81,
       "monFav": 99,
-      "reason": "Tix 84% + $ 99% on fav",
+      "reason": "Tix 81% + $ 99% on fav",
       "liqSnap": {
         "combinedTop3": 89488.39,
         "combinedAwayTop3": 42885.79,
@@ -16804,9 +16804,9 @@
       "market": "ml",
       "line": 186,
       "price": 186,
-      "tixFav": 84,
+      "tixFav": 81,
       "monFav": 99,
-      "reason": "Tix 84% + $ 99% on fav",
+      "reason": "Tix 81% + $ 99% on fav",
       "leanUpdatedAt": "2026-11-28T14:01:38.417Z"
     },
     {
@@ -16828,9 +16828,9 @@
       "market": "spread",
       "line": 17,
       "price": -101,
-      "tixFav": 78,
-      "monFav": 86,
-      "reason": "Tix 78% + $ 86% on fav",
+      "tixFav": 74,
+      "monFav": 84,
+      "reason": "Tix 74% + $ 84% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.381Z",
       "liqSnap": {
         "combinedTop3": 27841.95,
@@ -16867,9 +16867,9 @@
       "market": "ml",
       "line": 617,
       "price": 617,
-      "tixFav": 78,
-      "monFav": 86,
-      "reason": "Tix 78% + $ 86% on fav",
+      "tixFav": 74,
+      "monFav": 84,
+      "reason": "Tix 74% + $ 84% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.381Z"
     },
     {
@@ -16954,9 +16954,9 @@
       "market": "spread",
       "line": 5,
       "price": -108,
-      "tixFav": 80,
+      "tixFav": 78,
       "monFav": 96,
-      "reason": "Tix 80% + $ 96% on fav",
+      "reason": "Tix 78% + $ 96% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.382Z",
       "liqSnap": {
         "combinedTop3": 30565.75,
@@ -16993,9 +16993,9 @@
       "market": "ml",
       "line": 178,
       "price": 178,
-      "tixFav": 80,
+      "tixFav": 78,
       "monFav": 96,
-      "reason": "Tix 80% + $ 96% on fav",
+      "reason": "Tix 78% + $ 96% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:40.382Z"
     },
     {
@@ -18962,6 +18962,52 @@
       "monFav": 37,
       "reason": "Tix 14% + $ 37% on fav (<50)",
       "leanUpdatedAt": "2026-11-28T14:08:26.455Z"
+    },
+    {
+      "pickKey": "m|209|sam_houston_state_at_florida_international|FAV|home|spread",
+      "matchupId": "209|sam_houston_state_at_florida_international|FAV|home|spread",
+      "loggedAt": "2026-11-28T14:09:46.394Z",
+      "sport": "NCAAF",
+      "league": "COLLEGE FOOTBALL - Saturday, November 28th",
+      "away": "Sam Houston State",
+      "home": "Florida International",
+      "kick": "14:00",
+      "startAt": "2026-11-28T19:00:00.000Z",
+      "gameNumber": 209,
+      "takeRole": "FAV",
+      "takeTeam": "Florida International",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "spread",
+      "line": -11,
+      "price": -115,
+      "tixFav": 44,
+      "monFav": 48,
+      "reason": "Tix 44% + $ 48% on fav (<50)"
+    },
+    {
+      "pickKey": "m|209|sam_houston_state_at_florida_international|FAV|home|ml",
+      "matchupId": "209|sam_houston_state_at_florida_international|FAV|home|ml",
+      "loggedAt": "2026-11-28T14:09:46.394Z",
+      "sport": "NCAAF",
+      "league": "COLLEGE FOOTBALL - Saturday, November 28th",
+      "away": "Sam Houston State",
+      "home": "Florida International",
+      "kick": "14:00",
+      "startAt": "2026-11-28T19:00:00.000Z",
+      "gameNumber": 209,
+      "takeRole": "FAV",
+      "takeTeam": "Florida International",
+      "takeSide": "home",
+      "ocLean": "favorable",
+      "bucket": "fav_favorable",
+      "market": "ml",
+      "line": -459,
+      "price": -459,
+      "tixFav": 44,
+      "monFav": 48,
+      "reason": "Tix 44% + $ 48% on fav (<50)"
     }
   ]
 }
