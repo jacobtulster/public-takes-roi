@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:20:39.491Z",
+  "updatedAt": "2026-11-28T14:20:43.698Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -18566,7 +18566,7 @@
       "takeRole": "DOG",
       "takeTeam": "Portland State",
       "takeSide": "away",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "dog_favorable",
       "market": "spread",
       "line": 7,
@@ -18605,7 +18605,7 @@
       "takeRole": "DOG",
       "takeTeam": "Portland State",
       "takeSide": "away",
-      "ocLean": "none",
+      "ocLean": "favorable",
       "bucket": "dog_favorable",
       "market": "ml",
       "line": 246,
