@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T00:39:41.843Z",
+  "updatedAt": "2026-11-28T00:39:57.013Z",
   "picks": [
     {
       "pickKey": "m|543|dallas_at_utah|FAV|home|spread",
@@ -14059,7 +14059,7 @@
       "profit": 1.01,
       "awayScore": 5,
       "homeScore": 27,
-      "gradedAt": "2026-11-27T22:54:01.261808Z",
+      "gradedAt": "2026-11-28T00:39:39.314Z",
       "gradeSource": "espn",
       "gradeDetail": "Final",
       "espnEventId": "401873083",
@@ -14108,7 +14108,7 @@
       "profit": 1.93,
       "awayScore": 5,
       "homeScore": 27,
-      "gradedAt": "2026-11-27T22:58:15.345Z",
+      "gradedAt": "2026-11-28T00:39:39.315Z",
       "gradeSource": "espn",
       "gradeDetail": "Final",
       "espnEventId": "401873083",
@@ -14440,7 +14440,7 @@
       "profit": 0.9804,
       "awayScore": 35,
       "homeScore": 31,
-      "gradedAt": "2026-11-27T23:59:36.343Z",
+      "gradedAt": "2026-11-28T00:39:39.626Z",
       "gradeSource": "espn",
       "gradeDetail": "Final",
       "espnEventId": "401862838",
@@ -14488,7 +14488,7 @@
       "profit": 6.38,
       "awayScore": 35,
       "homeScore": 31,
-      "gradedAt": "2026-11-27T23:59:36.345Z",
+      "gradedAt": "2026-11-28T00:39:39.629Z",
       "gradeSource": "espn",
       "gradeDetail": "Final",
       "espnEventId": "401862838",
@@ -15165,7 +15165,16 @@
         "novigTop3": 2625.48,
         "snappedAt": "2026-11-27T12:46:36.309734Z",
         "frozen": false
-      }
+      },
+      "result": "W",
+      "profit": 0.9259,
+      "awayScore": 50,
+      "homeScore": 65,
+      "gradedAt": "2026-11-28T00:39:50.996Z",
+      "gradeSource": "espn",
+      "espnEventId": "401909789",
+      "espnAway": "Villanova Wildcats",
+      "espnHome": "Kansas Jayhawks"
     },
     {
       "pickKey": "m|613|villanova_at_kansas|FAV|home|ml",
@@ -15203,7 +15212,16 @@
         "novigTop3": 4932.24,
         "snappedAt": "2026-11-27T12:46:36.311030Z",
         "frozen": false
-      }
+      },
+      "result": "W",
+      "profit": 0.111,
+      "awayScore": 50,
+      "homeScore": 65,
+      "gradedAt": "2026-11-28T00:39:50.996Z",
+      "gradeSource": "espn",
+      "espnEventId": "401909789",
+      "espnAway": "Villanova Wildcats",
+      "espnHome": "Kansas Jayhawks"
     },
     {
       "pickKey": "m|617|texas_a_m_at_marquette|DOG|home|spread",
@@ -15241,7 +15259,16 @@
         "novigTop3": 3571.91,
         "snappedAt": "2026-11-27T12:46:36.312114Z",
         "frozen": false
-      }
+      },
+      "result": "L",
+      "profit": -1,
+      "awayScore": 78,
+      "homeScore": 76,
+      "gradedAt": "2026-11-28T00:39:50.998Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920810",
+      "espnAway": "Texas A&M Aggies",
+      "espnHome": "Marquette Golden Eagles"
     },
     {
       "pickKey": "m|617|texas_a_m_at_marquette|DOG|home|ml",
@@ -15279,7 +15306,16 @@
         "novigTop3": 1357.84,
         "snappedAt": "2026-11-27T12:46:36.313195Z",
         "frozen": false
-      }
+      },
+      "result": "L",
+      "profit": -1,
+      "awayScore": 78,
+      "homeScore": 76,
+      "gradedAt": "2026-11-28T00:39:51.000Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920810",
+      "espnAway": "Texas A&M Aggies",
+      "espnHome": "Marquette Golden Eagles"
     },
     {
       "pickKey": "m|623|bowling_green_at_indiana|FAV|home|spread",
@@ -15784,7 +15820,7 @@
       "profit": -1,
       "awayScore": 6,
       "homeScore": 2,
-      "gradedAt": "2026-11-27T22:42:23.376Z",
+      "gradedAt": "2026-11-28T00:39:52.531Z",
       "gradeSource": "espn",
       "espnEventId": "401892799",
       "espnAway": "Ottawa Senators",
@@ -15831,7 +15867,7 @@
       "profit": -1,
       "awayScore": 6,
       "homeScore": 2,
-      "gradedAt": "2026-11-27T22:42:23.378Z",
+      "gradedAt": "2026-11-28T00:39:52.532Z",
       "gradeSource": "espn",
       "espnEventId": "401892799",
       "espnAway": "Ottawa Senators",
@@ -15878,7 +15914,7 @@
       "profit": 0.7143,
       "awayScore": 1,
       "homeScore": 4,
-      "gradedAt": "2026-11-27T23:41:51.398Z",
+      "gradedAt": "2026-11-28T00:39:52.533Z",
       "gradeSource": "espn",
       "espnEventId": "401892805",
       "espnAway": "Vegas Golden Knights",
@@ -15925,7 +15961,7 @@
       "profit": 1.81,
       "awayScore": 1,
       "homeScore": 4,
-      "gradedAt": "2026-11-27T23:41:51.400Z",
+      "gradedAt": "2026-11-28T00:39:52.533Z",
       "gradeSource": "espn",
       "espnEventId": "401892805",
       "espnAway": "Vegas Golden Knights",
@@ -16356,7 +16392,16 @@
         "novigTop3": 1302.52,
         "snappedAt": "2026-11-27T22:06:59.414254Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.8621,
+      "awayScore": 98,
+      "homeScore": 69,
+      "gradedAt": "2026-11-28T00:39:52.533Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920541",
+      "espnAway": "Michigan Wolverines",
+      "espnHome": "Kansas State Wildcats"
     },
     {
       "pickKey": "m|657|michigan_at_kansas_state|FAV|away|ml",
@@ -16395,7 +16440,16 @@
         "novigTop3": 3411.18,
         "snappedAt": "2026-11-27T22:06:59.415167Z",
         "frozen": true
-      }
+      },
+      "result": "W",
+      "profit": 0.2066,
+      "awayScore": 98,
+      "homeScore": 69,
+      "gradedAt": "2026-11-28T00:39:52.534Z",
+      "gradeSource": "espn",
+      "espnEventId": "401920541",
+      "espnAway": "Michigan Wolverines",
+      "espnHome": "Kansas State Wildcats"
     },
     {
       "pickKey": "m|659|miami_florida_at_alabama|FAV|away|spread",
