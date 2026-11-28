@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:11:49.528Z",
+  "updatedAt": "2026-11-28T14:11:53.917Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -18836,9 +18836,9 @@
       "market": "spread",
       "line": 3.5,
       "price": -104,
-      "tixFav": 75,
+      "tixFav": 80,
       "monFav": 99,
-      "reason": "Tix 75% + $ 99% on fav",
+      "reason": "Tix 80% + $ 99% on fav",
       "liqSnap": {
         "combinedTop3": 4606.59,
         "combinedAwayTop3": 2197.3,
@@ -18853,7 +18853,8 @@
         "novigTop3": 2144.87,
         "snappedAt": "2026-11-28T13:48:12.067002Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:11:50.402Z"
     },
     {
       "pickKey": "m|739|st_joseph_s_at_monmouth|DOG|home|ml",
@@ -18874,9 +18875,9 @@
       "market": "ml",
       "line": 150,
       "price": 150,
-      "tixFav": 75,
+      "tixFav": 80,
       "monFav": 99,
-      "reason": "Tix 75% + $ 99% on fav",
+      "reason": "Tix 80% + $ 99% on fav",
       "liqSnap": {
         "combinedTop3": 3338.69,
         "combinedAwayTop3": 1703.59,
@@ -18891,7 +18892,8 @@
         "novigTop3": 876.97,
         "snappedAt": "2026-11-28T13:48:12.068500Z",
         "frozen": false
-      }
+      },
+      "leanUpdatedAt": "2026-11-28T14:11:50.403Z"
     },
     {
       "pickKey": "m|197|lsu_at_arkansas|FAV|away|spread",
