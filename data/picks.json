@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T14:27:21.423Z",
+  "updatedAt": "2026-11-28T14:27:25.495Z",
   "picks": [
     {
       "pickKey": "m|431|san_diego_state_at_boise_state|DOG|away|spread",
@@ -16578,9 +16578,9 @@
       "market": "spread",
       "line": -3.5,
       "price": 100,
-      "tixFav": 6,
-      "monFav": 5,
-      "reason": "Tix 6% + $ 5% on fav (<50)",
+      "tixFav": 16,
+      "monFav": 46,
+      "reason": "Tix 16% + $ 46% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 18377.79,
         "combinedAwayTop3": 6785.43,
@@ -16617,9 +16617,9 @@
       "market": "ml",
       "line": -162,
       "price": -162,
-      "tixFav": 6,
-      "monFav": 5,
-      "reason": "Tix 6% + $ 5% on fav (<50)",
+      "tixFav": 16,
+      "monFav": 46,
+      "reason": "Tix 16% + $ 46% on fav (<50)",
       "leanUpdatedAt": "2026-11-28T14:18:34.393Z"
     },
     {
@@ -16893,9 +16893,9 @@
       "market": "spread",
       "line": 5.5,
       "price": -105,
-      "tixFav": 76,
-      "monFav": 89,
-      "reason": "Tix 76% + $ 89% on fav",
+      "tixFav": 74,
+      "monFav": 85,
+      "reason": "Tix 74% + $ 85% on fav",
       "liqSnap": {
         "combinedTop3": 61564.1,
         "combinedAwayTop3": 51533.85,
@@ -16932,9 +16932,9 @@
       "market": "ml",
       "line": 187,
       "price": 187,
-      "tixFav": 76,
-      "monFav": 89,
-      "reason": "Tix 76% + $ 89% on fav",
+      "tixFav": 74,
+      "monFav": 85,
+      "reason": "Tix 74% + $ 85% on fav",
       "leanUpdatedAt": "2026-11-28T13:34:50.396Z"
     },
     {
@@ -17271,9 +17271,9 @@
       "market": "spread",
       "line": -1.5,
       "price": -109,
-      "tixFav": 14,
-      "monFav": 27,
-      "reason": "Tix 14% + $ 27% on fav (<50)",
+      "tixFav": 15,
+      "monFav": 29,
+      "reason": "Tix 15% + $ 29% on fav (<50)",
       "liqSnap": {
         "combinedTop3": 8765.61,
         "combinedAwayTop3": 3773.61,
@@ -17310,9 +17310,9 @@
       "market": "ml",
       "line": -119,
       "price": -119,
-      "tixFav": 14,
-      "monFav": 27,
-      "reason": "Tix 14% + $ 27% on fav (<50)",
+      "tixFav": 15,
+      "monFav": 29,
+      "reason": "Tix 15% + $ 29% on fav (<50)",
       "leanUpdatedAt": "2026-11-28T13:34:50.402Z"
     },
     {
@@ -17397,9 +17397,9 @@
       "market": "spread",
       "line": 2.5,
       "price": 101,
-      "tixFav": 79,
-      "monFav": 87,
-      "reason": "Tix 79% + $ 87% on fav",
+      "tixFav": 81,
+      "monFav": 90,
+      "reason": "Tix 81% + $ 90% on fav",
       "liqSnap": {
         "combinedTop3": 35454.3,
         "combinedAwayTop3": 26666.69,
@@ -17436,9 +17436,9 @@
       "market": "ml",
       "line": 122,
       "price": 122,
-      "tixFav": 79,
-      "monFav": 87,
-      "reason": "Tix 79% + $ 87% on fav",
+      "tixFav": 81,
+      "monFav": 90,
+      "reason": "Tix 81% + $ 90% on fav",
       "leanUpdatedAt": "2026-11-28T14:09:58.409Z"
     },
     {
